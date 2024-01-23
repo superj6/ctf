@@ -1,0 +1,31 @@
+services:
+
+PRTG netmon
+version 18.1.37.13946 - CVE-2018-9276
+
+urls:
+
+/myaccount.htm?tabid=2
+notifcation settings - notification can run powershell script, get shell
+
+files:
+
+\ProgramData\Paessler\PRTG Network Monitor\PRTG Configuration.old.bak
+contains old user:pass for netmon
+
+user:
+
+prtgadmin
+pass - PrTg@dmin2019, editted from config bak file
+
+comments:
+
+look up where important files are of relevant programs - here netmon data directory
+
+think about common ways people change passwords - here change year
+
+psexec can get windows root when know creds with sufficient capabilities
+
+think about what parts of an application are likely to have more user input - notifications!
+
+base64 encode commands sent over network to prevent obfuscation

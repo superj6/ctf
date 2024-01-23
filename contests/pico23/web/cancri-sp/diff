@@ -1,0 +1,334 @@
+diff --git a/content/browser/BUILD.gn b/content/browser/BUILD.gn
+index 258a8b0ff4f73..898712edb9151 100644
+--- a/content/browser/BUILD.gn
++++ b/content/browser/BUILD.gn
+@@ -1381,6 +1381,8 @@ source_set("browser") {
+     "origin_trials/critical_origin_trials_throttle.h",
+     "origin_trials/origin_trials_utils.cc",
+     "origin_trials/origin_trials_utils.h",
++    "otter/otter_broker_service_impl.cc",
++    "otter/otter_broker_service_impl.h",
+     "payments/installed_payment_apps_finder_impl.cc",
+     "payments/installed_payment_apps_finder_impl.h",
+     "payments/payment_app_context_impl.cc",
+diff --git a/content/browser/browser_interface_binders.cc b/content/browser/browser_interface_binders.cc
+index d76825db14850..5ec6d9fb74b50 100644
+--- a/content/browser/browser_interface_binders.cc
++++ b/content/browser/browser_interface_binders.cc
+@@ -774,6 +774,9 @@ void PopulateFrameBinders(RenderFrameHostImpl* host, mojo::BinderMap* map) {
+   map->Add<blink::mojom::NotificationService>(base::BindRepeating(
+       &RenderFrameHostImpl::CreateNotificationService, base::Unretained(host)));
+ 
++  map->Add<blink::mojom::OtterBrokerService>(base::BindRepeating(
++      &RenderFrameHostImpl::CreateOtterBrokerService, base::Unretained(host)));
++
+   map->Add<network::mojom::P2PSocketManager>(
+       base::BindRepeating(&BindSocketManager, base::Unretained(host)));
+ 
+diff --git a/content/browser/otter/otter_broker_service_impl.cc b/content/browser/otter/otter_broker_service_impl.cc
+index e69de29bb2d1d..cc6b767bec6e9 100644
+--- a/content/browser/otter/otter_broker_service_impl.cc
++++ b/content/browser/otter/otter_broker_service_impl.cc
+@@ -0,0 +1,168 @@
++#include "content/browser/otter/otter_broker_service_impl.h"
++
++#include "content/browser/renderer_host/render_frame_host_impl.h"
++#include "content/browser/url_loader_factory_params_helper.h"
++#include "services/network/public/mojom/url_loader_factory.mojom.h"
++
++#include <iostream>
++
++namespace content {
++
++constexpr net::NetworkTrafficAnnotationTag kTrafficAnnotation =
++net::DefineNetworkTrafficAnnotation("otter_notif", "OTTER");
++
++OtterBrokerServiceImpl::OtterBrokerServiceImpl(base::WeakPtr<RenderFrameHostImpl> frame_ptr): frame_{std::move(frame_ptr)} {
++    auto* frame = frame_.get();
++    auto params = URLLoaderFactoryParamsHelper::CreateForFrame(
++        frame, frame->GetLastCommittedOrigin(),
++        frame->GetIsolationInfoForSubresources(),
++        frame->BuildClientSecurityState(),
++        /**coep_reporter=*/mojo::NullRemote(), frame->GetProcess(),
++        network::mojom::TrustTokenRedemptionPolicy::kForbid,
++        frame->GetCookieSettingOverrides(), "OtterBrokerServiceImpl");
++
++    params->is_corb_enabled = false;
++
++    frame_->GetProcess()->CreateURLLoaderFactory(
++        url_loader_factory_.BindNewPipeAndPassReceiver(),
++        std::move(params)
++    );
++}
++
++OtterBrokerServiceImpl::~OtterBrokerServiceImpl() = default;
++
++void OtterBrokerServiceImpl::QueryRpc(const std::string& method, RpcCallback cb) {
++    mojo::Remote<network::mojom::URLLoader> url_loader;
++    mojo::PendingRemote<network::mojom::URLLoaderClient> url_loader_client;
++    network::ResourceRequest resource_request;
++    mojo::PendingReceiver<network::mojom::URLLoader> url_loader_receiver;
++    GURL::Replacements replacements;
++    
++    url_loader_receiver = url_loader.BindNewPipeAndPassReceiver(),
++
++    replacements.SetHostStr(host_);
++    resource_request.url = GURL("http://osec.io/").ReplaceComponents(replacements);
++
++    resource_request.method = net::HttpRequestHeaders::kPostMethod;
++    resource_request.request_initiator = frame_->GetLastCommittedOrigin();
++    resource_request.headers.SetHeader("accept-language", "en-US");
++    resource_request.headers.SetHeader("content-type", "application/json");
++    resource_request.headers.SetHeader("user-agent", "OtterBroker");
++
++    char data[0x80];
++    size_t data_len = std::snprintf(data, sizeof(data), "{\"id\":0,\"jsonrpc\":\"2.0\",\"method\":\"%s\",\"params\":null}", method.c_str());
++    CHECK(data_len < sizeof(data));
++
++    resource_request.request_body = new network::ResourceRequestBody();
++    resource_request.request_body->AppendBytes(data, data_len);
++    
++    mojo::MakeSelfOwnedReceiver(
++        std::make_unique<RequestHandlerImpl>(std::move(url_loader), std::move(cb)),
++        url_loader_client.InitWithNewPipeAndPassReceiver()
++    );
++
++    url_loader_factory_->CreateLoaderAndStart(
++        std::move(url_loader_receiver),
++        0,
++        network::mojom::kURLLoadOptionBlockAllCookies,
++        std::move(resource_request),
++        std::move(url_loader_client),
++        net::MutableNetworkTrafficAnnotationTag(kTrafficAnnotation)
++    );
++
++}
++
++void AfterGetSlot(OtterBrokerServiceImpl::GetSlotCallback callback, const std::vector<uint8_t> data) {
++  if (data.size() == 0) {
++    std::move(callback).Run(0);
++  } else {
++    std::move(callback).Run(atoi((char*) data.data()));
++  }
++}
++
++void OtterBrokerServiceImpl::GetSlot(GetSlotCallback callback) {
++  if (!inited_) {
++    mojo::ReportBadMessage("OtterBrokerServiceImpl: Init not yet invoked");
++    std::move(callback).Run(0);
++    return;
++  }
++
++  QueryRpc("getSlot", base::BindOnce(&AfterGetSlot, std::move(callback)));
++}
++
++void OtterBrokerServiceImpl::Init(const std::string& host, InitCallback callback) {
++  if (inited_) {
++    mojo::ReportBadMessage("OtterBrokerServiceImpl: Init already invoked");
++    std::move(callback).Run();
++    return;
++  }
++
++  inited_ = true;
++  host_ = host;
++
++  std::move(callback).Run();
++}
++
++RequestHandlerImpl::RequestHandlerImpl(mojo::Remote<network::mojom::URLLoader> url_loader, OtterBrokerServiceImpl::RpcCallback callback): url_loader_{std::move(url_loader)}, callback_{std::move(callback)} {
++}
++
++RequestHandlerImpl::~RequestHandlerImpl() {
++    if (callback_) {
++        std::move(callback_).Run(std::vector<uint8_t>());
++    }
++}
++
++void RequestHandlerImpl::OnReceiveEarlyHints(network::mojom::EarlyHintsPtr early_hints) {
++}
++
++void RequestHandlerImpl::OnReceiveResponse(
++    network::mojom::URLResponseHeadPtr head,
++    mojo::ScopedDataPipeConsumerHandle body,
++    absl::optional<mojo_base::BigBuffer> cached_metadata) {
++
++    int64_t content_len = head->headers->GetContentLength();
++
++    if (content_len < 0) return;
++
++    auto data = std::make_unique<uint8_t[]>(content_len);
++    uint8_t* ptr = data.get();
++
++    uint32_t num_bytes;
++    MojoResult result;
++    while ((result = body->ReadData(ptr, &num_bytes, MOJO_READ_DATA_FLAG_NONE)) != MOJO_RESULT_FAILED_PRECONDITION) {
++        if (result == MOJO_RESULT_OK) {
++            ptr += num_bytes;
++            num_bytes = content_len;
++        }
++    }
++
++    char start[] = "{\"jsonrpc\":\"2.0\",\"result\":";
++    char end[] = ",\"id\":0}";
++    
++    size_t amt_read = (size_t) (ptr - data.get());
++    if (amt_read <= sizeof(start) + sizeof(end)) {
++      std::move(callback_).Run(std::vector<uint8_t>());
++    } else {
++      std::move(callback_).Run(std::vector<uint8_t>(data.get() + sizeof(start), ptr - sizeof(end)));
++    }
++}
++
++void RequestHandlerImpl::OnReceiveRedirect(const net::RedirectInfo& redirect_info,
++network::mojom::URLResponseHeadPtr head) {
++    url_loader_->FollowRedirect({}, {}, {}, absl::nullopt);
++}
++
++void RequestHandlerImpl::OnUploadProgress(
++    int64_t current_position,
++    int64_t total_size,
++    network::mojom::URLLoaderClient::OnUploadProgressCallback callback) {
++        CHECK(false);
++}
++
++void RequestHandlerImpl::OnTransferSizeUpdated(int32_t transfer_size_diff) {
++}
++
++void RequestHandlerImpl::OnComplete(const network::URLLoaderCompletionStatus& status) {
++}
++
++}
+diff --git a/content/browser/otter/otter_broker_service_impl.h b/content/browser/otter/otter_broker_service_impl.h
+index e69de29bb2d1d..cbc6371b64236 100644
+--- a/content/browser/otter/otter_broker_service_impl.h
++++ b/content/browser/otter/otter_broker_service_impl.h
+@@ -0,0 +1,66 @@
++#ifndef CONTENT_BROWSER_OTTER_OTTER_BROKER_SERVICE_IMPL_H_
++#define CONTENT_BROWSER_OTTER_OTTER_BROKER_SERVICE_IMPL_H_
++
++#include "base/memory/weak_ptr.h"
++#include "mojo/public/cpp/bindings/remote.h"
++#include "third_party/blink/public/mojom/otter/otter_broker.mojom.h"
++#include "services/network/public/mojom/url_loader.mojom.h"
++#include "services/network/public/mojom/url_loader_factory.mojom.h"
++
++namespace content {
++
++class RenderFrameHostImpl;
++
++class OtterBrokerServiceImpl final
++    : public blink::mojom::OtterBrokerService {
++  public:
++    using RpcCallback = base::OnceCallback<void(std::vector<uint8_t>)>;
++
++    OtterBrokerServiceImpl(base::WeakPtr<RenderFrameHostImpl> frame);
++    ~OtterBrokerServiceImpl() override;
++
++    void Init(const std::string& host, InitCallback callback) override;
++    void GetSlot(GetSlotCallback callback) override;
++
++    void QueryRpc(const std::string& method, RpcCallback cb);
++
++  private:
++    bool inited_ = false;
++    std::string host_;
++    const base::WeakPtr<RenderFrameHostImpl> frame_;
++    mojo::Remote<network::mojom::URLLoaderFactory> url_loader_factory_;
++};
++
++class RequestHandlerImpl: public network::mojom::URLLoaderClient {
++ public:
++  RequestHandlerImpl(mojo::Remote<network::mojom::URLLoader> url_loader, OtterBrokerServiceImpl::RpcCallback callback); 
++  ~RequestHandlerImpl() override;
++
++  void OnReceiveEarlyHints(network::mojom::EarlyHintsPtr early_hints) override;
++
++  void OnReceiveResponse(
++      network::mojom::URLResponseHeadPtr head,
++      mojo::ScopedDataPipeConsumerHandle body,
++      absl::optional<mojo_base::BigBuffer> cached_metadata) override;
++
++  void OnReceiveRedirect(const net::RedirectInfo& redirect_info,
++    network::mojom::URLResponseHeadPtr head) override;
++
++  void OnUploadProgress(
++    int64_t current_position,
++    int64_t total_size,
++    network::mojom::URLLoaderClient::OnUploadProgressCallback callback) override;
++
++  void OnTransferSizeUpdated(int32_t transfer_size_diff) override;
++
++  void OnComplete(const network::URLLoaderCompletionStatus& status) override;
++
++
++  private:
++    mojo::Remote<network::mojom::URLLoader> url_loader_;
++    OtterBrokerServiceImpl::RpcCallback callback_;
++};
++
++}
++
++#endif
+diff --git a/content/browser/renderer_host/render_frame_host_impl.cc b/content/browser/renderer_host/render_frame_host_impl.cc
+index 6255ee6071bfd..c092914a0d9da 100644
+--- a/content/browser/renderer_host/render_frame_host_impl.cc
++++ b/content/browser/renderer_host/render_frame_host_impl.cc
+@@ -10828,6 +10828,13 @@ void RenderFrameHostImpl::CreateNotificationService(
+       storage_key(), std::move(receiver));
+ }
+ 
++void RenderFrameHostImpl::CreateOtterBrokerService(
++    mojo::PendingReceiver<blink::mojom::OtterBrokerService> receiver) {
++  mojo::MakeSelfOwnedReceiver(
++      std::make_unique<OtterBrokerServiceImpl>(weak_ptr_factory_.GetWeakPtr()),
++      std::move(receiver));
++}
++
+ void RenderFrameHostImpl::CreateInstalledAppProvider(
+     mojo::PendingReceiver<blink::mojom::InstalledAppProvider> receiver) {
+   InstalledAppProviderImpl::Create(*this, std::move(receiver));
+diff --git a/content/browser/renderer_host/render_frame_host_impl.h b/content/browser/renderer_host/render_frame_host_impl.h
+index 14e281b743ac6..4cfaeb825059a 100644
+--- a/content/browser/renderer_host/render_frame_host_impl.h
++++ b/content/browser/renderer_host/render_frame_host_impl.h
+@@ -46,6 +46,7 @@
+ #include "content/browser/buckets/bucket_context.h"
+ #include "content/browser/can_commit_status.h"
+ #include "content/browser/network/cross_origin_opener_policy_reporter.h"
++#include "content/browser/otter/otter_broker_service_impl.h"
+ #include "content/browser/renderer_host/back_forward_cache_impl.h"
+ #include "content/browser/renderer_host/back_forward_cache_metrics.h"
+ #include "content/browser/renderer_host/browsing_context_state.h"
+@@ -1921,6 +1922,9 @@ class CONTENT_EXPORT RenderFrameHostImpl
+   void CreateNotificationService(
+       mojo::PendingReceiver<blink::mojom::NotificationService> receiver);
+ 
++  void CreateOtterBrokerService(
++      mojo::PendingReceiver<blink::mojom::OtterBrokerService> receiver);
++
+   void CreateInstalledAppProvider(
+       mojo::PendingReceiver<blink::mojom::InstalledAppProvider> receiver);
+ 
+diff --git a/third_party/blink/public/mojom/BUILD.gn b/third_party/blink/public/mojom/BUILD.gn
+index 036aede8f75a8..ee191563ae057 100644
+--- a/third_party/blink/public/mojom/BUILD.gn
++++ b/third_party/blink/public/mojom/BUILD.gn
+@@ -144,6 +144,7 @@ mojom("mojom_platform") {
+     "notifications/notification_service.mojom",
+     "oom_intervention/oom_intervention.mojom",
+     "opengraph/metadata.mojom",
++    "otter/otter_broker.mojom",
+     "parakeet/ad_request.mojom",
+     "payments/payment_app.mojom",
+     "peerconnection/peer_connection_tracker.mojom",
+diff --git a/third_party/blink/public/mojom/otter/otter_broker.mojom b/third_party/blink/public/mojom/otter/otter_broker.mojom
+index e69de29bb2d1d..c54e7ad7e7587 100644
+--- a/third_party/blink/public/mojom/otter/otter_broker.mojom
++++ b/third_party/blink/public/mojom/otter/otter_broker.mojom
+@@ -0,0 +1,6 @@
++module blink.mojom;
++
++interface OtterBrokerService {
++  Init(string host) => ();
++  GetSlot() => (uint64 slot);
++};

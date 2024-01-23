@@ -1,0 +1,18 @@
+services:
+
+apache tomcat 7.0.88
+
+urls:
+
+http://10.129.79.247:8080/manager/html
+tomcat web app manager
+using default creds - tomcat/s3cret (admin/admin works for status but not manager)
+deploy and run war apps - get reverse shell
+
+sources:
+
+default cred list
+https://github.com/netbiosX/Default-Credentials/blob/master/Apache-Tomcat-Default-Passwords.mdown
+
+tomcat rshell
+https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/tomcat

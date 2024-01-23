@@ -1,0 +1,25 @@
+services:
+
+activemq - apache
+cve-2023-46604 - arbitrary rce
+
+programs:
+
+nginx - run sudo, escalate by config to send ssh key to root
+
+users:
+
+admin - for activemq web portal
+pass - admin
+
+activemq
+
+sources:
+
+nginx config to send files
+http://nginx.org/en/docs/http/ngx_http_dav_module.html
+
+comments:
+
+think about what stuff does, what you have access to, what you can change
+nginx sets up servers, can setup nginx config, maybe can config to upload files, where can you upload file to give root access...

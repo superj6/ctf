@@ -1,0 +1,21 @@
+urls:
+
+/data/[id]
+each id has different pcap file
+
+files:
+
+0.pcap - from /data/0
+record of unencrypted exchange with ftp, has user:pass info
+
+/usr/bin/python3.8 - from getcap/linpeas
+cap_setuid+eip - allows to run root shell
+
+users:
+
+nathan
+pass - Buck3tH4TF0RM3! - from 0.pcap
+
+sources:
+
+https://book.hacktricks.xyz/linux-hardening/privilege-escalation/linux-capabilities

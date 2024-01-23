@@ -1,0 +1,32 @@
+services:
+
+ldap printer
+can leak user/pass
+
+winrm
+connect with evil-winrm
+
+urls:
+
+/settings.php
+interact with printer, have it send info to server address (to me)
+
+users:
+
+svc-printer
+pass - 1edFg43012!!, find using /settings.php
+group membership - Server Operators, 
+
+sources:
+
+printer
+https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/ad-information-in-printers
+
+server operator group
+https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups#server-operators
+
+comments:
+
+think about where you have capability to control where things interact with (like ip addr)
+
+look at all different permissions users have to escalate, including which user groups

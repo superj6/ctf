@@ -1,0 +1,671 @@
+2/2/2019 11:20:00 PM: Autodiscovery Started; Device ID: 2004
+2/2/2019 11:20:00 PM: Device ID: 2004 Name: QUERIER Host: QUERIER
+2/2/2019 11:20:00 PM: Device Templates; Device ID: 2004; Selected: 52
+2/2/2019 11:20:00 PM: Autodiscovery Started; Device ID: 2007
+2/2/2019 11:20:00 PM: Device ID: 2007 Name: 10.10.10.152 Host: netmon
+2/2/2019 11:20:00 PM: Device Templates; Device ID: 2007; Selected: 52
+2/2/2019 11:20:00 PM: Autodiscovery Started; Device ID: 42
+2/2/2019 11:20:00 PM: Device ID: 42 Name: DNS: 8.8.8.8 Host: google-public-dns-a.google.com
+2/2/2019 11:20:00 PM: Device Templates; Device ID: 42; Selected: 52
+2/2/2019 11:20:00 PM: Autodiscovery Started; Device ID: 44
+2/2/2019 11:20:00 PM: Device ID: 44 Name: Gateway: 10.10.10.2 Host: 10.10.10.2
+2/2/2019 11:20:00 PM: Device Templates; Device ID: 44; Selected: 52
+2/2/2019 11:20:02 PM: Template Loaded; Device ID: 2004; Name: Generic Device (PING only)
+2/2/2019 11:20:02 PM: Template Loaded; Device ID: 2007; Name: Generic Device (PING only)
+2/2/2019 11:20:02 PM: Template Loaded; Device ID: 44; Name: Generic Device (PING only)
+2/2/2019 11:20:03 PM: Template Loaded; Device ID: 42; Name: Generic Device (PING only)
+2/2/2019 11:20:03 PM: Template Check; Device ID: 2007; Check ID: ping; FOUND
+2/2/2019 11:20:03 PM: Template Assigned; Device ID: 2007; Name: Generic Device (PING only)
+2/2/2019 11:20:03 PM: Sensor Created; Device ID: 2007; Create ID: pingsensor; Sensor ID: 2008; Name: PING
+2/2/2019 11:20:03 PM: Template Loaded; Device ID: 2007; Name: SSL Security Check
+2/2/2019 11:20:04 PM: Template Check; Device ID: 2004; Check ID: ping; FOUND
+2/2/2019 11:20:04 PM: Template Assigned; Device ID: 2004; Name: Generic Device (PING only)
+2/2/2019 11:20:04 PM: Sensor Created; Device ID: 2004; Create ID: pingsensor; Sensor ID: 2009; Name: PING
+2/2/2019 11:20:04 PM: Template Loaded; Device ID: 2004; Name: SSL Security Check
+2/2/2019 11:20:04 PM: Template Check; Device ID: 42; Check ID: ping; FOUND
+2/2/2019 11:20:04 PM: Template Assigned; Device ID: 42; Name: Generic Device (PING only)
+2/2/2019 11:20:04 PM: Sensor Created; Device ID: 42; Create ID: pingsensor; Sensor ID: 2010; Name: PING
+2/2/2019 11:20:04 PM: Template Loaded; Device ID: 42; Name: SSL Security Check
+2/2/2019 11:20:06 PM: Template Check; Device ID: 2004; Check ID: port443; NOT FOUND
+2/2/2019 11:20:07 PM: Template Check; Device ID: 42; Check ID: port443; FOUND
+2/2/2019 11:20:07 PM: Template Assigned; Device ID: 42; Name: SSL Security Check
+2/2/2019 11:20:07 PM: Sensor Created; Device ID: 42; Create ID: sslsensor443; Sensor ID: 2011; Name: SSL Security Check (Port 443)
+2/2/2019 11:20:07 PM: Sensor Created; Device ID: 42; Create ID: sslcert443; Sensor ID: 2012; Name: SSL Certificate Sensor (Port 443)
+2/2/2019 11:20:07 PM: Template Check; Device ID: 2007; Check ID: port443; NOT FOUND
+2/2/2019 11:20:09 PM: Template Check; Device ID: 2007; Check ID: port465; NOT FOUND
+2/2/2019 11:20:09 PM: Template Check; Device ID: 2004; Check ID: port465; NOT FOUND
+2/2/2019 11:20:09 PM: Template Check; Device ID: 44; Check ID: ping; FOUND
+2/2/2019 11:20:09 PM: Template Assigned; Device ID: 44; Name: Generic Device (PING only)
+2/2/2019 11:20:09 PM: Sensor Created; Device ID: 44; Create ID: pingsensor; Sensor ID: 2013; Name: PING
+2/2/2019 11:20:09 PM: Template Loaded; Device ID: 44; Name: SSL Security Check
+2/2/2019 11:20:11 PM: Template Check; Device ID: 2007; Check ID: port993; NOT FOUND
+2/2/2019 11:20:12 PM: Template Check; Device ID: 2004; Check ID: port993; NOT FOUND
+2/2/2019 11:20:13 PM: Template Check; Device ID: 2007; Check ID: port995; NOT FOUND
+2/2/2019 11:20:13 PM: Template Loaded; Device ID: 2007; Name: Generic Device (SNMP-enabled)
+2/2/2019 11:20:14 PM: Template Check; Device ID: 2004; Check ID: port995; NOT FOUND
+2/2/2019 11:20:14 PM: Template Loaded; Device ID: 2004; Name: Generic Device (SNMP-enabled)
+2/2/2019 11:20:29 PM: Template Check; Device ID: 2007; Check ID: snmp; ERROR: 106
+2/2/2019 11:20:29 PM: Template Loaded; Device ID: 2007; Name: Windows (via WMI)
+2/2/2019 11:20:30 PM: Template Check; Device ID: 2007; Check ID: wmi; ERROR: 103
+2/2/2019 11:20:30 PM: Template Loaded; Device ID: 2007; Name: UNIX/Linux Device
+2/2/2019 11:20:30 PM: Template Check; Device ID: 42; Check ID: port465; NOT FOUND
+2/2/2019 11:20:30 PM: Template Check; Device ID: 2004; Check ID: snmp; ERROR: 106
+2/2/2019 11:20:30 PM: Template Loaded; Device ID: 2004; Name: Windows (via WMI)
+2/2/2019 11:20:31 PM: Template Check; Device ID: 2007; Check ID: ssh; ERROR: 103
+2/2/2019 11:20:31 PM: Template Loaded; Device ID: 2007; Name: HTTP Web Server
+2/2/2019 11:20:31 PM: Template Check; Device ID: 2004; Check ID: wmi; ERROR: 103
+2/2/2019 11:20:31 PM: Template Loaded; Device ID: 2004; Name: UNIX/Linux Device
+2/2/2019 11:20:31 PM: Template Check; Device ID: 44; Check ID: port443; NOT FOUND
+2/2/2019 11:20:32 PM: Template Check; Device ID: 2004; Check ID: ssh; ERROR: 103
+2/2/2019 11:20:32 PM: Template Loaded; Device ID: 2004; Name: HTTP Web Server
+2/2/2019 11:20:33 PM: Template Check; Device ID: 2007; Check ID: http80; FOUND
+2/2/2019 11:20:40 PM: Template Check; Device ID: 2004; Check ID: http80; NOT FOUND
+2/2/2019 11:20:42 PM: Template Check; Device ID: 2007; Check ID: http8080; NOT FOUND
+2/2/2019 11:20:48 PM: Template Check; Device ID: 2004; Check ID: http8080; NOT FOUND
+2/2/2019 11:20:49 PM: Template Check; Device ID: 2007; Check ID: https443; NOT FOUND
+2/2/2019 11:20:49 PM: Template Assigned; Device ID: 2007; Name: HTTP Web Server
+2/2/2019 11:20:49 PM: Sensor Created; Device ID: 2007; Create ID: httpsensor80; Sensor ID: 2014; Name: HTTP
+2/2/2019 11:20:49 PM: Template Loaded; Device ID: 2007; Name: Cisco Device (Generic)
+2/2/2019 11:20:49 PM: Template Loaded; Device ID: 2007; Name: DNS Server
+2/2/2019 11:20:50 PM: Template Check; Device ID: 2007; Check ID: dns; NOT FOUND
+2/2/2019 11:20:50 PM: Template Loaded; Device ID: 2007; Name: FTP Server
+2/2/2019 11:20:53 PM: Template Check; Device ID: 42; Check ID: port993; NOT FOUND
+2/2/2019 11:20:55 PM: Template Check; Device ID: 44; Check ID: port465; NOT FOUND
+2/2/2019 11:20:55 PM: Template Check; Device ID: 2004; Check ID: https443; NOT FOUND
+2/2/2019 11:20:55 PM: Template Loaded; Device ID: 2004; Name: Cisco Device (Generic)
+2/2/2019 11:20:55 PM: Template Loaded; Device ID: 2004; Name: DNS Server
+2/2/2019 11:20:57 PM: Template Check; Device ID: 2004; Check ID: dns; NOT FOUND
+2/2/2019 11:20:57 PM: Template Loaded; Device ID: 2004; Name: FTP Server
+2/2/2019 11:20:58 PM: Template Check; Device ID: 2007; Check ID: ftp; NOT FOUND
+2/2/2019 11:21:00 PM: Template Check; Device ID: 2007; Check ID: rdp; NOT FOUND
+2/2/2019 11:21:00 PM: Template Loaded; Device ID: 2007; Name: Mail Server (Generic)
+2/2/2019 11:21:05 PM: Template Check; Device ID: 2004; Check ID: ftp; NOT FOUND
+2/2/2019 11:21:07 PM: Template Check; Device ID: 2004; Check ID: rdp; NOT FOUND
+2/2/2019 11:21:07 PM: Template Loaded; Device ID: 2004; Name: Mail Server (Generic)
+2/2/2019 11:21:08 PM: Template Check; Device ID: 2007; Check ID: imap; NOT FOUND
+2/2/2019 11:21:15 PM: Template Check; Device ID: 42; Check ID: port995; NOT FOUND
+2/2/2019 11:21:15 PM: Template Loaded; Device ID: 42; Name: Generic Device (SNMP-enabled)
+2/2/2019 11:21:16 PM: Template Check; Device ID: 2004; Check ID: imap; NOT FOUND
+2/2/2019 11:21:17 PM: Template Check; Device ID: 44; Check ID: port993; NOT FOUND
+2/2/2019 11:21:17 PM: Template Check; Device ID: 2007; Check ID: pop3; NOT FOUND
+2/2/2019 11:21:26 PM: Template Check; Device ID: 2007; Check ID: smtp; NOT FOUND
+2/2/2019 11:21:26 PM: Template Loaded; Device ID: 2007; Name: Linux/UNIX Device (SNMP or SSH enabled)
+2/2/2019 11:21:26 PM: Template Loaded; Device ID: 2007; Name: Windows (via Remote Powershell)
+2/2/2019 11:21:26 PM: Template Loaded; Device ID: 2007; Name: Server (Compaq/HP agents)
+2/2/2019 11:21:26 PM: Template Loaded; Device ID: 2007; Name: Server IBM
+2/2/2019 11:21:26 PM: Template Loaded; Device ID: 2007; Name: Server (Dell)
+2/2/2019 11:21:26 PM: Template Loaded; Device ID: 2007; Name: SonicWALL
+2/2/2019 11:21:26 PM: Template Loaded; Device ID: 2007; Name: Server Cisco UCS
+2/2/2019 11:21:26 PM: Template Loaded; Device ID: 2007; Name: Webserver
+2/2/2019 11:21:26 PM: Template Check; Device ID: 2004; Check ID: pop3; NOT FOUND
+2/2/2019 11:21:27 PM: Template Check; Device ID: 2007; Check ID: iisapp; ERROR: 103
+2/2/2019 11:21:29 PM: Template Check; Device ID: 2007; Check ID: pciisapppool; ERROR: 103
+2/2/2019 11:21:30 PM: Template Check; Device ID: 2007; Check ID: apache_mod_status; NOT FOUND
+2/2/2019 11:21:30 PM: Template Loaded; Device ID: 2007; Name: Microsoft Sharepoint 2010
+2/2/2019 11:21:30 PM: Template Loaded; Device ID: 2007; Name: Cisco ASA VPN
+2/2/2019 11:21:30 PM: Template Loaded; Device ID: 2007; Name: Mail Server (MS Exchange)
+2/2/2019 11:21:30 PM: Template Loaded; Device ID: 2007; Name: ADSL
+2/2/2019 11:21:30 PM: Template Loaded; Device ID: 2007; Name: XEN Hosts
+2/2/2019 11:21:31 PM: Template Check; Device ID: 42; Check ID: snmp; ERROR: 106
+2/2/2019 11:21:31 PM: Template Loaded; Device ID: 42; Name: Windows (via WMI)
+2/2/2019 11:21:31 PM: Template Check; Device ID: 2007; Check ID: xen; ERROR: 106
+2/2/2019 11:21:31 PM: Template Loaded; Device ID: 2007; Name: NetApp
+2/2/2019 11:21:31 PM: Template Loaded; Device ID: 2007; Name: Hyper V Host Server
+2/2/2019 11:21:31 PM: Template Loaded; Device ID: 2007; Name: XEN Virtual Machines
+2/2/2019 11:21:31 PM: Template Loaded; Device ID: 2007; Name: VMware ESX / vCenter Server
+2/2/2019 11:21:32 PM: Template Check; Device ID: 42; Check ID: wmi; ERROR: 103
+2/2/2019 11:21:32 PM: Template Loaded; Device ID: 42; Name: UNIX/Linux Device
+2/2/2019 11:21:33 PM: Template Check; Device ID: 2007; Check ID: vmhostsoap; NOT FOUND
+2/2/2019 11:21:33 PM: Template Loaded; Device ID: 2007; Name: RMON compatible device
+2/2/2019 11:21:33 PM: Template Loaded; Device ID: 2007; Name: Printer (HP)
+2/2/2019 11:21:33 PM: Template Loaded; Device ID: 2007; Name: Switch (Cisco IOS Based)
+2/2/2019 11:21:33 PM: Template Loaded; Device ID: 2007; Name: Switch (Cisco Catalyst)
+2/2/2019 11:21:33 PM: Template Loaded; Device ID: 2007; Name: Switch (HP Procurve)
+2/2/2019 11:21:33 PM: Template Loaded; Device ID: 2007; Name: Windows IIS (via SNMP)
+2/2/2019 11:21:33 PM: Template Loaded; Device ID: 2007; Name: Buffalo TeraStation NAS
+2/2/2019 11:21:33 PM: Template Loaded; Device ID: 2007; Name: UPS Health (Liebert)
+2/2/2019 11:21:33 PM: Template Loaded; Device ID: 2007; Name: UPS Health (APC)
+2/2/2019 11:21:33 PM: Template Loaded; Device ID: 2007; Name: UPS Health (Generic)
+2/2/2019 11:21:33 PM: Template Loaded; Device ID: 2007; Name: NAS QNAP
+2/2/2019 11:21:33 PM: Template Loaded; Device ID: 2007; Name: Environment Jacarta
+2/2/2019 11:21:33 PM: Template Loaded; Device ID: 2007; Name: NAS LenovoEMC
+2/2/2019 11:21:33 PM: Template Loaded; Device ID: 2007; Name: Environment Poseidon
+2/2/2019 11:21:33 PM: Template Loaded; Device ID: 2007; Name: IPMI enabled devices
+2/2/2019 11:21:33 PM: Template Assigned; Device ID: 2007; Name: IPMI enabled devices
+2/2/2019 11:21:34 PM: Template Check; Device ID: 42; Check ID: ssh; ERROR: 103
+2/2/2019 11:21:34 PM: Template Loaded; Device ID: 42; Name: HTTP Web Server
+2/2/2019 11:21:35 PM: Template Create Meta Request; Device ID: 2007; Create ID: ipmidefault; ERROR: 106
+2/2/2019 11:21:35 PM: Template Loaded; Device ID: 2007; Name: Amazon Cloudwatch
+2/2/2019 11:21:36 PM: Template Check; Device ID: 2004; Check ID: smtp; NOT FOUND
+2/2/2019 11:21:36 PM: Template Loaded; Device ID: 2004; Name: Linux/UNIX Device (SNMP or SSH enabled)
+2/2/2019 11:21:36 PM: Template Loaded; Device ID: 2004; Name: Windows (via Remote Powershell)
+2/2/2019 11:21:36 PM: Template Loaded; Device ID: 2004; Name: Server (Compaq/HP agents)
+2/2/2019 11:21:36 PM: Template Loaded; Device ID: 2004; Name: Server IBM
+2/2/2019 11:21:36 PM: Template Loaded; Device ID: 2004; Name: Server (Dell)
+2/2/2019 11:21:36 PM: Template Loaded; Device ID: 2004; Name: SonicWALL
+2/2/2019 11:21:36 PM: Template Loaded; Device ID: 2004; Name: Server Cisco UCS
+2/2/2019 11:21:36 PM: Template Loaded; Device ID: 2004; Name: Webserver
+2/2/2019 11:21:37 PM: Template Check; Device ID: 2007; Check ID: dotnet40; FOUND
+2/2/2019 11:21:37 PM: Template Assigned; Device ID: 2007; Name: Amazon Cloudwatch
+2/2/2019 11:21:38 PM: Template Check; Device ID: 2004; Check ID: iisapp; ERROR: 103
+2/2/2019 11:21:39 PM: Template Create Meta Request; Device ID: 2007; Create ID: {CC305257-2749-40A1-BAE4-272965C1FDA0}; ERROR: 103
+2/2/2019 11:21:40 PM: Template Check; Device ID: 2004; Check ID: pciisapppool; ERROR: 103
+2/2/2019 11:21:40 PM: Template Check; Device ID: 44; Check ID: port995; NOT FOUND
+2/2/2019 11:21:40 PM: Template Loaded; Device ID: 44; Name: Generic Device (SNMP-enabled)
+2/2/2019 11:21:41 PM: Template Create Meta Request; Device ID: 2007; Create ID: {5B616DDE-5680-4BF8-B7E5-C224782F8B89}; ERROR: 103
+2/2/2019 11:21:43 PM: Template Create Meta Request; Device ID: 2007; Create ID: {60836B2D-C5F4-4AA0-909A-9DDE2EE6BD8B}; ERROR: 103
+2/2/2019 11:21:44 PM: Template Create Meta Request; Device ID: 2007; Create ID: {79B2A2C6-8667-4E3B-9F3D-F63A133B406E}; ERROR: 103
+2/2/2019 11:21:45 PM: Template Create Meta Request; Device ID: 2007; Create ID: {228E69FA-17F8-49D9-8EBB-301EB54CF258}; ERROR: 103
+2/2/2019 11:21:46 PM: Template Create Meta Request; Device ID: 2007; Create ID: {8399A3B2-250A-49D4-AA62-5ADE380B6AF5}; ERROR: 103
+2/2/2019 11:21:47 PM: Template Create Meta Request; Device ID: 2007; Create ID: {40CEB4DE-AE16-4495-B718-6FC63B8DC529}; ERROR: 103
+2/2/2019 11:21:47 PM: Template Loaded; Device ID: 2007; Name: NAS Synology
+2/2/2019 11:21:47 PM: Template Loaded; Device ID: 2007; Name: Dell MDI Disk
+2/2/2019 11:21:48 PM: Template Check; Device ID: 2007; Check ID: dellmd3000; ERROR: 106
+2/2/2019 11:21:48 PM: Template Loaded; Device ID: 2007; Name: Juniper NS Device
+2/2/2019 11:21:48 PM: Template Loaded; Device ID: 2007; Name: Dell EqualLogic
+2/2/2019 11:21:49 PM: Autodiscovery Finished: Device ID: 2007; Sensor(s): 2; Templates: Generic Device (PING only), HTTP Web Server, IPMI enabled devices, Amazon Cloudwatch
+2/2/2019 11:21:50 PM: Template Check; Device ID: 2004; Check ID: apache_mod_status; NOT FOUND
+2/2/2019 11:21:50 PM: Template Loaded; Device ID: 2004; Name: Microsoft Sharepoint 2010
+2/2/2019 11:21:50 PM: Template Loaded; Device ID: 2004; Name: Cisco ASA VPN
+2/2/2019 11:21:50 PM: Template Loaded; Device ID: 2004; Name: Mail Server (MS Exchange)
+2/2/2019 11:21:50 PM: Template Loaded; Device ID: 2004; Name: ADSL
+2/2/2019 11:21:50 PM: Template Loaded; Device ID: 2004; Name: XEN Hosts
+2/2/2019 11:21:51 PM: Template Check; Device ID: 2004; Check ID: xen; ERROR: 106
+2/2/2019 11:21:51 PM: Template Loaded; Device ID: 2004; Name: NetApp
+2/2/2019 11:21:51 PM: Template Loaded; Device ID: 2004; Name: Hyper V Host Server
+2/2/2019 11:21:51 PM: Template Loaded; Device ID: 2004; Name: XEN Virtual Machines
+2/2/2019 11:21:51 PM: Template Loaded; Device ID: 2004; Name: VMware ESX / vCenter Server
+2/2/2019 11:21:52 PM: Template Check; Device ID: 2004; Check ID: vmhostsoap; NOT FOUND
+2/2/2019 11:21:52 PM: Template Loaded; Device ID: 2004; Name: RMON compatible device
+2/2/2019 11:21:52 PM: Template Loaded; Device ID: 2004; Name: Printer (HP)
+2/2/2019 11:21:52 PM: Template Loaded; Device ID: 2004; Name: Switch (Cisco IOS Based)
+2/2/2019 11:21:52 PM: Template Loaded; Device ID: 2004; Name: Switch (Cisco Catalyst)
+2/2/2019 11:21:52 PM: Template Loaded; Device ID: 2004; Name: Switch (HP Procurve)
+2/2/2019 11:21:52 PM: Template Loaded; Device ID: 2004; Name: Windows IIS (via SNMP)
+2/2/2019 11:21:52 PM: Template Loaded; Device ID: 2004; Name: Buffalo TeraStation NAS
+2/2/2019 11:21:52 PM: Template Loaded; Device ID: 2004; Name: UPS Health (Liebert)
+2/2/2019 11:21:52 PM: Template Loaded; Device ID: 2004; Name: UPS Health (APC)
+2/2/2019 11:21:52 PM: Template Loaded; Device ID: 2004; Name: UPS Health (Generic)
+2/2/2019 11:21:52 PM: Template Loaded; Device ID: 2004; Name: NAS QNAP
+2/2/2019 11:21:52 PM: Template Loaded; Device ID: 2004; Name: Environment Jacarta
+2/2/2019 11:21:52 PM: Template Loaded; Device ID: 2004; Name: NAS LenovoEMC
+2/2/2019 11:21:52 PM: Template Loaded; Device ID: 2004; Name: Environment Poseidon
+2/2/2019 11:21:52 PM: Template Loaded; Device ID: 2004; Name: IPMI enabled devices
+2/2/2019 11:21:52 PM: Template Assigned; Device ID: 2004; Name: IPMI enabled devices
+2/2/2019 11:21:56 PM: Template Check; Device ID: 44; Check ID: snmp; ERROR: 106
+2/2/2019 11:21:56 PM: Template Loaded; Device ID: 44; Name: Windows (via WMI)
+2/2/2019 11:21:57 PM: Template Check; Device ID: 44; Check ID: wmi; ERROR: 103
+2/2/2019 11:21:57 PM: Template Loaded; Device ID: 44; Name: UNIX/Linux Device
+2/2/2019 11:21:58 PM: Template Check; Device ID: 44; Check ID: ssh; ERROR: 103
+2/2/2019 11:21:58 PM: Template Loaded; Device ID: 44; Name: HTTP Web Server
+2/2/2019 11:22:01 PM: Template Create Meta Request; Device ID: 2004; Create ID: ipmidefault; ERROR: 106
+2/2/2019 11:22:01 PM: Template Loaded; Device ID: 2004; Name: Amazon Cloudwatch
+2/2/2019 11:22:02 PM: Template Check; Device ID: 2004; Check ID: dotnet40; FOUND
+2/2/2019 11:22:02 PM: Template Assigned; Device ID: 2004; Name: Amazon Cloudwatch
+2/2/2019 11:22:03 PM: Template Create Meta Request; Device ID: 2004; Create ID: {CC305257-2749-40A1-BAE4-272965C1FDA0}; ERROR: 103
+2/2/2019 11:22:04 PM: Template Create Meta Request; Device ID: 2004; Create ID: {5B616DDE-5680-4BF8-B7E5-C224782F8B89}; ERROR: 103
+2/2/2019 11:22:05 PM: Template Create Meta Request; Device ID: 2004; Create ID: {60836B2D-C5F4-4AA0-909A-9DDE2EE6BD8B}; ERROR: 103
+2/2/2019 11:22:06 PM: Template Create Meta Request; Device ID: 2004; Create ID: {79B2A2C6-8667-4E3B-9F3D-F63A133B406E}; ERROR: 103
+2/2/2019 11:22:08 PM: Template Create Meta Request; Device ID: 2004; Create ID: {228E69FA-17F8-49D9-8EBB-301EB54CF258}; ERROR: 103
+2/2/2019 11:22:09 PM: Template Create Meta Request; Device ID: 2004; Create ID: {8399A3B2-250A-49D4-AA62-5ADE380B6AF5}; ERROR: 103
+2/2/2019 11:22:10 PM: Template Create Meta Request; Device ID: 2004; Create ID: {40CEB4DE-AE16-4495-B718-6FC63B8DC529}; ERROR: 103
+2/2/2019 11:22:10 PM: Template Loaded; Device ID: 2004; Name: NAS Synology
+2/2/2019 11:22:10 PM: Template Loaded; Device ID: 2004; Name: Dell MDI Disk
+2/2/2019 11:22:11 PM: Template Check; Device ID: 2004; Check ID: dellmd3000; ERROR: 106
+2/2/2019 11:22:11 PM: Template Loaded; Device ID: 2004; Name: Juniper NS Device
+2/2/2019 11:22:11 PM: Template Loaded; Device ID: 2004; Name: Dell EqualLogic
+2/2/2019 11:22:13 PM: Autodiscovery Finished: Device ID: 2004; Sensor(s): 1; Templates: Generic Device (PING only), IPMI enabled devices, Amazon Cloudwatch
+2/2/2019 11:24:03 PM: Template Check; Device ID: 42; Check ID: http80; NOT FOUND
+2/2/2019 11:24:26 PM: Template Check; Device ID: 44; Check ID: http80; NOT FOUND
+2/2/2019 11:26:31 PM: Template Check; Device ID: 42; Check ID: http8080; NOT FOUND
+2/2/2019 11:26:32 PM: Template Check; Device ID: 42; Check ID: https443; NOT FOUND
+2/2/2019 11:26:32 PM: Template Loaded; Device ID: 42; Name: Cisco Device (Generic)
+2/2/2019 11:26:32 PM: Template Loaded; Device ID: 42; Name: DNS Server
+2/2/2019 11:26:33 PM: Template Check; Device ID: 42; Check ID: dns; NOT FOUND
+2/2/2019 11:26:33 PM: Template Loaded; Device ID: 42; Name: FTP Server
+2/2/2019 11:26:54 PM: Template Check; Device ID: 44; Check ID: http8080; NOT FOUND
+2/2/2019 11:29:01 PM: Template Check; Device ID: 44; Check ID: https443; NOT FOUND
+2/2/2019 11:29:01 PM: Template Loaded; Device ID: 44; Name: Cisco Device (Generic)
+2/2/2019 11:29:01 PM: Template Loaded; Device ID: 44; Name: DNS Server
+2/2/2019 11:29:01 PM: Template Check; Device ID: 42; Check ID: ftp; NOT FOUND
+2/2/2019 11:29:12 PM: Template Check; Device ID: 44; Check ID: dns; NOT FOUND
+2/2/2019 11:29:12 PM: Template Loaded; Device ID: 44; Name: FTP Server
+2/2/2019 11:29:24 PM: Template Check; Device ID: 42; Check ID: rdp; NOT FOUND
+2/2/2019 11:29:24 PM: Template Loaded; Device ID: 42; Name: Mail Server (Generic)
+2/2/2019 11:31:39 PM: Template Check; Device ID: 44; Check ID: ftp; NOT FOUND
+2/2/2019 11:31:52 PM: Template Check; Device ID: 42; Check ID: imap; NOT FOUND
+2/2/2019 11:32:01 PM: Template Check; Device ID: 44; Check ID: rdp; NOT FOUND
+2/2/2019 11:32:01 PM: Template Loaded; Device ID: 44; Name: Mail Server (Generic)
+2/2/2019 11:34:20 PM: Template Check; Device ID: 42; Check ID: pop3; NOT FOUND
+2/2/2019 11:34:29 PM: Template Check; Device ID: 44; Check ID: imap; NOT FOUND
+2/2/2019 11:36:48 PM: Template Check; Device ID: 42; Check ID: smtp; NOT FOUND
+2/2/2019 11:36:48 PM: Template Loaded; Device ID: 42; Name: Linux/UNIX Device (SNMP or SSH enabled)
+2/2/2019 11:36:48 PM: Template Loaded; Device ID: 42; Name: Windows (via Remote Powershell)
+2/2/2019 11:36:48 PM: Template Loaded; Device ID: 42; Name: Server (Compaq/HP agents)
+2/2/2019 11:36:48 PM: Template Loaded; Device ID: 42; Name: Server IBM
+2/2/2019 11:36:48 PM: Template Loaded; Device ID: 42; Name: Server (Dell)
+2/2/2019 11:36:48 PM: Template Loaded; Device ID: 42; Name: SonicWALL
+2/2/2019 11:36:48 PM: Template Loaded; Device ID: 42; Name: Server Cisco UCS
+2/2/2019 11:36:48 PM: Template Loaded; Device ID: 42; Name: Webserver
+2/2/2019 11:36:49 PM: Template Check; Device ID: 42; Check ID: iisapp; ERROR: 103
+2/2/2019 11:36:50 PM: Template Check; Device ID: 42; Check ID: pciisapppool; ERROR: 103
+2/2/2019 11:36:57 PM: Template Check; Device ID: 44; Check ID: pop3; NOT FOUND
+2/2/2019 11:39:18 PM: Template Check; Device ID: 42; Check ID: apache_mod_status; NOT FOUND
+2/2/2019 11:39:18 PM: Template Loaded; Device ID: 42; Name: Microsoft Sharepoint 2010
+2/2/2019 11:39:18 PM: Template Loaded; Device ID: 42; Name: Cisco ASA VPN
+2/2/2019 11:39:18 PM: Template Loaded; Device ID: 42; Name: Mail Server (MS Exchange)
+2/2/2019 11:39:18 PM: Template Loaded; Device ID: 42; Name: ADSL
+2/2/2019 11:39:18 PM: Template Loaded; Device ID: 42; Name: XEN Hosts
+2/2/2019 11:39:19 PM: Template Check; Device ID: 42; Check ID: xen; ERROR: 106
+2/2/2019 11:39:19 PM: Template Loaded; Device ID: 42; Name: NetApp
+2/2/2019 11:39:19 PM: Template Loaded; Device ID: 42; Name: Hyper V Host Server
+2/2/2019 11:39:19 PM: Template Loaded; Device ID: 42; Name: XEN Virtual Machines
+2/2/2019 11:39:19 PM: Template Loaded; Device ID: 42; Name: VMware ESX / vCenter Server
+2/2/2019 11:39:20 PM: Template Check; Device ID: 42; Check ID: vmhostsoap; NOT FOUND
+2/2/2019 11:39:20 PM: Template Loaded; Device ID: 42; Name: RMON compatible device
+2/2/2019 11:39:20 PM: Template Loaded; Device ID: 42; Name: Printer (HP)
+2/2/2019 11:39:20 PM: Template Loaded; Device ID: 42; Name: Switch (Cisco IOS Based)
+2/2/2019 11:39:20 PM: Template Loaded; Device ID: 42; Name: Switch (Cisco Catalyst)
+2/2/2019 11:39:20 PM: Template Loaded; Device ID: 42; Name: Switch (HP Procurve)
+2/2/2019 11:39:20 PM: Template Loaded; Device ID: 42; Name: Windows IIS (via SNMP)
+2/2/2019 11:39:20 PM: Template Loaded; Device ID: 42; Name: Buffalo TeraStation NAS
+2/2/2019 11:39:20 PM: Template Loaded; Device ID: 42; Name: UPS Health (Liebert)
+2/2/2019 11:39:20 PM: Template Loaded; Device ID: 42; Name: UPS Health (APC)
+2/2/2019 11:39:20 PM: Template Loaded; Device ID: 42; Name: UPS Health (Generic)
+2/2/2019 11:39:20 PM: Template Loaded; Device ID: 42; Name: NAS QNAP
+2/2/2019 11:39:20 PM: Template Loaded; Device ID: 42; Name: Environment Jacarta
+2/2/2019 11:39:20 PM: Template Loaded; Device ID: 42; Name: NAS LenovoEMC
+2/2/2019 11:39:20 PM: Template Loaded; Device ID: 42; Name: Environment Poseidon
+2/2/2019 11:39:20 PM: Template Loaded; Device ID: 42; Name: IPMI enabled devices
+2/2/2019 11:39:20 PM: Template Assigned; Device ID: 42; Name: IPMI enabled devices
+2/2/2019 11:39:25 PM: Template Check; Device ID: 44; Check ID: smtp; NOT FOUND
+2/2/2019 11:39:25 PM: Template Loaded; Device ID: 44; Name: Linux/UNIX Device (SNMP or SSH enabled)
+2/2/2019 11:39:25 PM: Template Loaded; Device ID: 44; Name: Windows (via Remote Powershell)
+2/2/2019 11:39:25 PM: Template Loaded; Device ID: 44; Name: Server (Compaq/HP agents)
+2/2/2019 11:39:25 PM: Template Loaded; Device ID: 44; Name: Server IBM
+2/2/2019 11:39:25 PM: Template Loaded; Device ID: 44; Name: Server (Dell)
+2/2/2019 11:39:25 PM: Template Loaded; Device ID: 44; Name: SonicWALL
+2/2/2019 11:39:25 PM: Template Loaded; Device ID: 44; Name: Server Cisco UCS
+2/2/2019 11:39:25 PM: Template Loaded; Device ID: 44; Name: Webserver
+2/2/2019 11:39:26 PM: Template Check; Device ID: 44; Check ID: iisapp; ERROR: 103
+2/2/2019 11:39:27 PM: Template Check; Device ID: 44; Check ID: pciisapppool; ERROR: 103
+2/2/2019 11:39:37 PM: Template Create Meta Request; Device ID: 42; Create ID: ipmidefault; ERROR: 106
+2/2/2019 11:39:37 PM: Template Loaded; Device ID: 42; Name: Amazon Cloudwatch
+2/2/2019 11:39:38 PM: Template Check; Device ID: 42; Check ID: dotnet40; FOUND
+2/2/2019 11:39:38 PM: Template Assigned; Device ID: 42; Name: Amazon Cloudwatch
+2/2/2019 11:39:39 PM: Template Create Meta Request; Device ID: 42; Create ID: {CC305257-2749-40A1-BAE4-272965C1FDA0}; ERROR: 103
+2/2/2019 11:39:40 PM: Template Create Meta Request; Device ID: 42; Create ID: {5B616DDE-5680-4BF8-B7E5-C224782F8B89}; ERROR: 103
+2/2/2019 11:39:41 PM: Template Create Meta Request; Device ID: 42; Create ID: {60836B2D-C5F4-4AA0-909A-9DDE2EE6BD8B}; ERROR: 103
+2/2/2019 11:39:42 PM: Template Create Meta Request; Device ID: 42; Create ID: {79B2A2C6-8667-4E3B-9F3D-F63A133B406E}; ERROR: 103
+2/2/2019 11:39:43 PM: Template Create Meta Request; Device ID: 42; Create ID: {228E69FA-17F8-49D9-8EBB-301EB54CF258}; ERROR: 103
+2/2/2019 11:39:44 PM: Template Create Meta Request; Device ID: 42; Create ID: {8399A3B2-250A-49D4-AA62-5ADE380B6AF5}; ERROR: 103
+2/2/2019 11:39:45 PM: Template Create Meta Request; Device ID: 42; Create ID: {40CEB4DE-AE16-4495-B718-6FC63B8DC529}; ERROR: 103
+2/2/2019 11:39:45 PM: Templ2/3/2019 1:38:47 PM: Suggestion Discovery Started; Device ID: 42
+2/3/2019 1:38:47 PM: Device ID: 42 Name: DNS: 8.8.8.8 Host: google-public-dns-a.google.com
+2/3/2019 1:38:47 PM: Device Templates; Device ID: 42; Selected: 52
+2/3/2019 1:38:48 PM: Template Loaded; Device ID: 42; Name: Generic Device (PING only)
+2/3/2019 1:38:49 PM: Template Check; Device ID: 42; Check ID: ping; FOUND
+2/3/2019 1:38:49 PM: Template Assigned; Device ID: 42; Name: Generic Device (PING only)
+2/3/2019 1:38:49 PM: Template Loaded; Device ID: 42; Name: SSL Security Check
+2/3/2019 1:38:50 PM: Template Check; Device ID: 42; Check ID: port443; FOUND
+2/3/2019 1:38:50 PM: Template Assigned; Device ID: 42; Name: SSL Security Check
+2/3/2019 1:39:12 PM: Template Check; Device ID: 42; Check ID: port465; NOT FOUND
+2/3/2019 1:39:34 PM: Template Check; Device ID: 42; Check ID: port993; NOT FOUND
+2/3/2019 1:39:56 PM: Template Check; Device ID: 42; Check ID: port995; NOT FOUND
+2/3/2019 1:39:56 PM: Template Loaded; Device ID: 42; Name: Generic Device (SNMP-enabled)
+2/3/2019 1:40:12 PM: Template Check; Device ID: 42; Check ID: snmp; ERROR: 106
+2/3/2019 1:40:12 PM: Template Loaded; Device ID: 42; Name: Windows (via WMI)
+2/3/2019 1:40:13 PM: Template Check; Device ID: 42; Check ID: wmi; ERROR: 103
+2/3/2019 1:40:13 PM: Template Loaded; Device ID: 42; Name: UNIX/Linux Device
+2/3/2019 1:40:14 PM: Template Check; Device ID: 42; Check ID: ssh; ERROR: 103
+2/3/2019 1:40:14 PM: Template Loaded; Device ID: 42; Name: HTTP Web Server
+2/3/2019 1:42:42 PM: Template Check; Device ID: 42; Check ID: http80; NOT FOUND
+2/3/2019 1:43:05 PM: Template Check; Device ID: 42; Check ID: http8080; PROBE TIMEOUT
+2/3/2019 1:43:05 PM: Suggest Discovery interrupted: Device ID: 42
+2/25/2019 7:23:58 AM: Suggestion Discovery Started; Device ID: 46
+2/25/2019 7:23:58 AM: Device ID: 46 Name: Internet Host: www.google.com
+2/25/2019 7:23:58 AM: Device Templates; Device ID: 46; Selected: 52
+2/25/2019 7:24:00 AM: Template Loaded; Device ID: 46; Name: Generic Device (PING only)
+2/25/2019 7:24:01 AM: Template Check; Device ID: 46; Check ID: ping; FOUND
+2/25/2019 7:24:01 AM: Template Assigned; Device ID: 46; Name: Generic Device (PING only)
+2/25/2019 7:24:01 AM: Template Loaded; Device ID: 46; Name: SSL Security Check
+2/25/2019 7:24:02 AM: Template Check; Device ID: 46; Check ID: port443; FOUND
+2/25/2019 7:24:02 AM: Template Assigned; Device ID: 46; Name: SSL Security Check
+2/25/2019 7:24:24 AM: Template Check; Device ID: 46; Check ID: port465; NOT FOUND
+2/25/2019 7:24:46 AM: Template Check; Device ID: 46; Check ID: port993; NOT FOUND
+2/25/2019 7:25:08 AM: Template Check; Device ID: 46; Check ID: port995; NOT FOUND
+2/25/2019 7:25:08 AM: Template Loaded; Device ID: 46; Name: Generic Device (SNMP-enabled)
+2/25/2019 7:25:24 AM: Template Check; Device ID: 46; Check ID: snmp; ERROR: 106
+2/25/2019 7:25:24 AM: Template Loaded; Device ID: 46; Name: Windows (via WMI)
+2/25/2019 7:25:25 AM: Template Check; Device ID: 46; Check ID: wmi; ERROR: 103
+2/25/2019 7:25:25 AM: Template Loaded; Device ID: 46; Name: UNIX/Linux Device
+2/25/2019 7:25:26 AM: Template Check; Device ID: 46; Check ID: ssh; ERROR: 103
+2/25/2019 7:25:26 AM: Template Loaded; Device ID: 46; Name: HTTP Web Server
+2/25/2019 7:25:27 AM: Template Check; Device ID: 46; Check ID: http80; FOUND
+2/25/2019 7:27:55 AM: Template Check; Device ID: 46; Check ID: http8080; NOT FOUND
+2/25/2019 7:27:56 AM: Template Check; Device ID: 46; Check ID: https443; FOUND
+2/25/2019 7:27:56 AM: Template Assigned; Device ID: 46; Name: HTTP Web Server
+2/25/2019 7:27:56 AM: Template Loaded; Device ID: 46; Name: Cisco Device (Generic)
+2/25/2019 7:27:56 AM: Template Loaded; Device ID: 46; Name: DNS Server
+2/25/2019 7:28:02 AM: Template Check; Device ID: 46; Check ID: dns; NOT FOUND
+2/25/2019 7:28:02 AM: Template Loaded; Device ID: 46; Name: FTP Server
+2/25/2019 7:30:30 AM: Template Check; Device ID: 46; Check ID: ftp; NOT FOUND
+2/25/2019 7:30:52 AM: Template Check; Device ID: 46; Check ID: rdp; NOT FOUND
+2/25/2019 7:30:52 AM: Template Loaded; Device ID: 46; Name: Mail Server (Generic)
+2/25/2019 7:33:20 AM: Template Check; Device ID: 46; Check ID: imap; NOT FOUND
+2/25/2019 7:35:48 AM: Template Check; Device ID: 46; Check ID: pop3; NOT FOUND
+2/25/2019 7:38:16 AM: Template Check; Device ID: 46; Check ID: smtp; NOT FOUND
+2/25/2019 7:38:16 AM: Template Loaded; Device ID: 46; Name: Linux/UNIX Device (SNMP or SSH enabled)
+2/25/2019 7:38:16 AM: Template Loaded; Device ID: 46; Name: Windows (via Remote Powershell)
+2/25/2019 7:38:16 AM: Template Loaded; Device ID: 46; Name: Server (Compaq/HP agents)
+2/25/2019 7:38:16 AM: Template Loaded; Device ID: 46; Name: Server IBM
+2/25/2019 7:38:16 AM: Template Loaded; Device ID: 46; Name: Server (Dell)
+2/25/2019 7:38:16 AM: Template Loaded; Device ID: 46; Name: SonicWALL
+2/25/2019 7:38:16 AM: Template Loaded; Device ID: 46; Name: Server Cisco UCS
+2/25/2019 7:38:16 AM: Template Loaded; Device ID: 46; Name: Webserver
+2/25/2019 7:38:17 AM: Template Check; Device ID: 46; Check ID: iisapp; ERROR: 103
+2/25/2019 7:38:18 AM: Template Check; Device ID: 46; Check ID: pciisapppool; ERROR: 103
+2/25/2019 7:38:19 AM: Template Check; Device ID: 46; Check ID: apache_mod_status; NOT FOUND
+2/25/2019 7:38:19 AM: Template Loaded; Device ID: 46; Name: Microsoft Sharepoint 2010
+2/25/2019 7:38:19 AM: Template Loaded; Device ID: 46; Name: Cisco ASA VPN
+2/25/2019 7:38:19 AM: Template Loaded; Device ID: 46; Name: Mail Server (MS Exchange)
+2/25/2019 7:38:19 AM: Template Loaded; Device ID: 46; Name: ADSL
+2/25/2019 7:38:19 AM: Template Loaded; Device ID: 46; Name: XEN Hosts
+2/25/2019 7:38:20 AM: Template Check; Device ID: 46; Check ID: xen; ERROR: 106
+2/25/2019 7:38:20 AM: Template Loaded; Device ID: 46; Name: NetApp
+2/25/2019 7:38:20 AM: Template Loaded; Device ID: 46; Name: Hyper V Host Server
+2/25/2019 7:38:20 AM: Template Loaded; Device ID: 46; Name: XEN Virtual Machines
+2/25/2019 7:38:20 AM: Template Loaded; Device ID: 46; Name: VMware ESX / vCenter Server
+2/25/2019 7:38:21 AM: Template Check; Device ID: 46; Check ID: vmhostsoap; NOT FOUND
+2/25/2019 7:38:21 AM: Template Loaded; Device ID: 46; Name: RMON compatible device
+2/25/2019 7:38:21 AM: Template Loaded; Device ID: 46; Name: Printer (HP)
+2/25/2019 7:38:21 AM: Template Loaded; Device ID: 46; Name: Switch (Cisco IOS Based)
+2/25/2019 7:38:21 AM: Template Loaded; Device ID: 46; Name: Switch (Cisco Catalyst)
+2/25/2019 7:38:21 AM: Template Loaded; Device ID: 46; Name: Switch (HP Procurve)
+2/25/2019 7:38:21 AM: Template Loaded; Device ID: 46; Name: Windows IIS (via SNMP)
+2/25/2019 7:38:21 AM: Template Loaded; Device ID: 46; Name: Buffalo TeraStation NAS
+2/25/2019 7:38:21 AM: Template Loaded; Device ID: 46; Name: UPS Health (Liebert)
+2/25/2019 7:38:21 AM: Template Loaded; Device ID: 46; Name: UPS Health (APC)
+2/25/2019 7:38:21 AM: Template Loaded; Device ID: 46; Name: UPS Health (Generic)
+2/25/2019 7:38:21 AM: Template Loaded; Device ID: 46; Name: NAS QNAP
+2/25/2019 7:38:21 AM: Template Loaded; Device ID: 46; Name: Environment Jacarta
+2/25/2019 7:38:21 AM: Template Loaded; Device ID: 46; Name: NAS LenovoEMC
+2/25/2019 7:38:21 AM: Template Loaded; Device ID: 46; Name: Environment Poseidon
+2/25/2019 7:38:21 AM: Template Loaded; Device ID: 46; Name: IPMI enabled devices
+2/25/2019 7:38:21 AM: Template Assigned; Device ID: 46; Name: IPMI enabled devices
+2/25/2019 7:38:38 AM: Template Create Meta Request; Device ID: 46; Create ID: ipmidefault; ERROR: 106
+2/25/2019 7:38:38 AM: Template Loaded; Device ID: 46; Name: Amazon Cloudwatch
+2/25/2019 7:38:39 AM: Template Check; Device ID: 46; Check ID: dotnet40; FOUND
+2/25/2019 7:38:39 AM: Template Assigned; Device ID: 46; Name: Amazon Cloudwatch
+2/25/2019 7:38:40 AM: Template Create Meta Request; Device ID: 46; Create ID: {CC305257-2749-40A1-BAE4-272965C1FDA0}; ERROR: 103
+2/25/2019 7:38:41 AM: Template Create Meta Request; Device ID: 46; Create ID: {5B616DDE-5680-4BF8-B7E5-C224782F8B89}; ERROR: 103
+2/25/2019 7:38:42 AM: Template Create Meta Request; Device ID: 46; Create ID: {60836B2D-C5F4-4AA0-909A-9DDE2EE6BD8B}; ERROR: 103
+2/25/2019 7:38:43 AM: Template Create Meta Request; Device ID: 46; Create ID: {79B2A2C6-8667-4E3B-9F3D-F63A133B406E}; ERROR: 103
+2/25/2019 7:38:44 AM: Template Create Meta Request; Device ID: 46; Create ID: {228E69FA-17F8-49D9-8EBB-301EB54CF258}; ERROR: 103
+2/25/2019 7:38:45 AM: Template Create Meta Request; Device ID: 46; Create ID: {8399A3B2-250A-49D4-AA62-5ADE380B6AF5}; ERROR: 103
+2/25/2019 7:38:46 AM: Template Create Meta Request; Device ID: 46; Create ID: {40CEB4DE-AE16-4495-B718-6FC63B8DC529}; ERROR: 103
+2/25/2019 7:38:46 AM: Template Loaded; Device ID: 46; Name: NAS Synology
+2/25/2019 7:38:46 AM: Template Loaded; Device ID: 46; Name: Dell MDI Disk
+2/25/2019 7:38:47 AM: Template Check; Device ID: 46; Check ID: dellmd3000; ERROR: 106
+2/25/2019 7:38:47 AM: Template Loaded; Device ID: 46; Name: Juniper NS Device
+2/25/2019 7:38:47 AM: Template Loaded; Device ID: 46; Name: Dell EqualLogic
+2/25/2019 7:38:47 AM: Suggest Discovery Finished: Device ID: 46; Sensor(s): 5; Templates: Generic Device (PING only), SSL Security Check, HTTP Web Server, IPMI enabled devices, Amazon Cloudwatch
+2/25/2019 7:38:47 AM: Suggestion Discovery Started; Device ID: 44
+2/25/2019 7:38:47 AM: Device ID: 44 Name: Gateway: 10.10.10.2 Host: 10.10.10.2
+2/25/2019 7:38:47 AM: Device Templates; Device ID: 44; Selected: 52
+2/25/2019 7:38:47 AM: Template Loaded; Device ID: 44; Name: Generic Device (PING only)
+2/25/2019 7:38:52 AM: Template Check; Device ID: 44; Check ID: ping; FOUND
+2/25/2019 7:38:52 AM: Template Assigned; Device ID: 44; Name: Generic Device (PING only)
+2/25/2019 7:38:52 AM: Template Loaded; Device ID: 44; Name: SSL Security Check
+2/25/2019 7:39:14 AM: Template Check; Device ID: 44; Check ID: port443; NOT FOUND
+2/25/2019 7:39:36 AM: Template Check; Device ID: 44; Check ID: port465; NOT FOUND
+2/25/2019 7:39:58 AM: Template Check; Device ID: 44; Check ID: port993; NOT FOUND
+2/25/2019 7:40:20 AM: Template Check; Device ID: 44; Check ID: port995; NOT FOUND
+2/25/2019 7:40:20 AM: Template Loaded; Device ID: 44; Name: Generic Device (SNMP-enabled)
+2/25/2019 7:40:36 AM: Template Check; Device ID: 44; Check ID: snmp; ERROR: 106
+2/25/2019 7:40:36 AM: Template Loaded; Device ID: 44; Name: Windows (via WMI)
+2/25/2019 7:40:37 AM: Template Check; Device ID: 44; Check ID: wmi; ERROR: 103
+2/25/2019 7:40:37 AM: Template Loaded; Device ID: 44; Name: UNIX/Linux Device
+2/25/2019 7:40:38 AM: Template Check; Device ID: 44; Check ID: ssh; ERROR: 103
+2/25/2019 7:40:38 AM: Template Loaded; Device ID: 44; Name: HTTP Web Server
+2/25/2019 7:43:06 AM: Template Check; Device ID: 44; Check ID: http80; NOT FOUND
+2/25/2019 7:45:34 AM: Template Check; Device ID: 44; Check ID: http8080; NOT FOUND
+2/25/2019 7:47:41 AM: Template Check; Device ID: 44; Check ID: https443; NOT FOUND
+2/25/2019 7:47:41 AM: Template Loaded; Device ID: 44; Name: Cisco Device (Generic)
+2/25/2019 7:47:41 AM: Template Loaded; Device ID: 44; Name: DNS Server
+2/25/2019 7:47:51 AM: Template Check; Device ID: 44; Check ID: dns; NOT FOUND
+2/25/2019 7:47:51 AM: Template Loaded; Device ID: 44; Name: FTP Server
+2/25/2019 7:50:19 AM: Template Check; Device ID: 44; Check ID: ftp; NOT FOUND
+2/25/2019 7:50:41 AM: Template Check; Device ID: 44; Check ID: rdp; NOT FOUND
+2/25/2019 7:50:41 AM: Template Loaded; Device ID: 44; Name: Mail Server (Generic)
+2/25/2019 7:53:09 AM: Template Check; Device ID: 44; Check ID: imap; NOT FOUND
+2/25/2019 7:55:37 AM: Template Check; Device ID: 44; Check ID: pop3; NOT FOUND
+2/25/2019 7:58:05 AM: Template Check; Device ID: 44; Check ID: smtp; NOT FOUND
+2/25/2019 7:58:05 AM: Template Loaded; Device ID: 44; Name: Linux/UNIX Device (SNMP or SSH enabled)
+2/25/2019 7:58:05 AM: Template Loaded; Device ID: 44; Name: Windows (via Remote Powershell)
+2/25/2019 7:58:05 AM: Template Loaded; Device ID: 44; Name: Server (Compaq/HP agents)
+2/25/2019 7:58:05 AM: Template Loaded; Device ID: 44; Name: Server IBM
+2/25/2019 7:58:05 AM: Template Loaded; Device ID: 44; Name: Server (Dell)
+2/25/2019 7:58:05 AM: Template Loaded; Device ID: 44; Name: SonicWALL
+2/25/2019 7:58:05 AM: Template Loaded; Device ID: 44; Name: Server Cisco UCS
+2/25/2019 7:58:05 AM: Template Loaded; Device ID: 44; Name: Webserver
+2/25/2019 7:58:06 AM: Template Check; Device ID: 44; Check ID: iisapp; ERROR: 103
+2/25/2019 7:58:07 AM: Template Check; Device ID: 44; Check ID: pciisapppool; ERROR: 103
+2/25/2019 8:00:35 AM: Template Check; Device ID: 44; Check ID: apache_mod_status; NOT FOUND
+2/25/2019 8:00:35 AM: Template Loaded; Device ID: 44; Name: Microsoft Sharepoint 2010
+2/25/2019 8:00:35 AM: Template Loaded; Device ID: 44; Name: Cisco ASA VPN
+2/25/2019 8:00:35 AM: Template Loaded; Device ID: 44; Name: Mail Server (MS Exchange)
+2/25/2019 8:00:35 AM: Template Loaded; Device ID: 44; Name: ADSL
+2/25/2019 8:00:35 AM: Template Loaded; Device ID: 44; Name: XEN Hosts
+2/25/2019 8:00:36 AM: Template Check; Device ID: 44; Check ID: xen; ERROR: 106
+2/25/2019 8:00:36 AM: Template Loaded; Device ID: 44; Name: NetApp
+2/25/2019 8:00:36 AM: Template Loaded; Device ID: 44; Name: Hyper V Host Server
+2/25/2019 8:00:36 AM: Template Loaded; Device ID: 44; Name: XEN Virtual Machines
+2/25/2019 8:00:36 AM: Template Loaded; Device ID: 44; Name: VMware ESX / vCenter Server
+2/25/2019 8:00:37 AM: Template Check; Device ID: 44; Check ID: vmhostsoap; NOT FOUND
+2/25/2019 8:00:37 AM: Template Loaded; Device ID: 44; Name: RMON compatible device
+2/25/2019 8:00:37 AM: Template Loaded; Device ID: 44; Name: Printer (HP)
+2/25/2019 8:00:37 AM: Template Loaded; Device ID: 44; Name: Switch (Cisco IOS Based)
+2/25/2019 8:00:37 AM: Template Loaded; Device ID: 44; Name: Switch (Cisco Catalyst)
+2/25/2019 8:00:37 AM: Template Loaded; Device ID: 44; Name: Switch (HP Procurve)
+2/25/2019 8:00:37 AM: Template Loaded; Device ID: 44; Name: Windows IIS (via SNMP)
+2/25/2019 8:00:37 AM: Template Loaded; Device ID: 44; Name: Buffalo TeraStation NAS
+2/25/2019 8:00:37 AM: Template Loaded; Device ID: 44; Name: UPS Health (Liebert)
+2/25/2019 8:00:37 AM: Template Loaded; Device ID: 44; Name: UPS Health (APC)
+2/25/2019 8:00:37 AM: Template Loaded; Device ID: 44; Name: UPS Health (Generic)
+2/25/2019 8:00:37 AM: Template Loaded; Device ID: 44; Name: NAS QNAP
+2/25/2019 8:00:37 AM: Template Loaded; Device ID: 44; Name: Environment Jacarta
+2/25/2019 8:00:37 AM: Template Loaded; Device ID: 44; Name: NAS LenovoEMC
+2/25/2019 8:00:37 AM: Template Loaded; Device ID: 44; Name: Environment Poseidon
+2/25/2019 8:00:37 AM: Template Loaded; Device ID: 44; Name: IPMI enabled devices
+2/25/2019 8:00:37 AM: Template Assigned; Device ID: 44; Name: IPMI enabled devices
+2/25/2019 8:00:54 AM: Template Create Meta Request; Device ID: 44; Create ID: ipmidefault; ERROR: 106
+2/25/2019 8:00:54 AM: Template Loaded; Device ID: 44; Name: Amazon Cloudwatch
+2/25/2019 8:00:55 AM: Template Check; Device ID: 44; Check ID: dotnet40; FOUND
+2/25/2019 8:00:55 AM: Template Assigned; Device ID: 44; Name: Amazon Cloudwatch
+2/25/2019 8:00:56 AM: Template Create Meta Request; Device ID: 44; Create ID: {CC305257-2749-40A1-BAE4-272965C1FDA0}; ERROR: 103
+2/25/2019 8:00:57 AM: Template Create Meta Request; Device ID: 44; Create ID: {5B616DDE-5680-4BF8-B7E5-C224782F8B89}; ERROR: 103
+2/25/2019 8:00:58 AM: Template Create Meta Request; Device ID: 44; Create ID: {60836B2D-C5F4-4AA0-909A-9DDE2EE6BD8B}; ERROR: 103
+2/25/2019 8:00:59 AM: Template Create Meta Request; Device ID: 44; Create ID: {79B2A2C6-8667-4E3B-9F3D-F63A133B406E}; ERROR: 103
+2/25/2019 8:01:00 AM: Template Create Meta Request; Device ID: 44; Create ID: {228E69FA-17F8-49D9-8EBB-301EB54CF258}; ERROR: 103
+2/25/2019 8:01:01 AM: Template Create Meta Request; Device ID: 44; Create ID: {8399A3B2-250A-49D4-AA62-5ADE380B6AF5}; ERROR: 103
+2/25/2019 8:01:02 AM: Template Create Meta Request; Device ID: 44; Create ID: {40CEB4DE-AE16-4495-B718-6FC63B8DC529}; ERROR: 103
+2/25/2019 8:01:02 AM: Template Loaded; Device ID: 44; Name: NAS Synology
+2/25/2019 8:01:02 AM: Template Loaded; Device ID: 44; Name: Dell MDI Disk
+2/25/2019 8:01:03 AM: Template Check; Device ID: 44; Check ID: dellmd3000; ERROR: 106
+2/25/2019 8:01:03 AM: Template Loaded; Device ID: 44; Name: Juniper NS Device
+2/25/2019 8:01:03 AM: Template Loaded; Device ID: 44; Name: Dell EqualLogic
+2/25/2019 8:01:03 AM: Suggest Discovery Finished: Device ID: 44; Sensor(s): 1; Templates: Generic Device (PING only), IPMI enabled devices, Amazon Cloudwatch
+2/25/2019 8:01:03 AM: Suggestion Discovery Started; Device ID: 2007
+2/25/2019 8:01:03 AM: Device ID: 2007 Name: 10.10.10.152 Host: netmon
+2/25/2019 8:01:03 AM: Device Templates; Device ID: 2007; Selected: 52
+2/25/2019 8:01:03 AM: Template Loaded; Device ID: 2007; Name: Generic Device (PING only)
+2/25/2019 8:01:04 AM: Template Check; Device ID: 2007; Check ID: ping; FOUND
+2/25/2019 8:01:04 AM: Template Assigned; Device ID: 2007; Name: Generic Device (PING only)
+2/25/2019 8:01:04 AM: Template Loaded; Device ID: 2007; Name: SSL Security Check
+2/25/2019 8:01:06 AM: Template Check; Device ID: 2007; Check ID: port443; NOT FOUND
+2/25/2019 8:01:08 AM: Template Check; Device ID: 2007; Check ID: port465; NOT FOUND
+2/25/2019 8:01:10 AM: Template Check; Device ID: 2007; Check ID: port993; NOT FOUND
+2/25/2019 8:01:12 AM: Template Check; Device ID: 2007; Check ID: port995; NOT FOUND
+2/25/2019 8:01:12 AM: Template Loaded; Device ID: 2007; Name: Generic Device (SNMP-enabled)
+2/25/2019 8:01:28 AM: Template Check; Device ID: 2007; Check ID: snmp; ERROR: 106
+2/25/2019 8:01:28 AM: Template Loaded; Device ID: 2007; Name: Windows (via WMI)
+2/25/2019 8:01:29 AM: Template Check; Device ID: 2007; Check ID: wmi; ERROR: 103
+2/25/2019 8:01:29 AM: Template Loaded; Device ID: 2007; Name: UNIX/Linux Device
+2/25/2019 8:01:30 AM: Template Check; Device ID: 2007; Check ID: ssh; ERROR: 103
+2/25/2019 8:01:30 AM: Template Loaded; Device ID: 2007; Name: HTTP Web Server
+2/25/2019 8:01:31 AM: Template Check; Device ID: 2007; Check ID: http80; FOUND
+2/25/2019 8:01:39 AM: Template Check; Device ID: 2007; Check ID: http8080; NOT FOUND
+2/25/2019 8:01:46 AM: Template Check; Device ID: 2007; Check ID: https443; NOT FOUND
+2/25/2019 8:01:46 AM: Template Assigned; Device ID: 2007; Name: HTTP Web Server
+2/25/2019 8:01:46 AM: Template Loaded; Device ID: 2007; Name: Cisco Device (Generic)
+2/25/2019 8:01:46 AM: Template Loaded; Device ID: 2007; Name: DNS Server
+2/25/2019 8:01:47 AM: Template Check; Device ID: 2007; Check ID: dns; NOT FOUND
+2/25/2019 8:01:47 AM: Template Loaded; Device ID: 2007; Name: FTP Server
+2/25/2019 8:01:55 AM: Template Check; Device ID: 2007; Check ID: ftp; NOT FOUND
+2/25/2019 8:01:57 AM: Template Check; Device ID: 2007; Check ID: rdp; NOT FOUND
+2/25/2019 8:01:57 AM: Template Loaded; Device ID: 2007; Name: Mail Server (Generic)
+2/25/2019 8:02:05 AM: Template Check; Device ID: 2007; Check ID: imap; NOT FOUND
+2/25/2019 8:02:13 AM: Template Check; Device ID: 2007; Check ID: pop3; NOT FOUND
+2/25/2019 8:02:21 AM: Template Check; Device ID: 2007; Check ID: smtp; NOT FOUND
+2/25/2019 8:02:21 AM: Template Loaded; Device ID: 2007; Name: Linux/UNIX Device (SNMP or SSH enabled)
+2/25/2019 8:02:21 AM: Template Loaded; Device ID: 2007; Name: Windows (via Remote Powershell)
+2/25/2019 8:02:21 AM: Template Loaded; Device ID: 2007; Name: Server (Compaq/HP agents)
+2/25/2019 8:02:21 AM: Template Loaded; Device ID: 2007; Name: Server IBM
+2/25/2019 8:02:21 AM: Template Loaded; Device ID: 2007; Name: Server (Dell)
+2/25/2019 8:02:21 AM: Template Loaded; Device ID: 2007; Name: SonicWALL
+2/25/2019 8:02:21 AM: Template Loaded; Device ID: 2007; Name: Server Cisco UCS
+2/25/2019 8:02:21 AM: Template Loaded; Device ID: 2007; Name: Webserver
+2/25/2019 8:02:22 AM: Template Check; Device ID: 2007; Check ID: iisapp; ERROR: 103
+2/25/2019 8:02:23 AM: Template Check; Device ID: 2007; Check ID: pciisapppool; ERROR: 103
+2/25/2019 8:02:24 AM: Template Check; Device ID: 2007; Check ID: apache_mod_status; NOT FOUND
+2/25/2019 8:02:24 AM: Template Loaded; Device ID: 2007; Name: Microsoft Sharepoint 2010
+2/25/2019 8:02:24 AM: Template Loaded; Device ID: 2007; Name: Cisco ASA VPN
+2/25/2019 8:02:24 AM: Template Loaded; Device ID: 2007; Name: Mail Server (MS Exchange)
+2/25/2019 8:02:24 AM: Template Loaded; Device ID: 2007; Name: ADSL
+2/25/2019 8:02:24 AM: Template Loaded; Device ID: 2007; Name: XEN Hosts
+2/25/2019 8:02:25 AM: Template Check; Device ID: 2007; Check ID: xen; ERROR: 106
+2/25/2019 8:02:25 AM: Template Loaded; Device ID: 2007; Name: NetApp
+2/25/2019 8:02:25 AM: Template Loaded; Device ID: 2007; Name: Hyper V Host Server
+2/25/2019 8:02:25 AM: Template Loaded; Device ID: 2007; Name: XEN Virtual Machines
+2/25/2019 8:02:25 AM: Template Loaded; Device ID: 2007; Name: VMware ESX / vCenter Server
+2/25/2019 8:02:26 AM: Template Check; Device ID: 2007; Check ID: vmhostsoap; NOT FOUND
+2/25/2019 8:02:26 AM: Template Loaded; Device ID: 2007; Name: RMON compatible device
+2/25/2019 8:02:26 AM: Template Loaded; Device ID: 2007; Name: Printer (HP)
+2/25/2019 8:02:26 AM: Template Loaded; Device ID: 2007; Name: Switch (Cisco IOS Based)
+2/25/2019 8:02:26 AM: Template Loaded; Device ID: 2007; Name: Switch (Cisco Catalyst)
+2/25/2019 8:02:26 AM: Template Loaded; Device ID: 2007; Name: Switch (HP Procurve)
+2/25/2019 8:02:26 AM: Template Loaded; Device ID: 2007; Name: Windows IIS (via SNMP)
+2/25/2019 8:02:26 AM: Template Loaded; Device ID: 2007; Name: Buffalo TeraStation NAS
+2/25/2019 8:02:26 AM: Template Loaded; Device ID: 2007; Name: UPS Health (Liebert)
+2/25/2019 8:02:26 AM: Template Loaded; Device ID: 2007; Name: UPS Health (APC)
+2/25/2019 8:02:26 AM: Template Loaded; Device ID: 2007; Name: UPS Health (Generic)
+2/25/2019 8:02:26 AM: Template Loaded; Device ID: 2007; Name: NAS QNAP
+2/25/2019 8:02:26 AM: Template Loaded; Device ID: 2007; Name: Environment Jacarta
+2/25/2019 8:02:26 AM: Template Loaded; Device ID: 2007; Name: NAS LenovoEMC
+2/25/2019 8:02:26 AM: Template Loaded; Device ID: 2007; Name: Environment Poseidon
+2/25/2019 8:02:26 AM: Template Loaded; Device ID: 2007; Name: IPMI enabled devices
+2/25/2019 8:02:26 AM: Template Assigned; Device ID: 2007; Name: IPMI enabled devices
+2/25/2019 8:02:27 AM: Template Create Meta Request; Device ID: 2007; Create ID: ipmidefault; ERROR: 106
+2/25/2019 8:02:27 AM: Template Loaded; Device ID: 2007; Name: Amazon Cloudwatch
+2/25/2019 8:02:28 AM: Template Check; Device ID: 2007; Check ID: dotnet40; FOUND
+2/25/2019 8:02:28 AM: Template Assigned; Device ID: 2007; Name: Amazon Cloudwatch
+2/25/2019 8:02:29 AM: Template Create Meta Request; Device ID: 2007; Create ID: {CC305257-2749-40A1-BAE4-272965C1FDA0}; ERROR: 103
+2/25/2019 8:02:30 AM: Template Create Meta Request; Device ID: 2007; Create ID: {5B616DDE-5680-4BF8-B7E5-C224782F8B89}; ERROR: 103
+2/25/2019 8:02:31 AM: Template Create Meta Request; Device ID: 2007; Create ID: {60836B2D-C5F4-4AA0-909A-9DDE2EE6BD8B}; ERROR: 103
+2/25/2019 8:02:32 AM: Template Create Meta Request; Device ID: 2007; Create ID: {79B2A2C6-8667-4E3B-9F3D-F63A133B406E}; ERROR: 103
+2/25/2019 8:02:33 AM: Template Create Meta Request; Device ID: 2007; Create ID: {228E69FA-17F8-49D9-8EBB-301EB54CF258}; ERROR: 103
+2/25/2019 8:02:34 AM: Template Create Meta Request; Device ID: 2007; Create ID: {8399A3B2-250A-49D4-AA62-5ADE380B6AF5}; ERROR: 103
+2/25/2019 8:02:35 AM: Template Create Meta Request; Device ID: 2007; Create ID: {40CEB4DE-AE16-4495-B718-6FC63B8DC529}; ERROR: 103
+2/25/2019 8:02:35 AM: Template Loaded; Device ID: 2007; Name: NAS Synology
+2/25/2019 8:02:35 AM: Template Loaded; Device ID: 2007; Name: Dell MDI Disk
+2/25/2019 8:02:36 AM: Template Check; Device ID: 2007; Check ID: dellmd3000; ERROR: 106
+2/25/2019 8:02:36 AM: Template Loaded; Device ID: 2007; Name: Juniper NS Device
+2/25/2019 8:02:36 AM: Template Loaded; Device ID: 2007; Name: Dell EqualLogic
+2/25/2019 8:02:36 AM: Suggest Discovery Finished: Device ID: 2007; Sensor(s): 2; Templates: Generic Device (PING only), HTTP Web Server, IPMI enabled devices, Amazon Cloudwatch
+2/25/2019 9:45:22 PM: Suggestion Discovery Started; Device ID: 2004
+2/25/2019 9:45:22 PM: Device ID: 2004 Name: GATEWAY Host: 10.10.10.2
+2/25/2019 9:45:22 PM: Device Templates; Device ID: 2004; Selected: 52
+2/25/2019 9:45:23 PM: Template Loaded; Device ID: 2004; Name: Generic Device (PING only)
+2/25/2019 9:45:28 PM: Template Check; Device ID: 2004; Check ID: ping; FOUND
+2/25/2019 9:45:28 PM: Template Assigned; Device ID: 2004; Name: Generic Device (PING only)
+2/25/2019 9:45:28 PM: Template Loaded; Device ID: 2004; Name: SSL Security Check
+2/25/2019 9:45:50 PM: Template Check; Device ID: 2004; Check ID: port443; NOT FOUND
+2/25/2019 9:46:12 PM: Template Check; Device ID: 2004; Check ID: port465; NOT FOUND
+2/25/2019 9:46:34 PM: Template Check; Device ID: 2004; Check ID: port993; NOT FOUND
+2/25/2019 9:46:56 PM: Template Check; Device ID: 2004; Check ID: port995; NOT FOUND
+2/25/2019 9:46:56 PM: Template Loaded; Device ID: 2004; Name: Generic Device (SNMP-enabled)
+2/25/2019 9:47:12 PM: Template Check; Device ID: 2004; Check ID: snmp; ERROR: 106
+2/25/2019 9:47:12 PM: Template Loaded; Device ID: 2004; Name: Windows (via WMI)
+2/25/2019 9:47:13 PM: Template Check; Device ID: 2004; Check ID: wmi; ERROR: 103
+2/25/2019 9:47:13 PM: Template Loaded; Device ID: 2004; Name: UNIX/Linux Device
+2/25/2019 9:47:14 PM: Template Check; Device ID: 2004; Check ID: ssh; ERROR: 103
+2/25/2019 9:47:14 PM: Template Loaded; Device ID: 2004; Name: HTTP Web Server
+2/25/2019 9:49:42 PM: Template Check; Device ID: 2004; Check ID: http80; NOT FOUND
+2/25/2019 9:52:10 PM: Template Check; Device ID: 2004; Check ID: http8080; NOT FOUND
+2/25/2019 9:54:17 PM: Template Check; Device ID: 2004; Check ID: https443; NOT FOUND
+2/25/2019 9:54:17 PM: Template Loaded; Device ID: 2004; Name: Cisco Device (Generic)
+2/25/2019 9:54:17 PM: Template Loaded; Device ID: 2004; Name: DNS Server
+2/25/2019 9:54:27 PM: Template Check; Device ID: 2004; Check ID: dns; NOT FOUND
+2/25/2019 9:54:27 PM: Template Loaded; Device ID: 2004; Name: FTP Server
+2/25/2019 9:56:55 PM: Template Check; Device ID: 2004; Check ID: ftp; NOT FOUND
+2/25/2019 9:57:17 PM: Template Check; Device ID: 2004; Check ID: rdp; NOT FOUND
+2/25/2019 9:57:17 PM: Template Loaded; Device ID: 2004; Name: Mail Server (Generic)
+2/25/2019 9:59:45 PM: Template Check; Device ID: 2004; Check ID: imap; NOT FOUND
+2/25/2019 10:02:13 PM: Template Check; Device ID: 2004; Check ID: pop3; NOT FOUND
+2/25/2019 10:04:41 PM: Template Check; Device ID: 2004; Check ID: smtp; NOT FOUND
+2/25/2019 10:04:41 PM: Template Loaded; Device ID: 2004; Name: Linux/UNIX Device (SNMP or SSH enabled)
+2/25/2019 10:04:41 PM: Template Loaded; Device ID: 2004; Name: Windows (via Remote Powershell)
+2/25/2019 10:04:41 PM: Template Loaded; Device ID: 2004; Name: Server (Compaq/HP agents)
+2/25/2019 10:04:41 PM: Template Loaded; Device ID: 2004; Name: Server IBM
+2/25/2019 10:04:41 PM: Template Loaded; Device ID: 2004; Name: Server (Dell)
+2/25/2019 10:04:41 PM: Template Loaded; Device ID: 2004; Name: SonicWALL
+2/25/2019 10:04:41 PM: Template Loaded; Device ID: 2004; Name: Server Cisco UCS
+2/25/2019 10:04:41 PM: Template Loaded; Device ID: 2004; Name: Webserver
+2/25/2019 10:04:42 PM: Template Check; Device ID: 2004; Check ID: iisapp; ERROR: 103
+2/25/2019 10:04:43 PM: Template Check; Device ID: 2004; Check ID: pciisapppool; ERROR: 103
+2/25/2019 10:07:11 PM: Template Check; Device ID: 2004; Check ID: apache_mod_status; NOT FOUND
+2/25/2019 10:07:11 PM: Template Loaded; Device ID: 2004; Name: Microsoft Sharepoint 2010
+2/25/2019 10:07:11 PM: Template Loaded; Device ID: 2004; Name: Cisco ASA VPN
+2/25/2019 10:07:11 PM: Template Loaded; Device ID: 2004; Name: Mail Server (MS Exchange)
+2/25/2019 10:07:11 PM: Template Loaded; Device ID: 2004; Name: ADSL
+2/25/2019 10:07:11 PM: Template Loaded; Device ID: 2004; Name: XEN Hosts
+2/25/2019 10:07:12 PM: Template Check; Device ID: 2004; Check ID: xen; ERROR: 106
+2/25/2019 10:07:12 PM: Template Loaded; Device ID: 2004; Name: NetApp
+2/25/2019 10:07:12 PM: Template Loaded; Device ID: 2004; Name: Hyper V Host Server
+2/25/2019 10:07:12 PM: Template Loaded; Device ID: 2004; Name: XEN Virtual Machines
+2/25/2019 10:07:12 PM: Template Loaded; Device ID: 2004; Name: VMware ESX / vCenter Server
+2/25/2019 10:07:13 PM: Template Check; Device ID: 2004; Check ID: vmhostsoap; NOT FOUND
+2/25/2019 10:07:13 PM: Template Loaded; Device ID: 2004; Name: RMON compatible device
+2/25/2019 10:07:13 PM: Template Loaded; Device ID: 2004; Name: Printer (HP)
+2/25/2019 10:07:13 PM: Template Loaded; Device ID: 2004; Name: Switch (Cisco IOS Based)
+2/25/2019 10:07:13 PM: Template Loaded; Device ID: 2004; Name: Switch (Cisco Catalyst)
+2/25/2019 10:07:13 PM: Template Loaded; Device ID: 2004; Name: Switch (HP Procurve)
+2/25/2019 10:07:13 PM: Template Loaded; Device ID: 2004; Name: Windows IIS (via SNMP)
+2/25/2019 10:07:13 PM: Template Loaded; Device ID: 2004; Name: Buffalo TeraStation NAS
+2/25/2019 10:07:13 PM: Template Loaded; Device ID: 2004; Name: UPS Health (Liebert)
+2/25/2019 10:07:13 PM: Template Loaded; Device ID: 2004; Name: UPS Health (APC)
+2/25/2019 10:07:13 PM: Template Loaded; Device ID: 2004; Name: UPS Health (Generic)
+2/25/2019 10:07:13 PM: Template Loaded; Device ID: 2004; Name: NAS QNAP
+2/25/2019 10:07:13 PM: Template Loaded; Device ID: 2004; Name: Environment Jacarta
+2/25/2019 10:07:13 PM: Template Loaded; Device ID: 2004; Name: NAS LenovoEMC
+2/25/2019 10:07:13 PM: Template Loaded; Device ID: 2004; Name: Environment Poseidon
+2/25/2019 10:07:13 PM: Template Loaded; Device ID: 2004; Name: IPMI enabled devices
+2/25/2019 10:07:13 PM: Template Assigned; Device ID: 2004; Name: IPMI enabled devices
+2/25/2019 10:07:31 PM: Template Create Meta Request; Device ID: 2004; Create ID: ipmidefault; ERROR: 106
+2/25/2019 10:07:31 PM: Template Loaded; Device ID: 2004; Name: Amazon Cloudwatch
+2/25/2019 10:07:32 PM: Template Check; Device ID: 2004; Check ID: dotnet40; FOUND
+2/25/2019 10:07:32 PM: Template Assigned; Device ID: 2004; Name: Amazon Cloudwatch
+2/25/2019 10:07:33 PM: Template Create Meta Request; Device ID: 2004; Create ID: {CC305257-2749-40A1-BAE4-272965C1FDA0}; ERROR: 103
+2/25/2019 10:07:34 PM: Template Create Meta Request; Device ID: 2004; Create ID: {5B616DDE-5680-4BF8-B7E5-C224782F8B89}; ERROR: 103
+2/25/2019 10:07:35 PM: Template Create Meta Request; Device ID: 2004; Create ID: {60836B2D-C5F4-4AA0-909A-9DDE2EE6BD8B}; ERROR: 103
+2/25/2019 10:07:36 PM: Template Create Meta Request; Device ID: 2004; Create ID: {79B2A2C6-8667-4E3B-9F3D-F63A133B406E}; ERROR: 103
+2/25/2019 10:07:37 PM: Template Create Meta Request; Device ID: 2004; Create ID: {228E69FA-17F8-49D9-8EBB-301EB54CF258}; ERROR: 103
+2/25/2019 10:07:38 PM: Template Create Meta Request; Device ID: 2004; Create ID: {8399A3B2-250A-49D4-AA62-5ADE380B6AF5}; ERROR: 103
+2/25/2019 10:07:39 PM: Template Create Meta Request; Device ID: 2004; Create ID: {40CEB4DE-AE16-4495-B718-6FC63B8DC529}; ERROR: 103
+2/25/2019 10:07:39 PM: Template Loaded; Device ID: 2004; Name: NAS Synology
+2/25/2019 10:07:39 PM: Template Loaded; Device ID: 2004; Name: Dell MDI Disk
+2/25/2019 10:07:40 PM: Template Check; Device ID: 2004; Check ID: dellmd3000; ERROR: 106
+2/25/2019 10:07:40 PM: Template Loaded; Device ID: 2004; Name: Juniper NS Device
+2/25/2019 10:07:40 PM: Template Loaded; Device ID: 2004; Name: Dell EqualLogic
+2/25/2019 10:07:40 PM: Suggest Discovery Finished: Device ID: 2004; Sensor(s): 1; Templates: Generic Device (PING only), IPMI enabled devices, Amazon Cloudwatch

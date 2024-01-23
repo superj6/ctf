@@ -1,0 +1,20 @@
+urls:
+
+cozyhosting.htb
+/actuator -> get session tokens
+/admin - command injection -> reverse tcp shell
+
+postgresql://localhost:5432/cozyhosting
+
+users:
+
+kanderson
+
+postgres - for psql
+pass - Vg&nvzAQ7XxR
+
+admin
+passhash - in hash.txt
+pass - manchesterunited
+
+josh

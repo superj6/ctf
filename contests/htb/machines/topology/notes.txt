@@ -1,0 +1,32 @@
+urls:
+
+enumerate subdomains to find
+
+latex.toplogy.htb
+/equation.php - latex injection read files
+
+dev.topology.htb
+/ - sign in required
+
+stat.topology.htb
+/ - plot of server load
+
+files:
+
+/var/www/dev/.htpasswd - for apache, gives user info
+
+/opt/gnuplot - ran often to update stats.topology.htb, elevation exploit with plt
+
+users:
+
+vdaisley - dev.topo
+passhash - in hash.txt 
+pass - calculus20
+
+sources:
+
+latex injection
+https://book.hacktricks.xyz/pentesting-web/formula-doc-latex-injection
+
+plt exploit
+https://exploit-notes.hdks.org/exploit/linux/privilege-escalation/gnuplot-privilege-escalation/

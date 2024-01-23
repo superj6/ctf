@@ -1,0 +1,27 @@
+
+=====================================================
+Gobuster v2.0.1              OJ Reeves (@TheColonial)
+=====================================================
+[+] Mode         : dir
+[+] Url/Domain   : http://10.129.80.208/
+[+] Threads      : 50
+[+] Wordlist     : /snap/seclists/current/Discovery/Web-Content/common.txt
+[+] Status codes : 200,204,301,302,307,403
+[+] Expanded     : true
+[+] Timeout      : 10s
+=====================================================
+=====================================================
+http://10.129.80.208/.hta (Status: 403)
+http://10.129.80.208/.htaccess (Status: 403)
+http://10.129.80.208/.htpasswd (Status: 403)
+http://10.129.80.208/css (Status: 301)
+http://10.129.80.208/dev (Status: 301)
+http://10.129.80.208/fonts (Status: 301)
+http://10.129.80.208/images (Status: 301)
+http://10.129.80.208/index.html (Status: 200)
+http://10.129.80.208/js (Status: 301)
+http://10.129.80.208/php (Status: 301)
+http://10.129.80.208/server-status (Status: 403)
+http://10.129.80.208/uploads (Status: 301)
+=====================================================
+=====================================================

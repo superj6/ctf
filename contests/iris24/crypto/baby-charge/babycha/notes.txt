@@ -1,0 +1,14 @@
+properties:
+
+output is string xored with block
+
+block generated with deterministic algo
+
+ideas:
+
+get current block by outputting nulls
+copy into code algo to get next block
+output enc flag and xor with what your predicted block 
+
+flag:
+

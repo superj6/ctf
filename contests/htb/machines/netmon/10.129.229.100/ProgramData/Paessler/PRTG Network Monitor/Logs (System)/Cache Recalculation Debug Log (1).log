@@ -1,0 +1,3090 @@
+2/2/2019 11:18:29 PM (1492) Start PRTG Network Monitor 18.1.37.13946
+2/2/2019 11:18:29 PM (2360) Add: 40,1002 Core Health 12/30/1899
+2/2/2019 11:18:29 PM (2352) Add: 40,1003 Probe Health 12/30/1899
+2/2/2019 11:18:29 PM (2352) Add: 40,1001 System Health 12/30/1899
+2/2/2019 11:18:29 PM (2360) Add: 40,1005 Disk Free 12/30/1899
+2/2/2019 11:18:29 PM (2360) Add: 40,1004 Common SaaS Check 12/30/1899
+2/2/2019 11:18:29 PM (2352) Add: 40,1006 Intel[R] 82574L Gigabit Network Connection 12/30/1899
+2/2/2019 11:18:29 PM (2352) Add: 40,1007 Teredo Tunneling Pseudo-Interface 12/30/1899
+2/2/2019 11:18:31 PM (2356) (2356) 7 tasks todo
+2/2/2019 11:18:31 PM (2356) (2356) Device: 40 (7 sensors) 0
+2/2/2019 11:18:31 PM (1824) Finished
+2/2/2019 11:18:31 PM (2340) Finished
+2/2/2019 11:18:32 PM (2356) Finished
+2/2/2019 11:18:32 PM (2356) All Datacalc Threads finished calculations
+2/2/2019 11:40:23 PM (2076) Start PRTG Network Monitor 18.1.37.13946
+2/2/2019 11:40:23 PM (2240) Add: 40,1002 Core Health 12/30/1899
+2/2/2019 11:40:24 PM (2240) Add: 40,1001 System Health 12/30/1899
+2/2/2019 11:40:24 PM (2244) Add: 40,1005 Disk Free 12/30/1899
+2/2/2019 11:40:24 PM (2240) Add: 40,1004 Common SaaS Check 12/30/1899
+2/2/2019 11:40:24 PM (2244) Add: 42,2010 PING 12/30/1899
+2/2/2019 11:40:24 PM (2240) Add: 40,1007 Teredo Tunneling Pseudo-Interface 12/30/1899
+2/2/2019 11:40:24 PM (2244) Add: 42,2012 SSL Certificate Sensor (Port 443) 12/30/1899
+2/2/2019 11:40:24 PM (2240) Add: 42,2011 SSL Security Check (Port 443) 12/30/1899
+2/2/2019 11:40:24 PM (2244) Add: 44,2013 PING 12/30/1899
+2/2/2019 11:40:24 PM (2244) Add: 2004,2009 PING 12/30/1899
+2/2/2019 11:40:24 PM (2240) Add: 46,2002 HTTP 12/30/1899
+2/2/2019 11:40:24 PM (2244) Add: 2007,2008 PING 12/30/1899
+2/2/2019 11:40:24 PM (2240) Add: 2007,2014 HTTP 12/30/1899
+2/2/2019 11:40:26 PM (2236) (2236) 13 tasks todo
+2/2/2019 11:40:26 PM (2236) (2236) Device: 40 (5 sensors) 8
+2/2/2019 11:40:26 PM (2232) (2232) 8 tasks todo
+2/2/2019 11:40:26 PM (2232) (2232) Device: 42 (3 sensors) 5
+2/2/2019 11:40:26 PM (2228) (2228) 5 tasks todo
+2/2/2019 11:40:26 PM (2228) (2228) Device: 44 (1 sensors) 4
+2/2/2019 11:40:28 PM (2228) (2228) 4 tasks todo
+2/2/2019 11:40:28 PM (2228) (2228) Device: 2004 (1 sensors) 3
+2/2/2019 11:40:29 PM (2228) (2228) 3 tasks todo
+2/2/2019 11:40:29 PM (2228) (2228) Device: 46 (1 sensors) 2
+2/2/2019 11:40:29 PM (2232) (2232) 2 tasks todo
+2/2/2019 11:40:29 PM (2232) (2232) Device: 2007 (2 sensors) 0
+2/2/2019 11:40:29 PM (2228) Finished
+2/2/2019 11:40:29 PM (2236) Finished
+2/2/2019 11:40:30 PM (2232) Finished
+2/2/2019 11:40:30 PM (2232) All Datacalc Threads finished calculations
+terminated thread 0 id: 2228
+terminated thread 1 id: 2232
+terminated thread 2 id: 2236
+2/2/2019 11:47:51 PM (2228) Restart
+2/2/2019 11:47:51 PM (1716) Stopped DataCalcThread 2228
+2/2/2019 11:47:51 PM (2232) Restart
+2/2/2019 11:47:51 PM (1716) Stopped DataCalcThread 2232
+2/2/2019 11:47:51 PM (2236) Restart
+2/2/2019 11:47:51 PM (1716) Stopped DataCalcThread 2236
+2/3/2019 1:31:32 PM (2112) Start PRTG Network Monitor 18.1.37.13946
+2/3/2019 1:31:34 PM (2320) Finished
+2/3/2019 1:31:34 PM (2324) Finished
+2/3/2019 1:31:34 PM (2328) Finished
+2/3/2019 1:31:34 PM (2328) All Datacalc Threads finished calculations
+terminated thread 0 id: 2320
+terminated thread 1 id: 2324
+terminated thread 2 id: 2328
+2/3/2019 1:43:05 PM (2320) Restart
+2/3/2019 1:43:05 PM (1744) Stopped DataCalcThread 2320
+2/3/2019 1:43:05 PM (2324) Restart
+2/3/2019 1:43:05 PM (1744) Stopped DataCalcThread 2324
+2/3/2019 1:43:05 PM (2328) Restart
+2/3/2019 1:43:05 PM (1744) Stopped DataCalcThread 2328
+2/3/2019 3:18:38 PM (2076) Start PRTG Network Monitor 18.1.37.13946
+2/3/2019 3:18:40 PM (2284) Finished
+2/3/2019 3:18:40 PM (2288) Finished
+2/3/2019 3:18:40 PM (2292) Finished
+2/3/2019 3:18:40 PM (2292) All Datacalc Threads finished calculations
+terminated thread 0 id: 2284
+terminated thread 1 id: 2288
+terminated thread 2 id: 2292
+2/3/2019 3:20:35 PM (2284) Restart
+2/3/2019 3:20:35 PM (1772) Stopped DataCalcThread 2284
+2/3/2019 3:20:35 PM (2288) Restart
+2/3/2019 3:20:35 PM (1772) Stopped DataCalcThread 2288
+2/3/2019 3:20:35 PM (2292) Restart
+2/3/2019 3:20:35 PM (1772) Stopped DataCalcThread 2292
+2/25/2019 6:49:07 AM (2424) Start PRTG Network Monitor 18.1.37.13946
+2/25/2019 6:49:07 AM (2512) Add: 40,1002 Core Health 2/3/2019 8:20:24 PM
+2/25/2019 6:49:07 AM (2516) Add: 40,1003 Probe Health 2/3/2019 8:20:35 PM
+2/25/2019 6:49:07 AM (2516) Add: 40,1001 System Health 2/3/2019 8:20:29 PM
+2/25/2019 6:49:07 AM (2512) Add: 40,1005 Disk Free 2/3/2019 8:20:19 PM
+2/25/2019 6:49:07 AM (2512) Add: 40,1004 Common SaaS Check 2/3/2019 8:19:34 PM
+2/25/2019 6:49:07 AM (2516) Add: 40,1006 Intel[R] 82574L Gigabit Network Connection 2/3/2019 8:20:09 PM
+2/25/2019 6:49:07 AM (2516) Add: 40,1007 Teredo Tunneling Pseudo-Interface 2/3/2019 8:19:39 PM
+2/25/2019 6:49:07 AM (2512) Add: 42,2010 PING 2/3/2019 8:20:21 PM
+2/25/2019 6:49:07 AM (2512) Add: 42,2012 SSL Certificate Sensor (Port 443) 2/3/2019 8:20:16 PM
+2/25/2019 6:49:07 AM (2516) Add: 42,2011 SSL Security Check (Port 443) 2/3/2019 8:20:26 PM
+2/25/2019 6:49:07 AM (2516) Add: 44,2013 PING 2/3/2019 8:20:07 PM
+2/25/2019 6:49:07 AM (2512) Add: 46,2002 HTTP 2/3/2019 8:20:30 PM
+2/25/2019 6:49:07 AM (2512) Add: 2004,2009 PING 2/3/2019 8:20:16 PM
+2/25/2019 6:49:07 AM (2516) Add: 2007,2008 PING 2/3/2019 8:20:28 PM
+2/25/2019 6:49:08 AM (2512) Add: 2007,2014 HTTP 2/3/2019 8:20:23 PM
+2/25/2019 6:49:09 AM (2508) (2508) 15 tasks todo
+2/25/2019 6:49:09 AM (2508) (2508) Device: 40 (7 sensors) 8
+2/25/2019 6:49:09 AM (2504) (2504) 8 tasks todo
+2/25/2019 6:49:09 AM (2504) (2504) Device: 42 (3 sensors) 5
+2/25/2019 6:49:09 AM (2500) (2500) 5 tasks todo
+2/25/2019 6:49:09 AM (2500) (2500) Device: 44 (1 sensors) 4
+2/25/2019 6:49:09 AM (2500) 44/20190203
+2/25/2019 6:49:09 AM (2504) 42/20190203
+2/25/2019 6:49:09 AM (2508) 40/20190203
+2/25/2019 6:49:09 AM (2500) (2500) 4 tasks todo
+2/25/2019 6:49:09 AM (2500) (2500) Device: 46 (1 sensors) 3
+2/25/2019 6:49:09 AM (2500) 46/20190203
+2/25/2019 6:49:10 AM (2504) (2504) 3 tasks todo
+2/25/2019 6:49:10 AM (2504) (2504) Device: 2004 (1 sensors) 2
+2/25/2019 6:49:10 AM (2500) (2500) 2 tasks todo
+2/25/2019 6:49:10 AM (2500) (2500) Device: 2007 (2 sensors) 0
+2/25/2019 6:49:10 AM (2504) 2004/20190203
+2/25/2019 6:49:10 AM (2500) 2007/20190203
+2/25/2019 6:49:10 AM (2504) Finished
+2/25/2019 6:49:10 AM (2508) Finished
+2/25/2019 6:49:10 AM (2500) Finished
+2/25/2019 6:49:10 AM (2500) All Datacalc Threads finished calculations
+terminated thread 0 id: 2500
+terminated thread 1 id: 2504
+terminated thread 2 id: 2508
+2/25/2019 10:11:20 PM (2500) Restart
+2/25/2019 10:11:20 PM (1688) Stopped DataCalcThread 2500
+2/25/2019 10:11:20 PM (2504) Restart
+2/25/2019 10:11:20 PM (1688) Stopped DataCalcThread 2504
+2/25/2019 10:11:20 PM (2508) Restart
+2/25/2019 10:11:20 PM (1688) Stopped DataCalcThread 2508
+2/25/2019 10:11:44 PM (2024) Start PRTG Network Monitor 18.1.37.13946
+2/25/2019 10:11:46 PM (3408) Finished
+2/25/2019 10:11:46 PM (3404) Finished
+2/25/2019 10:11:46 PM (3740) Finished
+2/25/2019 10:11:46 PM (3740) All Datacalc Threads finished calculations
+terminated thread 0 id: 3408
+terminated thread 1 id: 3404
+terminated thread 2 id: 3740
+2/25/2019 10:12:17 PM (3408) Restart
+2/25/2019 10:12:17 PM (2456) Stopped DataCalcThread 3408
+2/25/2019 10:12:17 PM (3404) Restart
+2/25/2019 10:12:17 PM (2456) Stopped DataCalcThread 3404
+2/25/2019 10:12:17 PM (3740) Restart
+2/25/2019 10:12:17 PM (2456) Stopped DataCalcThread 3740
+2/25/2019 10:13:30 PM (2944) Start PRTG Network Monitor 18.1.37.13946
+2/25/2019 10:13:32 PM (3220) Finished
+2/25/2019 10:13:32 PM (1840) Finished
+2/25/2019 10:13:32 PM (2740) Finished
+2/25/2019 10:13:32 PM (2740) All Datacalc Threads finished calculations
+terminated thread 0 id: 3220
+terminated thread 1 id: 1840
+terminated thread 2 id: 2740
+2/25/2019 10:18:24 PM (3220) Restart
+2/25/2019 10:18:24 PM (3196) Stopped DataCalcThread 3220
+2/25/2019 10:18:24 PM (1840) Restart
+2/25/2019 10:18:24 PM (3196) Stopped DataCalcThread 1840
+2/25/2019 10:18:24 PM (2740) Restart
+2/25/2019 10:18:24 PM (3196) Stopped DataCalcThread 2740
+2/25/2019 10:19:42 PM (2560) Start PRTG Network Monitor 18.1.37.13946
+2/25/2019 10:19:44 PM (2200) Finished
+2/25/2019 10:19:44 PM (3724) Finished
+2/25/2019 10:19:44 PM (280) Finished
+2/25/2019 10:19:44 PM (280) All Datacalc Threads finished calculations
+terminated thread 0 id: 2200
+terminated thread 1 id: 3724
+terminated thread 2 id: 280
+2/25/2019 10:20:15 PM (2200) Restart
+2/25/2019 10:20:15 PM (888) Stopped DataCalcThread 2200
+2/25/2019 10:20:15 PM (3724) Restart
+2/25/2019 10:20:15 PM (888) Stopped DataCalcThread 3724
+2/25/2019 10:20:15 PM (280) Restart
+2/25/2019 10:20:15 PM (888) Stopped DataCalcThread 280
+2/25/2019 10:20:27 PM (3644) Start PRTG Network Monitor 18.1.37.13946
+2/25/2019 10:20:28 PM (2444) Finished
+2/25/2019 10:20:28 PM (3492) Finished
+2/25/2019 10:20:28 PM (528) Finished
+2/25/2019 10:20:28 PM (528) All Datacalc Threads finished calculations
+2/25/2019 10:29:20 PM (2488) Start PRTG Network Monitor 18.1.37.13946
+2/25/2019 10:29:22 PM (2920) Finished
+2/25/2019 10:29:22 PM (2924) Finished
+2/25/2019 10:29:22 PM (2928) Finished
+2/25/2019 10:29:22 PM (2928) All Datacalc Threads finished calculations
+terminated thread 0 id: 2920
+terminated thread 1 id: 2924
+terminated thread 2 id: 2928
+2/25/2019 10:38:12 PM (2920) Restart
+2/25/2019 10:38:12 PM (2084) Stopped DataCalcThread 2920
+2/25/2019 10:38:12 PM (2924) Restart
+2/25/2019 10:38:12 PM (2084) Stopped DataCalcThread 2924
+2/25/2019 10:38:12 PM (2928) Restart
+2/25/2019 10:38:12 PM (2084) Stopped DataCalcThread 2928
+2/25/2019 10:38:28 PM (1700) Start PRTG Network Monitor 18.1.37.13946
+2/25/2019 10:38:29 PM (756) Finished
+2/25/2019 10:38:29 PM (2152) Finished
+2/25/2019 10:38:29 PM (2080) Finished
+2/25/2019 10:38:29 PM (2080) All Datacalc Threads finished calculations
+2/25/2019 10:40:34 PM (2408) Start PRTG Network Monitor 18.1.37.13946
+2/25/2019 10:40:35 PM (2816) Finished
+2/25/2019 10:40:35 PM (2820) Finished
+2/25/2019 10:40:35 PM (2824) Finished
+2/25/2019 10:40:35 PM (2824) All Datacalc Threads finished calculations
+terminated thread 0 id: 2816
+terminated thread 1 id: 2820
+terminated thread 2 id: 2824
+2/25/2019 10:40:41 PM (2816) Restart
+2/25/2019 10:40:41 PM (1352) Stopped DataCalcThread 2816
+2/25/2019 10:40:41 PM (2820) Restart
+2/25/2019 10:40:41 PM (1352) Stopped DataCalcThread 2820
+2/25/2019 10:40:41 PM (2824) Restart
+2/25/2019 10:40:41 PM (1352) Stopped DataCalcThread 2824
+2/25/2019 10:40:56 PM (2192) Start PRTG Network Monitor 18.1.37.13946
+2/25/2019 10:40:57 PM (1272) Finished
+2/25/2019 10:40:57 PM (84) Finished
+2/25/2019 10:40:57 PM (1756) Finished
+2/25/2019 10:40:57 PM (1756) All Datacalc Threads finished calculations
+terminated thread 0 id: 1272
+terminated thread 1 id: 84
+terminated thread 2 id: 1756
+2/25/2019 10:42:18 PM (1272) Restart
+2/25/2019 10:42:18 PM (2748) Stopped DataCalcThread 1272
+2/25/2019 10:42:18 PM (84) Restart
+2/25/2019 10:42:18 PM (2748) Stopped DataCalcThread 84
+2/25/2019 10:42:18 PM (1756) Restart
+2/25/2019 10:42:18 PM (2748) Stopped DataCalcThread 1756
+2/25/2019 10:42:30 PM (2764) Start PRTG Network Monitor 18.1.37.13946
+2/25/2019 10:42:32 PM (2992) Finished
+2/25/2019 10:42:32 PM (2972) Finished
+2/25/2019 10:42:32 PM (2980) Finished
+2/25/2019 10:42:32 PM (2980) All Datacalc Threads finished calculations
+terminated thread 0 id: 2992
+terminated thread 1 id: 2972
+terminated thread 2 id: 2980
+2/25/2019 10:44:43 PM (2992) Restart
+2/25/2019 10:44:43 PM (716) Stopped DataCalcThread 2992
+2/25/2019 10:44:43 PM (2972) Restart
+2/25/2019 10:44:43 PM (716) Stopped DataCalcThread 2972
+2/25/2019 10:44:43 PM (2980) Restart
+2/25/2019 10:44:43 PM (716) Stopped DataCalcThread 2980
+2/25/2019 10:44:55 PM (2252) Start PRTG Network Monitor 18.1.37.13946
+2/25/2019 10:44:57 PM (772) Finished
+2/25/2019 10:44:57 PM (1380) Finished
+2/25/2019 10:44:57 PM (2016) Finished
+2/25/2019 10:44:57 PM (2016) All Datacalc Threads finished calculations
+terminated thread 0 id: 772
+terminated thread 1 id: 1380
+terminated thread 2 id: 2016
+2/25/2019 10:47:14 PM (772) Restart
+2/25/2019 10:47:14 PM (2544) Stopped DataCalcThread 772
+2/25/2019 10:47:14 PM (1380) Restart
+2/25/2019 10:47:14 PM (2544) Stopped DataCalcThread 1380
+2/25/2019 10:47:14 PM (2016) Restart
+2/25/2019 10:47:14 PM (2544) Stopped DataCalcThread 2016
+2/25/2019 10:47:26 PM (2688) Start PRTG Network Monitor 18.1.37.13946
+2/25/2019 10:47:28 PM (1716) Finished
+2/25/2019 10:47:28 PM (564) Finished
+2/25/2019 10:47:28 PM (940) Finished
+2/25/2019 10:47:28 PM (940) All Datacalc Threads finished calculations
+terminated thread 0 id: 1716
+terminated thread 1 id: 564
+terminated thread 2 id: 940
+2/25/2019 10:47:58 PM (1716) Restart
+2/25/2019 10:47:58 PM (1480) Stopped DataCalcThread 1716
+2/25/2019 10:47:58 PM (564) Restart
+2/25/2019 10:47:58 PM (1480) Stopped DataCalcThread 564
+2/25/2019 10:47:58 PM (940) Restart
+2/25/2019 10:47:58 PM (1480) Stopped DataCalcThread 940
+2/25/2019 10:48:09 PM (2736) Start PRTG Network Monitor 18.1.37.13946
+2/25/2019 10:48:11 PM (2608) Finished
+2/25/2019 10:48:11 PM (336) Finished
+2/25/2019 10:48:11 PM (2640) Finished
+2/25/2019 10:48:11 PM (2640) All Datacalc Threads finished calculations
+terminated thread 0 id: 2608
+terminated thread 1 id: 336
+terminated thread 2 id: 2640
+2/25/2019 10:48:51 PM (2608) Restart
+2/25/2019 10:48:51 PM (2764) Stopped DataCalcThread 2608
+2/25/2019 10:48:51 PM (336) Restart
+2/25/2019 10:48:51 PM (2764) Stopped DataCalcThread 336
+2/25/2019 10:48:51 PM (2640) Restart
+2/25/2019 10:48:51 PM (2764) Stopped DataCalcThread 2640
+2/25/2019 10:49:02 PM (1308) Start PRTG Network Monitor 18.1.37.13946
+2/25/2019 10:49:04 PM (712) Finished
+2/25/2019 10:49:04 PM (2336) Finished
+2/25/2019 10:49:04 PM (936) Finished
+2/25/2019 10:49:04 PM (936) All Datacalc Threads finished calculations
+terminated thread 0 id: 712
+terminated thread 1 id: 2336
+terminated thread 2 id: 936
+2/25/2019 10:50:25 PM (712) Restart
+2/25/2019 10:50:25 PM (2072) Stopped DataCalcThread 712
+2/25/2019 10:50:25 PM (2336) Restart
+2/25/2019 10:50:25 PM (2072) Stopped DataCalcThread 2336
+2/25/2019 10:50:25 PM (936) Restart
+2/25/2019 10:50:25 PM (2072) Stopped DataCalcThread 936
+2/25/2019 10:50:41 PM (2308) Start PRTG Network Monitor 18.1.37.13946
+2/25/2019 10:50:42 PM (492) Finished
+2/25/2019 10:50:42 PM (2228) Finished
+2/25/2019 10:50:42 PM (1920) Finished
+2/25/2019 10:50:42 PM (1920) All Datacalc Threads finished calculations
+terminated thread 0 id: 492
+terminated thread 1 id: 2228
+terminated thread 2 id: 1920
+2/25/2019 10:58:47 PM (492) Restart
+2/25/2019 10:58:47 PM (412) Stopped DataCalcThread 492
+2/25/2019 10:58:47 PM (2228) Restart
+2/25/2019 10:58:47 PM (412) Stopped DataCalcThread 2228
+2/25/2019 10:58:47 PM (1920) Restart
+2/25/2019 10:58:47 PM (412) Stopped DataCalcThread 1920
+12/15/2021 7:14:16 AM (2916) Start PRTG Network Monitor 18.1.37.13946
+12/15/2021 7:14:17 AM (2120) Add: 40,1002 Core Health 2/26/2019 3:58:30 AM
+12/15/2021 7:14:17 AM (2064) Add: 40,1003 Probe Health 2/26/2019 3:58:47 AM
+12/15/2021 7:14:17 AM (2064) Add: 40,1001 System Health 2/26/2019 3:58:35 AM
+12/15/2021 7:14:17 AM (2120) Add: 40,1005 Disk Free 2/26/2019 3:58:25 AM
+12/15/2021 7:14:17 AM (2120) Add: 40,1004 Common SaaS Check 2/26/2019 3:56:40 AM
+12/15/2021 7:14:17 AM (2064) Add: 40,1006 Intel[R] 82574L Gigabit Network Connection 2/26/2019 3:58:15 AM
+12/15/2021 7:14:17 AM (2064) Add: 40,1007 Teredo Tunneling Pseudo-Interface 2/26/2019 3:58:45 AM
+12/15/2021 7:14:17 AM (2120) Add: 42,2010 PING 2/26/2019 3:58:27 AM
+12/15/2021 7:14:17 AM (2120) Add: 42,2012 SSL Certificate Sensor (Port 443) 2/26/2019 3:58:22 AM
+12/15/2021 7:14:17 AM (2064) Add: 42,2011 SSL Security Check (Port 443) 2/26/2019 3:58:32 AM
+12/15/2021 7:14:17 AM (2064) Add: 44,2013 PING 2/26/2019 3:58:43 AM
+12/15/2021 7:14:17 AM (2120) Add: 46,2002 HTTP 2/26/2019 3:58:36 AM
+12/15/2021 7:14:17 AM (2120) Add: 2004,2009 PING 2/26/2019 3:58:18 AM
+12/15/2021 7:14:17 AM (2064) Add: 2007,2008 PING 2/26/2019 3:58:34 AM
+12/15/2021 7:14:18 AM (2064) Add: 2007,2014 HTTP 2/26/2019 3:58:29 AM
+12/15/2021 7:14:19 AM (2108) (2108) 15 tasks todo
+12/15/2021 7:14:19 AM (2108) (2108) Device: 40 (7 sensors) 8
+12/15/2021 7:14:19 AM (2152) (2152) 8 tasks todo
+12/15/2021 7:14:19 AM (2152) (2152) Device: 42 (3 sensors) 5
+12/15/2021 7:14:19 AM (2068) (2068) 5 tasks todo
+12/15/2021 7:14:19 AM (2068) (2068) Device: 44 (1 sensors) 4
+12/15/2021 7:14:19 AM (2068) (2068) 4 tasks todo
+12/15/2021 7:14:19 AM (2068) (2068) Device: 46 (1 sensors) 3
+12/15/2021 7:14:19 AM (2068) (2068) 3 tasks todo
+12/15/2021 7:14:19 AM (2068) (2068) Device: 2004 (1 sensors) 2
+12/15/2021 7:14:19 AM (2152) (2152) 2 tasks todo
+12/15/2021 7:14:19 AM (2152) (2152) Device: 2007 (2 sensors) 0
+12/15/2021 7:14:20 AM (2068) Finished
+12/15/2021 7:14:20 AM (2108) Finished
+12/15/2021 7:14:20 AM (2152) Finished
+12/15/2021 7:14:20 AM (2152) All Datacalc Threads finished calculations
+terminated thread 0 id: 2068
+terminated thread 1 id: 2152
+terminated thread 2 id: 2108
+12/15/2021 7:21:32 AM (2068) Restart
+12/15/2021 7:21:32 AM (1868) Stopped DataCalcThread 2068
+12/15/2021 7:21:32 AM (2152) Restart
+12/15/2021 7:21:32 AM (1868) Stopped DataCalcThread 2152
+12/15/2021 7:21:32 AM (2108) Restart
+12/15/2021 7:21:32 AM (1868) Stopped DataCalcThread 2108
+12/15/2021 7:23:35 AM (2328) Start PRTG Network Monitor 18.1.37.13946
+12/15/2021 7:23:36 AM (740) Paused Sensor 2012
+12/15/2021 7:23:36 AM (740) Last: 12/15/2021 12:14:54 PM Since: 12/15/2021 12:14:54 PM Diff: 0 Interval: 60
+12/15/2021 7:23:36 AM (740) No recalc nedded
+12/15/2021 7:23:36 AM (2232) Paused Sensor 2011
+12/15/2021 7:23:36 AM (2232) Last: 12/15/2021 12:15:04 PM Since: 12/15/2021 12:15:04 PM Diff: 0 Interval: 60
+12/15/2021 7:23:36 AM (2232) No recalc nedded
+12/15/2021 7:23:37 AM (2260) Finished
+12/15/2021 7:23:37 AM (752) Finished
+12/15/2021 7:23:37 AM (336) Finished
+12/15/2021 7:23:37 AM (336) All Datacalc Threads finished calculations
+terminated thread 0 id: 2260
+terminated thread 1 id: 752
+terminated thread 2 id: 336
+12/15/2021 7:24:17 AM (2260) Restart
+12/15/2021 7:24:17 AM (1888) Stopped DataCalcThread 2260
+12/15/2021 7:24:17 AM (752) Restart
+12/15/2021 7:24:17 AM (1888) Stopped DataCalcThread 752
+12/15/2021 7:24:17 AM (336) Restart
+12/15/2021 7:24:17 AM (1888) Stopped DataCalcThread 336
+12/15/2021 9:38:26 AM (2836) Start PRTG Network Monitor 18.1.37.13946
+12/15/2021 9:38:26 AM (2280) Paused Sensor 2012
+12/15/2021 9:38:26 AM (2280) Last: 12/15/2021 12:14:54 PM Since: 12/15/2021 12:14:54 PM Diff: 0 Interval: 60
+12/15/2021 9:38:26 AM (2280) No recalc nedded
+12/15/2021 9:38:26 AM (2332) Paused Sensor 2011
+12/15/2021 9:38:26 AM (2332) Last: 12/15/2021 12:15:04 PM Since: 12/15/2021 12:15:04 PM Diff: 0 Interval: 60
+12/15/2021 9:38:26 AM (2332) No recalc nedded
+12/15/2021 9:38:28 AM (2100) Finished
+12/15/2021 9:38:28 AM (584) Finished
+12/15/2021 9:38:28 AM (784) Finished
+12/15/2021 9:38:28 AM (784) All Datacalc Threads finished calculations
+terminated thread 0 id: 2100
+terminated thread 1 id: 584
+terminated thread 2 id: 784
+12/15/2021 10:00:06 AM (2100) Restart
+12/15/2021 10:00:06 AM (1932) Stopped DataCalcThread 2100
+12/15/2021 10:00:06 AM (584) Restart
+12/15/2021 10:00:06 AM (1932) Stopped DataCalcThread 584
+12/15/2021 10:00:06 AM (784) Restart
+12/15/2021 10:00:06 AM (1932) Stopped DataCalcThread 784
+8/18/2023 7:39:10 AM (104) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 7:39:10 AM (2844) Add: 40,1002 Core Health 12/15/2021 3:00:05 PM
+8/18/2023 7:39:10 AM (1516) Add: 40,1003 Probe Health 12/15/2021 3:00:06 PM
+8/18/2023 7:39:10 AM (1516) Add: 40,1001 System Health 12/15/2021 2:59:10 PM
+8/18/2023 7:39:10 AM (2844) Add: 40,1005 Disk Free 12/15/2021 3:00:00 PM
+8/18/2023 7:39:10 AM (2844) Add: 40,1004 Common SaaS Check 12/15/2021 2:54:15 PM
+8/18/2023 7:39:10 AM (1516) Add: 40,1006 Intel[R] 82574L Gigabit Network Connection 12/15/2021 2:59:50 PM
+8/18/2023 7:39:10 AM (1516) Add: 40,1007 Teredo Tunneling Pseudo-Interface 12/15/2021 2:59:20 PM
+8/18/2023 7:39:10 AM (2844) Add: 42,2010 PING 12/15/2021 3:00:02 PM
+8/18/2023 7:39:11 AM (2844) Paused Sensor 2012
+8/18/2023 7:39:11 AM (2844) Last: 12/15/2021 2:38:57 PM Since: 12/15/2021 2:38:57 PM Diff: 0 Interval: 60
+8/18/2023 7:39:11 AM (2844) No recalc nedded
+8/18/2023 7:39:11 AM (1516) Paused Sensor 2011
+8/18/2023 7:39:11 AM (1516) Last: 12/15/2021 12:15:04 PM Since: 12/15/2021 12:15:04 PM Diff: 0 Interval: 60
+8/18/2023 7:39:11 AM (1516) No recalc nedded
+8/18/2023 7:39:11 AM (2844) Add: 44,2013 PING 12/15/2021 2:59:48 PM
+8/18/2023 7:39:11 AM (1516) Add: 46,2002 HTTP 12/15/2021 2:59:11 PM
+8/18/2023 7:39:11 AM (1516) Add: 2004,2009 PING 12/15/2021 2:59:53 PM
+8/18/2023 7:39:11 AM (2844) Add: 2007,2008 PING 12/15/2021 2:59:39 PM
+8/18/2023 7:39:11 AM (1516) Add: 2007,2014 HTTP 12/15/2021 3:00:04 PM
+8/18/2023 7:39:12 AM (2544) (2544) 13 tasks todo
+8/18/2023 7:39:12 AM (2544) (2544) Device: 40 (7 sensors) 6
+8/18/2023 7:39:12 AM (3028) (3028) 6 tasks todo
+8/18/2023 7:39:12 AM (3028) (3028) Device: 42 (1 sensors) 5
+8/18/2023 7:39:12 AM (2556) (2556) 5 tasks todo
+8/18/2023 7:39:12 AM (2556) (2556) Device: 44 (1 sensors) 4
+8/18/2023 7:39:13 AM (3028) (3028) 4 tasks todo
+8/18/2023 7:39:13 AM (3028) (3028) Device: 46 (1 sensors) 3
+8/18/2023 7:39:13 AM (2556) (2556) 3 tasks todo
+8/18/2023 7:39:13 AM (2556) (2556) Device: 2004 (1 sensors) 2
+8/18/2023 7:39:13 AM (3028) (3028) 2 tasks todo
+8/18/2023 7:39:13 AM (3028) (3028) Device: 2007 (2 sensors) 0
+8/18/2023 7:39:13 AM (2556) Finished
+8/18/2023 7:39:13 AM (3028) Finished
+8/18/2023 7:39:13 AM (2544) Finished
+8/18/2023 7:39:13 AM (2544) All Datacalc Threads finished calculations
+terminated thread 0 id: 2556
+terminated thread 1 id: 3028
+terminated thread 2 id: 2544
+8/18/2023 8:20:20 AM (2556) Restart
+8/18/2023 8:20:20 AM (1964) Stopped DataCalcThread 2556
+8/18/2023 8:20:20 AM (3028) Restart
+8/18/2023 8:20:20 AM (1964) Stopped DataCalcThread 3028
+8/18/2023 8:20:20 AM (2544) Restart
+8/18/2023 8:20:20 AM (1964) Stopped DataCalcThread 2544
+8/18/2023 8:20:30 AM (592) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 8:20:30 AM (3056) Paused Sensor 2012
+8/18/2023 8:20:30 AM (3056) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 8:20:30 AM (3056) No recalc nedded
+8/18/2023 8:20:30 AM (1864) Paused Sensor 2011
+8/18/2023 8:20:30 AM (1864) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 8:20:30 AM (1864) No recalc nedded
+8/18/2023 8:20:31 AM (2276) Finished
+8/18/2023 8:20:31 AM (2932) Finished
+8/18/2023 8:20:31 AM (2912) Finished
+8/18/2023 8:20:31 AM (2912) All Datacalc Threads finished calculations
+terminated thread 0 id: 2276
+terminated thread 1 id: 2932
+terminated thread 2 id: 2912
+8/18/2023 9:02:20 AM (2276) Restart
+8/18/2023 9:02:20 AM (2800) Stopped DataCalcThread 2276
+8/18/2023 9:02:20 AM (2932) Restart
+8/18/2023 9:02:20 AM (2800) Stopped DataCalcThread 2932
+8/18/2023 9:02:20 AM (2912) Restart
+8/18/2023 9:02:20 AM (2800) Stopped DataCalcThread 2912
+8/18/2023 9:02:28 AM (1752) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 9:02:29 AM (3004) Paused Sensor 2012
+8/18/2023 9:02:29 AM (3004) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 9:02:29 AM (3004) No recalc nedded
+8/18/2023 9:02:29 AM (2308) Paused Sensor 2011
+8/18/2023 9:02:29 AM (2308) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 9:02:29 AM (2308) No recalc nedded
+8/18/2023 9:02:30 AM (1496) Finished
+8/18/2023 9:02:30 AM (2508) Finished
+8/18/2023 9:02:30 AM (1472) Finished
+8/18/2023 9:02:30 AM (1472) All Datacalc Threads finished calculations
+terminated thread 0 id: 1496
+terminated thread 1 id: 2508
+terminated thread 2 id: 1472
+8/18/2023 9:44:20 AM (1496) Restart
+8/18/2023 9:44:20 AM (432) Stopped DataCalcThread 1496
+8/18/2023 9:44:20 AM (2508) Restart
+8/18/2023 9:44:20 AM (432) Stopped DataCalcThread 2508
+8/18/2023 9:44:20 AM (1472) Restart
+8/18/2023 9:44:20 AM (432) Stopped DataCalcThread 1472
+8/18/2023 9:44:29 AM (1752) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 9:44:29 AM (284) Paused Sensor 2012
+8/18/2023 9:44:29 AM (284) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 9:44:29 AM (284) No recalc nedded
+8/18/2023 9:44:29 AM (1700) Paused Sensor 2011
+8/18/2023 9:44:29 AM (1700) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 9:44:29 AM (1700) No recalc nedded
+8/18/2023 9:44:30 AM (348) Finished
+8/18/2023 9:44:30 AM (932) Finished
+8/18/2023 9:44:30 AM (2856) Finished
+8/18/2023 9:44:30 AM (2856) All Datacalc Threads finished calculations
+terminated thread 0 id: 348
+terminated thread 1 id: 932
+terminated thread 2 id: 2856
+8/18/2023 10:26:20 AM (348) Restart
+8/18/2023 10:26:20 AM (668) Stopped DataCalcThread 348
+8/18/2023 10:26:20 AM (932) Restart
+8/18/2023 10:26:20 AM (668) Stopped DataCalcThread 932
+8/18/2023 10:26:20 AM (2856) Restart
+8/18/2023 10:26:20 AM (668) Stopped DataCalcThread 2856
+8/18/2023 10:26:29 AM (2484) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 10:26:29 AM (2592) Paused Sensor 2012
+8/18/2023 10:26:29 AM (2592) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 10:26:29 AM (2592) No recalc nedded
+8/18/2023 10:26:29 AM (764) Paused Sensor 2011
+8/18/2023 10:26:29 AM (764) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 10:26:29 AM (764) No recalc nedded
+8/18/2023 10:26:31 AM (2740) Finished
+8/18/2023 10:26:31 AM (2704) Finished
+8/18/2023 10:26:31 AM (712) Finished
+8/18/2023 10:26:31 AM (712) All Datacalc Threads finished calculations
+terminated thread 0 id: 2740
+terminated thread 1 id: 2704
+terminated thread 2 id: 712
+8/18/2023 11:08:20 AM (2740) Restart
+8/18/2023 11:08:20 AM (360) Stopped DataCalcThread 2740
+8/18/2023 11:08:20 AM (2704) Restart
+8/18/2023 11:08:20 AM (360) Stopped DataCalcThread 2704
+8/18/2023 11:08:20 AM (712) Restart
+8/18/2023 11:08:20 AM (360) Stopped DataCalcThread 712
+8/18/2023 11:08:28 AM (1032) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 11:08:29 AM (1592) Paused Sensor 2012
+8/18/2023 11:08:29 AM (1592) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 11:08:29 AM (1592) No recalc nedded
+8/18/2023 11:08:29 AM (1496) Paused Sensor 2011
+8/18/2023 11:08:29 AM (1496) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 11:08:29 AM (1496) No recalc nedded
+8/18/2023 11:08:30 AM (2324) Finished
+8/18/2023 11:08:30 AM (2700) Finished
+8/18/2023 11:08:30 AM (972) Finished
+8/18/2023 11:08:30 AM (972) All Datacalc Threads finished calculations
+terminated thread 0 id: 2324
+terminated thread 1 id: 2700
+terminated thread 2 id: 972
+8/18/2023 11:50:20 AM (2324) Restart
+8/18/2023 11:50:20 AM (1580) Stopped DataCalcThread 2324
+8/18/2023 11:50:20 AM (2700) Restart
+8/18/2023 11:50:20 AM (1580) Stopped DataCalcThread 2700
+8/18/2023 11:50:20 AM (972) Restart
+8/18/2023 11:50:20 AM (1580) Stopped DataCalcThread 972
+8/18/2023 11:50:29 AM (1572) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 11:50:29 AM (1916) Paused Sensor 2012
+8/18/2023 11:50:29 AM (1916) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 11:50:29 AM (1916) No recalc nedded
+8/18/2023 11:50:29 AM (2452) Paused Sensor 2011
+8/18/2023 11:50:29 AM (2452) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 11:50:29 AM (2452) No recalc nedded
+8/18/2023 11:50:30 AM (1188) Finished
+8/18/2023 11:50:30 AM (3060) Finished
+8/18/2023 11:50:30 AM (228) Finished
+8/18/2023 11:50:30 AM (228) All Datacalc Threads finished calculations
+terminated thread 0 id: 1188
+terminated thread 1 id: 3060
+terminated thread 2 id: 228
+8/18/2023 12:32:20 PM (1188) Restart
+8/18/2023 12:32:20 PM (2396) Stopped DataCalcThread 1188
+8/18/2023 12:32:20 PM (3060) Restart
+8/18/2023 12:32:20 PM (2396) Stopped DataCalcThread 3060
+8/18/2023 12:32:20 PM (228) Restart
+8/18/2023 12:32:20 PM (2396) Stopped DataCalcThread 228
+8/18/2023 12:32:28 PM (2584) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 12:32:28 PM (2596) Paused Sensor 2012
+8/18/2023 12:32:28 PM (2596) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 12:32:28 PM (2596) No recalc nedded
+8/18/2023 12:32:28 PM (1724) Paused Sensor 2011
+8/18/2023 12:32:28 PM (1724) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 12:32:28 PM (1724) No recalc nedded
+8/18/2023 12:32:29 PM (2088) Finished
+8/18/2023 12:32:29 PM (1848) Finished
+8/18/2023 12:32:29 PM (664) Finished
+8/18/2023 12:32:29 PM (664) All Datacalc Threads finished calculations
+terminated thread 0 id: 2088
+terminated thread 1 id: 1848
+terminated thread 2 id: 664
+8/18/2023 1:14:20 PM (2088) Restart
+8/18/2023 1:14:20 PM (2016) Stopped DataCalcThread 2088
+8/18/2023 1:14:20 PM (1848) Restart
+8/18/2023 1:14:20 PM (2016) Stopped DataCalcThread 1848
+8/18/2023 1:14:20 PM (664) Restart
+8/18/2023 1:14:20 PM (2016) Stopped DataCalcThread 664
+8/18/2023 1:14:29 PM (3012) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 1:14:30 PM (2032) Paused Sensor 2012
+8/18/2023 1:14:30 PM (2032) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 1:14:30 PM (2032) No recalc nedded
+8/18/2023 1:14:30 PM (3024) Paused Sensor 2011
+8/18/2023 1:14:30 PM (3024) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 1:14:30 PM (3024) No recalc nedded
+8/18/2023 1:14:31 PM (932) Finished
+8/18/2023 1:14:31 PM (2572) Finished
+8/18/2023 1:14:31 PM (1936) Finished
+8/18/2023 1:14:31 PM (1936) All Datacalc Threads finished calculations
+terminated thread 0 id: 932
+terminated thread 1 id: 2572
+terminated thread 2 id: 1936
+8/18/2023 1:56:20 PM (932) Restart
+8/18/2023 1:56:20 PM (892) Stopped DataCalcThread 932
+8/18/2023 1:56:20 PM (2572) Restart
+8/18/2023 1:56:20 PM (892) Stopped DataCalcThread 2572
+8/18/2023 1:56:20 PM (1936) Restart
+8/18/2023 1:56:20 PM (892) Stopped DataCalcThread 1936
+8/18/2023 1:56:28 PM (2512) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 1:56:28 PM (1968) Paused Sensor 2012
+8/18/2023 1:56:28 PM (1968) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 1:56:28 PM (1968) No recalc nedded
+8/18/2023 1:56:28 PM (2892) Paused Sensor 2011
+8/18/2023 1:56:28 PM (2892) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 1:56:28 PM (2892) No recalc nedded
+8/18/2023 1:56:29 PM (816) Finished
+8/18/2023 1:56:29 PM (332) Finished
+8/18/2023 1:56:29 PM (2136) Finished
+8/18/2023 1:56:29 PM (2136) All Datacalc Threads finished calculations
+terminated thread 0 id: 816
+terminated thread 1 id: 332
+terminated thread 2 id: 2136
+8/18/2023 2:38:20 PM (816) Restart
+8/18/2023 2:38:20 PM (1208) Stopped DataCalcThread 816
+8/18/2023 2:38:20 PM (332) Restart
+8/18/2023 2:38:20 PM (1208) Stopped DataCalcThread 332
+8/18/2023 2:38:20 PM (2136) Restart
+8/18/2023 2:38:20 PM (1208) Stopped DataCalcThread 2136
+8/18/2023 2:38:28 PM (1316) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 2:38:29 PM (2868) Paused Sensor 2012
+8/18/2023 2:38:29 PM (2868) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 2:38:29 PM (2868) No recalc nedded
+8/18/2023 2:38:29 PM (2200) Paused Sensor 2011
+8/18/2023 2:38:29 PM (2200) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 2:38:29 PM (2200) No recalc nedded
+8/18/2023 2:38:30 PM (2224) Finished
+8/18/2023 2:38:30 PM (1692) Finished
+8/18/2023 2:38:30 PM (2744) Finished
+8/18/2023 2:38:30 PM (2744) All Datacalc Threads finished calculations
+terminated thread 0 id: 2224
+terminated thread 1 id: 1692
+terminated thread 2 id: 2744
+8/18/2023 3:20:20 PM (2224) Restart
+8/18/2023 3:20:20 PM (1644) Stopped DataCalcThread 2224
+8/18/2023 3:20:20 PM (1692) Restart
+8/18/2023 3:20:20 PM (1644) Stopped DataCalcThread 1692
+8/18/2023 3:20:20 PM (2744) Restart
+8/18/2023 3:20:20 PM (1644) Stopped DataCalcThread 2744
+8/18/2023 3:20:29 PM (2064) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 3:20:29 PM (1780) Paused Sensor 2012
+8/18/2023 3:20:29 PM (1780) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 3:20:29 PM (1780) No recalc nedded
+8/18/2023 3:20:29 PM (860) Paused Sensor 2011
+8/18/2023 3:20:29 PM (860) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 3:20:29 PM (860) No recalc nedded
+8/18/2023 3:20:30 PM (2684) Finished
+8/18/2023 3:20:30 PM (2892) Finished
+8/18/2023 3:20:30 PM (172) Finished
+8/18/2023 3:20:30 PM (172) All Datacalc Threads finished calculations
+terminated thread 0 id: 2684
+terminated thread 1 id: 2892
+terminated thread 2 id: 172
+8/18/2023 4:02:20 PM (2684) Restart
+8/18/2023 4:02:20 PM (2784) Stopped DataCalcThread 2684
+8/18/2023 4:02:20 PM (2892) Restart
+8/18/2023 4:02:20 PM (2784) Stopped DataCalcThread 2892
+8/18/2023 4:02:20 PM (172) Restart
+8/18/2023 4:02:20 PM (2784) Stopped DataCalcThread 172
+8/18/2023 4:02:29 PM (2508) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 4:02:29 PM (1724) Paused Sensor 2012
+8/18/2023 4:02:29 PM (1724) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 4:02:29 PM (1724) No recalc nedded
+8/18/2023 4:02:29 PM (1828) Paused Sensor 2011
+8/18/2023 4:02:29 PM (1828) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 4:02:29 PM (1828) No recalc nedded
+8/18/2023 4:02:30 PM (2740) Finished
+8/18/2023 4:02:30 PM (2744) Finished
+8/18/2023 4:02:30 PM (2024) Finished
+8/18/2023 4:02:30 PM (2024) All Datacalc Threads finished calculations
+terminated thread 0 id: 2740
+terminated thread 1 id: 2744
+terminated thread 2 id: 2024
+8/18/2023 4:44:20 PM (2740) Restart
+8/18/2023 4:44:20 PM (2504) Stopped DataCalcThread 2740
+8/18/2023 4:44:20 PM (2744) Restart
+8/18/2023 4:44:20 PM (2504) Stopped DataCalcThread 2744
+8/18/2023 4:44:20 PM (2024) Restart
+8/18/2023 4:44:20 PM (2504) Stopped DataCalcThread 2024
+8/18/2023 4:44:28 PM (1976) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 4:44:29 PM (1324) Paused Sensor 2012
+8/18/2023 4:44:29 PM (1324) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 4:44:29 PM (1324) No recalc nedded
+8/18/2023 4:44:29 PM (328) Paused Sensor 2011
+8/18/2023 4:44:29 PM (328) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 4:44:29 PM (328) No recalc nedded
+8/18/2023 4:44:30 PM (1520) Finished
+8/18/2023 4:44:30 PM (860) Finished
+8/18/2023 4:44:30 PM (1812) Finished
+8/18/2023 4:44:30 PM (1812) All Datacalc Threads finished calculations
+terminated thread 0 id: 1520
+terminated thread 1 id: 860
+terminated thread 2 id: 1812
+8/18/2023 5:26:20 PM (1520) Restart
+8/18/2023 5:26:20 PM (2736) Stopped DataCalcThread 1520
+8/18/2023 5:26:20 PM (860) Restart
+8/18/2023 5:26:20 PM (2736) Stopped DataCalcThread 860
+8/18/2023 5:26:20 PM (1812) Restart
+8/18/2023 5:26:20 PM (2736) Stopped DataCalcThread 1812
+8/18/2023 5:26:29 PM (668) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 5:26:29 PM (2500) Paused Sensor 2012
+8/18/2023 5:26:29 PM (2500) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 5:26:29 PM (2500) No recalc nedded
+8/18/2023 5:26:29 PM (3052) Paused Sensor 2011
+8/18/2023 5:26:29 PM (3052) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 5:26:29 PM (3052) No recalc nedded
+8/18/2023 5:26:30 PM (1576) Finished
+8/18/2023 5:26:30 PM (2152) Finished
+8/18/2023 5:26:30 PM (748) Finished
+8/18/2023 5:26:30 PM (748) All Datacalc Threads finished calculations
+terminated thread 0 id: 1576
+terminated thread 1 id: 2152
+terminated thread 2 id: 748
+8/18/2023 6:08:20 PM (1576) Restart
+8/18/2023 6:08:20 PM (92) Stopped DataCalcThread 1576
+8/18/2023 6:08:20 PM (2152) Restart
+8/18/2023 6:08:20 PM (92) Stopped DataCalcThread 2152
+8/18/2023 6:08:20 PM (748) Restart
+8/18/2023 6:08:20 PM (92) Stopped DataCalcThread 748
+8/18/2023 6:08:29 PM (2004) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 6:08:29 PM (1032) Paused Sensor 2012
+8/18/2023 6:08:29 PM (1032) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 6:08:29 PM (1032) No recalc nedded
+8/18/2023 6:08:29 PM (1612) Paused Sensor 2011
+8/18/2023 6:08:29 PM (1612) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 6:08:29 PM (1612) No recalc nedded
+8/18/2023 6:08:30 PM (1436) Finished
+8/18/2023 6:08:30 PM (2648) Finished
+8/18/2023 6:08:30 PM (1904) Finished
+8/18/2023 6:08:30 PM (1904) All Datacalc Threads finished calculations
+terminated thread 0 id: 1436
+terminated thread 1 id: 2648
+terminated thread 2 id: 1904
+8/18/2023 6:50:20 PM (1436) Restart
+8/18/2023 6:50:20 PM (2964) Stopped DataCalcThread 1436
+8/18/2023 6:50:20 PM (2648) Restart
+8/18/2023 6:50:20 PM (2964) Stopped DataCalcThread 2648
+8/18/2023 6:50:20 PM (1904) Restart
+8/18/2023 6:50:20 PM (2964) Stopped DataCalcThread 1904
+8/18/2023 6:50:28 PM (1700) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 6:50:29 PM (1660) Paused Sensor 2012
+8/18/2023 6:50:29 PM (1660) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 6:50:29 PM (1660) No recalc nedded
+8/18/2023 6:50:29 PM (2324) Paused Sensor 2011
+8/18/2023 6:50:29 PM (2324) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 6:50:29 PM (2324) No recalc nedded
+8/18/2023 6:50:30 PM (1668) Finished
+8/18/2023 6:50:30 PM (2288) Finished
+8/18/2023 6:50:30 PM (2680) Finished
+8/18/2023 6:50:30 PM (2680) All Datacalc Threads finished calculations
+terminated thread 0 id: 1668
+terminated thread 1 id: 2288
+terminated thread 2 id: 2680
+8/18/2023 7:32:20 PM (1668) Restart
+8/18/2023 7:32:20 PM (2472) Stopped DataCalcThread 1668
+8/18/2023 7:32:20 PM (2288) Restart
+8/18/2023 7:32:20 PM (2472) Stopped DataCalcThread 2288
+8/18/2023 7:32:20 PM (2680) Restart
+8/18/2023 7:32:20 PM (2472) Stopped DataCalcThread 2680
+8/18/2023 7:32:28 PM (1036) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 7:32:29 PM (2584) Paused Sensor 2012
+8/18/2023 7:32:29 PM (2584) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 7:32:29 PM (2584) No recalc nedded
+8/18/2023 7:32:29 PM (2868) Paused Sensor 2011
+8/18/2023 7:32:29 PM (2868) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 7:32:29 PM (2868) No recalc nedded
+8/18/2023 7:32:30 PM (1072) Finished
+8/18/2023 7:32:30 PM (1940) Finished
+8/18/2023 7:32:30 PM (2184) Finished
+8/18/2023 7:32:30 PM (2184) All Datacalc Threads finished calculations
+terminated thread 0 id: 1072
+terminated thread 1 id: 1940
+terminated thread 2 id: 2184
+8/18/2023 8:14:20 PM (1072) Restart
+8/18/2023 8:14:20 PM (2684) Stopped DataCalcThread 1072
+8/18/2023 8:14:20 PM (1940) Restart
+8/18/2023 8:14:20 PM (2684) Stopped DataCalcThread 1940
+8/18/2023 8:14:20 PM (2184) Restart
+8/18/2023 8:14:20 PM (2684) Stopped DataCalcThread 2184
+8/18/2023 8:14:29 PM (1644) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 8:14:29 PM (1188) Paused Sensor 2012
+8/18/2023 8:14:29 PM (1188) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 8:14:29 PM (1188) No recalc nedded
+8/18/2023 8:14:29 PM (1920) Paused Sensor 2011
+8/18/2023 8:14:29 PM (1920) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 8:14:29 PM (1920) No recalc nedded
+8/18/2023 8:14:31 PM (2704) Finished
+8/18/2023 8:14:31 PM (168) Finished
+8/18/2023 8:14:31 PM (2200) Finished
+8/18/2023 8:14:31 PM (2200) All Datacalc Threads finished calculations
+terminated thread 0 id: 2704
+terminated thread 1 id: 168
+terminated thread 2 id: 2200
+8/18/2023 8:56:20 PM (2704) Restart
+8/18/2023 8:56:20 PM (2372) Stopped DataCalcThread 2704
+8/18/2023 8:56:20 PM (168) Restart
+8/18/2023 8:56:20 PM (2372) Stopped DataCalcThread 168
+8/18/2023 8:56:20 PM (2200) Restart
+8/18/2023 8:56:20 PM (2372) Stopped DataCalcThread 2200
+8/18/2023 8:56:29 PM (1288) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 8:56:29 PM (2500) Paused Sensor 2012
+8/18/2023 8:56:29 PM (2500) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 8:56:29 PM (2500) No recalc nedded
+8/18/2023 8:56:29 PM (2152) Paused Sensor 2011
+8/18/2023 8:56:29 PM (2152) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 8:56:29 PM (2152) No recalc nedded
+8/18/2023 8:56:30 PM (1580) Finished
+8/18/2023 8:56:30 PM (1032) Finished
+8/18/2023 8:56:30 PM (3044) Finished
+8/18/2023 8:56:30 PM (3044) All Datacalc Threads finished calculations
+terminated thread 0 id: 1580
+terminated thread 1 id: 1032
+terminated thread 2 id: 3044
+8/18/2023 9:38:20 PM (1580) Restart
+8/18/2023 9:38:20 PM (2592) Stopped DataCalcThread 1580
+8/18/2023 9:38:20 PM (1032) Restart
+8/18/2023 9:38:20 PM (2592) Stopped DataCalcThread 1032
+8/18/2023 9:38:20 PM (3044) Restart
+8/18/2023 9:38:20 PM (2592) Stopped DataCalcThread 3044
+8/18/2023 9:38:28 PM (1964) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 9:38:29 PM (3008) Paused Sensor 2012
+8/18/2023 9:38:29 PM (3008) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 9:38:29 PM (3008) No recalc nedded
+8/18/2023 9:38:29 PM (2152) Paused Sensor 2011
+8/18/2023 9:38:29 PM (2152) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 9:38:29 PM (2152) No recalc nedded
+8/18/2023 9:38:30 PM (1604) Finished
+8/18/2023 9:38:30 PM (348) Finished
+8/18/2023 9:38:30 PM (2704) Finished
+8/18/2023 9:38:30 PM (2704) All Datacalc Threads finished calculations
+terminated thread 0 id: 1604
+terminated thread 1 id: 348
+terminated thread 2 id: 2704
+8/18/2023 10:20:20 PM (1604) Restart
+8/18/2023 10:20:20 PM (1924) Stopped DataCalcThread 1604
+8/18/2023 10:20:20 PM (348) Restart
+8/18/2023 10:20:20 PM (1924) Stopped DataCalcThread 348
+8/18/2023 10:20:20 PM (2704) Restart
+8/18/2023 10:20:20 PM (1924) Stopped DataCalcThread 2704
+8/18/2023 10:20:29 PM (1596) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 10:20:29 PM (1060) Paused Sensor 2012
+8/18/2023 10:20:29 PM (1060) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 10:20:29 PM (1060) No recalc nedded
+8/18/2023 10:20:29 PM (2060) Paused Sensor 2011
+8/18/2023 10:20:29 PM (2060) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 10:20:29 PM (2060) No recalc nedded
+8/18/2023 10:20:31 PM (1448) Finished
+8/18/2023 10:20:31 PM (1896) Finished
+8/18/2023 10:20:31 PM (1980) Finished
+8/18/2023 10:20:31 PM (1980) All Datacalc Threads finished calculations
+terminated thread 0 id: 1448
+terminated thread 1 id: 1896
+terminated thread 2 id: 1980
+8/18/2023 11:02:20 PM (1448) Restart
+8/18/2023 11:02:20 PM (1432) Stopped DataCalcThread 1448
+8/18/2023 11:02:20 PM (1896) Restart
+8/18/2023 11:02:20 PM (1432) Stopped DataCalcThread 1896
+8/18/2023 11:02:20 PM (1980) Restart
+8/18/2023 11:02:20 PM (1432) Stopped DataCalcThread 1980
+8/18/2023 11:02:29 PM (1464) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 11:02:29 PM (2572) Paused Sensor 2012
+8/18/2023 11:02:29 PM (2572) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 11:02:29 PM (2572) No recalc nedded
+8/18/2023 11:02:29 PM (2192) Paused Sensor 2011
+8/18/2023 11:02:29 PM (2192) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 11:02:29 PM (2192) No recalc nedded
+8/18/2023 11:02:30 PM (2468) Finished
+8/18/2023 11:02:30 PM (1552) Finished
+8/18/2023 11:02:30 PM (1188) Finished
+8/18/2023 11:02:30 PM (1188) All Datacalc Threads finished calculations
+terminated thread 0 id: 2468
+terminated thread 1 id: 1552
+terminated thread 2 id: 1188
+8/18/2023 11:44:20 PM (2468) Restart
+8/18/2023 11:44:20 PM (2324) Stopped DataCalcThread 2468
+8/18/2023 11:44:20 PM (1552) Restart
+8/18/2023 11:44:20 PM (2324) Stopped DataCalcThread 1552
+8/18/2023 11:44:20 PM (1188) Restart
+8/18/2023 11:44:20 PM (2324) Stopped DataCalcThread 1188
+8/18/2023 11:44:28 PM (300) Start PRTG Network Monitor 18.1.37.13946
+8/18/2023 11:44:28 PM (1536) Paused Sensor 2012
+8/18/2023 11:44:28 PM (1536) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/18/2023 11:44:28 PM (1536) No recalc nedded
+8/18/2023 11:44:28 PM (1696) Paused Sensor 2011
+8/18/2023 11:44:28 PM (1696) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/18/2023 11:44:28 PM (1696) No recalc nedded
+8/18/2023 11:44:30 PM (1532) Finished
+8/18/2023 11:44:30 PM (1864) Finished
+8/18/2023 11:44:30 PM (2192) Finished
+8/18/2023 11:44:30 PM (2192) All Datacalc Threads finished calculations
+terminated thread 0 id: 1532
+terminated thread 1 id: 1864
+terminated thread 2 id: 2192
+8/19/2023 12:26:20 AM (1532) Restart
+8/19/2023 12:26:20 AM (1944) Stopped DataCalcThread 1532
+8/19/2023 12:26:20 AM (1864) Restart
+8/19/2023 12:26:20 AM (1944) Stopped DataCalcThread 1864
+8/19/2023 12:26:20 AM (2192) Restart
+8/19/2023 12:26:20 AM (1944) Stopped DataCalcThread 2192
+8/19/2023 12:26:29 AM (1392) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 12:26:29 AM (1936) Paused Sensor 2012
+8/19/2023 12:26:29 AM (1936) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 12:26:29 AM (1936) No recalc nedded
+8/19/2023 12:26:29 AM (1716) Paused Sensor 2011
+8/19/2023 12:26:29 AM (1716) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 12:26:29 AM (1716) No recalc nedded
+8/19/2023 12:26:30 AM (2004) Finished
+8/19/2023 12:26:30 AM (1084) Finished
+8/19/2023 12:26:30 AM (1896) Finished
+8/19/2023 12:26:30 AM (1896) All Datacalc Threads finished calculations
+terminated thread 0 id: 2004
+terminated thread 1 id: 1084
+terminated thread 2 id: 1896
+8/19/2023 1:08:20 AM (2004) Restart
+8/19/2023 1:08:20 AM (1556) Stopped DataCalcThread 2004
+8/19/2023 1:08:20 AM (1084) Restart
+8/19/2023 1:08:20 AM (1556) Stopped DataCalcThread 1084
+8/19/2023 1:08:20 AM (1896) Restart
+8/19/2023 1:08:20 AM (1556) Stopped DataCalcThread 1896
+8/19/2023 1:08:28 AM (1964) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 1:08:28 AM (1324) Paused Sensor 2012
+8/19/2023 1:08:28 AM (1324) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 1:08:28 AM (1324) No recalc nedded
+8/19/2023 1:08:28 AM (1172) Paused Sensor 2011
+8/19/2023 1:08:28 AM (1172) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 1:08:28 AM (1172) No recalc nedded
+8/19/2023 1:08:30 AM (256) Finished
+8/19/2023 1:08:30 AM (96) Finished
+8/19/2023 1:08:30 AM (2108) Finished
+8/19/2023 1:08:30 AM (2108) All Datacalc Threads finished calculations
+terminated thread 0 id: 256
+terminated thread 1 id: 96
+terminated thread 2 id: 2108
+8/19/2023 1:50:20 AM (256) Restart
+8/19/2023 1:50:20 AM (2544) Stopped DataCalcThread 256
+8/19/2023 1:50:20 AM (96) Restart
+8/19/2023 1:50:20 AM (2544) Stopped DataCalcThread 96
+8/19/2023 1:50:20 AM (2108) Restart
+8/19/2023 1:50:20 AM (2544) Stopped DataCalcThread 2108
+8/19/2023 1:50:29 AM (1616) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 1:50:29 AM (1928) Paused Sensor 2012
+8/19/2023 1:50:29 AM (1928) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 1:50:29 AM (1928) No recalc nedded
+8/19/2023 1:50:29 AM (2128) Paused Sensor 2011
+8/19/2023 1:50:29 AM (2128) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 1:50:29 AM (2128) No recalc nedded
+8/19/2023 1:50:31 AM (2160) Finished
+8/19/2023 1:50:31 AM (2028) Finished
+8/19/2023 1:50:31 AM (2484) Finished
+8/19/2023 1:50:31 AM (2484) All Datacalc Threads finished calculations
+terminated thread 0 id: 2160
+terminated thread 1 id: 2028
+terminated thread 2 id: 2484
+8/19/2023 2:32:20 AM (2160) Restart
+8/19/2023 2:32:20 AM (2652) Stopped DataCalcThread 2160
+8/19/2023 2:32:20 AM (2028) Restart
+8/19/2023 2:32:20 AM (2652) Stopped DataCalcThread 2028
+8/19/2023 2:32:20 AM (2484) Restart
+8/19/2023 2:32:20 AM (2652) Stopped DataCalcThread 2484
+8/19/2023 2:32:29 AM (2264) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 2:32:30 AM (312) Paused Sensor 2012
+8/19/2023 2:32:30 AM (312) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 2:32:30 AM (312) No recalc nedded
+8/19/2023 2:32:30 AM (1868) Paused Sensor 2011
+8/19/2023 2:32:30 AM (1868) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 2:32:30 AM (1868) No recalc nedded
+8/19/2023 2:32:31 AM (2648) Finished
+8/19/2023 2:32:31 AM (500) Finished
+8/19/2023 2:32:31 AM (1472) Finished
+8/19/2023 2:32:31 AM (1472) All Datacalc Threads finished calculations
+terminated thread 0 id: 2648
+terminated thread 1 id: 500
+terminated thread 2 id: 1472
+8/19/2023 3:14:20 AM (2648) Restart
+8/19/2023 3:14:20 AM (2668) Stopped DataCalcThread 2648
+8/19/2023 3:14:20 AM (500) Restart
+8/19/2023 3:14:20 AM (2668) Stopped DataCalcThread 500
+8/19/2023 3:14:20 AM (1472) Restart
+8/19/2023 3:14:20 AM (2668) Stopped DataCalcThread 1472
+8/19/2023 3:14:29 AM (2744) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 3:14:29 AM (972) Paused Sensor 2012
+8/19/2023 3:14:29 AM (972) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 3:14:29 AM (972) No recalc nedded
+8/19/2023 3:14:29 AM (2584) Paused Sensor 2011
+8/19/2023 3:14:29 AM (2584) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 3:14:29 AM (2584) No recalc nedded
+8/19/2023 3:14:31 AM (2188) Finished
+8/19/2023 3:14:31 AM (3048) Finished
+8/19/2023 3:14:31 AM (632) Finished
+8/19/2023 3:14:31 AM (632) All Datacalc Threads finished calculations
+terminated thread 0 id: 2188
+terminated thread 1 id: 3048
+terminated thread 2 id: 632
+8/19/2023 3:56:20 AM (2188) Restart
+8/19/2023 3:56:20 AM (1468) Stopped DataCalcThread 2188
+8/19/2023 3:56:20 AM (3048) Restart
+8/19/2023 3:56:20 AM (1468) Stopped DataCalcThread 3048
+8/19/2023 3:56:20 AM (632) Restart
+8/19/2023 3:56:20 AM (1468) Stopped DataCalcThread 632
+8/19/2023 3:56:29 AM (1896) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 3:56:29 AM (1344) Paused Sensor 2012
+8/19/2023 3:56:29 AM (1344) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 3:56:29 AM (1344) No recalc nedded
+8/19/2023 3:56:29 AM (2576) Paused Sensor 2011
+8/19/2023 3:56:29 AM (2576) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 3:56:29 AM (2576) No recalc nedded
+8/19/2023 3:56:31 AM (304) Finished
+8/19/2023 3:56:31 AM (2520) Finished
+8/19/2023 3:56:31 AM (1532) Finished
+8/19/2023 3:56:31 AM (1532) All Datacalc Threads finished calculations
+terminated thread 0 id: 304
+terminated thread 1 id: 2520
+terminated thread 2 id: 1532
+8/19/2023 4:38:20 AM (304) Restart
+8/19/2023 4:38:20 AM (2304) Stopped DataCalcThread 304
+8/19/2023 4:38:20 AM (2520) Restart
+8/19/2023 4:38:20 AM (2304) Stopped DataCalcThread 2520
+8/19/2023 4:38:20 AM (1532) Restart
+8/19/2023 4:38:20 AM (2304) Stopped DataCalcThread 1532
+8/19/2023 4:38:29 AM (2060) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 4:38:29 AM (1224) Paused Sensor 2012
+8/19/2023 4:38:29 AM (1224) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 4:38:29 AM (1224) No recalc nedded
+8/19/2023 4:38:29 AM (2064) Paused Sensor 2011
+8/19/2023 4:38:29 AM (2064) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 4:38:29 AM (2064) No recalc nedded
+8/19/2023 4:38:30 AM (2484) Finished
+8/19/2023 4:38:30 AM (2464) Finished
+8/19/2023 4:38:30 AM (1552) Finished
+8/19/2023 4:38:30 AM (1552) All Datacalc Threads finished calculations
+terminated thread 0 id: 2484
+terminated thread 1 id: 2464
+terminated thread 2 id: 1552
+8/19/2023 5:20:20 AM (2484) Restart
+8/19/2023 5:20:20 AM (1204) Stopped DataCalcThread 2484
+8/19/2023 5:20:20 AM (2464) Restart
+8/19/2023 5:20:20 AM (1204) Stopped DataCalcThread 2464
+8/19/2023 5:20:20 AM (1552) Restart
+8/19/2023 5:20:20 AM (1204) Stopped DataCalcThread 1552
+8/19/2023 5:20:29 AM (1916) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 5:20:30 AM (2708) Paused Sensor 2012
+8/19/2023 5:20:30 AM (2708) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 5:20:30 AM (2708) No recalc nedded
+8/19/2023 5:20:30 AM (2768) Paused Sensor 2011
+8/19/2023 5:20:30 AM (2768) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 5:20:30 AM (2768) No recalc nedded
+8/19/2023 5:20:31 AM (2324) Finished
+8/19/2023 5:20:31 AM (172) Finished
+8/19/2023 5:20:31 AM (2188) Finished
+8/19/2023 5:20:31 AM (2188) All Datacalc Threads finished calculations
+terminated thread 0 id: 2324
+terminated thread 1 id: 172
+terminated thread 2 id: 2188
+8/19/2023 6:02:20 AM (2324) Restart
+8/19/2023 6:02:20 AM (1448) Stopped DataCalcThread 2324
+8/19/2023 6:02:20 AM (172) Restart
+8/19/2023 6:02:20 AM (1448) Stopped DataCalcThread 172
+8/19/2023 6:02:20 AM (2188) Restart
+8/19/2023 6:02:20 AM (1448) Stopped DataCalcThread 2188
+8/19/2023 6:02:28 AM (2396) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 6:02:29 AM (2916) Paused Sensor 2012
+8/19/2023 6:02:29 AM (2916) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 6:02:29 AM (2916) No recalc nedded
+8/19/2023 6:02:29 AM (2472) Paused Sensor 2011
+8/19/2023 6:02:29 AM (2472) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 6:02:29 AM (2472) No recalc nedded
+8/19/2023 6:02:30 AM (1900) Finished
+8/19/2023 6:02:30 AM (2696) Finished
+8/19/2023 6:02:30 AM (1612) Finished
+8/19/2023 6:02:30 AM (1612) All Datacalc Threads finished calculations
+terminated thread 0 id: 1900
+terminated thread 1 id: 2696
+terminated thread 2 id: 1612
+8/19/2023 6:44:20 AM (1900) Restart
+8/19/2023 6:44:20 AM (1224) Stopped DataCalcThread 1900
+8/19/2023 6:44:20 AM (2696) Restart
+8/19/2023 6:44:20 AM (1224) Stopped DataCalcThread 2696
+8/19/2023 6:44:20 AM (1612) Restart
+8/19/2023 6:44:20 AM (1224) Stopped DataCalcThread 1612
+8/19/2023 6:44:28 AM (2096) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 6:44:29 AM (1944) Paused Sensor 2012
+8/19/2023 6:44:29 AM (1944) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 6:44:29 AM (1944) No recalc nedded
+8/19/2023 6:44:29 AM (1392) Paused Sensor 2011
+8/19/2023 6:44:29 AM (1392) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 6:44:29 AM (1392) No recalc nedded
+8/19/2023 6:44:30 AM (2152) Finished
+8/19/2023 6:44:30 AM (1636) Finished
+8/19/2023 6:44:30 AM (2024) Finished
+8/19/2023 6:44:30 AM (2024) All Datacalc Threads finished calculations
+terminated thread 0 id: 2152
+terminated thread 1 id: 1636
+terminated thread 2 id: 2024
+8/19/2023 7:26:20 AM (2152) Restart
+8/19/2023 7:26:20 AM (1448) Stopped DataCalcThread 2152
+8/19/2023 7:26:20 AM (1636) Restart
+8/19/2023 7:26:20 AM (1448) Stopped DataCalcThread 1636
+8/19/2023 7:26:20 AM (2024) Restart
+8/19/2023 7:26:20 AM (1448) Stopped DataCalcThread 2024
+8/19/2023 7:26:29 AM (1616) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 7:26:29 AM (2284) Paused Sensor 2012
+8/19/2023 7:26:29 AM (2284) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 7:26:29 AM (2284) No recalc nedded
+8/19/2023 7:26:29 AM (1468) Paused Sensor 2011
+8/19/2023 7:26:29 AM (1468) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 7:26:29 AM (1468) No recalc nedded
+8/19/2023 7:26:31 AM (2008) Finished
+8/19/2023 7:26:31 AM (1040) Finished
+8/19/2023 7:26:31 AM (2440) Finished
+8/19/2023 7:26:31 AM (2440) All Datacalc Threads finished calculations
+terminated thread 0 id: 2008
+terminated thread 1 id: 1040
+terminated thread 2 id: 2440
+8/19/2023 8:08:20 AM (2008) Restart
+8/19/2023 8:08:20 AM (2200) Stopped DataCalcThread 2008
+8/19/2023 8:08:20 AM (1040) Restart
+8/19/2023 8:08:20 AM (2200) Stopped DataCalcThread 1040
+8/19/2023 8:08:20 AM (2440) Restart
+8/19/2023 8:08:20 AM (2200) Stopped DataCalcThread 2440
+8/19/2023 8:08:28 AM (2784) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 8:08:28 AM (84) Paused Sensor 2012
+8/19/2023 8:08:28 AM (84) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 8:08:28 AM (84) No recalc nedded
+8/19/2023 8:08:28 AM (2672) Paused Sensor 2011
+8/19/2023 8:08:28 AM (2672) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 8:08:28 AM (2672) No recalc nedded
+8/19/2023 8:08:30 AM (1604) Finished
+8/19/2023 8:08:30 AM (1936) Finished
+8/19/2023 8:08:30 AM (1592) Finished
+8/19/2023 8:08:30 AM (1592) All Datacalc Threads finished calculations
+terminated thread 0 id: 1604
+terminated thread 1 id: 1936
+terminated thread 2 id: 1592
+8/19/2023 8:50:20 AM (1604) Restart
+8/19/2023 8:50:20 AM (2040) Stopped DataCalcThread 1604
+8/19/2023 8:50:20 AM (1936) Restart
+8/19/2023 8:50:20 AM (2040) Stopped DataCalcThread 1936
+8/19/2023 8:50:20 AM (1592) Restart
+8/19/2023 8:50:20 AM (2040) Stopped DataCalcThread 1592
+8/19/2023 8:50:28 AM (2072) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 8:50:28 AM (2692) Paused Sensor 2012
+8/19/2023 8:50:28 AM (2692) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 8:50:28 AM (2692) No recalc nedded
+8/19/2023 8:50:28 AM (1812) Paused Sensor 2011
+8/19/2023 8:50:28 AM (1812) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 8:50:28 AM (1812) No recalc nedded
+8/19/2023 8:50:30 AM (2708) Finished
+8/19/2023 8:50:30 AM (736) Finished
+8/19/2023 8:50:30 AM (2488) Finished
+8/19/2023 8:50:30 AM (2488) All Datacalc Threads finished calculations
+terminated thread 0 id: 2708
+terminated thread 1 id: 736
+terminated thread 2 id: 2488
+8/19/2023 9:32:20 AM (2708) Restart
+8/19/2023 9:32:20 AM (672) Stopped DataCalcThread 2708
+8/19/2023 9:32:20 AM (736) Restart
+8/19/2023 9:32:20 AM (672) Stopped DataCalcThread 736
+8/19/2023 9:32:20 AM (2488) Restart
+8/19/2023 9:32:20 AM (672) Stopped DataCalcThread 2488
+8/19/2023 9:32:29 AM (2580) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 9:32:29 AM (2308) Paused Sensor 2012
+8/19/2023 9:32:29 AM (2308) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 9:32:29 AM (2308) No recalc nedded
+8/19/2023 9:32:29 AM (8) Paused Sensor 2011
+8/19/2023 9:32:29 AM (8) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 9:32:29 AM (8) No recalc nedded
+8/19/2023 9:32:30 AM (2892) Finished
+8/19/2023 9:32:30 AM (2072) Finished
+8/19/2023 9:32:30 AM (2652) Finished
+8/19/2023 9:32:30 AM (2652) All Datacalc Threads finished calculations
+terminated thread 0 id: 2892
+terminated thread 1 id: 2072
+terminated thread 2 id: 2652
+8/19/2023 10:14:20 AM (2892) Restart
+8/19/2023 10:14:20 AM (312) Stopped DataCalcThread 2892
+8/19/2023 10:14:20 AM (2072) Restart
+8/19/2023 10:14:20 AM (312) Stopped DataCalcThread 2072
+8/19/2023 10:14:20 AM (2652) Restart
+8/19/2023 10:14:20 AM (312) Stopped DataCalcThread 2652
+8/19/2023 10:14:28 AM (2200) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 10:14:29 AM (1564) Paused Sensor 2012
+8/19/2023 10:14:29 AM (1564) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 10:14:29 AM (1564) No recalc nedded
+8/19/2023 10:14:29 AM (1648) Paused Sensor 2011
+8/19/2023 10:14:29 AM (1648) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 10:14:29 AM (1648) No recalc nedded
+8/19/2023 10:14:30 AM (168) Finished
+8/19/2023 10:14:30 AM (2440) Finished
+8/19/2023 10:14:30 AM (2696) Finished
+8/19/2023 10:14:30 AM (2696) All Datacalc Threads finished calculations
+terminated thread 0 id: 168
+terminated thread 1 id: 2440
+terminated thread 2 id: 2696
+8/19/2023 10:56:20 AM (168) Restart
+8/19/2023 10:56:20 AM (2644) Stopped DataCalcThread 168
+8/19/2023 10:56:20 AM (2440) Restart
+8/19/2023 10:56:20 AM (2644) Stopped DataCalcThread 2440
+8/19/2023 10:56:20 AM (2696) Restart
+8/19/2023 10:56:20 AM (2644) Stopped DataCalcThread 2696
+8/19/2023 10:56:29 AM (2876) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 10:56:29 AM (1616) Paused Sensor 2012
+8/19/2023 10:56:29 AM (1616) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 10:56:29 AM (1616) No recalc nedded
+8/19/2023 10:56:29 AM (2792) Paused Sensor 2011
+8/19/2023 10:56:29 AM (2792) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 10:56:29 AM (2792) No recalc nedded
+8/19/2023 10:56:30 AM (2700) Finished
+8/19/2023 10:56:30 AM (2072) Finished
+8/19/2023 10:56:30 AM (1924) Finished
+8/19/2023 10:56:30 AM (1924) All Datacalc Threads finished calculations
+terminated thread 0 id: 2700
+terminated thread 1 id: 2072
+terminated thread 2 id: 1924
+8/19/2023 11:38:20 AM (2700) Restart
+8/19/2023 11:38:20 AM (2908) Stopped DataCalcThread 2700
+8/19/2023 11:38:20 AM (2072) Restart
+8/19/2023 11:38:20 AM (2908) Stopped DataCalcThread 2072
+8/19/2023 11:38:20 AM (1924) Restart
+8/19/2023 11:38:20 AM (2908) Stopped DataCalcThread 1924
+8/19/2023 11:38:28 AM (176) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 11:38:29 AM (308) Paused Sensor 2012
+8/19/2023 11:38:29 AM (308) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 11:38:29 AM (308) No recalc nedded
+8/19/2023 11:38:29 AM (2296) Paused Sensor 2011
+8/19/2023 11:38:29 AM (2296) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 11:38:29 AM (2296) No recalc nedded
+8/19/2023 11:38:30 AM (84) Finished
+8/19/2023 11:38:30 AM (1612) Finished
+8/19/2023 11:38:30 AM (2032) Finished
+8/19/2023 11:38:30 AM (2032) All Datacalc Threads finished calculations
+terminated thread 0 id: 84
+terminated thread 1 id: 1612
+terminated thread 2 id: 2032
+8/19/2023 12:20:20 PM (84) Restart
+8/19/2023 12:20:20 PM (2320) Stopped DataCalcThread 84
+8/19/2023 12:20:20 PM (1612) Restart
+8/19/2023 12:20:20 PM (2320) Stopped DataCalcThread 1612
+8/19/2023 12:20:20 PM (2032) Restart
+8/19/2023 12:20:20 PM (2320) Stopped DataCalcThread 2032
+8/19/2023 12:20:30 PM (2688) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 12:20:30 PM (2264) Paused Sensor 2012
+8/19/2023 12:20:30 PM (2264) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 12:20:30 PM (2264) No recalc nedded
+8/19/2023 12:20:30 PM (180) Paused Sensor 2011
+8/19/2023 12:20:30 PM (180) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 12:20:30 PM (180) No recalc nedded
+8/19/2023 12:20:32 PM (1904) Finished
+8/19/2023 12:20:32 PM (1564) Finished
+8/19/2023 12:20:32 PM (1288) Finished
+8/19/2023 12:20:32 PM (1288) All Datacalc Threads finished calculations
+terminated thread 0 id: 1904
+terminated thread 1 id: 1564
+terminated thread 2 id: 1288
+8/19/2023 1:02:20 PM (1904) Restart
+8/19/2023 1:02:20 PM (916) Stopped DataCalcThread 1904
+8/19/2023 1:02:20 PM (1564) Restart
+8/19/2023 1:02:20 PM (916) Stopped DataCalcThread 1564
+8/19/2023 1:02:20 PM (1288) Restart
+8/19/2023 1:02:20 PM (916) Stopped DataCalcThread 1288
+8/19/2023 1:02:29 PM (2760) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 1:02:30 PM (2384) Paused Sensor 2012
+8/19/2023 1:02:30 PM (2384) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 1:02:30 PM (2384) No recalc nedded
+8/19/2023 1:02:30 PM (2848) Paused Sensor 2011
+8/19/2023 1:02:30 PM (2848) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 1:02:30 PM (2848) No recalc nedded
+8/19/2023 1:02:31 PM (2072) Finished
+8/19/2023 1:02:31 PM (2468) Finished
+8/19/2023 1:02:31 PM (2488) Finished
+8/19/2023 1:02:31 PM (2488) All Datacalc Threads finished calculations
+terminated thread 0 id: 2072
+terminated thread 1 id: 2468
+terminated thread 2 id: 2488
+8/19/2023 1:44:20 PM (2072) Restart
+8/19/2023 1:44:20 PM (2088) Stopped DataCalcThread 2072
+8/19/2023 1:44:20 PM (2468) Restart
+8/19/2023 1:44:20 PM (2088) Stopped DataCalcThread 2468
+8/19/2023 1:44:20 PM (2488) Restart
+8/19/2023 1:44:20 PM (2088) Stopped DataCalcThread 2488
+8/19/2023 1:44:28 PM (1868) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 1:44:28 PM (2784) Paused Sensor 2012
+8/19/2023 1:44:28 PM (2784) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 1:44:28 PM (2784) No recalc nedded
+8/19/2023 1:44:28 PM (1800) Paused Sensor 2011
+8/19/2023 1:44:28 PM (1800) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 1:44:28 PM (1800) No recalc nedded
+8/19/2023 1:44:30 PM (2096) Finished
+8/19/2023 1:44:30 PM (2012) Finished
+8/19/2023 1:44:30 PM (244) Finished
+8/19/2023 1:44:30 PM (244) All Datacalc Threads finished calculations
+terminated thread 0 id: 2096
+terminated thread 1 id: 2012
+terminated thread 2 id: 244
+8/19/2023 2:26:20 PM (2096) Restart
+8/19/2023 2:26:20 PM (668) Stopped DataCalcThread 2096
+8/19/2023 2:26:20 PM (2012) Restart
+8/19/2023 2:26:20 PM (668) Stopped DataCalcThread 2012
+8/19/2023 2:26:20 PM (244) Restart
+8/19/2023 2:26:20 PM (668) Stopped DataCalcThread 244
+8/19/2023 2:26:29 PM (1964) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 2:26:29 PM (2440) Paused Sensor 2012
+8/19/2023 2:26:29 PM (2440) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 2:26:29 PM (2440) No recalc nedded
+8/19/2023 2:26:29 PM (592) Paused Sensor 2011
+8/19/2023 2:26:29 PM (592) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 2:26:29 PM (592) No recalc nedded
+8/19/2023 2:26:31 PM (1036) Finished
+8/19/2023 2:26:31 PM (316) Finished
+8/19/2023 2:26:31 PM (2580) Finished
+8/19/2023 2:26:31 PM (2580) All Datacalc Threads finished calculations
+terminated thread 0 id: 1036
+terminated thread 1 id: 316
+terminated thread 2 id: 2580
+8/19/2023 3:08:20 PM (1036) Restart
+8/19/2023 3:08:20 PM (1940) Stopped DataCalcThread 1036
+8/19/2023 3:08:20 PM (316) Restart
+8/19/2023 3:08:20 PM (1940) Stopped DataCalcThread 316
+8/19/2023 3:08:20 PM (2580) Restart
+8/19/2023 3:08:20 PM (1940) Stopped DataCalcThread 2580
+8/19/2023 3:08:28 PM (1796) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 3:08:29 PM (764) Paused Sensor 2012
+8/19/2023 3:08:29 PM (764) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 3:08:29 PM (764) No recalc nedded
+8/19/2023 3:08:29 PM (1724) Paused Sensor 2011
+8/19/2023 3:08:29 PM (1724) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 3:08:29 PM (1724) No recalc nedded
+8/19/2023 3:08:30 PM (332) Finished
+8/19/2023 3:08:30 PM (2188) Finished
+8/19/2023 3:08:30 PM (668) Finished
+8/19/2023 3:08:30 PM (668) All Datacalc Threads finished calculations
+terminated thread 0 id: 332
+terminated thread 1 id: 2188
+terminated thread 2 id: 668
+8/19/2023 3:50:20 PM (332) Restart
+8/19/2023 3:50:20 PM (2396) Stopped DataCalcThread 332
+8/19/2023 3:50:20 PM (2188) Restart
+8/19/2023 3:50:20 PM (2396) Stopped DataCalcThread 2188
+8/19/2023 3:50:20 PM (668) Restart
+8/19/2023 3:50:20 PM (2396) Stopped DataCalcThread 668
+8/19/2023 3:50:28 PM (2996) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 3:50:29 PM (1872) Paused Sensor 2012
+8/19/2023 3:50:29 PM (1872) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 3:50:29 PM (1872) No recalc nedded
+8/19/2023 3:50:29 PM (2284) Paused Sensor 2011
+8/19/2023 3:50:29 PM (2284) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 3:50:29 PM (2284) No recalc nedded
+8/19/2023 3:50:30 PM (104) Finished
+8/19/2023 3:50:30 PM (1568) Finished
+8/19/2023 3:50:30 PM (1900) Finished
+8/19/2023 3:50:30 PM (1900) All Datacalc Threads finished calculations
+terminated thread 0 id: 104
+terminated thread 1 id: 1568
+terminated thread 2 id: 1900
+8/19/2023 4:32:20 PM (104) Restart
+8/19/2023 4:32:20 PM (2124) Stopped DataCalcThread 104
+8/19/2023 4:32:20 PM (1568) Restart
+8/19/2023 4:32:20 PM (2124) Stopped DataCalcThread 1568
+8/19/2023 4:32:20 PM (1900) Restart
+8/19/2023 4:32:20 PM (2124) Stopped DataCalcThread 1900
+8/19/2023 4:32:28 PM (1544) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 4:32:29 PM (1700) Paused Sensor 2012
+8/19/2023 4:32:29 PM (1700) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 4:32:29 PM (1700) No recalc nedded
+8/19/2023 4:32:29 PM (1948) Paused Sensor 2011
+8/19/2023 4:32:29 PM (1948) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 4:32:29 PM (1948) No recalc nedded
+8/19/2023 4:32:30 PM (724) Finished
+8/19/2023 4:32:30 PM (1188) Finished
+8/19/2023 4:32:30 PM (2548) Finished
+8/19/2023 4:32:30 PM (2548) All Datacalc Threads finished calculations
+terminated thread 0 id: 724
+terminated thread 1 id: 1188
+terminated thread 2 id: 2548
+8/19/2023 5:14:20 PM (724) Restart
+8/19/2023 5:14:20 PM (2596) Stopped DataCalcThread 724
+8/19/2023 5:14:20 PM (1188) Restart
+8/19/2023 5:14:20 PM (2596) Stopped DataCalcThread 1188
+8/19/2023 5:14:20 PM (2548) Restart
+8/19/2023 5:14:20 PM (2596) Stopped DataCalcThread 2548
+8/19/2023 5:14:28 PM (228) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 5:14:29 PM (2684) Paused Sensor 2012
+8/19/2023 5:14:29 PM (2684) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 5:14:29 PM (2684) No recalc nedded
+8/19/2023 5:14:29 PM (2296) Paused Sensor 2011
+8/19/2023 5:14:29 PM (2296) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 5:14:29 PM (2296) No recalc nedded
+8/19/2023 5:14:30 PM (1452) Finished
+8/19/2023 5:14:30 PM (1872) Finished
+8/19/2023 5:14:30 PM (1524) Finished
+8/19/2023 5:14:30 PM (1524) All Datacalc Threads finished calculations
+terminated thread 0 id: 1452
+terminated thread 1 id: 1872
+terminated thread 2 id: 1524
+8/19/2023 5:56:20 PM (1452) Restart
+8/19/2023 5:56:20 PM (1032) Stopped DataCalcThread 1452
+8/19/2023 5:56:20 PM (1872) Restart
+8/19/2023 5:56:20 PM (1032) Stopped DataCalcThread 1872
+8/19/2023 5:56:20 PM (1524) Restart
+8/19/2023 5:56:20 PM (1032) Stopped DataCalcThread 1524
+8/19/2023 5:56:29 PM (2588) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 5:56:29 PM (2800) Paused Sensor 2012
+8/19/2023 5:56:29 PM (2800) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 5:56:29 PM (2800) No recalc nedded
+8/19/2023 5:56:29 PM (2384) Paused Sensor 2011
+8/19/2023 5:56:29 PM (2384) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 5:56:29 PM (2384) No recalc nedded
+8/19/2023 5:56:30 PM (2288) Finished
+8/19/2023 5:56:30 PM (1908) Finished
+8/19/2023 5:56:30 PM (2680) Finished
+8/19/2023 5:56:30 PM (2680) All Datacalc Threads finished calculations
+terminated thread 0 id: 2288
+terminated thread 1 id: 1908
+terminated thread 2 id: 2680
+8/19/2023 6:38:20 PM (2288) Restart
+8/19/2023 6:38:20 PM (1644) Stopped DataCalcThread 2288
+8/19/2023 6:38:20 PM (1908) Restart
+8/19/2023 6:38:20 PM (1644) Stopped DataCalcThread 1908
+8/19/2023 6:38:20 PM (2680) Restart
+8/19/2023 6:38:20 PM (1644) Stopped DataCalcThread 2680
+8/19/2023 6:38:30 PM (2760) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 6:38:30 PM (572) Paused Sensor 2012
+8/19/2023 6:38:30 PM (572) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 6:38:30 PM (572) No recalc nedded
+8/19/2023 6:38:30 PM (2536) Paused Sensor 2011
+8/19/2023 6:38:30 PM (2536) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 6:38:30 PM (2536) No recalc nedded
+8/19/2023 6:38:31 PM (936) Finished
+8/19/2023 6:38:31 PM (1880) Finished
+8/19/2023 6:38:31 PM (1576) Finished
+8/19/2023 6:38:31 PM (1576) All Datacalc Threads finished calculations
+terminated thread 0 id: 936
+terminated thread 1 id: 1880
+terminated thread 2 id: 1576
+8/19/2023 7:20:20 PM (936) Restart
+8/19/2023 7:20:20 PM (1544) Stopped DataCalcThread 936
+8/19/2023 7:20:20 PM (1880) Restart
+8/19/2023 7:20:20 PM (1544) Stopped DataCalcThread 1880
+8/19/2023 7:20:20 PM (1576) Restart
+8/19/2023 7:20:20 PM (1544) Stopped DataCalcThread 1576
+8/19/2023 7:20:29 PM (2500) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 7:20:29 PM (1416) Paused Sensor 2012
+8/19/2023 7:20:29 PM (1416) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 7:20:29 PM (1416) No recalc nedded
+8/19/2023 7:20:29 PM (948) Paused Sensor 2011
+8/19/2023 7:20:29 PM (948) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 7:20:29 PM (948) No recalc nedded
+8/19/2023 7:20:31 PM (1312) Finished
+8/19/2023 7:20:31 PM (1904) Finished
+8/19/2023 7:20:31 PM (2188) Finished
+8/19/2023 7:20:31 PM (2188) All Datacalc Threads finished calculations
+terminated thread 0 id: 1312
+terminated thread 1 id: 1904
+terminated thread 2 id: 2188
+8/19/2023 8:02:20 PM (1312) Restart
+8/19/2023 8:02:20 PM (232) Stopped DataCalcThread 1312
+8/19/2023 8:02:20 PM (1904) Restart
+8/19/2023 8:02:20 PM (232) Stopped DataCalcThread 1904
+8/19/2023 8:02:20 PM (2188) Restart
+8/19/2023 8:02:20 PM (232) Stopped DataCalcThread 2188
+8/19/2023 8:02:29 PM (1032) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 8:02:30 PM (2452) Paused Sensor 2012
+8/19/2023 8:02:30 PM (2452) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 8:02:30 PM (2452) No recalc nedded
+8/19/2023 8:02:30 PM (2848) Paused Sensor 2011
+8/19/2023 8:02:30 PM (2848) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 8:02:30 PM (2848) No recalc nedded
+8/19/2023 8:02:31 PM (2696) Finished
+8/19/2023 8:02:31 PM (1976) Finished
+8/19/2023 8:02:31 PM (2736) Finished
+8/19/2023 8:02:31 PM (2736) All Datacalc Threads finished calculations
+terminated thread 0 id: 2696
+terminated thread 1 id: 1976
+terminated thread 2 id: 2736
+8/19/2023 8:44:20 PM (2696) Restart
+8/19/2023 8:44:20 PM (828) Stopped DataCalcThread 2696
+8/19/2023 8:44:20 PM (1976) Restart
+8/19/2023 8:44:20 PM (828) Stopped DataCalcThread 1976
+8/19/2023 8:44:20 PM (2736) Restart
+8/19/2023 8:44:20 PM (828) Stopped DataCalcThread 2736
+8/19/2023 8:44:29 PM (860) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 8:44:30 PM (1984) Paused Sensor 2012
+8/19/2023 8:44:30 PM (1984) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 8:44:30 PM (1984) No recalc nedded
+8/19/2023 8:44:30 PM (2712) Paused Sensor 2011
+8/19/2023 8:44:30 PM (2712) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 8:44:30 PM (2712) No recalc nedded
+8/19/2023 8:44:31 PM (1988) Finished
+8/19/2023 8:44:31 PM (1980) Finished
+8/19/2023 8:44:31 PM (1320) Finished
+8/19/2023 8:44:31 PM (1320) All Datacalc Threads finished calculations
+terminated thread 0 id: 1988
+terminated thread 1 id: 1980
+terminated thread 2 id: 1320
+8/19/2023 9:26:20 PM (1988) Restart
+8/19/2023 9:26:20 PM (2024) Stopped DataCalcThread 1988
+8/19/2023 9:26:20 PM (1980) Restart
+8/19/2023 9:26:20 PM (2024) Stopped DataCalcThread 1980
+8/19/2023 9:26:20 PM (1320) Restart
+8/19/2023 9:26:20 PM (2024) Stopped DataCalcThread 1320
+8/19/2023 9:26:28 PM (1868) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 9:26:29 PM (916) Paused Sensor 2012
+8/19/2023 9:26:29 PM (916) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 9:26:29 PM (916) No recalc nedded
+8/19/2023 9:26:29 PM (1788) Paused Sensor 2011
+8/19/2023 9:26:29 PM (1788) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 9:26:29 PM (1788) No recalc nedded
+8/19/2023 9:26:30 PM (2764) Finished
+8/19/2023 9:26:30 PM (2736) Finished
+8/19/2023 9:26:30 PM (2156) Finished
+8/19/2023 9:26:30 PM (2156) All Datacalc Threads finished calculations
+terminated thread 0 id: 2764
+terminated thread 1 id: 2736
+terminated thread 2 id: 2156
+8/19/2023 10:08:20 PM (2764) Restart
+8/19/2023 10:08:20 PM (432) Stopped DataCalcThread 2764
+8/19/2023 10:08:20 PM (2736) Restart
+8/19/2023 10:08:20 PM (432) Stopped DataCalcThread 2736
+8/19/2023 10:08:20 PM (2156) Restart
+8/19/2023 10:08:20 PM (432) Stopped DataCalcThread 2156
+8/19/2023 10:08:28 PM (2008) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 10:08:29 PM (708) Paused Sensor 2012
+8/19/2023 10:08:29 PM (708) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 10:08:29 PM (708) No recalc nedded
+8/19/2023 10:08:29 PM (2320) Paused Sensor 2011
+8/19/2023 10:08:29 PM (2320) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 10:08:29 PM (2320) No recalc nedded
+8/19/2023 10:08:30 PM (936) Finished
+8/19/2023 10:08:30 PM (944) Finished
+8/19/2023 10:08:30 PM (172) Finished
+8/19/2023 10:08:30 PM (172) All Datacalc Threads finished calculations
+terminated thread 0 id: 936
+terminated thread 1 id: 944
+terminated thread 2 id: 172
+8/19/2023 10:50:20 PM (936) Restart
+8/19/2023 10:50:20 PM (1668) Stopped DataCalcThread 936
+8/19/2023 10:50:20 PM (944) Restart
+8/19/2023 10:50:20 PM (1668) Stopped DataCalcThread 944
+8/19/2023 10:50:20 PM (172) Restart
+8/19/2023 10:50:20 PM (1668) Stopped DataCalcThread 172
+8/19/2023 10:50:28 PM (2544) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 10:50:29 PM (2516) Paused Sensor 2012
+8/19/2023 10:50:29 PM (2516) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 10:50:29 PM (2516) No recalc nedded
+8/19/2023 10:50:29 PM (2468) Paused Sensor 2011
+8/19/2023 10:50:29 PM (2468) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 10:50:29 PM (2468) No recalc nedded
+8/19/2023 10:50:30 PM (940) Finished
+8/19/2023 10:50:30 PM (1428) Finished
+8/19/2023 10:50:30 PM (1536) Finished
+8/19/2023 10:50:30 PM (1536) All Datacalc Threads finished calculations
+terminated thread 0 id: 940
+terminated thread 1 id: 1428
+terminated thread 2 id: 1536
+8/19/2023 11:32:20 PM (940) Restart
+8/19/2023 11:32:20 PM (2572) Stopped DataCalcThread 940
+8/19/2023 11:32:20 PM (1428) Restart
+8/19/2023 11:32:20 PM (2572) Stopped DataCalcThread 1428
+8/19/2023 11:32:20 PM (1536) Restart
+8/19/2023 11:32:20 PM (2572) Stopped DataCalcThread 1536
+8/19/2023 11:32:29 PM (316) Start PRTG Network Monitor 18.1.37.13946
+8/19/2023 11:32:29 PM (2836) Paused Sensor 2012
+8/19/2023 11:32:29 PM (2836) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/19/2023 11:32:29 PM (2836) No recalc nedded
+8/19/2023 11:32:29 PM (484) Paused Sensor 2011
+8/19/2023 11:32:29 PM (484) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/19/2023 11:32:29 PM (484) No recalc nedded
+8/19/2023 11:32:31 PM (2932) Finished
+8/19/2023 11:32:31 PM (92) Finished
+8/19/2023 11:32:31 PM (1780) Finished
+8/19/2023 11:32:31 PM (1780) All Datacalc Threads finished calculations
+terminated thread 0 id: 2932
+terminated thread 1 id: 92
+terminated thread 2 id: 1780
+8/20/2023 12:14:20 AM (2932) Restart
+8/20/2023 12:14:20 AM (1684) Stopped DataCalcThread 2932
+8/20/2023 12:14:20 AM (92) Restart
+8/20/2023 12:14:20 AM (1684) Stopped DataCalcThread 92
+8/20/2023 12:14:20 AM (1780) Restart
+8/20/2023 12:14:20 AM (1684) Stopped DataCalcThread 1780
+8/20/2023 12:14:28 AM (500) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 12:14:29 AM (1932) Paused Sensor 2012
+8/20/2023 12:14:29 AM (1932) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 12:14:29 AM (1932) No recalc nedded
+8/20/2023 12:14:29 AM (1188) Paused Sensor 2011
+8/20/2023 12:14:29 AM (1188) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 12:14:29 AM (1188) No recalc nedded
+8/20/2023 12:14:30 AM (1840) Finished
+8/20/2023 12:14:30 AM (300) Finished
+8/20/2023 12:14:30 AM (1432) Finished
+8/20/2023 12:14:30 AM (1432) All Datacalc Threads finished calculations
+terminated thread 0 id: 1840
+terminated thread 1 id: 300
+terminated thread 2 id: 1432
+8/20/2023 12:56:20 AM (1840) Restart
+8/20/2023 12:56:20 AM (1288) Stopped DataCalcThread 1840
+8/20/2023 12:56:20 AM (300) Restart
+8/20/2023 12:56:20 AM (1288) Stopped DataCalcThread 300
+8/20/2023 12:56:20 AM (1432) Restart
+8/20/2023 12:56:20 AM (1288) Stopped DataCalcThread 1432
+8/20/2023 12:56:29 AM (1180) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 12:56:29 AM (244) Paused Sensor 2012
+8/20/2023 12:56:29 AM (244) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 12:56:29 AM (244) No recalc nedded
+8/20/2023 12:56:29 AM (1644) Paused Sensor 2011
+8/20/2023 12:56:29 AM (1644) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 12:56:29 AM (1644) No recalc nedded
+8/20/2023 12:56:30 AM (2692) Finished
+8/20/2023 12:56:30 AM (2768) Finished
+8/20/2023 12:56:30 AM (1752) Finished
+8/20/2023 12:56:30 AM (1752) All Datacalc Threads finished calculations
+terminated thread 0 id: 2692
+terminated thread 1 id: 2768
+terminated thread 2 id: 1752
+8/20/2023 1:38:20 AM (2692) Restart
+8/20/2023 1:38:20 AM (2384) Stopped DataCalcThread 2692
+8/20/2023 1:38:20 AM (2768) Restart
+8/20/2023 1:38:20 AM (2384) Stopped DataCalcThread 2768
+8/20/2023 1:38:20 AM (1752) Restart
+8/20/2023 1:38:20 AM (2384) Stopped DataCalcThread 1752
+8/20/2023 1:38:28 AM (292) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 1:38:28 AM (2388) Paused Sensor 2012
+8/20/2023 1:38:28 AM (2388) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 1:38:28 AM (2388) No recalc nedded
+8/20/2023 1:38:28 AM (2032) Paused Sensor 2011
+8/20/2023 1:38:28 AM (2032) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 1:38:28 AM (2032) No recalc nedded
+8/20/2023 1:38:30 AM (3040) Finished
+8/20/2023 1:38:30 AM (2660) Finished
+8/20/2023 1:38:30 AM (2760) Finished
+8/20/2023 1:38:30 AM (2760) All Datacalc Threads finished calculations
+terminated thread 0 id: 3040
+terminated thread 1 id: 2660
+terminated thread 2 id: 2760
+8/20/2023 2:20:20 AM (3040) Restart
+8/20/2023 2:20:20 AM (2020) Stopped DataCalcThread 3040
+8/20/2023 2:20:20 AM (2660) Restart
+8/20/2023 2:20:20 AM (2020) Stopped DataCalcThread 2660
+8/20/2023 2:20:20 AM (2760) Restart
+8/20/2023 2:20:20 AM (2020) Stopped DataCalcThread 2760
+8/20/2023 2:20:28 AM (684) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 2:20:28 AM (1448) Paused Sensor 2012
+8/20/2023 2:20:28 AM (1448) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 2:20:28 AM (1448) No recalc nedded
+8/20/2023 2:20:28 AM (2100) Paused Sensor 2011
+8/20/2023 2:20:28 AM (2100) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 2:20:28 AM (2100) No recalc nedded
+8/20/2023 2:20:30 AM (2588) Finished
+8/20/2023 2:20:30 AM (2516) Finished
+8/20/2023 2:20:30 AM (1564) Finished
+8/20/2023 2:20:30 AM (1564) All Datacalc Threads finished calculations
+terminated thread 0 id: 2588
+terminated thread 1 id: 2516
+terminated thread 2 id: 1564
+8/20/2023 3:02:20 AM (2588) Restart
+8/20/2023 3:02:20 AM (2468) Stopped DataCalcThread 2588
+8/20/2023 3:02:20 AM (2516) Restart
+8/20/2023 3:02:20 AM (2468) Stopped DataCalcThread 2516
+8/20/2023 3:02:20 AM (1564) Restart
+8/20/2023 3:02:20 AM (2468) Stopped DataCalcThread 1564
+8/20/2023 3:02:28 AM (2472) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 3:02:28 AM (2228) Paused Sensor 2012
+8/20/2023 3:02:28 AM (2228) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 3:02:28 AM (2228) No recalc nedded
+8/20/2023 3:02:28 AM (2440) Paused Sensor 2011
+8/20/2023 3:02:28 AM (2440) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 3:02:28 AM (2440) No recalc nedded
+8/20/2023 3:02:30 AM (2520) Finished
+8/20/2023 3:02:30 AM (2028) Finished
+8/20/2023 3:02:30 AM (3028) Finished
+8/20/2023 3:02:30 AM (3028) All Datacalc Threads finished calculations
+terminated thread 0 id: 2520
+terminated thread 1 id: 2028
+terminated thread 2 id: 3028
+8/20/2023 3:44:20 AM (2520) Restart
+8/20/2023 3:44:20 AM (2240) Stopped DataCalcThread 2520
+8/20/2023 3:44:20 AM (2028) Restart
+8/20/2023 3:44:20 AM (2240) Stopped DataCalcThread 2028
+8/20/2023 3:44:20 AM (3028) Restart
+8/20/2023 3:44:20 AM (2240) Stopped DataCalcThread 3028
+8/20/2023 3:44:29 AM (2296) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 3:44:29 AM (1452) Paused Sensor 2012
+8/20/2023 3:44:29 AM (1452) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 3:44:29 AM (1452) No recalc nedded
+8/20/2023 3:44:29 AM (8) Paused Sensor 2011
+8/20/2023 3:44:29 AM (8) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 3:44:29 AM (8) No recalc nedded
+8/20/2023 3:44:31 AM (180) Finished
+8/20/2023 3:44:31 AM (2156) Finished
+8/20/2023 3:44:31 AM (1584) Finished
+8/20/2023 3:44:31 AM (1584) All Datacalc Threads finished calculations
+terminated thread 0 id: 180
+terminated thread 1 id: 2156
+terminated thread 2 id: 1584
+8/20/2023 4:26:20 AM (180) Restart
+8/20/2023 4:26:20 AM (2468) Stopped DataCalcThread 180
+8/20/2023 4:26:20 AM (2156) Restart
+8/20/2023 4:26:20 AM (2468) Stopped DataCalcThread 2156
+8/20/2023 4:26:20 AM (1584) Restart
+8/20/2023 4:26:20 AM (2468) Stopped DataCalcThread 1584
+8/20/2023 4:26:29 AM (328) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 4:26:29 AM (1844) Paused Sensor 2012
+8/20/2023 4:26:29 AM (1844) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 4:26:29 AM (1844) No recalc nedded
+8/20/2023 4:26:29 AM (2372) Paused Sensor 2011
+8/20/2023 4:26:29 AM (2372) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 4:26:29 AM (2372) No recalc nedded
+8/20/2023 4:26:30 AM (588) Finished
+8/20/2023 4:26:30 AM (2068) Finished
+8/20/2023 4:26:30 AM (308) Finished
+8/20/2023 4:26:30 AM (308) All Datacalc Threads finished calculations
+terminated thread 0 id: 588
+terminated thread 1 id: 2068
+terminated thread 2 id: 308
+8/20/2023 5:08:20 AM (588) Restart
+8/20/2023 5:08:20 AM (1796) Stopped DataCalcThread 588
+8/20/2023 5:08:20 AM (2068) Restart
+8/20/2023 5:08:20 AM (1796) Stopped DataCalcThread 2068
+8/20/2023 5:08:20 AM (308) Restart
+8/20/2023 5:08:20 AM (1796) Stopped DataCalcThread 308
+8/20/2023 5:08:28 AM (1964) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 5:08:28 AM (2700) Paused Sensor 2012
+8/20/2023 5:08:28 AM (2700) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 5:08:28 AM (2700) No recalc nedded
+8/20/2023 5:08:28 AM (668) Paused Sensor 2011
+8/20/2023 5:08:28 AM (668) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 5:08:28 AM (668) No recalc nedded
+8/20/2023 5:08:30 AM (572) Finished
+8/20/2023 5:08:30 AM (1628) Finished
+8/20/2023 5:08:30 AM (2764) Finished
+8/20/2023 5:08:30 AM (2764) All Datacalc Threads finished calculations
+terminated thread 0 id: 572
+terminated thread 1 id: 1628
+terminated thread 2 id: 2764
+8/20/2023 5:50:20 AM (572) Restart
+8/20/2023 5:50:20 AM (2020) Stopped DataCalcThread 572
+8/20/2023 5:50:20 AM (1628) Restart
+8/20/2023 5:50:20 AM (2020) Stopped DataCalcThread 1628
+8/20/2023 5:50:20 AM (2764) Restart
+8/20/2023 5:50:20 AM (2020) Stopped DataCalcThread 2764
+8/20/2023 5:50:28 AM (1464) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 5:50:29 AM (1828) Paused Sensor 2012
+8/20/2023 5:50:29 AM (1828) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 5:50:29 AM (1828) No recalc nedded
+8/20/2023 5:50:29 AM (2448) Paused Sensor 2011
+8/20/2023 5:50:29 AM (2448) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 5:50:29 AM (2448) No recalc nedded
+8/20/2023 5:50:30 AM (1788) Finished
+8/20/2023 5:50:30 AM (2144) Finished
+8/20/2023 5:50:30 AM (2464) Finished
+8/20/2023 5:50:30 AM (2464) All Datacalc Threads finished calculations
+terminated thread 0 id: 1788
+terminated thread 1 id: 2144
+terminated thread 2 id: 2464
+8/20/2023 6:32:20 AM (1788) Restart
+8/20/2023 6:32:20 AM (588) Stopped DataCalcThread 1788
+8/20/2023 6:32:20 AM (2144) Restart
+8/20/2023 6:32:20 AM (588) Stopped DataCalcThread 2144
+8/20/2023 6:32:20 AM (2464) Restart
+8/20/2023 6:32:20 AM (588) Stopped DataCalcThread 2464
+8/20/2023 6:32:29 AM (1200) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 6:32:29 AM (2352) Paused Sensor 2012
+8/20/2023 6:32:29 AM (2352) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 6:32:29 AM (2352) No recalc nedded
+8/20/2023 6:32:29 AM (1100) Paused Sensor 2011
+8/20/2023 6:32:29 AM (1100) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 6:32:29 AM (1100) No recalc nedded
+8/20/2023 6:32:30 AM (2784) Finished
+8/20/2023 6:32:30 AM (2736) Finished
+8/20/2023 6:32:30 AM (2116) Finished
+8/20/2023 6:32:30 AM (2116) All Datacalc Threads finished calculations
+terminated thread 0 id: 2784
+terminated thread 1 id: 2736
+terminated thread 2 id: 2116
+8/20/2023 7:14:20 AM (2784) Restart
+8/20/2023 7:14:20 AM (828) Stopped DataCalcThread 2784
+8/20/2023 7:14:20 AM (2736) Restart
+8/20/2023 7:14:20 AM (828) Stopped DataCalcThread 2736
+8/20/2023 7:14:20 AM (2116) Restart
+8/20/2023 7:14:20 AM (828) Stopped DataCalcThread 2116
+8/20/2023 7:14:30 AM (1248) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 7:14:30 AM (1324) Paused Sensor 2012
+8/20/2023 7:14:30 AM (1324) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 7:14:30 AM (1324) No recalc nedded
+8/20/2023 7:14:30 AM (2752) Paused Sensor 2011
+8/20/2023 7:14:30 AM (2752) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 7:14:30 AM (2752) No recalc nedded
+8/20/2023 7:14:32 AM (240) Finished
+8/20/2023 7:14:32 AM (2496) Finished
+8/20/2023 7:14:32 AM (1932) Finished
+8/20/2023 7:14:32 AM (1932) All Datacalc Threads finished calculations
+terminated thread 0 id: 240
+terminated thread 1 id: 2496
+terminated thread 2 id: 1932
+8/20/2023 7:56:20 AM (240) Restart
+8/20/2023 7:56:20 AM (2520) Stopped DataCalcThread 240
+8/20/2023 7:56:20 AM (2496) Restart
+8/20/2023 7:56:20 AM (2520) Stopped DataCalcThread 2496
+8/20/2023 7:56:20 AM (1932) Restart
+8/20/2023 7:56:20 AM (2520) Stopped DataCalcThread 1932
+8/20/2023 7:56:29 AM (1452) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 7:56:29 AM (2368) Paused Sensor 2012
+8/20/2023 7:56:29 AM (2368) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 7:56:29 AM (2368) No recalc nedded
+8/20/2023 7:56:29 AM (2660) Paused Sensor 2011
+8/20/2023 7:56:29 AM (2660) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 7:56:29 AM (2660) No recalc nedded
+8/20/2023 7:56:30 AM (1844) Finished
+8/20/2023 7:56:30 AM (1060) Finished
+8/20/2023 7:56:30 AM (2320) Finished
+8/20/2023 7:56:30 AM (2320) All Datacalc Threads finished calculations
+terminated thread 0 id: 1844
+terminated thread 1 id: 1060
+terminated thread 2 id: 2320
+8/20/2023 8:38:20 AM (1844) Restart
+8/20/2023 8:38:20 AM (1552) Stopped DataCalcThread 1844
+8/20/2023 8:38:20 AM (1060) Restart
+8/20/2023 8:38:20 AM (1552) Stopped DataCalcThread 1060
+8/20/2023 8:38:20 AM (2320) Restart
+8/20/2023 8:38:20 AM (1552) Stopped DataCalcThread 2320
+8/20/2023 8:38:29 AM (860) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 8:38:29 AM (2240) Paused Sensor 2012
+8/20/2023 8:38:29 AM (2240) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 8:38:29 AM (2240) No recalc nedded
+8/20/2023 8:38:29 AM (1636) Paused Sensor 2011
+8/20/2023 8:38:29 AM (1636) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 8:38:29 AM (1636) No recalc nedded
+8/20/2023 8:38:31 AM (2892) Finished
+8/20/2023 8:38:31 AM (2648) Finished
+8/20/2023 8:38:31 AM (1828) Finished
+8/20/2023 8:38:31 AM (1828) All Datacalc Threads finished calculations
+terminated thread 0 id: 2892
+terminated thread 1 id: 2648
+terminated thread 2 id: 1828
+8/20/2023 9:20:20 AM (2892) Restart
+8/20/2023 9:20:20 AM (180) Stopped DataCalcThread 2892
+8/20/2023 9:20:20 AM (2648) Restart
+8/20/2023 9:20:20 AM (180) Stopped DataCalcThread 2648
+8/20/2023 9:20:20 AM (1828) Restart
+8/20/2023 9:20:20 AM (180) Stopped DataCalcThread 1828
+8/20/2023 9:20:29 AM (2740) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 9:20:29 AM (2396) Paused Sensor 2012
+8/20/2023 9:20:29 AM (2396) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 9:20:29 AM (2396) No recalc nedded
+8/20/2023 9:20:29 AM (1444) Paused Sensor 2011
+8/20/2023 9:20:29 AM (1444) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 9:20:29 AM (1444) No recalc nedded
+8/20/2023 9:20:30 AM (816) Finished
+8/20/2023 9:20:30 AM (2468) Finished
+8/20/2023 9:20:30 AM (932) Finished
+8/20/2023 9:20:30 AM (932) All Datacalc Threads finished calculations
+terminated thread 0 id: 816
+terminated thread 1 id: 2468
+terminated thread 2 id: 932
+8/20/2023 10:02:20 AM (816) Restart
+8/20/2023 10:02:20 AM (1660) Stopped DataCalcThread 816
+8/20/2023 10:02:20 AM (2468) Restart
+8/20/2023 10:02:20 AM (1660) Stopped DataCalcThread 2468
+8/20/2023 10:02:20 AM (932) Restart
+8/20/2023 10:02:20 AM (1660) Stopped DataCalcThread 932
+8/20/2023 10:02:28 AM (244) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 10:02:29 AM (944) Paused Sensor 2012
+8/20/2023 10:02:29 AM (944) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 10:02:29 AM (944) No recalc nedded
+8/20/2023 10:02:29 AM (2564) Paused Sensor 2011
+8/20/2023 10:02:29 AM (2564) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 10:02:29 AM (2564) No recalc nedded
+8/20/2023 10:02:30 AM (1432) Finished
+8/20/2023 10:02:30 AM (240) Finished
+8/20/2023 10:02:30 AM (2264) Finished
+8/20/2023 10:02:30 AM (2264) All Datacalc Threads finished calculations
+terminated thread 0 id: 1432
+terminated thread 1 id: 240
+terminated thread 2 id: 2264
+8/20/2023 10:44:20 AM (1432) Restart
+8/20/2023 10:44:20 AM (2760) Stopped DataCalcThread 1432
+8/20/2023 10:44:20 AM (240) Restart
+8/20/2023 10:44:20 AM (2760) Stopped DataCalcThread 240
+8/20/2023 10:44:20 AM (2264) Restart
+8/20/2023 10:44:20 AM (2760) Stopped DataCalcThread 2264
+8/20/2023 10:44:29 AM (132) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 10:44:29 AM (1868) Paused Sensor 2012
+8/20/2023 10:44:29 AM (1868) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 10:44:29 AM (1868) No recalc nedded
+8/20/2023 10:44:29 AM (736) Paused Sensor 2011
+8/20/2023 10:44:29 AM (736) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 10:44:29 AM (736) No recalc nedded
+8/20/2023 10:44:30 AM (1608) Finished
+8/20/2023 10:44:30 AM (2552) Finished
+8/20/2023 10:44:30 AM (2568) Finished
+8/20/2023 10:44:30 AM (2568) All Datacalc Threads finished calculations
+terminated thread 0 id: 1608
+terminated thread 1 id: 2552
+terminated thread 2 id: 2568
+8/20/2023 11:26:20 AM (1608) Restart
+8/20/2023 11:26:20 AM (2284) Stopped DataCalcThread 1608
+8/20/2023 11:26:20 AM (2552) Restart
+8/20/2023 11:26:20 AM (2284) Stopped DataCalcThread 2552
+8/20/2023 11:26:20 AM (2568) Restart
+8/20/2023 11:26:20 AM (2284) Stopped DataCalcThread 2568
+8/20/2023 11:26:28 AM (2440) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 11:26:29 AM (3056) Paused Sensor 2012
+8/20/2023 11:26:29 AM (3056) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 11:26:29 AM (3056) No recalc nedded
+8/20/2023 11:26:29 AM (1880) Paused Sensor 2011
+8/20/2023 11:26:29 AM (1880) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 11:26:29 AM (1880) No recalc nedded
+8/20/2023 11:26:30 AM (1956) Finished
+8/20/2023 11:26:30 AM (3052) Finished
+8/20/2023 11:26:30 AM (2764) Finished
+8/20/2023 11:26:30 AM (2764) All Datacalc Threads finished calculations
+terminated thread 0 id: 1956
+terminated thread 1 id: 3052
+terminated thread 2 id: 2764
+8/20/2023 12:08:20 PM (1956) Restart
+8/20/2023 12:08:20 PM (1976) Stopped DataCalcThread 1956
+8/20/2023 12:08:20 PM (3052) Restart
+8/20/2023 12:08:20 PM (1976) Stopped DataCalcThread 3052
+8/20/2023 12:08:20 PM (2764) Restart
+8/20/2023 12:08:20 PM (1976) Stopped DataCalcThread 2764
+8/20/2023 12:08:29 PM (2216) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 12:08:29 PM (260) Paused Sensor 2012
+8/20/2023 12:08:29 PM (260) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 12:08:29 PM (260) No recalc nedded
+8/20/2023 12:08:29 PM (1752) Paused Sensor 2011
+8/20/2023 12:08:29 PM (1752) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 12:08:29 PM (1752) No recalc nedded
+8/20/2023 12:08:30 PM (2556) Finished
+8/20/2023 12:08:30 PM (500) Finished
+8/20/2023 12:08:30 PM (1344) Finished
+8/20/2023 12:08:30 PM (1344) All Datacalc Threads finished calculations
+terminated thread 0 id: 2556
+terminated thread 1 id: 500
+terminated thread 2 id: 1344
+8/20/2023 12:50:20 PM (2556) Restart
+8/20/2023 12:50:20 PM (2372) Stopped DataCalcThread 2556
+8/20/2023 12:50:20 PM (500) Restart
+8/20/2023 12:50:20 PM (2372) Stopped DataCalcThread 500
+8/20/2023 12:50:20 PM (1344) Restart
+8/20/2023 12:50:20 PM (2372) Stopped DataCalcThread 1344
+8/20/2023 12:50:29 PM (2188) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 12:50:29 PM (260) Paused Sensor 2012
+8/20/2023 12:50:29 PM (260) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 12:50:29 PM (260) No recalc nedded
+8/20/2023 12:50:29 PM (2076) Paused Sensor 2011
+8/20/2023 12:50:29 PM (2076) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 12:50:29 PM (2076) No recalc nedded
+8/20/2023 12:50:31 PM (2452) Finished
+8/20/2023 12:50:31 PM (1644) Finished
+8/20/2023 12:50:31 PM (1872) Finished
+8/20/2023 12:50:31 PM (1872) All Datacalc Threads finished calculations
+terminated thread 0 id: 2452
+terminated thread 1 id: 1644
+terminated thread 2 id: 1872
+8/20/2023 1:32:20 PM (2452) Restart
+8/20/2023 1:32:20 PM (2064) Stopped DataCalcThread 2452
+8/20/2023 1:32:20 PM (1644) Restart
+8/20/2023 1:32:20 PM (2064) Stopped DataCalcThread 1644
+8/20/2023 1:32:20 PM (1872) Restart
+8/20/2023 1:32:20 PM (2064) Stopped DataCalcThread 1872
+8/20/2023 1:32:28 PM (1564) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 1:32:28 PM (2128) Paused Sensor 2012
+8/20/2023 1:32:28 PM (2128) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 1:32:28 PM (2128) No recalc nedded
+8/20/2023 1:32:28 PM (2120) Paused Sensor 2011
+8/20/2023 1:32:28 PM (2120) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 1:32:28 PM (2120) No recalc nedded
+8/20/2023 1:32:30 PM (1904) Finished
+8/20/2023 1:32:30 PM (2252) Finished
+8/20/2023 1:32:30 PM (1956) Finished
+8/20/2023 1:32:30 PM (1956) All Datacalc Threads finished calculations
+terminated thread 0 id: 1904
+terminated thread 1 id: 2252
+terminated thread 2 id: 1956
+8/20/2023 2:14:20 PM (1904) Restart
+8/20/2023 2:14:20 PM (1172) Stopped DataCalcThread 1904
+8/20/2023 2:14:20 PM (2252) Restart
+8/20/2023 2:14:20 PM (1172) Stopped DataCalcThread 2252
+8/20/2023 2:14:20 PM (1956) Restart
+8/20/2023 2:14:20 PM (1172) Stopped DataCalcThread 1956
+8/20/2023 2:14:28 PM (952) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 2:14:29 PM (2748) Paused Sensor 2012
+8/20/2023 2:14:29 PM (2748) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 2:14:29 PM (2748) No recalc nedded
+8/20/2023 2:14:29 PM (3012) Paused Sensor 2011
+8/20/2023 2:14:29 PM (3012) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 2:14:29 PM (3012) No recalc nedded
+8/20/2023 2:14:30 PM (2436) Finished
+8/20/2023 2:14:30 PM (2284) Finished
+8/20/2023 2:14:30 PM (2008) Finished
+8/20/2023 2:14:30 PM (2008) All Datacalc Threads finished calculations
+terminated thread 0 id: 2436
+terminated thread 1 id: 2284
+terminated thread 2 id: 2008
+8/20/2023 2:56:20 PM (2436) Restart
+8/20/2023 2:56:20 PM (2592) Stopped DataCalcThread 2436
+8/20/2023 2:56:20 PM (2284) Restart
+8/20/2023 2:56:20 PM (2592) Stopped DataCalcThread 2284
+8/20/2023 2:56:20 PM (2008) Restart
+8/20/2023 2:56:20 PM (2592) Stopped DataCalcThread 2008
+8/20/2023 2:56:30 PM (1608) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 2:56:30 PM (2572) Paused Sensor 2012
+8/20/2023 2:56:30 PM (2572) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 2:56:30 PM (2572) No recalc nedded
+8/20/2023 2:56:30 PM (2020) Paused Sensor 2011
+8/20/2023 2:56:30 PM (2020) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 2:56:30 PM (2020) No recalc nedded
+8/20/2023 2:56:31 PM (1888) Finished
+8/20/2023 2:56:31 PM (2800) Finished
+8/20/2023 2:56:31 PM (2300) Finished
+8/20/2023 2:56:31 PM (2300) All Datacalc Threads finished calculations
+terminated thread 0 id: 1888
+terminated thread 1 id: 2800
+terminated thread 2 id: 2300
+8/20/2023 3:38:20 PM (1888) Restart
+8/20/2023 3:38:20 PM (3044) Stopped DataCalcThread 1888
+8/20/2023 3:38:20 PM (2800) Restart
+8/20/2023 3:38:20 PM (3044) Stopped DataCalcThread 2800
+8/20/2023 3:38:20 PM (2300) Restart
+8/20/2023 3:38:20 PM (3044) Stopped DataCalcThread 2300
+8/20/2023 3:38:28 PM (1032) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 3:38:29 PM (1288) Paused Sensor 2012
+8/20/2023 3:38:29 PM (1288) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 3:38:29 PM (1288) No recalc nedded
+8/20/2023 3:38:29 PM (1544) Paused Sensor 2011
+8/20/2023 3:38:29 PM (1544) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 3:38:29 PM (1544) No recalc nedded
+8/20/2023 3:38:30 PM (2704) Finished
+8/20/2023 3:38:30 PM (2872) Finished
+8/20/2023 3:38:30 PM (1172) Finished
+8/20/2023 3:38:30 PM (1172) All Datacalc Threads finished calculations
+terminated thread 0 id: 2704
+terminated thread 1 id: 2872
+terminated thread 2 id: 1172
+8/20/2023 4:20:20 PM (2704) Restart
+8/20/2023 4:20:20 PM (1068) Stopped DataCalcThread 2704
+8/20/2023 4:20:20 PM (2872) Restart
+8/20/2023 4:20:20 PM (1068) Stopped DataCalcThread 2872
+8/20/2023 4:20:20 PM (1172) Restart
+8/20/2023 4:20:20 PM (1068) Stopped DataCalcThread 1172
+8/20/2023 4:20:28 PM (2304) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 4:20:28 PM (1464) Paused Sensor 2012
+8/20/2023 4:20:28 PM (1464) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 4:20:28 PM (1464) No recalc nedded
+8/20/2023 4:20:28 PM (1924) Paused Sensor 2011
+8/20/2023 4:20:28 PM (1924) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 4:20:28 PM (1924) No recalc nedded
+8/20/2023 4:20:30 PM (292) Finished
+8/20/2023 4:20:30 PM (2544) Finished
+8/20/2023 4:20:30 PM (2368) Finished
+8/20/2023 4:20:30 PM (2368) All Datacalc Threads finished calculations
+terminated thread 0 id: 292
+terminated thread 1 id: 2544
+terminated thread 2 id: 2368
+8/20/2023 5:02:20 PM (292) Restart
+8/20/2023 5:02:20 PM (2456) Stopped DataCalcThread 292
+8/20/2023 5:02:20 PM (2544) Restart
+8/20/2023 5:02:20 PM (2456) Stopped DataCalcThread 2544
+8/20/2023 5:02:20 PM (2368) Restart
+8/20/2023 5:02:20 PM (2456) Stopped DataCalcThread 2368
+8/20/2023 5:02:29 PM (328) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 5:02:30 PM (2396) Paused Sensor 2012
+8/20/2023 5:02:30 PM (2396) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 5:02:30 PM (2396) No recalc nedded
+8/20/2023 5:02:30 PM (2156) Paused Sensor 2011
+8/20/2023 5:02:30 PM (2156) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 5:02:30 PM (2156) No recalc nedded
+8/20/2023 5:02:31 PM (1428) Finished
+8/20/2023 5:02:31 PM (348) Finished
+8/20/2023 5:02:31 PM (2100) Finished
+8/20/2023 5:02:31 PM (2100) All Datacalc Threads finished calculations
+terminated thread 0 id: 1428
+terminated thread 1 id: 348
+terminated thread 2 id: 2100
+8/20/2023 5:44:20 PM (1428) Restart
+8/20/2023 5:44:20 PM (1852) Stopped DataCalcThread 1428
+8/20/2023 5:44:20 PM (348) Restart
+8/20/2023 5:44:20 PM (1852) Stopped DataCalcThread 348
+8/20/2023 5:44:20 PM (2100) Restart
+8/20/2023 5:44:20 PM (1852) Stopped DataCalcThread 2100
+8/20/2023 5:44:28 PM (1744) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 5:44:29 PM (2064) Paused Sensor 2012
+8/20/2023 5:44:29 PM (2064) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 5:44:29 PM (2064) No recalc nedded
+8/20/2023 5:44:29 PM (2276) Paused Sensor 2011
+8/20/2023 5:44:29 PM (2276) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 5:44:29 PM (2276) No recalc nedded
+8/20/2023 5:44:30 PM (1548) Finished
+8/20/2023 5:44:30 PM (2088) Finished
+8/20/2023 5:44:30 PM (2184) Finished
+8/20/2023 5:44:30 PM (2184) All Datacalc Threads finished calculations
+terminated thread 0 id: 1548
+terminated thread 1 id: 2088
+terminated thread 2 id: 2184
+8/20/2023 6:26:20 PM (1548) Restart
+8/20/2023 6:26:20 PM (2252) Stopped DataCalcThread 1548
+8/20/2023 6:26:20 PM (2088) Restart
+8/20/2023 6:26:20 PM (2252) Stopped DataCalcThread 2088
+8/20/2023 6:26:20 PM (2184) Restart
+8/20/2023 6:26:20 PM (2252) Stopped DataCalcThread 2184
+8/20/2023 6:26:28 PM (244) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 6:26:28 PM (3048) Paused Sensor 2012
+8/20/2023 6:26:28 PM (3048) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 6:26:28 PM (3048) No recalc nedded
+8/20/2023 6:26:28 PM (2100) Paused Sensor 2011
+8/20/2023 6:26:28 PM (2100) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 6:26:28 PM (2100) No recalc nedded
+8/20/2023 6:26:30 PM (1544) Finished
+8/20/2023 6:26:30 PM (1836) Finished
+8/20/2023 6:26:30 PM (1848) Finished
+8/20/2023 6:26:30 PM (1848) All Datacalc Threads finished calculations
+terminated thread 0 id: 1544
+terminated thread 1 id: 1836
+terminated thread 2 id: 1848
+8/20/2023 7:08:20 PM (1544) Restart
+8/20/2023 7:08:20 PM (1720) Stopped DataCalcThread 1544
+8/20/2023 7:08:20 PM (1836) Restart
+8/20/2023 7:08:20 PM (1720) Stopped DataCalcThread 1836
+8/20/2023 7:08:20 PM (1848) Restart
+8/20/2023 7:08:20 PM (1720) Stopped DataCalcThread 1848
+8/20/2023 7:08:28 PM (2576) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 7:08:28 PM (2116) Paused Sensor 2012
+8/20/2023 7:08:28 PM (2116) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 7:08:28 PM (2116) No recalc nedded
+8/20/2023 7:08:28 PM (2504) Paused Sensor 2011
+8/20/2023 7:08:28 PM (2504) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 7:08:28 PM (2504) No recalc nedded
+8/20/2023 7:08:30 PM (1416) Finished
+8/20/2023 7:08:30 PM (2760) Finished
+8/20/2023 7:08:30 PM (1716) Finished
+8/20/2023 7:08:30 PM (1716) All Datacalc Threads finished calculations
+terminated thread 0 id: 1416
+terminated thread 1 id: 2760
+terminated thread 2 id: 1716
+8/20/2023 7:50:20 PM (1416) Restart
+8/20/2023 7:50:20 PM (2732) Stopped DataCalcThread 1416
+8/20/2023 7:50:20 PM (2760) Restart
+8/20/2023 7:50:20 PM (2732) Stopped DataCalcThread 2760
+8/20/2023 7:50:20 PM (1716) Restart
+8/20/2023 7:50:20 PM (2732) Stopped DataCalcThread 1716
+8/20/2023 7:50:29 PM (1188) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 7:50:29 PM (2104) Paused Sensor 2012
+8/20/2023 7:50:29 PM (2104) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 7:50:29 PM (2104) No recalc nedded
+8/20/2023 7:50:29 PM (1432) Paused Sensor 2011
+8/20/2023 7:50:29 PM (1432) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 7:50:29 PM (1432) No recalc nedded
+8/20/2023 7:50:30 PM (132) Finished
+8/20/2023 7:50:30 PM (948) Finished
+8/20/2023 7:50:30 PM (2776) Finished
+8/20/2023 7:50:30 PM (2776) All Datacalc Threads finished calculations
+terminated thread 0 id: 132
+terminated thread 1 id: 948
+terminated thread 2 id: 2776
+8/20/2023 8:32:20 PM (132) Restart
+8/20/2023 8:32:20 PM (1036) Stopped DataCalcThread 132
+8/20/2023 8:32:20 PM (948) Restart
+8/20/2023 8:32:20 PM (1036) Stopped DataCalcThread 948
+8/20/2023 8:32:20 PM (2776) Restart
+8/20/2023 8:32:20 PM (1036) Stopped DataCalcThread 2776
+8/20/2023 8:32:28 PM (1732) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 8:32:29 PM (2224) Paused Sensor 2012
+8/20/2023 8:32:29 PM (2224) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 8:32:29 PM (2224) No recalc nedded
+8/20/2023 8:32:29 PM (1232) Paused Sensor 2011
+8/20/2023 8:32:29 PM (1232) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 8:32:29 PM (1232) No recalc nedded
+8/20/2023 8:32:30 PM (2680) Finished
+8/20/2023 8:32:30 PM (1976) Finished
+8/20/2023 8:32:30 PM (1684) Finished
+8/20/2023 8:32:30 PM (1684) All Datacalc Threads finished calculations
+terminated thread 0 id: 2680
+terminated thread 1 id: 1976
+terminated thread 2 id: 1684
+8/20/2023 9:14:20 PM (2680) Restart
+8/20/2023 9:14:20 PM (2008) Stopped DataCalcThread 2680
+8/20/2023 9:14:20 PM (1976) Restart
+8/20/2023 9:14:20 PM (2008) Stopped DataCalcThread 1976
+8/20/2023 9:14:20 PM (1684) Restart
+8/20/2023 9:14:20 PM (2008) Stopped DataCalcThread 1684
+8/20/2023 9:14:29 PM (1948) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 9:14:29 PM (2836) Paused Sensor 2012
+8/20/2023 9:14:29 PM (2836) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 9:14:29 PM (2836) No recalc nedded
+8/20/2023 9:14:29 PM (1232) Paused Sensor 2011
+8/20/2023 9:14:29 PM (1232) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 9:14:29 PM (1232) No recalc nedded
+8/20/2023 9:14:30 PM (328) Finished
+8/20/2023 9:14:30 PM (1464) Finished
+8/20/2023 9:14:30 PM (1540) Finished
+8/20/2023 9:14:30 PM (1540) All Datacalc Threads finished calculations
+terminated thread 0 id: 328
+terminated thread 1 id: 1464
+terminated thread 2 id: 1540
+8/20/2023 9:56:20 PM (328) Restart
+8/20/2023 9:56:20 PM (2064) Stopped DataCalcThread 328
+8/20/2023 9:56:20 PM (1464) Restart
+8/20/2023 9:56:20 PM (2064) Stopped DataCalcThread 1464
+8/20/2023 9:56:20 PM (1540) Restart
+8/20/2023 9:56:20 PM (2064) Stopped DataCalcThread 1540
+8/20/2023 9:56:29 PM (972) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 9:56:29 PM (364) Paused Sensor 2012
+8/20/2023 9:56:29 PM (364) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 9:56:29 PM (364) No recalc nedded
+8/20/2023 9:56:29 PM (1944) Paused Sensor 2011
+8/20/2023 9:56:29 PM (1944) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 9:56:29 PM (1944) No recalc nedded
+8/20/2023 9:56:31 PM (2516) Finished
+8/20/2023 9:56:31 PM (308) Finished
+8/20/2023 9:56:31 PM (2116) Finished
+8/20/2023 9:56:31 PM (2116) All Datacalc Threads finished calculations
+terminated thread 0 id: 2516
+terminated thread 1 id: 308
+terminated thread 2 id: 2116
+8/20/2023 10:38:20 PM (2516) Restart
+8/20/2023 10:38:20 PM (2224) Stopped DataCalcThread 2516
+8/20/2023 10:38:20 PM (308) Restart
+8/20/2023 10:38:20 PM (2224) Stopped DataCalcThread 308
+8/20/2023 10:38:20 PM (2116) Restart
+8/20/2023 10:38:20 PM (2224) Stopped DataCalcThread 2116
+8/20/2023 10:38:29 PM (1588) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 10:38:30 PM (1248) Paused Sensor 2012
+8/20/2023 10:38:30 PM (1248) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 10:38:30 PM (1248) No recalc nedded
+8/20/2023 10:38:30 PM (2112) Paused Sensor 2011
+8/20/2023 10:38:30 PM (2112) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 10:38:30 PM (2112) No recalc nedded
+8/20/2023 10:38:31 PM (1032) Finished
+8/20/2023 10:38:31 PM (1288) Finished
+8/20/2023 10:38:31 PM (2660) Finished
+8/20/2023 10:38:31 PM (2660) All Datacalc Threads finished calculations
+terminated thread 0 id: 1032
+terminated thread 1 id: 1288
+terminated thread 2 id: 2660
+8/20/2023 11:20:20 PM (1032) Restart
+8/20/2023 11:20:20 PM (2536) Stopped DataCalcThread 1032
+8/20/2023 11:20:20 PM (1288) Restart
+8/20/2023 11:20:20 PM (2536) Stopped DataCalcThread 1288
+8/20/2023 11:20:20 PM (2660) Restart
+8/20/2023 11:20:20 PM (2536) Stopped DataCalcThread 2660
+8/20/2023 11:20:29 PM (2268) Start PRTG Network Monitor 18.1.37.13946
+8/20/2023 11:20:30 PM (3028) Paused Sensor 2012
+8/20/2023 11:20:30 PM (3028) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/20/2023 11:20:30 PM (3028) No recalc nedded
+8/20/2023 11:20:30 PM (3052) Paused Sensor 2011
+8/20/2023 11:20:30 PM (3052) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/20/2023 11:20:30 PM (3052) No recalc nedded
+8/20/2023 11:20:31 PM (2792) Finished
+8/20/2023 11:20:31 PM (796) Finished
+8/20/2023 11:20:31 PM (668) Finished
+8/20/2023 11:20:31 PM (668) All Datacalc Threads finished calculations
+terminated thread 0 id: 2792
+terminated thread 1 id: 796
+terminated thread 2 id: 668
+8/21/2023 12:02:20 AM (2792) Restart
+8/21/2023 12:02:20 AM (1616) Stopped DataCalcThread 2792
+8/21/2023 12:02:20 AM (796) Restart
+8/21/2023 12:02:20 AM (1616) Stopped DataCalcThread 796
+8/21/2023 12:02:20 AM (668) Restart
+8/21/2023 12:02:20 AM (1616) Stopped DataCalcThread 668
+8/21/2023 12:02:28 AM (1920) Start PRTG Network Monitor 18.1.37.13946
+8/21/2023 12:02:29 AM (2120) Paused Sensor 2012
+8/21/2023 12:02:29 AM (2120) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/21/2023 12:02:29 AM (2120) No recalc nedded
+8/21/2023 12:02:29 AM (2228) Paused Sensor 2011
+8/21/2023 12:02:29 AM (2228) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/21/2023 12:02:29 AM (2228) No recalc nedded
+8/21/2023 12:02:30 AM (96) Finished
+8/21/2023 12:02:30 AM (1956) Finished
+8/21/2023 12:02:30 AM (160) Finished
+8/21/2023 12:02:30 AM (160) All Datacalc Threads finished calculations
+terminated thread 0 id: 96
+terminated thread 1 id: 1956
+terminated thread 2 id: 160
+8/21/2023 12:44:20 AM (96) Restart
+8/21/2023 12:44:20 AM (2072) Stopped DataCalcThread 96
+8/21/2023 12:44:20 AM (1956) Restart
+8/21/2023 12:44:20 AM (2072) Stopped DataCalcThread 1956
+8/21/2023 12:44:20 AM (160) Restart
+8/21/2023 12:44:20 AM (2072) Stopped DataCalcThread 160
+8/21/2023 12:44:28 AM (2964) Start PRTG Network Monitor 18.1.37.13946
+8/21/2023 12:44:29 AM (2488) Paused Sensor 2012
+8/21/2023 12:44:29 AM (2488) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/21/2023 12:44:29 AM (2488) No recalc nedded
+8/21/2023 12:44:29 AM (1564) Paused Sensor 2011
+8/21/2023 12:44:29 AM (1564) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/21/2023 12:44:29 AM (1564) No recalc nedded
+8/21/2023 12:44:30 AM (2584) Finished
+8/21/2023 12:44:30 AM (1940) Finished
+8/21/2023 12:44:30 AM (1800) Finished
+8/21/2023 12:44:30 AM (1800) All Datacalc Threads finished calculations
+terminated thread 0 id: 2584
+terminated thread 1 id: 1940
+terminated thread 2 id: 1800
+8/21/2023 1:26:20 AM (2584) Restart
+8/21/2023 1:26:20 AM (1584) Stopped DataCalcThread 2584
+8/21/2023 1:26:20 AM (1940) Restart
+8/21/2023 1:26:20 AM (1584) Stopped DataCalcThread 1940
+8/21/2023 1:26:20 AM (1800) Restart
+8/21/2023 1:26:20 AM (1584) Stopped DataCalcThread 1800
+8/21/2023 1:26:29 AM (2492) Start PRTG Network Monitor 18.1.37.13946
+8/21/2023 1:26:29 AM (1528) Paused Sensor 2012
+8/21/2023 1:26:29 AM (1528) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/21/2023 1:26:29 AM (1528) No recalc nedded
+8/21/2023 1:26:29 AM (936) Paused Sensor 2011
+8/21/2023 1:26:29 AM (936) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/21/2023 1:26:29 AM (936) No recalc nedded
+8/21/2023 1:26:30 AM (2092) Finished
+8/21/2023 1:26:30 AM (2396) Finished
+8/21/2023 1:26:30 AM (1840) Finished
+8/21/2023 1:26:30 AM (1840) All Datacalc Threads finished calculations
+terminated thread 0 id: 2092
+terminated thread 1 id: 2396
+terminated thread 2 id: 1840
+8/21/2023 2:08:20 AM (2092) Restart
+8/21/2023 2:08:20 AM (1288) Stopped DataCalcThread 2092
+8/21/2023 2:08:20 AM (2396) Restart
+8/21/2023 2:08:20 AM (1288) Stopped DataCalcThread 2396
+8/21/2023 2:08:20 AM (1840) Restart
+8/21/2023 2:08:20 AM (1288) Stopped DataCalcThread 1840
+8/21/2023 2:08:29 AM (2088) Start PRTG Network Monitor 18.1.37.13946
+8/21/2023 2:08:29 AM (1848) Paused Sensor 2012
+8/21/2023 2:08:29 AM (1848) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/21/2023 2:08:29 AM (1848) No recalc nedded
+8/21/2023 2:08:29 AM (1668) Paused Sensor 2011
+8/21/2023 2:08:29 AM (1668) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/21/2023 2:08:29 AM (1668) No recalc nedded
+8/21/2023 2:08:30 AM (604) Finished
+8/21/2023 2:08:30 AM (160) Finished
+8/21/2023 2:08:30 AM (1552) Finished
+8/21/2023 2:08:30 AM (1552) All Datacalc Threads finished calculations
+terminated thread 0 id: 604
+terminated thread 1 id: 160
+terminated thread 2 id: 1552
+8/21/2023 2:50:20 AM (604) Restart
+8/21/2023 2:50:20 AM (2000) Stopped DataCalcThread 604
+8/21/2023 2:50:20 AM (160) Restart
+8/21/2023 2:50:20 AM (2000) Stopped DataCalcThread 160
+8/21/2023 2:50:20 AM (1552) Restart
+8/21/2023 2:50:20 AM (2000) Stopped DataCalcThread 1552
+8/21/2023 2:50:28 AM (2200) Start PRTG Network Monitor 18.1.37.13946
+8/21/2023 2:50:29 AM (96) Paused Sensor 2012
+8/21/2023 2:50:29 AM (96) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/21/2023 2:50:29 AM (96) No recalc nedded
+8/21/2023 2:50:29 AM (1560) Paused Sensor 2011
+8/21/2023 2:50:29 AM (1560) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/21/2023 2:50:29 AM (1560) No recalc nedded
+8/21/2023 2:50:30 AM (1532) Finished
+8/21/2023 2:50:30 AM (1436) Finished
+8/21/2023 2:50:30 AM (2668) Finished
+8/21/2023 2:50:30 AM (2668) All Datacalc Threads finished calculations
+terminated thread 0 id: 1532
+terminated thread 1 id: 1436
+terminated thread 2 id: 2668
+8/21/2023 3:32:20 AM (1532) Restart
+8/21/2023 3:32:20 AM (1324) Stopped DataCalcThread 1532
+8/21/2023 3:32:20 AM (1436) Restart
+8/21/2023 3:32:20 AM (1324) Stopped DataCalcThread 1436
+8/21/2023 3:32:20 AM (2668) Restart
+8/21/2023 3:32:20 AM (1324) Stopped DataCalcThread 2668
+8/21/2023 3:32:30 AM (1696) Start PRTG Network Monitor 18.1.37.13946
+8/21/2023 3:32:30 AM (1200) Paused Sensor 2012
+8/21/2023 3:32:30 AM (1200) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/21/2023 3:32:30 AM (1200) No recalc nedded
+8/21/2023 3:32:30 AM (304) Paused Sensor 2011
+8/21/2023 3:32:30 AM (304) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/21/2023 3:32:30 AM (304) No recalc nedded
+8/21/2023 3:32:31 AM (1564) Finished
+8/21/2023 3:32:31 AM (2916) Finished
+8/21/2023 3:32:31 AM (948) Finished
+8/21/2023 3:32:31 AM (948) All Datacalc Threads finished calculations
+terminated thread 0 id: 1564
+terminated thread 1 id: 2916
+terminated thread 2 id: 948
+8/21/2023 4:14:20 AM (1564) Restart
+8/21/2023 4:14:20 AM (3028) Stopped DataCalcThread 1564
+8/21/2023 4:14:20 AM (2916) Restart
+8/21/2023 4:14:20 AM (3028) Stopped DataCalcThread 2916
+8/21/2023 4:14:20 AM (948) Restart
+8/21/2023 4:14:20 AM (3028) Stopped DataCalcThread 948
+8/21/2023 4:14:29 AM (2740) Start PRTG Network Monitor 18.1.37.13946
+8/21/2023 4:14:29 AM (2436) Paused Sensor 2012
+8/21/2023 4:14:29 AM (2436) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/21/2023 4:14:29 AM (2436) No recalc nedded
+8/21/2023 4:14:29 AM (1692) Paused Sensor 2011
+8/21/2023 4:14:29 AM (1692) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/21/2023 4:14:29 AM (1692) No recalc nedded
+8/21/2023 4:14:30 AM (3056) Finished
+8/21/2023 4:14:30 AM (2768) Finished
+8/21/2023 4:14:30 AM (2304) Finished
+8/21/2023 4:14:30 AM (2304) All Datacalc Threads finished calculations
+terminated thread 0 id: 3056
+terminated thread 1 id: 2768
+terminated thread 2 id: 2304
+8/21/2023 4:56:20 AM (3056) Restart
+8/21/2023 4:56:20 AM (2388) Stopped DataCalcThread 3056
+8/21/2023 4:56:20 AM (2768) Restart
+8/21/2023 4:56:20 AM (2388) Stopped DataCalcThread 2768
+8/21/2023 4:56:20 AM (2304) Restart
+8/21/2023 4:56:20 AM (2388) Stopped DataCalcThread 2304
+8/21/2023 4:56:29 AM (2004) Start PRTG Network Monitor 18.1.37.13946
+8/21/2023 4:56:29 AM (2380) Paused Sensor 2012
+8/21/2023 4:56:29 AM (2380) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/21/2023 4:56:29 AM (2380) No recalc nedded
+8/21/2023 4:56:29 AM (328) Paused Sensor 2011
+8/21/2023 4:56:29 AM (328) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/21/2023 4:56:29 AM (328) No recalc nedded
+8/21/2023 4:56:31 AM (2776) Finished
+8/21/2023 4:56:31 AM (1832) Finished
+8/21/2023 4:56:31 AM (1908) Finished
+8/21/2023 4:56:31 AM (1908) All Datacalc Threads finished calculations
+terminated thread 0 id: 2776
+terminated thread 1 id: 1832
+terminated thread 2 id: 1908
+8/21/2023 5:38:20 AM (2776) Restart
+8/21/2023 5:38:20 AM (3040) Stopped DataCalcThread 2776
+8/21/2023 5:38:20 AM (1832) Restart
+8/21/2023 5:38:20 AM (3040) Stopped DataCalcThread 1832
+8/21/2023 5:38:20 AM (1908) Restart
+8/21/2023 5:38:20 AM (3040) Stopped DataCalcThread 1908
+8/21/2023 5:38:29 AM (2504) Start PRTG Network Monitor 18.1.37.13946
+8/21/2023 5:38:29 AM (2352) Paused Sensor 2012
+8/21/2023 5:38:29 AM (2352) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/21/2023 5:38:29 AM (2352) No recalc nedded
+8/21/2023 5:38:29 AM (2488) Paused Sensor 2011
+8/21/2023 5:38:29 AM (2488) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/21/2023 5:38:29 AM (2488) No recalc nedded
+8/21/2023 5:38:31 AM (2560) Finished
+8/21/2023 5:38:31 AM (2512) Finished
+8/21/2023 5:38:31 AM (2780) Finished
+8/21/2023 5:38:31 AM (2780) All Datacalc Threads finished calculations
+terminated thread 0 id: 2560
+terminated thread 1 id: 2512
+terminated thread 2 id: 2780
+8/21/2023 6:13:45 AM (2560) Restart
+8/21/2023 6:13:45 AM (2092) Stopped DataCalcThread 2560
+8/21/2023 6:13:45 AM (2512) Restart
+8/21/2023 6:13:45 AM (2092) Stopped DataCalcThread 2512
+8/21/2023 6:13:45 AM (2780) Restart
+8/21/2023 6:13:45 AM (2092) Stopped DataCalcThread 2780
+8/23/2023 2:29:34 AM (2808) Start PRTG Network Monitor 18.1.37.13946
+8/23/2023 2:29:35 AM (2920) Paused Sensor 2012
+8/23/2023 2:29:35 AM (2920) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/23/2023 2:29:35 AM (2920) No recalc nedded
+8/23/2023 2:29:35 AM (2116) Paused Sensor 2011
+8/23/2023 2:29:35 AM (2116) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/23/2023 2:29:35 AM (2116) No recalc nedded
+8/23/2023 2:29:36 AM (2164) Finished
+8/23/2023 2:29:36 AM (2180) Finished
+8/23/2023 2:29:36 AM (2424) Finished
+8/23/2023 2:29:36 AM (2424) All Datacalc Threads finished calculations
+8/23/2023 2:36:13 AM (2052) Start PRTG Network Monitor 18.1.37.13946
+8/23/2023 2:36:14 AM (2368) Paused Sensor 2012
+8/23/2023 2:36:14 AM (2368) Last: 8/18/2023 11:39:50 AM Since: 8/18/2023 11:39:50 AM Diff: 0 Interval: 60
+8/23/2023 2:36:14 AM (2368) No recalc nedded
+8/23/2023 2:36:14 AM (2784) Paused Sensor 2011
+8/23/2023 2:36:14 AM (2784) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/23/2023 2:36:14 AM (2784) No recalc nedded
+8/23/2023 2:36:16 AM (2024) Finished
+8/23/2023 2:36:16 AM (2824) Finished
+8/23/2023 2:36:16 AM (2836) Finished
+8/23/2023 2:36:16 AM (2836) All Datacalc Threads finished calculations
+terminated thread 0 id: 2024
+terminated thread 1 id: 2824
+terminated thread 2 id: 2836
+8/23/2023 2:38:56 AM (2024) Restart
+8/23/2023 2:38:56 AM (2172) Stopped DataCalcThread 2024
+8/23/2023 2:38:56 AM (2824) Restart
+8/23/2023 2:38:56 AM (2172) Stopped DataCalcThread 2824
+8/23/2023 2:38:56 AM (2836) Restart
+8/23/2023 2:38:56 AM (2172) Stopped DataCalcThread 2836
+8/23/2023 2:39:33 AM (2648) Start PRTG Network Monitor 18.1.37.13946
+8/23/2023 2:39:34 AM (2900) Paused Sensor 2012
+8/23/2023 2:39:34 AM (2900) Last: 8/23/2023 6:36:40 AM Since: 8/23/2023 6:36:40 AM Diff: 0 Interval: 60
+8/23/2023 2:39:34 AM (2900) No recalc nedded
+8/23/2023 2:39:34 AM (2896) Paused Sensor 2011
+8/23/2023 2:39:34 AM (2896) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/23/2023 2:39:34 AM (2896) No recalc nedded
+8/23/2023 2:39:36 AM (2884) Finished
+8/23/2023 2:39:36 AM (2888) Finished
+8/23/2023 2:39:36 AM (2892) Finished
+8/23/2023 2:39:36 AM (2892) All Datacalc Threads finished calculations
+terminated thread 0 id: 2884
+terminated thread 1 id: 2888
+terminated thread 2 id: 2892
+8/23/2023 2:39:40 AM (2884) Restart
+8/23/2023 2:39:40 AM (2116) Stopped DataCalcThread 2884
+8/23/2023 2:39:40 AM (2888) Restart
+8/23/2023 2:39:40 AM (2116) Stopped DataCalcThread 2888
+8/23/2023 2:39:40 AM (2892) Restart
+8/23/2023 2:39:40 AM (2116) Stopped DataCalcThread 2892
+8/23/2023 2:39:53 AM (2628) Start PRTG Network Monitor 18.1.37.13946
+8/23/2023 2:39:53 AM (2180) Paused Sensor 2011
+8/23/2023 2:39:53 AM (2180) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+8/23/2023 2:39:53 AM (2180) No recalc nedded
+8/23/2023 2:39:53 AM (1136) Paused Sensor 2012
+8/23/2023 2:39:53 AM (1136) Last: 8/23/2023 6:36:40 AM Since: 8/23/2023 6:36:40 AM Diff: 0 Interval: 60
+8/23/2023 2:39:53 AM (1136) No recalc nedded
+8/23/2023 2:39:55 AM (2740) Finished
+8/23/2023 2:39:55 AM (600) Finished
+8/23/2023 2:39:55 AM (744) Finished
+8/23/2023 2:39:55 AM (744) All Datacalc Threads finished calculations
+11/1/2023 4:39:01 AM (2632) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 4:39:01 AM (2292) Add: 40,1002 Core Health 8/23/2023 6:38:48 AM
+11/1/2023 4:39:01 AM (2296) Add: 40,1003 Probe Health 8/23/2023 6:39:36 AM
+11/1/2023 4:39:01 AM (2296) Add: 40,1001 System Health 8/23/2023 6:38:53 AM
+11/1/2023 4:39:01 AM (2292) Add: 40,1005 Disk Free 8/23/2023 6:38:43 AM
+11/1/2023 4:39:01 AM (2296) Add: 40,1006 Intel[R] 82574L Gigabit Network Connection 8/23/2023 6:38:33 AM
+11/1/2023 4:39:01 AM (2292) Add: 40,1004 Common SaaS Check 8/23/2023 6:36:58 AM
+11/1/2023 4:39:01 AM (2292) Add: 40,1007 Teredo Tunneling Pseudo-Interface 8/23/2023 6:38:03 AM
+11/1/2023 4:39:01 AM (2296) Add: 42,2010 PING 8/23/2023 6:38:45 AM
+11/1/2023 4:39:02 AM (2296) Paused Sensor 2012
+11/1/2023 4:39:02 AM (2296) Last: 8/23/2023 6:36:40 AM Since: 8/23/2023 6:36:40 AM Diff: 0 Interval: 60
+11/1/2023 4:39:02 AM (2296) No recalc nedded
+11/1/2023 4:39:02 AM (2292) Paused Sensor 2011
+11/1/2023 4:39:02 AM (2292) Last: 8/18/2023 11:40:00 AM Since: 8/18/2023 11:40:00 AM Diff: 0 Interval: 60
+11/1/2023 4:39:02 AM (2292) No recalc nedded
+11/1/2023 4:39:02 AM (2296) Add: 44,2013 PING 8/23/2023 6:38:31 AM
+11/1/2023 4:39:02 AM (2292) Add: 46,2002 HTTP 8/23/2023 6:38:54 AM
+11/1/2023 4:39:02 AM (2292) Add: 2004,2009 PING 8/23/2023 6:38:36 AM
+11/1/2023 4:39:02 AM (2296) Add: 2007,2008 PING 8/23/2023 6:38:52 AM
+11/1/2023 4:39:02 AM (2296) Add: 2007,2014 HTTP 8/23/2023 6:38:47 AM
+11/1/2023 4:39:04 AM (2256) (2256) 13 tasks todo
+11/1/2023 4:39:04 AM (2256) (2256) Device: 40 (7 sensors) 6
+11/1/2023 4:39:04 AM (2184) (2184) 6 tasks todo
+11/1/2023 4:39:04 AM (2184) (2184) Device: 42 (1 sensors) 5
+11/1/2023 4:39:04 AM (2156) (2156) 5 tasks todo
+11/1/2023 4:39:04 AM (2156) (2156) Device: 44 (1 sensors) 4
+11/1/2023 4:39:04 AM (2156) 44/20230818
+11/1/2023 4:39:04 AM (2184) 42/20230818
+11/1/2023 4:39:04 AM (2156) 44/20230819
+11/1/2023 4:39:04 AM (2156) 44/20230820
+11/1/2023 4:39:04 AM (2184) 42/20230819
+11/1/2023 4:39:04 AM (2156) 44/20230821
+11/1/2023 4:39:04 AM (2156) 44/20230823
+11/1/2023 4:39:04 AM (2184) 42/20230820
+11/1/2023 4:39:04 AM (2184) 42/20230821
+11/1/2023 4:39:04 AM (2184) 42/20230823
+11/1/2023 4:39:04 AM (2256) 40/20230818
+11/1/2023 4:39:04 AM (2256) 40/20230819
+11/1/2023 4:39:05 AM (2156) (2156) 4 tasks todo
+11/1/2023 4:39:05 AM (2156) (2156) Device: 46 (1 sensors) 3
+11/1/2023 4:39:05 AM (2256) 40/20230820
+11/1/2023 4:39:05 AM (2156) 46/20230818
+11/1/2023 4:39:05 AM (2256) 40/20230821
+11/1/2023 4:39:05 AM (2184) (2184) 3 tasks todo
+11/1/2023 4:39:05 AM (2184) (2184) Device: 2004 (1 sensors) 2
+11/1/2023 4:39:05 AM (2256) 40/20230823
+11/1/2023 4:39:05 AM (2156) 46/20230819
+11/1/2023 4:39:05 AM (2156) 46/20230820
+11/1/2023 4:39:05 AM (2184) 2004/20230818
+11/1/2023 4:39:05 AM (2156) 46/20230821
+11/1/2023 4:39:05 AM (2156) 46/20230823
+11/1/2023 4:39:05 AM (2184) 2004/20230819
+11/1/2023 4:39:05 AM (2184) 2004/20230820
+11/1/2023 4:39:05 AM (2184) 2004/20230821
+11/1/2023 4:39:05 AM (2184) 2004/20230823
+11/1/2023 4:39:05 AM (2156) (2156) 2 tasks todo
+11/1/2023 4:39:05 AM (2156) (2156) Device: 2007 (2 sensors) 0
+11/1/2023 4:39:05 AM (2184) Finished
+11/1/2023 4:39:05 AM (2156) 2007/20230818
+11/1/2023 4:39:05 AM (2156) 2007/20230819
+11/1/2023 4:39:05 AM (2156) 2007/20230820
+11/1/2023 4:39:05 AM (2156) 2007/20230821
+11/1/2023 4:39:06 AM (2156) 2007/20230823
+11/1/2023 4:39:06 AM (2256) Finished
+11/1/2023 4:39:06 AM (2156) Finished
+11/1/2023 4:39:06 AM (2156) All Datacalc Threads finished calculations
+terminated thread 0 id: 2156
+terminated thread 1 id: 2184
+terminated thread 2 id: 2256
+11/1/2023 4:39:06 AM (2156) Restart
+11/1/2023 4:39:06 AM (2132) Stopped DataCalcThread 2156
+11/1/2023 4:39:06 AM (2184) Restart
+11/1/2023 4:39:06 AM (2132) Stopped DataCalcThread 2184
+11/1/2023 4:39:06 AM (2256) Restart
+11/1/2023 4:39:06 AM (2132) Stopped DataCalcThread 2256
+11/1/2023 4:39:46 AM (548) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 4:39:46 AM (1212) Add: 40,1002 Core Health 8/23/2023 6:44:37 AM
+11/1/2023 4:39:46 AM (1056) Add: 40,1001 System Health 8/23/2023 6:44:42 AM
+11/1/2023 4:39:46 AM (1212) Add: 40,1005 Disk Free 8/23/2023 6:44:32 AM
+11/1/2023 4:39:46 AM (1056) Add: 40,1004 Common SaaS Check 8/23/2023 6:40:47 AM
+11/1/2023 4:39:46 AM (1212) Add: 40,1006 Intel[R] 82574L Gigabit Network Connection 8/23/2023 6:44:22 AM
+11/1/2023 4:39:47 AM (1056) Add: 40,1007 Teredo Tunneling Pseudo-Interface 8/23/2023 6:44:52 AM
+11/1/2023 4:39:47 AM (1212) Add: 42,2010 PING 8/23/2023 6:44:50 AM
+11/1/2023 4:39:47 AM (1056) Add: 42,2012 SSL Certificate Sensor (Port 443) 8/23/2023 6:36:40 AM
+11/1/2023 4:39:47 AM (1212) Add: 42,2011 SSL Security Check (Port 443) 8/18/2023 11:40:00 AM
+11/1/2023 4:39:47 AM (1056) Add: 44,2013 PING 8/23/2023 6:44:43 AM
+11/1/2023 4:39:47 AM (1212) Add: 46,2002 HTTP 8/23/2023 6:44:36 AM
+11/1/2023 4:39:47 AM (1056) Add: 2004,2009 PING 8/23/2023 6:44:48 AM
+11/1/2023 4:39:47 AM (1212) Add: 2007,2008 PING 8/23/2023 6:44:34 AM
+11/1/2023 4:39:47 AM (1056) Add: 2007,2014 HTTP 8/23/2023 6:44:29 AM
+11/1/2023 4:39:48 AM (664) (664) 14 tasks todo
+11/1/2023 4:39:48 AM (664) (664) Device: 40 (6 sensors) 8
+11/1/2023 4:39:48 AM (2356) (2356) 8 tasks todo
+11/1/2023 4:39:48 AM (2356) (2356) Device: 42 (3 sensors) 5
+11/1/2023 4:39:48 AM (2852) (2852) 5 tasks todo
+11/1/2023 4:39:48 AM (2852) (2852) Device: 44 (1 sensors) 4
+11/1/2023 4:39:48 AM (2852) 44/20230818
+11/1/2023 4:39:48 AM (2356) 42/20230818
+11/1/2023 4:39:48 AM (2852) 44/20230819
+11/1/2023 4:39:49 AM (2356) 42/20230819
+11/1/2023 4:39:49 AM (664) 40/20230818
+11/1/2023 4:39:49 AM (2852) 44/20230820
+11/1/2023 4:39:49 AM (2356) 42/20230820
+11/1/2023 4:39:49 AM (664) 40/20230819
+11/1/2023 4:39:49 AM (2852) 44/20230821
+11/1/2023 4:39:49 AM (2356) 42/20230821
+11/1/2023 4:39:49 AM (664) 40/20230820
+11/1/2023 4:39:49 AM (2356) 42/20230823
+11/1/2023 4:39:49 AM (2852) 44/20230823
+11/1/2023 4:39:49 AM (664) 40/20230821
+11/1/2023 4:39:49 AM (664) 40/20230823
+11/1/2023 4:39:49 AM (2852) (2852) 4 tasks todo
+11/1/2023 4:39:49 AM (2852) (2852) Device: 46 (1 sensors) 3
+11/1/2023 4:39:49 AM (2852) 46/20230818
+11/1/2023 4:39:49 AM (2852) 46/20230819
+11/1/2023 4:39:49 AM (2852) 46/20230820
+11/1/2023 4:39:49 AM (2852) 46/20230821
+11/1/2023 4:39:49 AM (2356) (2356) 3 tasks todo
+11/1/2023 4:39:49 AM (2356) (2356) Device: 2004 (1 sensors) 2
+11/1/2023 4:39:49 AM (2852) 46/20230823
+11/1/2023 4:39:49 AM (2356) 2004/20230818
+11/1/2023 4:39:49 AM (2356) 2004/20230819
+11/1/2023 4:39:49 AM (2356) 2004/20230820
+11/1/2023 4:39:49 AM (2356) 2004/20230821
+11/1/2023 4:39:49 AM (2356) 2004/20230823
+11/1/2023 4:39:49 AM (2852) (2852) 2 tasks todo
+11/1/2023 4:39:49 AM (2852) (2852) Device: 2007 (2 sensors) 0
+11/1/2023 4:39:49 AM (664) Finished
+11/1/2023 4:39:49 AM (2852) 2007/20230818
+11/1/2023 4:39:49 AM (2356) Finished
+11/1/2023 4:39:49 AM (2852) 2007/20230819
+11/1/2023 4:39:49 AM (2852) 2007/20230820
+11/1/2023 4:39:49 AM (2852) 2007/20230821
+11/1/2023 4:39:49 AM (2852) 2007/20230823
+11/1/2023 4:39:50 AM (2852) Finished
+11/1/2023 4:39:50 AM (2852) All Datacalc Threads finished calculations
+terminated thread 0 id: 2852
+terminated thread 1 id: 2356
+terminated thread 2 id: 664
+11/1/2023 5:20:43 AM (2852) Restart
+11/1/2023 5:20:43 AM (2156) Stopped DataCalcThread 2852
+11/1/2023 5:20:43 AM (2356) Restart
+11/1/2023 5:20:43 AM (2156) Stopped DataCalcThread 2356
+11/1/2023 5:20:43 AM (664) Restart
+11/1/2023 5:20:43 AM (2156) Stopped DataCalcThread 664
+11/1/2023 5:20:50 AM (2880) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 5:20:50 AM (2372) Paused Sensor 2012
+11/1/2023 5:20:50 AM (2372) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 5:20:50 AM (2372) No recalc nedded
+11/1/2023 5:20:50 AM (2996) Paused Sensor 2011
+11/1/2023 5:20:50 AM (2996) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 5:20:50 AM (2996) No recalc nedded
+11/1/2023 5:20:51 AM (2480) Finished
+11/1/2023 5:20:51 AM (2504) Finished
+11/1/2023 5:20:51 AM (2764) Finished
+11/1/2023 5:20:51 AM (2764) All Datacalc Threads finished calculations
+terminated thread 0 id: 2480
+terminated thread 1 id: 2504
+terminated thread 2 id: 2764
+11/1/2023 6:02:43 AM (2480) Restart
+11/1/2023 6:02:43 AM (668) Stopped DataCalcThread 2480
+11/1/2023 6:02:43 AM (2504) Restart
+11/1/2023 6:02:43 AM (668) Stopped DataCalcThread 2504
+11/1/2023 6:02:43 AM (2764) Restart
+11/1/2023 6:02:43 AM (668) Stopped DataCalcThread 2764
+11/1/2023 6:02:49 AM (1084) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 6:02:50 AM (1692) Paused Sensor 2012
+11/1/2023 6:02:50 AM (1692) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 6:02:50 AM (1692) No recalc nedded
+11/1/2023 6:02:50 AM (244) Paused Sensor 2011
+11/1/2023 6:02:50 AM (244) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 6:02:50 AM (244) No recalc nedded
+11/1/2023 6:02:51 AM (304) Finished
+11/1/2023 6:02:51 AM (1980) Finished
+11/1/2023 6:02:51 AM (728) Finished
+11/1/2023 6:02:51 AM (728) All Datacalc Threads finished calculations
+terminated thread 0 id: 304
+terminated thread 1 id: 1980
+terminated thread 2 id: 728
+11/1/2023 6:44:43 AM (304) Restart
+11/1/2023 6:44:43 AM (828) Stopped DataCalcThread 304
+11/1/2023 6:44:43 AM (1980) Restart
+11/1/2023 6:44:43 AM (828) Stopped DataCalcThread 1980
+11/1/2023 6:44:43 AM (728) Restart
+11/1/2023 6:44:43 AM (828) Stopped DataCalcThread 728
+11/1/2023 6:44:49 AM (1720) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 6:44:50 AM (572) Paused Sensor 2012
+11/1/2023 6:44:50 AM (572) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 6:44:50 AM (572) No recalc nedded
+11/1/2023 6:44:50 AM (2272) Paused Sensor 2011
+11/1/2023 6:44:50 AM (2272) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 6:44:50 AM (2272) No recalc nedded
+11/1/2023 6:44:51 AM (1676) Finished
+11/1/2023 6:44:51 AM (1176) Finished
+11/1/2023 6:44:51 AM (2128) Finished
+11/1/2023 6:44:51 AM (2128) All Datacalc Threads finished calculations
+terminated thread 0 id: 1676
+terminated thread 1 id: 1176
+terminated thread 2 id: 2128
+11/1/2023 7:26:43 AM (1676) Restart
+11/1/2023 7:26:43 AM (1996) Stopped DataCalcThread 1676
+11/1/2023 7:26:43 AM (1176) Restart
+11/1/2023 7:26:43 AM (1996) Stopped DataCalcThread 1176
+11/1/2023 7:26:43 AM (2128) Restart
+11/1/2023 7:26:43 AM (1996) Stopped DataCalcThread 2128
+11/1/2023 7:26:49 AM (2948) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 7:26:50 AM (1228) Paused Sensor 2012
+11/1/2023 7:26:50 AM (1228) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 7:26:50 AM (1228) No recalc nedded
+11/1/2023 7:26:50 AM (2060) Paused Sensor 2011
+11/1/2023 7:26:50 AM (2060) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 7:26:50 AM (2060) No recalc nedded
+11/1/2023 7:26:51 AM (1416) Finished
+11/1/2023 7:26:51 AM (2656) Finished
+11/1/2023 7:26:51 AM (712) Finished
+11/1/2023 7:26:51 AM (712) All Datacalc Threads finished calculations
+terminated thread 0 id: 1416
+terminated thread 1 id: 2656
+terminated thread 2 id: 712
+11/1/2023 8:08:43 AM (1416) Restart
+11/1/2023 8:08:43 AM (776) Stopped DataCalcThread 1416
+11/1/2023 8:08:43 AM (2656) Restart
+11/1/2023 8:08:43 AM (776) Stopped DataCalcThread 2656
+11/1/2023 8:08:43 AM (712) Restart
+11/1/2023 8:08:43 AM (776) Stopped DataCalcThread 712
+11/1/2023 8:08:50 AM (2940) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 8:08:50 AM (1492) Paused Sensor 2012
+11/1/2023 8:08:50 AM (1492) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 8:08:50 AM (1492) No recalc nedded
+11/1/2023 8:08:50 AM (2760) Paused Sensor 2011
+11/1/2023 8:08:50 AM (2760) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 8:08:50 AM (2760) No recalc nedded
+11/1/2023 8:08:51 AM (1168) Finished
+11/1/2023 8:08:51 AM (2300) Finished
+11/1/2023 8:08:51 AM (2288) Finished
+11/1/2023 8:08:51 AM (2288) All Datacalc Threads finished calculations
+terminated thread 0 id: 1168
+terminated thread 1 id: 2300
+terminated thread 2 id: 2288
+11/1/2023 8:50:43 AM (1168) Restart
+11/1/2023 8:50:43 AM (2392) Stopped DataCalcThread 1168
+11/1/2023 8:50:43 AM (2300) Restart
+11/1/2023 8:50:43 AM (2392) Stopped DataCalcThread 2300
+11/1/2023 8:50:43 AM (2288) Restart
+11/1/2023 8:50:43 AM (2392) Stopped DataCalcThread 2288
+11/1/2023 8:50:50 AM (2372) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 8:50:50 AM (680) Paused Sensor 2012
+11/1/2023 8:50:50 AM (680) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 8:50:50 AM (680) No recalc nedded
+11/1/2023 8:50:50 AM (576) Paused Sensor 2011
+11/1/2023 8:50:50 AM (576) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 8:50:50 AM (576) No recalc nedded
+11/1/2023 8:50:51 AM (2232) Finished
+11/1/2023 8:50:51 AM (2608) Finished
+11/1/2023 8:50:51 AM (2584) Finished
+11/1/2023 8:50:51 AM (2584) All Datacalc Threads finished calculations
+terminated thread 0 id: 2232
+terminated thread 1 id: 2608
+terminated thread 2 id: 2584
+11/1/2023 9:32:43 AM (2232) Restart
+11/1/2023 9:32:43 AM (1508) Stopped DataCalcThread 2232
+11/1/2023 9:32:43 AM (2608) Restart
+11/1/2023 9:32:43 AM (1508) Stopped DataCalcThread 2608
+11/1/2023 9:32:43 AM (2584) Restart
+11/1/2023 9:32:43 AM (1508) Stopped DataCalcThread 2584
+11/1/2023 9:32:49 AM (2432) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 9:32:50 AM (604) Paused Sensor 2012
+11/1/2023 9:32:50 AM (604) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 9:32:50 AM (604) No recalc nedded
+11/1/2023 9:32:50 AM (528) Paused Sensor 2011
+11/1/2023 9:32:50 AM (528) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 9:32:50 AM (528) No recalc nedded
+11/1/2023 9:32:51 AM (2068) Finished
+11/1/2023 9:32:51 AM (1832) Finished
+11/1/2023 9:32:51 AM (2660) Finished
+11/1/2023 9:32:51 AM (2660) All Datacalc Threads finished calculations
+terminated thread 0 id: 2068
+terminated thread 1 id: 1832
+terminated thread 2 id: 2660
+11/1/2023 10:14:43 AM (2068) Restart
+11/1/2023 10:14:43 AM (1776) Stopped DataCalcThread 2068
+11/1/2023 10:14:43 AM (1832) Restart
+11/1/2023 10:14:43 AM (1776) Stopped DataCalcThread 1832
+11/1/2023 10:14:43 AM (2660) Restart
+11/1/2023 10:14:43 AM (1776) Stopped DataCalcThread 2660
+11/1/2023 10:14:49 AM (796) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 10:14:50 AM (2212) Paused Sensor 2012
+11/1/2023 10:14:50 AM (2212) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 10:14:50 AM (2212) No recalc nedded
+11/1/2023 10:14:50 AM (912) Paused Sensor 2011
+11/1/2023 10:14:50 AM (912) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 10:14:50 AM (912) No recalc nedded
+11/1/2023 10:14:51 AM (1228) Finished
+11/1/2023 10:14:51 AM (2984) Finished
+11/1/2023 10:14:51 AM (160) Finished
+11/1/2023 10:14:51 AM (160) All Datacalc Threads finished calculations
+terminated thread 0 id: 1228
+terminated thread 1 id: 2984
+terminated thread 2 id: 160
+11/1/2023 10:56:43 AM (1228) Restart
+11/1/2023 10:56:43 AM (2028) Stopped DataCalcThread 1228
+11/1/2023 10:56:43 AM (2984) Restart
+11/1/2023 10:56:43 AM (2028) Stopped DataCalcThread 2984
+11/1/2023 10:56:43 AM (160) Restart
+11/1/2023 10:56:43 AM (2028) Stopped DataCalcThread 160
+11/1/2023 10:56:49 AM (1360) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 10:56:50 AM (1752) Paused Sensor 2012
+11/1/2023 10:56:50 AM (1752) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 10:56:50 AM (1752) No recalc nedded
+11/1/2023 10:56:50 AM (712) Paused Sensor 2011
+11/1/2023 10:56:50 AM (712) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 10:56:50 AM (712) No recalc nedded
+11/1/2023 10:56:51 AM (328) Finished
+11/1/2023 10:56:51 AM (2792) Finished
+11/1/2023 10:56:51 AM (1532) Finished
+11/1/2023 10:56:51 AM (1532) All Datacalc Threads finished calculations
+terminated thread 0 id: 328
+terminated thread 1 id: 2792
+terminated thread 2 id: 1532
+11/1/2023 11:38:43 AM (328) Restart
+11/1/2023 11:38:43 AM (2588) Stopped DataCalcThread 328
+11/1/2023 11:38:43 AM (2792) Restart
+11/1/2023 11:38:43 AM (2588) Stopped DataCalcThread 2792
+11/1/2023 11:38:43 AM (1532) Restart
+11/1/2023 11:38:43 AM (2588) Stopped DataCalcThread 1532
+11/1/2023 11:38:50 AM (2212) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 11:38:50 AM (416) Paused Sensor 2012
+11/1/2023 11:38:50 AM (416) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 11:38:50 AM (416) No recalc nedded
+11/1/2023 11:38:50 AM (8) Paused Sensor 2011
+11/1/2023 11:38:50 AM (8) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 11:38:50 AM (8) No recalc nedded
+11/1/2023 11:38:51 AM (2548) Finished
+11/1/2023 11:38:51 AM (1524) Finished
+11/1/2023 11:38:51 AM (2160) Finished
+11/1/2023 11:38:51 AM (2160) All Datacalc Threads finished calculations
+terminated thread 0 id: 2548
+terminated thread 1 id: 1524
+terminated thread 2 id: 2160
+11/1/2023 12:20:43 PM (2548) Restart
+11/1/2023 12:20:43 PM (288) Stopped DataCalcThread 2548
+11/1/2023 12:20:43 PM (1524) Restart
+11/1/2023 12:20:43 PM (288) Stopped DataCalcThread 1524
+11/1/2023 12:20:43 PM (2160) Restart
+11/1/2023 12:20:43 PM (288) Stopped DataCalcThread 2160
+11/1/2023 12:20:49 PM (2916) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 12:20:50 PM (1604) Paused Sensor 2012
+11/1/2023 12:20:50 PM (1604) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 12:20:50 PM (1604) No recalc nedded
+11/1/2023 12:20:50 PM (2920) Paused Sensor 2011
+11/1/2023 12:20:50 PM (2920) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 12:20:50 PM (2920) No recalc nedded
+11/1/2023 12:20:51 PM (2760) Finished
+11/1/2023 12:20:51 PM (2040) Finished
+11/1/2023 12:20:51 PM (568) Finished
+11/1/2023 12:20:51 PM (568) All Datacalc Threads finished calculations
+terminated thread 0 id: 2760
+terminated thread 1 id: 2040
+terminated thread 2 id: 568
+11/1/2023 1:02:43 PM (2760) Restart
+11/1/2023 1:02:43 PM (1520) Stopped DataCalcThread 2760
+11/1/2023 1:02:43 PM (2040) Restart
+11/1/2023 1:02:43 PM (1520) Stopped DataCalcThread 2040
+11/1/2023 1:02:43 PM (568) Restart
+11/1/2023 1:02:43 PM (1520) Stopped DataCalcThread 568
+11/1/2023 1:02:49 PM (1752) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 1:02:50 PM (1264) Paused Sensor 2012
+11/1/2023 1:02:50 PM (1264) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 1:02:50 PM (1264) No recalc nedded
+11/1/2023 1:02:50 PM (2948) Paused Sensor 2011
+11/1/2023 1:02:50 PM (2948) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 1:02:50 PM (2948) No recalc nedded
+11/1/2023 1:02:51 PM (3004) Finished
+11/1/2023 1:02:51 PM (2672) Finished
+11/1/2023 1:02:51 PM (704) Finished
+11/1/2023 1:02:51 PM (704) All Datacalc Threads finished calculations
+terminated thread 0 id: 3004
+terminated thread 1 id: 2672
+terminated thread 2 id: 704
+11/1/2023 1:44:43 PM (3004) Restart
+11/1/2023 1:44:43 PM (904) Stopped DataCalcThread 3004
+11/1/2023 1:44:43 PM (2672) Restart
+11/1/2023 1:44:43 PM (904) Stopped DataCalcThread 2672
+11/1/2023 1:44:43 PM (704) Restart
+11/1/2023 1:44:43 PM (904) Stopped DataCalcThread 704
+11/1/2023 1:44:50 PM (2200) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 1:44:50 PM (1760) Paused Sensor 2012
+11/1/2023 1:44:50 PM (1760) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 1:44:50 PM (1760) No recalc nedded
+11/1/2023 1:44:50 PM (2784) Paused Sensor 2011
+11/1/2023 1:44:50 PM (2784) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 1:44:50 PM (2784) No recalc nedded
+11/1/2023 1:44:51 PM (1232) Finished
+11/1/2023 1:44:51 PM (1908) Finished
+11/1/2023 1:44:51 PM (1256) Finished
+11/1/2023 1:44:51 PM (1256) All Datacalc Threads finished calculations
+terminated thread 0 id: 1232
+terminated thread 1 id: 1908
+terminated thread 2 id: 1256
+11/1/2023 2:26:43 PM (1232) Restart
+11/1/2023 2:26:43 PM (712) Stopped DataCalcThread 1232
+11/1/2023 2:26:43 PM (1908) Restart
+11/1/2023 2:26:43 PM (712) Stopped DataCalcThread 1908
+11/1/2023 2:26:43 PM (1256) Restart
+11/1/2023 2:26:43 PM (712) Stopped DataCalcThread 1256
+11/1/2023 2:26:49 PM (1276) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 2:26:50 PM (1664) Paused Sensor 2012
+11/1/2023 2:26:50 PM (1664) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 2:26:50 PM (1664) No recalc nedded
+11/1/2023 2:26:50 PM (1952) Paused Sensor 2011
+11/1/2023 2:26:50 PM (1952) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 2:26:50 PM (1952) No recalc nedded
+11/1/2023 2:26:51 PM (2592) Finished
+11/1/2023 2:26:51 PM (2288) Finished
+11/1/2023 2:26:51 PM (760) Finished
+11/1/2023 2:26:51 PM (760) All Datacalc Threads finished calculations
+terminated thread 0 id: 2592
+terminated thread 1 id: 2288
+terminated thread 2 id: 760
+11/1/2023 3:08:43 PM (2592) Restart
+11/1/2023 3:08:43 PM (1284) Stopped DataCalcThread 2592
+11/1/2023 3:08:43 PM (2288) Restart
+11/1/2023 3:08:43 PM (1284) Stopped DataCalcThread 2288
+11/1/2023 3:08:43 PM (760) Restart
+11/1/2023 3:08:43 PM (1284) Stopped DataCalcThread 760
+11/1/2023 3:08:49 PM (1656) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 3:08:50 PM (1680) Paused Sensor 2012
+11/1/2023 3:08:50 PM (1680) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 3:08:50 PM (1680) No recalc nedded
+11/1/2023 3:08:50 PM (2576) Paused Sensor 2011
+11/1/2023 3:08:50 PM (2576) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 3:08:50 PM (2576) No recalc nedded
+11/1/2023 3:08:51 PM (1716) Finished
+11/1/2023 3:08:51 PM (1708) Finished
+11/1/2023 3:08:51 PM (1908) Finished
+11/1/2023 3:08:51 PM (1908) All Datacalc Threads finished calculations
+terminated thread 0 id: 1716
+terminated thread 1 id: 1708
+terminated thread 2 id: 1908
+11/1/2023 3:50:43 PM (1716) Restart
+11/1/2023 3:50:43 PM (2012) Stopped DataCalcThread 1716
+11/1/2023 3:50:43 PM (1708) Restart
+11/1/2023 3:50:43 PM (2012) Stopped DataCalcThread 1708
+11/1/2023 3:50:43 PM (1908) Restart
+11/1/2023 3:50:43 PM (2012) Stopped DataCalcThread 1908
+11/1/2023 3:50:50 PM (3036) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 3:50:50 PM (916) Paused Sensor 2012
+11/1/2023 3:50:50 PM (916) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 3:50:50 PM (916) No recalc nedded
+11/1/2023 3:50:50 PM (3020) Paused Sensor 2011
+11/1/2023 3:50:50 PM (3020) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 3:50:50 PM (3020) No recalc nedded
+11/1/2023 3:50:51 PM (584) Finished
+11/1/2023 3:50:51 PM (2632) Finished
+11/1/2023 3:50:51 PM (1808) Finished
+11/1/2023 3:50:51 PM (1808) All Datacalc Threads finished calculations
+terminated thread 0 id: 584
+terminated thread 1 id: 2632
+terminated thread 2 id: 1808
+11/1/2023 4:32:43 PM (584) Restart
+11/1/2023 4:32:43 PM (1544) Stopped DataCalcThread 584
+11/1/2023 4:32:43 PM (2632) Restart
+11/1/2023 4:32:43 PM (1544) Stopped DataCalcThread 2632
+11/1/2023 4:32:43 PM (1808) Restart
+11/1/2023 4:32:43 PM (1544) Stopped DataCalcThread 1808
+11/1/2023 4:32:50 PM (2772) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 4:32:50 PM (3004) Paused Sensor 2012
+11/1/2023 4:32:50 PM (3004) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 4:32:50 PM (3004) No recalc nedded
+11/1/2023 4:32:50 PM (2888) Paused Sensor 2011
+11/1/2023 4:32:50 PM (2888) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 4:32:50 PM (2888) No recalc nedded
+11/1/2023 4:32:51 PM (1540) Finished
+11/1/2023 4:32:51 PM (2200) Finished
+11/1/2023 4:32:51 PM (1468) Finished
+11/1/2023 4:32:51 PM (1468) All Datacalc Threads finished calculations
+terminated thread 0 id: 1540
+terminated thread 1 id: 2200
+terminated thread 2 id: 1468
+11/1/2023 5:14:43 PM (1540) Restart
+11/1/2023 5:14:43 PM (2740) Stopped DataCalcThread 1540
+11/1/2023 5:14:43 PM (2200) Restart
+11/1/2023 5:14:43 PM (2740) Stopped DataCalcThread 2200
+11/1/2023 5:14:43 PM (1468) Restart
+11/1/2023 5:14:43 PM (2740) Stopped DataCalcThread 1468
+11/1/2023 5:14:49 PM (1336) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 5:14:50 PM (480) Paused Sensor 2012
+11/1/2023 5:14:50 PM (480) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 5:14:50 PM (480) No recalc nedded
+11/1/2023 5:14:50 PM (1940) Paused Sensor 2011
+11/1/2023 5:14:50 PM (1940) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 5:14:50 PM (1940) No recalc nedded
+11/1/2023 5:14:51 PM (2776) Finished
+11/1/2023 5:14:51 PM (1912) Finished
+11/1/2023 5:14:51 PM (1852) Finished
+11/1/2023 5:14:51 PM (1852) All Datacalc Threads finished calculations
+terminated thread 0 id: 2776
+terminated thread 1 id: 1912
+terminated thread 2 id: 1852
+11/1/2023 5:56:43 PM (2776) Restart
+11/1/2023 5:56:43 PM (2948) Stopped DataCalcThread 2776
+11/1/2023 5:56:43 PM (1912) Restart
+11/1/2023 5:56:43 PM (2948) Stopped DataCalcThread 1912
+11/1/2023 5:56:43 PM (1852) Restart
+11/1/2023 5:56:43 PM (2948) Stopped DataCalcThread 1852
+11/1/2023 5:56:50 PM (1512) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 5:56:50 PM (1784) Paused Sensor 2012
+11/1/2023 5:56:50 PM (1784) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 5:56:50 PM (1784) No recalc nedded
+11/1/2023 5:56:50 PM (1944) Paused Sensor 2011
+11/1/2023 5:56:50 PM (1944) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 5:56:50 PM (1944) No recalc nedded
+11/1/2023 5:56:51 PM (548) Finished
+11/1/2023 5:56:51 PM (700) Finished
+11/1/2023 5:56:51 PM (2592) Finished
+11/1/2023 5:56:51 PM (2592) All Datacalc Threads finished calculations
+terminated thread 0 id: 548
+terminated thread 1 id: 700
+terminated thread 2 id: 2592
+11/1/2023 6:38:43 PM (548) Restart
+11/1/2023 6:38:43 PM (2152) Stopped DataCalcThread 548
+11/1/2023 6:38:43 PM (700) Restart
+11/1/2023 6:38:43 PM (2152) Stopped DataCalcThread 700
+11/1/2023 6:38:43 PM (2592) Restart
+11/1/2023 6:38:43 PM (2152) Stopped DataCalcThread 2592
+11/1/2023 6:38:50 PM (1820) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 6:38:50 PM (912) Paused Sensor 2012
+11/1/2023 6:38:50 PM (912) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 6:38:50 PM (912) No recalc nedded
+11/1/2023 6:38:50 PM (2464) Paused Sensor 2011
+11/1/2023 6:38:50 PM (2464) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 6:38:50 PM (2464) No recalc nedded
+11/1/2023 6:38:51 PM (760) Finished
+11/1/2023 6:38:51 PM (2636) Finished
+11/1/2023 6:38:51 PM (1268) Finished
+11/1/2023 6:38:51 PM (1268) All Datacalc Threads finished calculations
+terminated thread 0 id: 760
+terminated thread 1 id: 2636
+terminated thread 2 id: 1268
+11/1/2023 7:20:43 PM (760) Restart
+11/1/2023 7:20:43 PM (2660) Stopped DataCalcThread 760
+11/1/2023 7:20:43 PM (2636) Restart
+11/1/2023 7:20:43 PM (2660) Stopped DataCalcThread 2636
+11/1/2023 7:20:43 PM (1268) Restart
+11/1/2023 7:20:43 PM (2660) Stopped DataCalcThread 1268
+11/1/2023 7:20:50 PM (2852) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 7:20:50 PM (2644) Paused Sensor 2012
+11/1/2023 7:20:50 PM (2644) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 7:20:50 PM (2644) No recalc nedded
+11/1/2023 7:20:50 PM (1060) Paused Sensor 2011
+11/1/2023 7:20:50 PM (1060) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 7:20:50 PM (1060) No recalc nedded
+11/1/2023 7:20:51 PM (1552) Finished
+11/1/2023 7:20:51 PM (2760) Finished
+11/1/2023 7:20:51 PM (2580) Finished
+11/1/2023 7:20:51 PM (2580) All Datacalc Threads finished calculations
+terminated thread 0 id: 1552
+terminated thread 1 id: 2760
+terminated thread 2 id: 2580
+11/1/2023 8:02:43 PM (1552) Restart
+11/1/2023 8:02:43 PM (1016) Stopped DataCalcThread 1552
+11/1/2023 8:02:43 PM (2760) Restart
+11/1/2023 8:02:43 PM (1016) Stopped DataCalcThread 2760
+11/1/2023 8:02:43 PM (2580) Restart
+11/1/2023 8:02:43 PM (1016) Stopped DataCalcThread 2580
+11/1/2023 8:02:49 PM (2240) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 8:02:50 PM (2568) Paused Sensor 2012
+11/1/2023 8:02:50 PM (2568) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 8:02:50 PM (2568) No recalc nedded
+11/1/2023 8:02:50 PM (892) Paused Sensor 2011
+11/1/2023 8:02:50 PM (892) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 8:02:50 PM (892) No recalc nedded
+11/1/2023 8:02:51 PM (2880) Finished
+11/1/2023 8:02:51 PM (3048) Finished
+11/1/2023 8:02:51 PM (1476) Finished
+11/1/2023 8:02:51 PM (1476) All Datacalc Threads finished calculations
+terminated thread 0 id: 2880
+terminated thread 1 id: 3048
+terminated thread 2 id: 1476
+11/1/2023 8:44:43 PM (2880) Restart
+11/1/2023 8:44:43 PM (1696) Stopped DataCalcThread 2880
+11/1/2023 8:44:43 PM (3048) Restart
+11/1/2023 8:44:43 PM (1696) Stopped DataCalcThread 3048
+11/1/2023 8:44:43 PM (1476) Restart
+11/1/2023 8:44:43 PM (1696) Stopped DataCalcThread 1476
+11/1/2023 8:44:50 PM (2920) Start PRTG Network Monitor 18.1.37.13946
+11/1/2023 8:44:50 PM (1080) Paused Sensor 2012
+11/1/2023 8:44:50 PM (1080) Last: 11/1/2023 8:40:20 AM Since: 11/1/2023 8:40:20 AM Diff: 0 Interval: 60
+11/1/2023 8:44:50 PM (1080) No recalc nedded
+11/1/2023 8:44:50 PM (2608) Paused Sensor 2011
+11/1/2023 8:44:50 PM (2608) Last: 8/23/2023 6:30:25 AM Since: 8/23/2023 6:30:25 AM Diff: 0 Interval: 60
+11/1/2023 8:44:50 PM (2608) No recalc nedded
+11/1/2023 8:44:51 PM (1168) Finished
+11/1/2023 8:44:51 PM (96) Finished
+11/1/2023 8:44:51 PM (2988) Finished
+11/1/2023 8:44:51 PM (2988) All Datacalc Threads finished calculations

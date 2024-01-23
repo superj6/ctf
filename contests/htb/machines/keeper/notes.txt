@@ -1,0 +1,12 @@
+users:
+
+lnorgaard
+pass - Welcome2023!
+
+root
+pass - F4><3K0nd!
+
+files:
+
+keepass
+pass - rødgrød med fløde

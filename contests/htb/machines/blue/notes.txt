@@ -1,0 +1,16 @@
+services:
+
+samba
+v1 - see from nmap smb-protocols, ms17-010 exploit
+
+comments:
+
+check version of everything! if stuck #1 thing likely missing
+
+if downloaded exploit code not working check carefully by hand why
+here python2->3 clownery :weary:
+
+sources:
+
+eternalblue writeup
+https://research.checkpoint.com/2017/eternalblue-everything-know/

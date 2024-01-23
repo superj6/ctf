@@ -1,0 +1,177 @@
+commit 1e092082747c2686166d561fbf38e532f780ea0d
+Author: Chrome Release Bot (LUCI) <chrome-official-brancher@chops-service-accounts.iam.gserviceaccount.com>
+Date:   Sat Feb 11 05:02:16 2023 +0000
+
+    Publish DEPS for 112.0.5589.1
+
+commit dd89aa7785d85a6f6870d1a50954bd44c06bebb0
+Author: Chrome Release Bot (LUCI) <chrome-official-brancher@chops-service-accounts.iam.gserviceaccount.com>
+Date:   Sat Feb 11 05:01:05 2023 +0000
+
+    Incrementing VERSION to 112.0.5589.1
+    
+    Change-Id: I07132543c3262b1eca1876d1b2a64ede6f526a3c
+    Reviewed-on: https://chromium-review.googlesource.com/c/chromium/src/+/4240772
+    Bot-Commit: Chrome Release Bot (LUCI) <chrome-official-brancher@chops-service-accounts.iam.gserviceaccount.com>
+    Cr-Commit-Position: refs/branch-heads/5589@{#2}
+    Cr-Branched-From: 5b6b0d0709d6813f9c96adb935192e6ab585d592-refs/heads/main@{#1104144}
+
+commit d1531fb08d6882b161e85b18c1c336cd10349a48
+Author: Chrome Release Bot (LUCI) <chrome-official-brancher@chops-service-accounts.iam.gserviceaccount.com>
+Date:   Sat Feb 11 04:05:42 2023 +0000
+
+    Update DEPS for 5589 branching
+    
+    Change-Id: Ibed3e90739af49943dd7b5af1618d247dcdece6b
+    Reviewed-on: https://chromium-review.googlesource.com/c/chromium/src/+/4241671
+    Bot-Commit: Chrome Release Bot (LUCI) <chrome-official-brancher@chops-service-accounts.iam.gserviceaccount.com>
+    Cr-Commit-Position: refs/branch-heads/5589@{#1}
+    Cr-Branched-From: 5b6b0d0709d6813f9c96adb935192e6ab585d592-refs/heads/main@{#1104144}
+
+commit 5b6b0d0709d6813f9c96adb935192e6ab585d592
+Author: sophiewen <sophiewen@chromium.org>
+Date:   Sat Feb 11 00:44:24 2023 +0000
+
+    float: Change tablet menu to handle touch events
+    
+    This modifies TabletModeMultitaskMenuEventHandler to handle touch
+    instead of gesture events so they are consumed before Lacros windows.
+    This may also avoid unexpected scroll DCHECKs on web contents render
+    widgets.
+    
+    Note that only active windows will show the menu now, i.e. if 2 windows
+    are in splitview or one floated, the first touch will need to activate
+    the window first before it shows the menu. Since the multitask cue only
+    appears on window activation, this seems reasonable, but a follow-up
+    change can be added if needed.
+    
+    Test: modified
+    Bug: b/266748266
+    Change-Id: I049aef8601fc3b3e4b41cb9bb1da0727e08d1a83
+    Reviewed-on: https://chromium-review.googlesource.com/c/chromium/src/+/4237432
+    Commit-Queue: Sophie Wen <sophiewen@chromium.org>
+    Reviewed-by: Sammie Quon <sammiequon@chromium.org>
+    Cr-Commit-Position: refs/heads/main@{#1104144}
+
+commit aed2993a230ff9106628a698750b6bbaa56aec03
+Author: Jie Sheng <jiesheng@google.com>
+Date:   Sat Feb 11 00:42:31 2023 +0000
+
+    Support multi tags with same name in gtest.
+    
+    Bug: b/268252476
+    Change-Id: I7b6e87ecf0b84d1a0504187fdb18ac8136c3ed82
+    Reviewed-on: https://chromium-review.googlesource.com/c/chromium/src/+/4233100
+    Commit-Queue: Jie Sheng <jiesheng@google.com>
+    Reviewed-by: Gabriel Charette <gab@chromium.org>
+    Cr-Commit-Position: refs/heads/main@{#1104143}
+
+commit 5763cb02c43bd5416a58c54fcc8acc49325ae79b
+Author: chromium-autoroll <chromium-autoroll@skia-public.iam.gserviceaccount.com>
+Date:   Sat Feb 11 00:40:56 2023 +0000
+
+    Roll Skia from 0e1338f8aabb to 8f24b62e64d4 (3 revisions)
+    
+    https://skia.googlesource.com/skia.git/+log/0e1338f8aabb..8f24b62e64d4
+    
+    2023-02-10 johnstiles@google.com Add ES3 test for mix intrinsic.
+    2023-02-10 skia-autoroll@skia-public.iam.gserviceaccount.com Roll skcms from e416854f1271 to ba39d81f9797 (1 revision)
+    2023-02-10 skia-autoroll@skia-public.iam.gserviceaccount.com Roll vulkan-deps from 00e3edd6b635 to e780219ed8ba (2 revisions)
+    
+    If this roll has caused a breakage, revert this CL and stop the roller
+    using the controls here:
+    https://autoroll.skia.org/r/skia-autoroll
+    Please CC borenet@google.com,kjlubick@google.com on the revert to ensure that a human
+    is aware of the problem.
+    
+    To file a bug in Skia: https://bugs.chromium.org/p/skia/issues/entry
+    To file a bug in Chromium: https://bugs.chromium.org/p/chromium/issues/entry
+    
+    To report a problem with the AutoRoller itself, please file a bug:
+    https://bugs.chromium.org/p/skia/issues/entry?template=Autoroller+Bug
+    
+    Documentation for the AutoRoller is here:
+    https://skia.googlesource.com/buildbot/+doc/main/autoroll/README.md
+    
+    Cq-Include-Trybots: luci.chromium.try:android_optional_gpu_tests_rel;luci.chromium.try:linux-blink-rel;luci.chromium.try:linux-chromeos-compile-dbg;luci.chromium.try:linux_optional_gpu_tests_rel;luci.chromium.try:mac_optional_gpu_tests_rel;luci.chromium.try:win_optional_gpu_tests_rel
+    Cq-Do-Not-Cancel-Tryjobs: true
+    Bug: None
+    Tbr: kjlubick@google.com
+    Change-Id: Ia188caab00c7937e8f8d2a194073166f917fa166
+    Reviewed-on: https://chromium-review.googlesource.com/c/chromium/src/+/4241433
+    Commit-Queue: chromium-autoroll <chromium-autoroll@skia-public.iam.gserviceaccount.com>
+    Bot-Commit: chromium-autoroll <chromium-autoroll@skia-public.iam.gserviceaccount.com>
+    Cr-Commit-Position: refs/heads/main@{#1104142}
+
+commit 25c57802f74245900e0300eb04beeccfef558f16
+Author: Lei Zhang <thestig@chromium.org>
+Date:   Sat Feb 11 00:37:36 2023 +0000
+
+    Fix and re-enable flaky PDFExtensionTest.BasicPrintCommand.
+    
+    Address the issue observed in [1], where a print error dialog blocked
+    the test, by using SetShowPrintErrorDialogForTest() to turn the dialog
+    into a no-op.
+    
+    [1] https://bugs.chromium.org/p/chromium/issues/detail?id=1260167#c1
+    
+    Bug: 1258561,1260167
+    Change-Id: Ie30b54d52a2c4e923a019656968713bf1cad69cd
+    Reviewed-on: https://chromium-review.googlesource.com/c/chromium/src/+/4235065
+    Reviewed-by: Alan Screen <awscreen@chromium.org>
+    Commit-Queue: Lei Zhang <thestig@chromium.org>
+    Cr-Commit-Position: refs/heads/main@{#1104141}
+
+commit b9537ebca05fb3041864ed92fd4e7ba95360fc0b
+Author: Mateusz Zbikowski <zbikowski@google.com>
+Date:   Sat Feb 11 00:36:36 2023 +0000
+
+    Bump manual version of cts_archive 3pp
+    
+    Otherwise it won't rebuild after a change to install.sh
+    
+    Bug: 1356552, 1371140, 1400440
+    Change-Id: I9316c03c9f4917abd4b9150c549c949acd4b0ea7
+    Reviewed-on: https://chromium-review.googlesource.com/c/chromium/src/+/4240144
+    Commit-Queue: Nate Fischer <ntfschr@chromium.org>
+    Reviewed-by: Nate Fischer <ntfschr@chromium.org>
+    Auto-Submit: Mateusz Zbikowski <zbikowski@google.com>
+    Cr-Commit-Position: refs/heads/main@{#1104140}
+
+commit 7bb14c8463c1566982d070469bd31f6b5d4b00b1
+Author: Tim Judkins <tjudkins@chromium.org>
+Date:   Sat Feb 11 00:36:26 2023 +0000
+
+    [Extensions] Avoid crash in event router when catching invalid events.
+    
+    This change removes the NOTREACHED after failing the availability check
+    in the event router when getting ready to dispatch an event to an
+    extension page and instead returns silently.
+    
+    Also adds a test which executes this codepath to ensure it doesn't cause
+    a crash and still behaves as we would expect.
+    
+    As mentioned in the associated bug, in the future we should address the
+    situations which could lead to this being triggered and add the
+    NOTREACHED back in.
+    
+    Bug: 1402642, 1412151
+    Change-Id: Id41dcb6a04d8f9a9044d89611dec67481a8a14fd
+    Reviewed-on: https://chromium-review.googlesource.com/c/chromium/src/+/4211452
+    Commit-Queue: Tim <tjudkins@chromium.org>
+    Reviewed-by: Devlin Cronin <rdevlin.cronin@chromium.org>
+    Cr-Commit-Position: refs/heads/main@{#1104139}
+
+commit 3ec04726e4db4dfb8875bef2c8ed78b3cfbba37d
+Author: Daniel Murphy <dmurph@google.com>
+Date:   Sat Feb 11 00:32:39 2023 +0000
+
+    [AppHome] Removed complex launch animation
+    
+    Bug: b/268499529
+    Change-Id: I9d2869c7b52e3d8e7bacbd40807bdf129cd4e873
+    Reviewed-on: https://chromium-review.googlesource.com/c/chromium/src/+/4241641
+    Commit-Queue: Daniel Murphy <dmurph@chromium.org>
+    Auto-Submit: Daniel Murphy <dmurph@chromium.org>
+    Reviewed-by: Phillis Tang <phillis@chromium.org>
+    Cr-Commit-Position: refs/heads/main@{#1104138}

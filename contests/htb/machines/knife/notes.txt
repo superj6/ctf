@@ -1,0 +1,22 @@
+services:
+
+php
+version 8.1.0-dev - seen in get request response, has backdoor to run command :thonk:
+
+files:
+
+/usr/bin/knife
+sudo permissions, can run commmands - elevate to roota
+
+users:
+
+james
+
+sources:
+
+knife command
+https://gtfobins.github.io/gtfobins/knife/
+
+comments:
+
+look at everything even when you think useless - http get response helped!

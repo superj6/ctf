@@ -1,0 +1,29 @@
+services:
+
+ftp
+login anonymous
+has backup of /etc
+
+files:
+
+/etc/config/wireless
+see wifi password - reused
+
+/etc/passwd
+see users
+
+/usr/bin/reaver - found with getcap
+wifi attack tool, why even on :eyes:
+get wifi password
+
+users:
+
+netadmin
+pass - VeRyUniUqWiFIPasswrd1!
+
+root
+pass - WhatIsRealAnDWhAtIsNot51121!
+
+comments:
+
+look more at box-specific parts! - in this case wifi stuff

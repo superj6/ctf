@@ -1,0 +1,20 @@
+urls:
+
+pilgrimage.htb
+/ - shrink image using magick
+/.git - git directory of image
+
+files:
+
+magick - in git, version 7.1.0 cve read files when processing png 
+
+/var/db/pilgrimage - sqlite database queried by website, user/pass in plaintext
+
+/usr/sbin/malwarescan.sh - from pspy ran by root, runs binwalk on uploaded images
+
+/usr/local/sbin/binwalk - version 2.3.2 cve rce, use to priveledge escalate
+
+users:
+
+emily
+pass - abigchonkyboi123

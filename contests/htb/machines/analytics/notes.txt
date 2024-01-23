@@ -1,0 +1,20 @@
+urls:
+
+analytical.htb
+
+data.analytical.htb
+/api/session/properties - get setup-token
+/api/setup/validate - interact with database, use sql injection for reverse shell
+
+users:
+
+metalytics
+pass - An4lytics_ds20223#
+
+exploitable sources:
+
+metabase
+https://blog.assetnote.io/2023/07/22/pre-auth-rce-metabase/
+
+ubuntu 25-22.0.4.2
+https://www.reddit.com/r/selfhosted/comments/15ecpck/ubuntu_local_privilege_escalation_cve20232640/

@@ -1,0 +1,13 @@
+urls:
+
+/dev/phpbash.php
+phpshell uploaded on the webserver
+
+sources:
+
+reverse shell python
+https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md
+
+comments:
+
+try to use other programs when burp (or wotever) too slow, gobuster is orz

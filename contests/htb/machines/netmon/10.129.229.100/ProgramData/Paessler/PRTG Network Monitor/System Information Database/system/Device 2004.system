@@ -1,0 +1,1 @@
+{"kind":"system","receivetime":"01-11-2023 08:42:12.111","error":106,"message":"Incomplete connection settings or credentials.<br>No response (check: firewalls, routing, snmp settings of device, IPs, SNMP version, community, passwords etc) (SNMP error # -2003)"}
