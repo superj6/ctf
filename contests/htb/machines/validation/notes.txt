@@ -1,0 +1,31 @@
+users:
+
+uhc - database user
+pass - [same as root]
+permissions - file write, sqli exploit write reverse shell in /var/www/html 
+
+root
+pass - uhc-9qual-global-pw, from config.php
+
+files:
+
+/var/www/html/config.php - contains database config, including pass
+
+urls:
+
+/ - input form, redirects to account.php
+country param - sqli injectable, use "' [sql];-- -"
+
+/account.php - displays current and all users for country in input form, country sql ran here
+
+sources:
+
+https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/MySQL%20Injection.md#mysql-write-a-shell
+write php rshell in /var/www/html/, also use sqlmap --file-write --file-dest
+
+comments:
+
+don't over rely on tools, do things by hand when you know how
+think how any known file write capability can be used, make your own page with rshell!
+don't forget to try stupid things like reuse password!
+sqlmap set level/param when not working, and make rshell by hand

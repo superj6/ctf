@@ -1,0 +1,93 @@
+services:
+nmap_scan.txt
+
+http 80
+nginx
+wordpress 5.6.2 - from about.php
+
+ftp 21
+user setup w/ wordpress - wp-config.php
+
+users:
+
+mysql--
+
+blog 
+pass- 635Aq@TdqrCwXFUZ, from wp-config.php
+
+wordpress--
+
+manager
+pass - partylikearockstar, from wp_hashes.john
+
+admin
+pass - hash in wp_hashes.john
+
+ftp--
+
+metapress.htb
+pass - 9NYS_ii@FyL_p5M2NvJ, from wp-config.php  
+
+OS--
+
+jnelson
+pass - Cb4_JmWM8zUZWMu@Ys, from send_email.php
+passpie pass - blink182, from .passpie/.keys crack 
+
+root
+pass - p7qfAZt4_A1xo_0x, from dumped passpie after cracking pass
+
+files:
+
+/var/www/metapress.htb/blog/wp-config.php - wordpress config, contains mysql and ftp user/pass
+
+/var/www/metapress.htb/mailer/send_email.php - from ftp, contains jnelson pass
+
+/home/jnelson/.passpie/ssh/root.pass - encrypted root ssh pass
+
+/home/jnelson/.passpie/.keys - jnelson's gpg keys for passpie, crack privkey w/ john
+
+pages:
+ffuf_scan.txt
+
+metapress.htb-- from curl_scan.txt
+
+/?s=[query] - search [query], get relevent results
+
+/thank-you/?appointment_id=[query]
+
+/wp-sitemap.xml - see intended site urls
+
+/wp-admin/admin-ajax.php - post request when sign up for event
+
+/wp-content/plugins/bookingpress-appointment-booking/images/front-confirmation-vector.svg
+evidence bookingpress plugin used
+
+/events - book event
+src - "var postData = { action:'bookingpress_generate_spam_captcha', _wpnonce:'5a7dfef26d' };"
+uses bookingpress wp plugin - cve-2022-0739 sql inject, get wp_hashes.john
+
+/wp-admin/about.php 
+wordpress version - 5.6.2
+
+/wp-admin/upload.php - media library upload
+
+sources:
+
+https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/wordpress
+
+https://wpscan.com/vulnerability/388cd42d-b61a-42a4-8604-99b812db2357/
+info on bookingpress cve
+
+https://github.com/destr4ct/CVE-2022-0739
+bookingpress cve exploit leak users/pass hashes
+
+https://blog.wpsec.com/wordpress-xxe-in-media-library-cve-2021-29447/
+info on media library cve
+
+https://www.exploit-db.com/exploits/50304
+webpress media library exploit read file
+
+comments:
+
+lsb_release -a

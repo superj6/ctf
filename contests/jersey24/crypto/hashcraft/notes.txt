@@ -1,0 +1,8 @@
+files:
+
+encrypted_backup.zip
+pass - 1a2d3m4inbackup
+
+comments:
+
+john rule "OneRuleToRuleThemAll"

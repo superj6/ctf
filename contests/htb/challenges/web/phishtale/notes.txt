@@ -1,0 +1,23 @@
+sources:
+
+https://www.cvedetails.com/cve/CVE-2021-36740/
+
+https://portswigger.net/web-security/request-smuggling
+
+https://labs.detectify.com/how-to/set-up-docker-for-varnish-http-2-request-smuggling/
+
+https://requests.readthedocs.io/en/latest/user/advanced/#prepared-requests
+
+https://stackoverflow.com/questions/20658572/python-requests-print-entire-http-request-raw
+
+https://www.python-httpx.org/http2/
+
+https://github.com/GoSecure/request-smuggling-workshop - exploit_http2_hrs.py
+
+https://www.cvedetails.com/cve/CVE-2022-23614/
+
+https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection
+
+https://github.com/davwwwx/CVE-2022-23614
+
+comments:

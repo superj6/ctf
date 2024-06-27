@@ -1,0 +1,12 @@
+https://book.hacktricks.xyz/welcome/readme - common code snippets, enumeration/exploit techniques
+https://gtfobins.github.io - bins and code for escalation
+https://github.com/swisskyrepo/PayloadsAllTheThings - various exploit codes
+https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet - rshell scripts
+https://owasp.org - web vuln explanations
+https://portswigger.net - web vuln explanations
+https://github.com/0xJs/RedTeaming_CheatSheet - list of techniques
+https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/ - upgrade rshell
+https://exploit-notes.hdks.org - another list of exploits
+https://georgeom.net/StegOnline/upload - basic image steg analyzer
+https://aperisolve.com - image steg
+https://github.com/kibercthulhu/gdb-peda-cheatsheet - commands for gdb peda 

@@ -1,0 +1,57 @@
+services:
+nmap_scan.txt
+
+smb 445
+share Backups
+
+files:
+
+C:\Windows\System32\config\SAM - in backup disk, use to crack ntlm user hashes
+
+C:\Windows\System32\config\SYSTEM - use with SAM
+
+C:\$Recycle.Bin\S-1-5-21-2146344083-2443430429-1430880910-1002\$RNTSJCP.bat - sus
+
+C:\Program Files (x86)\mRemoteNG - nonstandard program, changelog.txt shows version #
+
+C:\Users\L4mpje\AppData\Roaming\mRemoteNG\confCons.xml - password file for mRemoteNG
+
+smb:
+
+Backups--
+
+\WindowsImageBackup\L4mpje-PC\Backup 2019-02-22 124351\9b9cfbc4-369e-11e9-a17c-806e6f6e6963.vhd
+windows disk - vhd files only ones that look interesting, can mount to grab ntlm hashes
+
+users:
+
+L4mpje
+pass - bureaulampje, cracked from backup disk SAM
+
+Administrator
+pass - thXLHM96BeKL0ER2, unencrypted from confCons.xml since uses default master pass
+
+sources:
+
+https://medium.com/@klockw3rk/mounting-vhd-file-on-kali-linux-through-remote-share-f2f9542c1f25
+how to mount remote directory then remote vhd file from it
+
+https://infinitelogins.com/2020/12/11/how-to-mount-extract-password-hashes-vhd-files/
+shows which files to use with impacket
+
+https://github.com/mRemoteNG/mRemoteNG/issues/1963
+shows password file location
+
+https://github.com/haseebT/mRemoteNG-Decrypt - mremoteng_decrypt.py
+decrypt password script
+
+comments:
+
+port 445 - always enumerate smb!!
+look up any file types u don't know when enumerating, use intuition think what they hold
+vhd files are windows disks, can mount remote file system then guestmount vhd file
+when have full access to file system, grab hashes to crack from SAM/SYSTEM
+look at program files and similar locations that may have installed vulnerable programs!
+always think if other programs may store passwords somewhere
+%appdata% good location in general to check on windows
+main windows pass locations are sam or AD

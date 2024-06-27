@@ -1,0 +1,7 @@
+sources:
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Credentials
+
+https://cheatsheetseries.owasp.org/cheatsheets/XS_Leaks_Cheat_Sheet.html
+
+https://stackoverflow.com/questions/9815762/detect-when-an-image-fails-to-load-in-javascript

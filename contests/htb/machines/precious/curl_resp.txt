@@ -1,0 +1,44 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.129.161.193:80...
+* Connected to precious.htb (10.129.161.193) port 80 (#0)
+> GET / HTTP/1.1
+> Host: precious.htb
+> User-Agent: curl/7.81.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Content-Type: text/html;charset=utf-8
+< Content-Length: 483
+< Connection: keep-alive
+< Status: 200 OK
+< X-XSS-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Date: Sat, 03 Feb 2024 01:55:14 GMT
+< X-Powered-By: Phusion Passenger(R) 6.0.15
+< Server: nginx/1.18.0 + Phusion Passenger(R) 6.0.15
+< X-Runtime: Ruby
+< 
+{ [483 bytes data]
+100   483  100   483    0     0   1724      0 --:--:-- --:--:-- --:--:--  1731
+* Connection #0 to host precious.htb left intact
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Convert Web Page to PDF</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="title">Convert Web Page to PDF</h1>
+        <form action="/" method="post">
+            <p>Enter URL to fetch</p><br>
+            <input type="text" name="url" value="">
+            <input type="submit" value="Submit">
+        </form>
+        <h2 class="msg"></h2>
+    </div> 
+</body>
+</html>

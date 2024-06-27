@@ -1,0 +1,23 @@
+files:
+
+/challenge/static/js/main.js - show fetching for emojis
+
+/challenge/routes/index.js - setup routes
+has post api for emojis that uses database.js
+
+/challenge/database.js - logic for querying emojis
+getEmojis "order by" sqli
+
+urls:
+
+/api/list - post list emojis, set sql ordering, "order by" injection
+
+sources:
+
+https://portswigger.net/support/sql-injection-in-the-query-structure
+
+https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/SQLite%20Injection.md
+
+comments:
+
+sometimes have to code things by hand rip, especially when more dependent on infra

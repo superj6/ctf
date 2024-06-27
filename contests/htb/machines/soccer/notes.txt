@@ -1,0 +1,80 @@
+services:
+nmap_scan.txt
+
+http 80
+
+websockets 9091 - from soc-player /check
+
+users:
+
+tinyfile--
+
+admin
+pass - admin@123, default for tinyfile
+
+OS--
+
+www-data - from rshell
+
+player
+pass - PlayerOftheMatch2022, from sqlmap
+
+files:
+
+/etc/nginx/sites-available/soc-player.htb
+
+/usr/bin/doas - similar to sudo
+suid bit set
+
+/usr/local/etc/doas.conf - shows doas permissions, says can use dstat as root
+
+/usr/bin/dstat - can use w/ doas as root
+
+/usr/local/share/dstat/ - can write custom dstat plugins here, write one to give bash as root
+
+mysql:
+
+soccer_db-- from sqlmap
+
+accounts - leak player password
+cols - id,email,username,password
+
+urls:
+ffuf_scan.txt
+
+soccer.htb--
+
+/tiny/tinyfilemanager.php - tinyfilemanager 2.4.3, from ffuf
+login w/ default creds from research
+
+/tiny/uploads - can upload resources as admin, upload php rshell
+
+soc-player.soccer.htb-- from www-data rshell look at nginx/sites-available
+
+/check - check game id valid
+id sent w/ websockets as json - sqli id param, use proxy w/ sqlmap for boolean-based
+
+sources:
+
+https://tinyfilemanager.github.io/ - linked from login page
+
+https://github.com/prasathmani/tinyfilemanager/wiki/Security-and-User-Management
+default user pass
+
+https://book.hacktricks.xyz/pentesting-web/websocket-attacks
+
+https://rayhan0x01.github.io/ctf/2021/04/02/blind-sqli-over-websocket-automation.html
+
+https://exploit-notes.hdks.org/exploit/linux/privilege-escalation/doas/
+
+https://exploit-notes.hdks.org/exploit/linux/privilege-escalation/sudo/sudo-dstat-privilege-escalation/
+
+comments:
+
+may need to use multiple wordlists for enumeration - at least try both dirsearch and list-1.0
+find new sites/services with less priveledged users and exploit those
+anything where send data may have some injection!
+if have some level of access to backend infrasturcutre find tech stack likely used to guess vuln
+yet again think about making proxy to get sqlmap to work over other data subs, even sockets!
+always pay attention to suid bit set binaries, if you don't know what one is look it up!
+in general in most common exploit paths, things you don't know are as important as sus things

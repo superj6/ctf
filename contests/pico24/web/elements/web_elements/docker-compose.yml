@@ -1,0 +1,11 @@
+services:
+  elements:
+    build: .
+    ports:
+      - 8080:8080
+    init: true
+    environment:
+      - DISPLAY=${DISPLAY}
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    network_mode: host

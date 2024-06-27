@@ -1,0 +1,58 @@
+services
+
+http 8080
+maven java webapp
+
+users:
+
+phil - user flag
+pass - DocPhillovestoInject123, from .m2/settings.xml
+
+frank - from rshell
+
+files:
+
+/var/www/WebApp/pom.xml - shows maven webapp and dependencies
+spring-cloud-function-web 3.2.2 - CVE-2022-22963 RCE
+
+/home/frank/.m2/settings.xml - shows phil's password, su to his account
+
+/usr/local/bin/ansible-parallel - from pspy, runs all .yml in /opt/automation/tasks as root
+
+/usr/bin/ansible-playbook - from pspy
+
+/opt/automation/tasks/playbook_1.yml - form pspy, ran ansible playbook as root
+
+urls:
+
+/upload - upload image file, then link to view
+unable to upload non-image file, no tricks tried worked
+
+/show_image?img=[file] - show image file
+lfi read arbitrary file and show directory
+
+/functionRouter - spring-cloud-function cve rce, get rshell 
+
+sources:
+
+https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html
+
+https://www.exploit-db.com/exploits/51577 - 51577.py
+spring-cloud-function cve rce
+
+https://github.com/welk1n/ReverseShell-Java - method3
+java code to get rshell
+
+https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_strategies.html
+
+https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_privilege_escalation.html
+
+comments:
+
+use error messages like 404 to help guess backend stack
+always check lfi when read w/ input file name, more "../" and variations!
+check if can read directory if can read files smh
+besides webapp config files, also look under users w/ lfi even before rshell!
+when have access to read more info, use ability to look for more vuln dependency versions!!
+when injecting file into running command, use pre-existing ones to help get correct format
+pspy look for cronjobs run as root, see if can forge file format for privesc

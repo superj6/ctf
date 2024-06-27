@@ -1,0 +1,22 @@
+*   Trying 10.129.5.21:80...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Connected to 10.129.5.21 (10.129.5.21) port 80 (#0)
+> GET / HTTP/1.1
+> Host: 10.129.5.21
+> User-Agent: curl/7.81.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Date: Sat, 24 Feb 2024 06:05:14 GMT
+< Server: Apache/2.2.22 (Ubuntu)
+< X-Powered-By: PHP/5.3.10-1ubuntu3.26
+< Vary: Accept-Encoding
+< Content-Length: 38
+< Content-Type: text/html
+< 
+{ [38 bytes data]
+100    38  100    38    0     0    115      0 --:--:-- --:--:-- --:--:--   116100    38  100    38    0     0    115      0 --:--:-- --:--:-- --:--:--   115
+* Connection #0 to host 10.129.5.21 left intact
+<center><img src="omg.jpg"/></center>

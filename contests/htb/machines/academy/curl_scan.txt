@@ -1,0 +1,96 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.129.21.203:80...
+* Connected to academy.htb (10.129.21.203) port 80 (#0)
+> GET / HTTP/1.1
+> Host: academy.htb
+> User-Agent: curl/7.81.0
+> Accept: */*
+> 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Date: Wed, 14 Feb 2024 07:34:00 GMT
+< Server: Apache/2.4.41 (Ubuntu)
+< Vary: Accept-Encoding
+< Content-Length: 2117
+< Content-Type: text/html; charset=UTF-8
+< 
+{ [2117 bytes data]
+100  2117  100  2117    0     0   1454      0  0:00:01  0:00:01 --:--:--  1454
+* Connection #0 to host academy.htb left intact
+<html lang="en"><head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Hack The Box Academy</title>
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #141D2B;
+                color: #7e8396;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 200;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .top-right {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+                font-size: 84px;
+            }
+
+            .links > a {
+                color: #7e8396;
+                padding: 0 25px;
+                font-size: 13px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+            .links > a:hover {
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height" id="canvas">
+            <div class="top-right links">
+                <a href="http://academy.htb/login.php">Login</a>
+                <a href="http://academy.htb/register.php">Register</a>
+            </div>
+            <div class="content">
+                <div>
+                    <img src="images/logo.svg" height="100px">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

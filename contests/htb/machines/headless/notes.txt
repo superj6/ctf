@@ -1,0 +1,21 @@
+users:
+
+web--
+
+admin
+cookie - is_admin=ImFkbWluIg.dmzDkZNEm6CK0oyL1fbM-SnXpH0
+
+files:
+
+/usr/bin/syscheck - sudo perm, calls initdb.sh from relative path, create and su root
+
+urls:
+
+/support - detected xss in message causes reflected xss in header, leak admin cookir
+
+/dashboard - requires admin cookie
+
+comments:
+
+ffuf make sure to not miss directories, -mc all -fc 404
+always try at least xss and sqli on forms, and try more if hinted or no other leads

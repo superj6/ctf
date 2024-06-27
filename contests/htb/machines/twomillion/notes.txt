@@ -1,0 +1,55 @@
+services:
+nmap_scan.txt
+
+http 80
+domain - 2million.htb, from curl
+
+users:
+
+www-data - from rshell
+
+admin - from .env
+pass - SuperDuperPass123, from .env
+
+files:
+
+/var/www/html/.env - php database config info, contains user admin and pass
+
+/var/mail/admin - email to admin, hint towards fuse overlay cve
+
+glibc
+version - 2.35, exploitable w/ looney toonables
+
+pages:
+ffuf_scan.txt
+
+/invite - old hackthebox invite, find api to get code for register
+
+/api/v1/invite/generate - api to generate invide code, from /invite source
+
+/api/v1 - from trying subdir of other api, shows all api available
+
+/api/v1/user/vpn/generate - get vpn certificate for logged in user 
+
+/api/v1/admin/settings/update - wrong permissions any logged in user can set other user to admin
+
+/api/v1/admin/vpn/generate - generate new openvpn certificate for specified user w/ admin perm
+calls command in terminal injecting username - command injection rshell.py
+
+sources:
+
+https://securitylabs.datadoghq.com/articles/overlayfs-cve-2023-0386/ - explanation from mail
+
+https://github.com/sxlmnwb/CVE-2023-0386 - exploit code
+
+https://www.qualys.com/2023/10/03/cve-2023-4911/looney-tunables-local-privilege-escalation-glibc-ld-so.txt - alternate privesc from glibc version
+
+comments:
+
+always see what subdirectories you can traverse from full url path, especially api's
+in general find and test responses and permissions of all api's you can!
+again thinkg about how things work in the backend, make guesses what might do wrong!
+never assume without checking permissions set up right - admin update!
+remember just use ssh as soon as you can clown, ie if u have password
+look for other kinds of hints like messages and history - mail!
+even after running linpeas, don't assume it not miss kernel or similar vulns, also update it

@@ -1,0 +1,43 @@
+services:
+
+http 80
+
+internal vnc 5091 - from netstat and ps aux on ssh
+root access
+
+files:
+
+/var/log/httpd-access.log - log show requests, can reflect/run php w/ browse.php
+
+/usr/local/www/apache24/data/pwdbackup.txt - gives charix password as recursive base64
+
+/home/charix/secret.zip - vnc credential
+unzip pass - same as charix
+
+users:
+
+VNCP@$$!
+
+charix
+pass - Charix!2#4%6&8(0, from pwdbackup.txt
+
+urls:
+
+/browse.php?file=[filepath] - loads and runs php script with "include"
+
+sources:
+
+https://null-byte.wonderhowto.com/how-to/exploit-php-file-inclusion-web-apps-0179955/
+
+https://blog.codeasite.com/how-do-i-find-apache-http-server-log-files/
+
+https://github.com/qazbnm456/awesome-security-trivia/blob/master/Tricky-ways-to-exploit-PHP-Local-File-Inclusion.md
+
+https://book.hacktricks.xyz/pentesting-web/file-inclusion/lfi2rce-via-php-filters
+
+https://book.hacktricks.xyz/network-services-pentesting/pentesting-vnc
+
+comments:
+
+look for simplest path first smh, read all files that are being handed to you!
+ps aux and netstat also some of most important, do you know all ports/programs running?!

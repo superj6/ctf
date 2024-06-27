@@ -1,0 +1,50 @@
+services:
+nmap_scan.txt
+
+grpc 50051
+
+internal http 8000 - from netstat, runs as root
+
+files:
+
+/opt/app/app.py
+
+/tmp/pyLoad/pyload.pid
+
+users:
+
+admin - grpc
+pass - admin
+
+sau
+pass - HereIsYourPassWord1431, from sqli inject
+
+urls:
+
+/flash/addcrypted2
+
+rpcs:
+
+SimpleApp--
+
+LoginUser - gives token
+
+getInfo - needs any auth token, sql inject json '"id": "69 # {cmd}"'
+
+sources:
+
+https://github.com/fullstorydev/grpcui - could use to make sqlmap work
+
+https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/SQLite%20Injection.md
+
+https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad
+
+https://www.exploit-db.com/exploits/51532
+
+comments:
+
+every form has chance to be some type of injection!
+once again image different ways could be built in backend, think maybe different than u know
+look up what are possible different technologies for backend too to get ideas
+think how you can redirect input to reuse tools you know - grpcui => burp => sqlmap!
+always check ports available when get rshell, more services may be available - netstat -tnlp

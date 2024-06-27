@@ -1,0 +1,18 @@
+services:
+nmap_scan.txt
+
+http 80
+
+https 443
+
+urls:
+
+laboratory.htb--
+
+sources:
+
+https://templated.co
+
+comments:
+
+ffuf for 502 if stuck, maybe box not working

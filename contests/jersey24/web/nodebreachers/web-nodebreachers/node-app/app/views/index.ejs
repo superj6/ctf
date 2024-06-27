@@ -1,0 +1,106 @@
+<!--include header-->
+<%-include('include/_header')%>
+<!--/include header-->
+<header>
+  <link href="../assets/css/login.css" rel="stylesheet">
+</header>
+
+<br>
+<br>
+<div class="d-flex justify-content-center" >
+  <div class="text-center" class="col align-self-center" style="width:25%">
+    <h1 class="h3 mb-3 font-weight-normal" style="color: #03ec0f; background: #000;">Cyber Psychosis: Most Wanted</h1>    
+    <div>
+      <h2 style="color: #03ec0f">Files Database</h2>  
+      <button id="list-files-button" style="color: #03ec0f; background: #000;"> View Files </button>
+      <br>
+      <br>
+      <div id="file-list"></div>
+    </div>
+    <script>
+      $(document).ready(function () {
+          $("#list-files-button").click(function () {
+              listFiles("/files/getfiles");
+          });
+          
+          function listFiles(url) {
+            $.ajax({
+              url: url,
+              type: "GET",
+              success: function (files) {
+                displayFiles(files);
+              },
+              error: function (error) {
+                console.error("Error fetching files:", error);
+              },
+            });
+          }
+          
+          function displayFiles(files) {
+              $("#file-list").empty();
+              for (var i = 0; i < files.length; i++) {
+                console.log(files.length)
+                var fileitem = $(
+                  '<li class="file-item" style="border: 1px solid #03ec0f; padding: 10px; background-color:#000000;">' +
+                    '<h3 style="color: #03ec0f; padding: 10px; background-color:#000000;"> ' +files[i].FileID + ": "
+                    + files[i].FileName + '</h3>' +
+                    ' <button class="read-button" style="color: #03ec0f; margin-left: 10px"  data-id="' + files[i].FileID +
+                    '">Read</button></li>'
+                );
+                $("#file-list").append(fileitem);
+              }
+            } 
+
+          function displayFileContent(content) {
+            alert(content); 
+          }
+          // Encoding Bug has been resolved
+          $("#search-file-btn").on("click", function(event) {
+            var filename = $("#search-file").val();
+            var encoded = encodeURIComponent(filename)
+            var data = {data: encoded}
+            $.ajax({
+              url: "/files/filebyname:" + JSON.stringify(data),
+              type: "GET",
+              success: function (response) {
+                if (response.content) {
+                  alert(response)
+                } else {
+                  alert("File has not been sent to queue!")
+                }
+              },
+              error: function (error) {
+                alert(error.responseJSON.msg);
+              },
+              });
+            });
+
+            $("#file-list").on("click", ".read-button", function () {
+              var fileID = $(this).data("id");
+              $.ajax({
+                url: "/files/getfiles:" + fileID,
+                type: "GET",
+                success: function (response) {
+                  if (response) {
+                    displayFileContent(response.content);
+                  } else {
+                    alert(response.msg);s
+                  }
+                },
+                error: function (error) {
+                  alert(error.responseJSON.msg);
+                },
+                });
+              });
+          });
+        
+      </script>
+    <br>
+  <br>
+</div>
+  </div>
+</div>
+<!--include footer-->
+<%-include('include/_footer')%>
+<!--/include footer-->
+

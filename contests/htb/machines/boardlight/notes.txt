@@ -1,0 +1,50 @@
+services:
+
+dolibar 17.0.0
+
+users:
+
+web--
+
+admin - from guess
+pass - admin
+
+mysql--
+
+dolibarrowner - from conf.php
+pass - serverfun2$2023!!
+
+os--
+
+larissa - from /etc/passwd
+pass - serverfun2$2023!!, same as mysql
+
+files:
+
+/usr/lib/x86_64-linux-gnu/enlightenment/ - multiple suid binaries, from linpeas
+
+/var/www/html/crm.board.htb/htdocs/conf/conf.php - has mysql user/pass
+
+/var/lib/gdm3/.cache/tracker/meta.db
+
+urls:
+
+board.htb-- from main page
+
+crm.board.htb-- from ffuf
+
+/ - login page, says using dolibarr 17.0.0
+
+sources:
+
+https://github.com/nikn0laty/Exploit-for-Dolibarr-17.0.0-CVE-2023-30253 - 30253.sh
+
+https://github.com/MaherAzzouzi/CVE-2022-37706-LPE-exploit - 37706.sh
+
+https://github.com/Dolibarr/dolibarr
+
+comments:
+
+bruh do vhost enum right, Host: FUZZ.board.htb
+always look for conf files and similar names, go by hand when stuck
+always try reuse password

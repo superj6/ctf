@@ -1,0 +1,16 @@
+POST /forget-password HTTP/1.1
+Host: usage.htb
+Content-Length: 59
+Cache-Control: max-age=0
+Accept-Language: en-US
+Upgrade-Insecure-Requests: 1
+Origin: http://usage.htb
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.57 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://usage.htb/forget-password
+Accept-Encoding: gzip, deflate, br
+Cookie: XSRF-TOKEN=eyJpdiI6IjlyTDBybXczbWticHZTYVR6VVFNMFE9PSIsInZhbHVlIjoiZVBPcUh0RWxoU0psYWc1Tzl3alNZck9tQWM0S3BxWTl6bm0yNTJFZVRTTlZ2RFdwMXVsMTVNekN2dXpnUXkrZGUvNmtySEZxTlB5Y2txL2RjbG5BRDlrT2lzMDQvYWg3b1VBYkhxdngreFRLZmxhNnNNSkRwSHF5VEpFVERqZEkiLCJtYWMiOiI0MTQ4ZWY5MTI0ZWZkMTQ3N2U0ODM0NGU4M2E4NGU4YmQ3MzNiOTZmYTQxM2FiZGJhZjdmYTViYjdlMjJjMGJhIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IlZ5MmhSdllQVlp2RE16MHNHQVl0ZUE9PSIsInZhbHVlIjoiNUNNVG1ycGkySGFidlYrWmFWN1ZkTWUyMFpVUm5wR2dMRGJDNm5UMm5OL09hOElMQlBpaDN1aEhnZXhEWWlXTGZLTytKRElBVERRMDBmSWovUUlVd09lUFZnaGY3U2pVY0lSaGVuQW95V1ZjQ2x2WlNDSUpXT1k1QzZXSVNOM3AiLCJtYWMiOiJkMTFjNDY0NDExYTFlYmMwYmE2ZWQ1OTgwOTY2NjQ4OTYwZTZmOGI3ZGJhYWNjNTQ5YTgwY2ZkYzZmNjAzNjk4IiwidGFnIjoiIn0%3D
+Connection: keep-alive
+
+_token=UBkxZcoZr3xBJbcXiNmEjmgxK5p5XFwSAusjPh62&email=mailz

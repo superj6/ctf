@@ -1,0 +1,81 @@
+hydra - form password cracking
+seclists - password, dir, and other brute lists
+wfuzz - fuzz dirs
+burp - request intercept/modifier
+curl - send requests cli
+nmap - enumerate remote port services
+john - password hash cracker
+john bleeding-jumbo - extra john tools, convert formats to hash for john eg ssh2john, gpg2john
+hashcat - password hash cracker
+pspy - monitor linux processes
+peas - automatic escalation detections
+gobuster - fuzz dirs
+ffuf - yet another fuzz dirs
+curl - send requests terminal
+wget - download files terminal
+rlwrap - wrap upgrade nc rshell
+ldapsearch - enumerate ldap
+impacket - python network protocol enumeration programs
+enum4linux - enumerate windows hosts properties
+smbclient - enumerate smb
+evil-winrm - shell windows hosts
+bloodhound - graphically display/analyze Active Directory relations
+pywhisker - list/add keycredentials on certain windows versions
+pylaps - read lpas password hashes under certain condition
+powersploit - powershell exploit modules
+aclpwn - automated bloodhound path attack
+msfconsole - exploit setup framework and library
+searchsploit - exploit database lookup
+sslscan - check ssl properties of website
+cookie-editor - chrome extension edit cookies
+wappalyzer - chrome extension analyze site stack
+windows-exploit-suggester - look up exploits based on systeminfo
+sqlmap - autmatic sql injection exploit
+linux-exploit-suggester - look up exploits based on uname
+wpscan - test wordpress sites
+rpcclient - enumerate rpc windows
+2to3 - convert python2 script to python3
+grpc-pentest-suite - test grpc web apps
+grpcurl - curl for grpc apps
+nosqlmap - automatic attack nosqli
+mongomap - automatic attack nosqli for mongodb
+docker - run containerized images, good for testing
+fimap - automatic attack lfi/dirtraverse
+websocat - websocket linux cli
+STEWS - websocket disovery and vuln detection
+sqlmap-websocket-proxy - setup proxy site for sqlmap over websockets
+patchelf - patch binary dependencies
+vncpwd - decrypt vnc password
+CRLFsuite - automated test and exploit crlf vuln
+strace - see running program operations
+tcpflow - watch requests 
+ifconfig - see network setup
+netstat - network data
+ngrok - forward ports exposed to world temporarily
+wireshark - analyze network packet transmissions, usually from pcap
+tcpsessions - python library extract tcpsessions
+editcap - convert pcapng to pcap
+dig - dns lookup tool
+dnsrecon - dns info
+tcpdump - capture tcp pakcets
+nslookup - query DNS records
+uname - show kernel version
+lsb_release - show ubuntu version
+interactsh-client - test receiving more requests including dns
+pdfcrack - crack pdf passwords
+exiftool - exif image data
+bkcrack - crack legacy zip encryption
+gdb - runtime analysis tool, prefer to use w/ peda plugin
+readelf - read elf meta info
+objdump - disas elf
+ROPgadget - gadgets in elf
+wine - run exe on linux
+radare2 - analyze
+zeratool - auto pwn exploiter
+droopescan - identify issues in CMS's
+pwntools - library for pwn exploit builder and sender 
+dirsearch - enum directories, sometimes work when ffuf doesn't
+nc.exe - nc for windows, upload for rshell
+x86_64-w64-mingw32-gcc - compile for windows
+wes - newer get kernel vuln from systeminfo
+flask-unsign - brute decode flask session cookie

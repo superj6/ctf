@@ -1,0 +1,53 @@
+files:
+
+index.mjs--
+
+new URL - change host with 'localhost:8080//hi.com/hello'
+
+for(const element of step) not check elements string, could use for arbitrary size xss payload
+
+sources:
+
+https://w3c.github.io/webrtc-pc/#interface-definition
+
+https://stackoverflow.com/questions/23246565/hashtag-not-recognized-in-url-request
+
+https://book.hacktricks.xyz/pentesting-web/content-security-policy-csp-bypass
+
+https://book.jorianwoltjer.com/web/cross-site-scripting-xss
+
+https://ctftime.org/writeup/37702
+
+https://stackoverflow.com/questions/36637146/encode-string-to-hex
+
+https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/bindings/IDLExtendedAttributes.md
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
+
+https://brycec.me/posts/corctf_2023_challenges
+
+https://www.howtogeek.com/devops/how-to-run-gui-applications-in-a-docker-container/
+
+https://issues.chromium.org/issues/41092631
+
+https://stackoverflow.com/questions/63528094/why-doesnt-a-url-with-chrome-devtools-open-the-devtools
+
+https://github.com/chromium/chromium/blob/122.0.6261.111/third_party/blink/renderer/modules/peerconnection/rtc_peer_connection.idl
+
+https://chromium.googlesource.com/chromium/blink.git/+/master/Source/modules/mediastream/RTCPeerConnection.cpp
+
+https://chromium.googlesource.com/chromium/blink.git/+/master/Source/modules/mediastream/RTCDataChannel.cpp
+
+https://github.com/nodejs/node/blob/main/lib/url.js
+
+https://lab.wallarm.com/how-to-trick-csp-in-letting-you-run-whatever-you-want-73cb5ff428aa/
+
+https://developer.mozilla.org/en-US/docs/Web/API
+
+https://developer.mozilla.org/en-US/docs/Web/API/FederatedCredential/protocol - from writeup
+
+comments:
+
+docker compose up
+in url # not passed to server by browser wtmoo
+print objects console.dir

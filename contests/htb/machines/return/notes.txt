@@ -3,7 +3,7 @@ services:
 ldap printer
 can leak user/pass
 
-winrm
+ldap AD?
 connect with evil-winrm
 
 urls:
@@ -24,6 +24,9 @@ https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/ad-in
 
 server operator group
 https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups#server-operators
+
+https://www.hackingarticles.in/windows-privilege-escalation-server-operator-group/
+sc.exe privesc
 
 comments:
 

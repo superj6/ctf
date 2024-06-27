@@ -1,0 +1,78 @@
+services:
+nmap_scan.txt
+
+http 80
+flask w/ searchor 2.4.0 backend - from /
+
+users:
+
+gitea--
+
+cody
+pass - jh1usoih2bkjaspwe92, from .git/config
+
+administrator
+pass- yuiu1hoiu4i5ho1uh, same as gitea
+
+mysql--
+
+gitea
+pass - yuiu1hoiu4i5ho1uh, from "system-checkup.py docker-inspect '{{json .}}' gitea"
+
+OS--
+
+svc
+pass - jh1usoih2bkjaspwe92, same as cody
+sudo - python3 system-checkup.py *
+
+files:
+
+/home/svc/.gitconfig - show git user cody exists
+
+/var/www/app/.git - see in linpeas
+
+/var/www/app/.git/config - show cody passwd, use for svc also get sudo permissions
+
+/opt/scripts/system-checkup.py - run as sudo on cody
+docker-inspect leak creds
+full-checkup relative file execute - find out from gitea administrator source, run own as root
+
+mysql:
+
+host 172.19.0.3 - from docker-inspect
+
+gitea--
+
+users - user/passwd/passwd_hash_algo
+
+urls:
+
+searcher.htb--
+
+/ - says "Powered by Flask and Searchor 2.4.0"
+
+/search - searchor api, cmd injection
+
+gitea.searcher.htb--
+
+/user/login
+
+/administrator/scripts/commit/b9a29dc5cc0ebf106947f4078eb6863f87dc5360#diff-b6bdc51aa4e48407dfcc704dda553a5fd0acc317 - /opt/scripts sources
+
+sources:
+
+https://github.com/nikn0laty/Exploit-for-Searchor-2.4.0-Arbitrary-CMD-Injection - exploit.sh
+searchor cmdi
+
+https://docs.docker.com/reference/cli/docker/inspect/
+see how to user docker-inspect for system-checkup.py
+
+comments:
+
+don't miss text on page saying infrastructure lol
+always check all hidden files in main app and home
+always retry passwords on other users!!
+try things you couldn't do before, eg sudo, after gaining passwords
+always look for relative file mistakes, one of most popular if priveledged source code!
+mysql needs host ip to work
+when run own script as root, can change suid of /bin/bash then run with "-p" to get root

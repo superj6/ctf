@@ -1,0 +1,32 @@
+*   Trying 10.129.1.254:80...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Connected to 10.129.1.254 (10.129.1.254) port 80 (#0)
+> GET / HTTP/1.1
+> Host: 10.129.1.254
+> User-Agent: curl/7.81.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Date: Fri, 08 Mar 2024 01:46:08 GMT
+< Server: Apache/2.4.29 (FreeBSD) PHP/5.6.32
+< X-Powered-By: PHP/5.6.32
+< Content-Length: 289
+< Content-Type: text/html; charset=UTF-8
+< 
+{ [289 bytes data]
+100   289  100   289    0     0   1174      0 --:--:-- --:--:-- --:--:--  1179
+* Connection #0 to host 10.129.1.254 left intact
+<html>
+<body>
+<h1>Temporary website to test local .php scripts.</h1>
+Sites to be tested: ini.php, info.php, listfiles.php, phpinfo.php
+
+</body>
+</html>
+
+<form action="/browse.php" method="GET">
+	Scriptname: <input type="text" name="file"><br>
+	<input type="submit" value="Submit">
+</form>

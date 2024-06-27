@@ -1,0 +1,55 @@
+services:
+nmap_scan.txt
+
+http 80
+nginx 1.80.0 - from nmap
+w/ phusion passenger 6.0.15 - from get packet resp, ruby backend
+
+libraries:
+
+ruby pdfkit - guess from get packet + / function, cve rce
+
+ruby yaml - from update_dependencies.rb, yaml.load rce if control input, use to privesc
+
+files:
+
+/home/ruby/.bundle/config - from hint, has henry pass
+
+/opt/update_dependencies.rb - from henry sudoperms
+calls yaml.load with relative filepath, can write rce file that will be inputted to privesc
+
+users:
+
+ruby - from website rshell
+
+henry
+pass - Q3c1AqGHtoI0aXAYFH, from .bundle/config
+sudo perms - run "ruby /opt/update_dependencies.rb", uses yaml.load input relative filepath 
+
+pages:
+
+ip -> precious.htb
+
+/ - curl_resp.txt, supposed to fetch external page and convert to pdf
+does not seem to work with popular websites or itself
+seems to need http(s):// prefix
+just "http://%20" and similar symbols gives blank pdf - don't see len/content effect from which
+
+sources:
+
+https://github.com/UNICORDev/exploit-CVE-2022-25765 - 51293.py
+ruby pdfkit rshell
+
+https://staaldraad.github.io/post/2021-01-09-universal-rce-ruby-yaml-load-updated/
+ruby yaml rce for privesc
+
+comments:
+
+clear browser cache and maybe dns after editting /etc/hosts
+pay more attention to information in response packets, just always test w/ curl -v
+guess putting relevant things together and searching - pdf generator + ruby!!
+similarly try to guess in backend what things are being used to make exposed functions work
+at least check user directory for sus things
+probably "bundle" also should look in general
+look at environments for setup for used tools
+sudo permissions look for vulns in libraries of programs can run as root

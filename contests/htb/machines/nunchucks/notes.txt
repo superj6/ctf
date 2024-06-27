@@ -1,0 +1,34 @@
+programs:
+
+/usr/bin/perl
+cap_setuid+ep permissions
+
+files:
+
+/etc/apparmor.d/usr.bin.perl
+apparmor used to restrict perl sudo usage - bypass with shebang!
+
+pages:
+
+nunchucks.htb/
+
+store.nunchucks.htb/ - from brute subdomain
+form ssti nunjucks exploit
+
+sources:
+
+https://themeforest.net/item/leon-wordpress-mobile-app-landing-page/20255265
+
+https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection#nunjucks
+
+https://gtfobins.github.io/gtfobins/perl/
+
+https://book.hacktricks.xyz/linux-hardening/privilege-escalation/docker-security/apparmor#apparmor-shebang-bypass
+
+
+comments:
+
+to brute subdomains use put dns in header "Host" option, ie vhosting, not directly query
+always check inputs for injections - ssti!
+always look at all interesting files from peas (and everything else it shows)
+if think sure privesc has to do with something, still look for more things to combine- apparmor!

@@ -1,0 +1,4 @@
+/resources/*/
+*.tar.gz
+*.zip
+*.swp

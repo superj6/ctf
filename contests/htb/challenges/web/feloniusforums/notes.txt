@@ -1,0 +1,48 @@
+files:
+
+challenge/index.js--
+
+nunjucks.configure - autoescape by default, look for locations xss possible
+
+challegne/routes/index.js--
+uses route-cache on various routes with dynamic data - force other users to see your
+
+cachekey - for entire url, not just route suffix, bypass w/ custom Host and X-forwarded-for head
+
+challenge/helpers/MDHelper.js--
+
+filterInput - supposed to filter make html safe from xss
+
+makeHTML - turns markdown into html
+
+challenge/bot.js--
+
+visitPost - visits "/report/[id]", id from "/api/report", dirtraverse to desired directory
+
+challenge/static/js/global.js--
+
+previewNewThread - adds date&time as params to post request for caching, make custom cache
+
+urls:
+
+/threads/preview -  filter first then render markdown unlike other inputs, reflected xss
+
+/api/report - send bot to desired post id, id not checked as int so send anywhere
+
+/report/[id] - bot visits which renders, send to cached xss location
+
+sources:
+
+https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting/xss-in-markdown - img
+
+https://github.com/bradoyler/route-cache - index.js
+
+https://medium.com/@laur.telliskivi/pentesting-basics-cookie-grabber-xss-8b672e4738b2
+
+comments:
+
+if dependency causing problem, force specific version getting rid of "^" in node or equivalent
+look for similar functionality with differnetiations in different spots, one might be more wrong
+look closely at what is used for cache or similar, look up source/documentation if necessary
+can base64 decode jsonwebtokens and read, just can't modify without secret key
+look closer at template libraries where they allow unsafe html input, read docs

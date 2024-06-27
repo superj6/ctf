@@ -1,0 +1,11 @@
+source:
+
+https://hackerone.com/reports/409943
+
+https://book.hacktricks.xyz/pentesting-web/sql-injection#on-duplicate-key-update
+
+https://stackoverflow.com/questions/2717590/sqlite-insert-on-duplicate-key-update-upsert
+
+comments:
+
+google better, use quotes around important functions searching cve's

@@ -1,0 +1,68 @@
+services:
+nmap_scan.txt
+
+http - from nmap
+nostromo 1.9.6 - from curl, cve rce get rshell
+
+users:
+
+www-data - from rshell, can't get user flag
+
+david
+web pass - Nowonly4me, from htpasswd hash cracked
+ssh pass - hunter, from leaked ssh key cracked
+groups - david cdrom floppy audio dip video plugdev netdev
+sudo perms - can't check -l, only run "sudo journalctl -n5 -unostromo.service" from bin
+
+programs:
+
+journalctl - from server-stats.sh
+david can run as sudo
+calls default pager less - can call bash from less pepega
+
+files:
+
+/var/nostromo/conf/nhttpd.conf - nostromo http config
+config using .htpasswd
+expose david home directory partially restricted
+
+/var/nostromo/conf/.htpasswd - from nhttpd.conf
+has david md5_crypt hash - 
+
+/home/david/public_www/protected-file-area/backup-ssh-identity-files.tgz - nhttpd.conf homedir
+accessible david ssh keys - either send through reverse shell or w/ david  web pass and http
+home/
+
+/home/david/bin/server-stats.sh
+has only sudo command david can run
+
+pages:
+
+/ - has form submission, doesn't seem to do anything
+curl_scan.txt
+
+/~david/ - http access some parts of david's directory
+
+/~david/protected-file-area
+
+sources:
+
+https://github.com/AnubisSec/CVE-2019-16278 - nostroSploit.py
+nostromo rce exploit
+
+https://www.gsp.com/cgi-bin/man.cgi?section=8&topic=NHTTPD
+config files, explain homedirs - use to get david ssh keys
+
+https://gtfobins.github.io/gtfobins/journalctl/
+privesc from journalctl using less
+
+comments:
+
+nmap can use -Pn if things aren't showing up
+look up versions for all relevant things used as always - nostromo
+wrap command for rshell in bash -c "cmd" or similar when not working
+always look up server config files once rhshell, try to find db passwords and misconfigurations
+pay more attention to config files, do you actually understand all the settings?!
+never assume promising way is correct, the more stuck the more consider other paths still!!
+look up or think about what commands you run are using, can you exploit those - journalctl!
+instead of trying to replace command, try to see what command can do - less pager!

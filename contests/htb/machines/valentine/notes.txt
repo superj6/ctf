@@ -1,0 +1,39 @@
+services:
+nmap_scan.txt
+
+https 443
+tls v1.0 - heartbeat vuln
+
+files:
+
+/home/hype/.bash_history - shows connecting to tmux socket
+
+/.devs/dev_sess - tmux socket, connect gives you root pepega
+
+users:
+
+hype
+sshkey pass - heartbleedbelievethehype
+
+urls:
+ffuf_scan.txt
+
+/dev/hype_key - ssh private key
+
+sources:
+
+https://github.com/adamalston/Heartbleed - attack.py
+leak ssh private key pass
+
+https://stackoverflow.com/questions/73795935/sign-and-send-pubkey-no-mutual-signature-supported
+connect to ssh with private key
+
+comments:
+
+nmap run --scripts vuln
+don't for sslscan for https
+use searchsploit smh
+make sure look at multiple vulns and try all/see which fits best!
+add ssh options to use private key
+copy over ssh with scp
+always look at bash_history and any other non-empty in /home

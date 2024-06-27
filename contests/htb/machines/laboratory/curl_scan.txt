@@ -1,0 +1,291 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.129.215.191:443...
+* Connected to laboratory.htb (10.129.215.191) port 443 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* TLSv1.0 (OUT), TLS header, Certificate Status (22):
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.2 (IN), TLS header, Certificate Status (22):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [122 bytes data]
+* TLSv1.2 (IN), TLS header, Finished (20):
+{ [5 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+{ [25 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+{ [1266 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+{ [520 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+{ [52 bytes data]
+* TLSv1.2 (OUT), TLS header, Finished (20):
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS header, Supplemental data (23):
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+} [52 bytes data]
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: CN=laboratory.htb
+*  start date: Jul  5 10:39:28 2020 GMT
+*  expire date: Mar  3 10:39:28 2024 GMT
+*  issuer: CN=laboratory.htb
+*  SSL certificate verify result: self-signed certificate (18), continuing anyway.
+* TLSv1.2 (OUT), TLS header, Supplemental data (23):
+} [5 bytes data]
+> GET / HTTP/1.1
+> Host: laboratory.htb
+> User-Agent: curl/7.81.0
+> Accept: */*
+> 
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [281 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [281 bytes data]
+* old SSL session ID is stale, removing
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Date: Fri, 08 Mar 2024 00:05:03 GMT
+< Server: Apache/2.4.41 (Ubuntu)
+< Last-Modified: Sun, 05 Jul 2020 16:42:54 GMT
+< ETag: "1c56-5a9b4731c5f80"
+< Accept-Ranges: bytes
+< Content-Length: 7254
+< Vary: Accept-Encoding
+< Content-Type: text/html
+< 
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+<!DOCTYPE HTML>
+<!--
+	Industrious by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>The Laboratory</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a class="logo" href="index.html">The Laboratory</a>
+				<!-- <nav>
+					<a href="#menu">Menu</a>
+				</nav> -->
+			</header>
+
+		<!-- Nav -->
+			<!-- <nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="elements.html">Elements</a></li>
+					<li><a href="generic.html">Generic</a></li>
+				</ul>
+			</nav> -->
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h1>The Laboratory</h1>
+					<p>Security & Development Services</p>
+				</div>
+				<video autoplay loop muted playsinline src="images/banner.mp4"></video>
+			</section>
+
+		<!-- Highlights -->
+			<section class="wrapper">
+				<div class="inner">
+					<header class="special">
+						<h2>Our Services</h2>
+						<p>Laboratory provides high-quality security and development services at a low price point.</p>
+					</header>
+					<div class="highlights">
+						<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-vcard-o"><span class="label">Icon</span></a>
+									<h3>Identity Management</h3>
+								</header>
+								<p>Have no clue who is working for you? We don't either. But we write software that keeps track of your people for you.</p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-file-code-o"><span class="label">Icon</span></a>
+									<h3>Secure Development</h3>
+								</header>
+								<p>We know security, and we know code. Combine those two, and you get secure development. 100% unhackable, guaranteed!</p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-barcode"><span class="label">Icon</span></a>
+									<h3>Cryptography Services</h3>
+								</header>
+								<p>We know all the great crypto, like ROT13 and Base64. Need a file secured? We got you!</p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-search"><span class="label">Icon</span></a>
+									<h3>Threat Hunting</h3>
+								</header>
+								<p>We hunt bad actors, so you don't have to. Actionable insights provided as a service.</p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-user-secret"><span class="label">Icon</span></a>
+									<h3>Red Teaming</h3>
+								</header>
+								<p>Scared of hackers? You don't have to be. We'll show you where your weaknesses are before the bad guys can get to you.</p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-line-chart"><span class="label">Icon</span></a>
+									<h3>Profit Enhancement</h3>
+								</header>
+								<p>When you hire us, you will basically make tons more money. Sounds good right?</p>
+							</div>
+						</section>
+					</div>
+				</div>
+			</section>
+
+		<!-- CTA -->
+			<section id="cta" class="wrapper">
+				<div class="inner">
+					<h2>Our Promise</h2>
+					<p>Laboratory provides cutting-edge security and development services, straight from our test tubes. Need bespoke services? Just reach out!</p>
+				</div>
+			</section>
+
+		<!-- Testimonials -->
+			<section class="wrapper">
+				<div class="inner">
+					<header class="special">
+						<h2>What do our clients say?</h2>
+						<p>Do100  7254  100  7254    0     0  14823      0 --:--:-- --:--:-- --:--:-- 14804100  7254  100  7254    0     0  14809      0 --:--:-- --:--:-- --:--:-- 14804
+* Connection #0 to host laboratory.htb left intact
+n't just take our word for it. Take other people's words for it!</p>
+					</header>
+					<div class="testimonials">
+						<section>
+							<div class="content">
+								<blockquote>
+									<p>The Laboratory commits to high-quality services to help any client in need. Even though we're new to the market, our success has already proven our worth!</p>
+								</blockquote>
+								<div class="author">
+									<div class="image">
+										<img src="images/pic01.jpg" alt="" />
+									</div>
+									<p class="credit">- <strong>Dexter</strong> <span>CEO - The Laboratory</span></p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<blockquote>
+									<p><br /><br />I'm actually not sure what they do, I'm never allowed inside the lab...<br /><br /></p>
+								</blockquote>
+								<div class="author">
+									<div class="image">
+										<img src="images/pic02.jpg" alt="" />
+									</div>
+									<p class="credit">- <strong>Dee Dee</strong> <span>Uncertain</span></p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<blockquote>
+									<p><br /><br />This guy is a good hacker, but also a good coder. It's like magic!<br /><br /></p>
+								</blockquote>
+								<div class="author">
+									<div class="image">
+										<img src="images/pic03.png" alt="" />
+									</div>
+									<p class="credit">- <strong>Anonymous</strong> <span>Hacking Group</span></p>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="content">
+						<section>
+							<h3>Responsible Disclosure</h3>
+							<p>Find a vulnerability in this website? You're lying! We code 100% secure, and I'm sure you can't hack us. If you do, definitely don't let us know.</p>
+						</section>
+						<section>
+							<h4>Blog</h4>
+							<ul class="alt">
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Coming</a></li>
+								<li><a href="#">Soon</a></li>
+								<li><a href="#">(Hopefully)</a></li>
+							</ul>
+						</section>
+						<section>
+							<h4>Maybe find us here, sometimes</h4>
+							<ul class="plain">
+								<li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+								<li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+								<li><a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+								<li><a href="#"><i class="icon fa-github">&nbsp;</i>Github</a></li>
+							</ul>
+						</section>
+					</div>
+					<div class="copyright">
+						&copy; Laboratory.htb. Photos <a href="https://unsplash.co">Unsplash</a>, Video <a href="https://coverr.co">Coverr</a>.
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

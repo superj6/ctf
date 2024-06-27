@@ -1,0 +1,291 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.129.102.60:80...
+* Connected to usage.htb (10.129.102.60) port 80 (#0)
+> GET / HTTP/1.1
+> Host: usage.htb
+> User-Agent: curl/7.81.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Server: nginx/1.18.0 (Ubuntu)
+< Content-Type: text/html; charset=UTF-8
+< Transfer-Encoding: chunked
+< Connection: keep-alive
+< Cache-Control: no-cache, private
+< Date: Sat, 22 Jun 2024 17:21:36 GMT
+< Set-Cookie: XSRF-TOKEN=eyJpdiI6Ii9zTUs5a3BxYVk2eHZTSCtPZStjTlE9PSIsInZhbHVlIjoiak9aSkovaVdMSUpjZWVHUU5rNVRxQmZ3RTRjK1gvQmxQSlliUGdwMitwV1R0Rnl2OC9pNHVjUFE3K1AxWG02cDJwbkphOE5QNnp2VVFYYnREenpTV0xwYnZ1ajNxTWxxNVFDc053elh2dS9DTHloNXlhSVQweExyUU1zYzJvSFAiLCJtYWMiOiIwNzE2ZjI2YWY1MzMxYjRiODU1ZWJiNzQwMzFhYmM3NDIyZTJhNGNjMTY0ODE1NmQxMmM1MTkzZDA4MWZjNTgxIiwidGFnIjoiIn0%3D; expires=Sat, 22 Jun 2024 19:21:36 GMT; Max-Age=7200; path=/; samesite=lax
+< Set-Cookie: laravel_session=eyJpdiI6IjZCckhlTlpMN1cxTWhwTytYQklhZlE9PSIsInZhbHVlIjoiQlRxZitCcFZQeGV4YkJPdDFwK3pUY0FZaUd5NEgxREJuN1JkdE1qSXZOS3lkb28wNGN1RzBJN2s4QlJXTW5pTTZCaFZmMHRUaGxhdDZDNWk2am5zeGIyc2Qwa2YxRGRuS3BpeFNCSVdrQlo5UnM4SVF3bXJ1eUgxMmhUS1ltc3IiLCJtYWMiOiI4ZTIwZTUxMTQxMzcwNTExYjNmZGM3MjE4MDdlNDVmNjE2MzY2NDRhMjliNGMxN2EzZWNjZjVlMDQyMDcyOWUxIiwidGFnIjoiIn0%3D; expires=Sat, 22 Jun 2024 19:21:36 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+< X-Frame-Options: SAMEORIGIN
+< X-XSS-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< 
+{ [118 bytes data]
+100   113    0   113    0     0    118      0 --:--:-- --:--:-- --:--:--   118<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Daily Blogs</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <style type="text/css">
+
+        @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+  
+
+        body{
+
+            margin: 0;
+
+            font-size: .9rem;
+
+            font-weight: 400;
+
+            line-height: 1.6;
+
+            color: #212529;
+
+            text-align: left;
+
+            background-color: #f5f8fa;
+
+        }
+
+        .navbar-laravel
+
+        {
+
+            box-shadow: 0 2px 4px rgba(0,0,0,.04);
+
+        }
+
+        .navbar-brand , .nav-link, .my-form, .login-form
+
+        {
+
+            font-family: Raleway, sans-serif;
+
+        }
+
+        .my-form
+
+        {
+
+            padding-top: 1.5rem;
+
+            padding-bottom: 1.5rem;
+
+        }
+
+        .my-form .row
+
+        {
+
+            margin-left: 0;
+
+            margin-right: 0;
+
+        }
+
+        .login-form
+
+        {
+
+            padding-top: 1.5rem;
+
+            padding-bottom: 1.5rem;
+
+        }
+
+        .login-form .row
+
+        {
+
+            margin-left: 0;
+
+            margin-right: 0;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    
+
+<nav class="navbar navbar-expand-lg navbar-light navbar-laravel">
+
+    <div class="container">
+
+        <a class="navbar-brand" href="#">Usage</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+   
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ml-auto">
+
+                
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="http://usage.htb/login">Login</a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="http://usage.htb/registration">Register</a>
+
+		    </li>
+		    <li class="nav-item">
+
+                        <a class="nav-link" href="http://admin.usage.htb/">Admin</a>
+
+                    </li>
+
+                
+            </ul>
+
+  
+
+        </div>
+
+    </div>
+
+</nav>
+
+  
+
+
+<main class="login-form">
+
+  <div class="cotainer">
+
+      <div class="row justify-content-center">
+
+          <div class="col-md-8">
+
+              <div class="card">
+
+                  <div class="card-header">Login</div>
+
+                  <div class="card-body">
+
+  
+
+                      <form action="http://usage.htb/post-login" method="POST">
+
+                          <input type="hidden" name="_token" value="IqHSTb8Riq5vIWH4uKpXUVutL81KuKrL15d8eJ3s">
+                          <div class="form-group row">
+
+                              <label for="email_address" class="col-md-4 col-form-label text-md-right">E-Mail Address</label>
+
+                              <div class="col-md-6">
+
+                                  <input type="text" id="email_address" class="form-control" name="email" required autofocus>
+
+                                  
+                              </div>
+
+                          </div>
+
+  
+
+                          <div class="form-group row">
+
+                              <label for="password" class="col-md-4 col-form-label text-md-right">Password</label>
+
+                              <div class="col-md-6">
+
+                                  <input type="password" id="password" class="form-control" name="password" required>
+
+                                  
+                              </div>
+
+                          </div>
+
+  
+
+                          <div class="form-group row">
+
+                              <div class="col-md-6 offset-md-4">
+
+                                  <div class="checkbox">
+
+                                      <label>
+
+                                          <input type="checkbox" name="remember"> Remember Me
+
+                                      </label>100  5141    0  5141    0     0   5393      0 --:--:-- --:--:-- --:--:--  5394
+* Connection #0 to host usage.htb left intact
+
+
+                                  </div>
+
+                              </div>
+
+                          </div>
+
+                        <div class="form-group row">
+
+                              <div class="col-md-6 offset-md-4">
+
+                                  <div class="checkbox">
+
+                                      <label>
+
+                                          <a href="http://usage.htb/forget-password">Reset Password</a>
+
+                                      </label>
+
+                                  </div>
+
+                              </div>
+
+                          </div>
+
+                          <div class="col-md-6 offset-md-4">
+
+                              <button type="submit" class="btn btn-primary">
+
+                                  Login
+
+                              </button>
+
+                          </div>
+
+                      </form>
+
+                        
+
+                  </div>
+
+              </div>
+
+          </div>
+
+      </div>
+
+  </div>
+
+</main>
+
+
+     
+
+</body>
+
+</html>

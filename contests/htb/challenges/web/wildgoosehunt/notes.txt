@@ -1,0 +1,23 @@
+files:
+
+challenge/routes/index.js - routing endpoints
+post('/api/login') endpoint uses "User.find({username, password})" - nosqli password object
+
+entrypoint.sh - shows user/pass in mongodb table "users"
+
+urls:
+
+/api/login - login api
+
+sources:
+
+https://mongoosejs.com/docs/queries.html
+
+https://book.hacktricks.xyz/pentesting-web/nosql-injection
+
+https://github.com/Hex27/mongomap
+
+comments:
+
+ez clap
+

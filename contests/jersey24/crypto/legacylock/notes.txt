@@ -1,0 +1,8 @@
+sources:
+
+https://github.com/kimci86/bkcrack/blob/master/example/tutorial.md
+
+comments:
+
+strings -a encrypted_backup.zip | grep -e '[^\ ]\{12,\}' -a
+don't add newline - "echo -n"

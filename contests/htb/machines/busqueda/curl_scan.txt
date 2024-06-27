@@ -1,0 +1,450 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.129.228.217:80...
+* Connected to searcher.htb (10.129.228.217) port 80 (#0)
+> GET / HTTP/1.1
+> Host: searcher.htb
+> User-Agent: curl/7.81.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Date: Thu, 29 Feb 2024 21:30:33 GMT
+< Server: Werkzeug/2.1.2 Python/3.10.6
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 13519
+< Vary: Accept-Encoding
+< 
+{ [2466 bytes data]
+ 18 13519   18  2466    0     0   3273      0  0:00:04 --:--:--  0:00:04  3270<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Searcher</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");Searcher        body{
+        background-color:#eee;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        }
+
+        .height{
+        height: 100vh;
+        }
+
+        .search{
+        position: relative;
+        }
+        .search input{
+        height: 60px;
+        text-indent: 25px;
+        border: 2px solid #d6d4d4;
+
+        }
+
+        .search input:focus{
+
+        box-shadow: none;
+        border: 2px solid blue;
+
+        }
+
+        .search .fa-search{
+
+        position: absolute;
+        top: 20px;
+        left: 16px;
+
+        }
+
+        .search button{
+
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        height: 50px;
+        width: 110px;
+        background: blue;
+
+        }
+
+        .select {
+        display:flex;
+        flex-direction: column;
+        position:relative;
+        height:40px;
+        }
+
+        .option {
+        padding:0 30px 0 10px;
+        min-height:40px;
+        display:flex;
+        align-items:center;
+        background:rgb(255, 255, 255);
+        box-shadow: 0 0 10px rgba(218, 213, 213, 0.1);
+        position:absolute;
+        top:0;
+        width: 100%;
+        pointer-events:none;
+        order:2;
+        z-index:1;
+        transition:background .4s ease-in-out;
+        box-sizing:border-box;
+        overflow:hidden;
+        white-space:nowrap;
+
+        }
+
+        .option:hover {
+        background:rgb(233, 231, 231);
+        }
+
+        .select:focus .option {
+        position:relative;
+        pointer-events:all;
+        
+        }
+
+        input {
+        opacity:1;
+        position:absolute;
+        
+        }
+
+        input:checked + label {
+        order: 1;
+        z-index:2;
+        border-top:none;
+        position:relative;
+        }
+
+        .footer-basic {
+        height : 100px;
+        margin-bottom:0;
+        padding:40px 0;
+        background-color:#ffffff;
+        color:#4b4c4d;
+        }
+
+        .footer-basic ul {
+        padding:0;
+        list-style:none;
+        text-align:center;
+        font-size:18px;
+        line-height:1.6;
+        margin-bottom:0;
+        }
+
+        .footer-basic li {
+        padding:0 10px;
+        }
+
+        .footer-basic ul a {
+        color:inherit;
+        text-decoration:none;
+        opacity:0.8;
+        }
+
+        .footer-basic ul a:hover {
+        opacity:1;
+        }
+
+        .footer-basic .social {
+        text-align:center;
+        padding-bottom:25px;
+        }
+
+        .footer-basic .social > a {
+        font-size:24px;
+        width:40px;
+        height:40px;
+        line-height:40px;
+        display:inline-block;
+        text-align:center;
+        border-radius:50%;
+        border:1px solid #ccc;
+        margin:0 8px;
+        color:inherit;
+        opacity:0.75;
+        }
+
+        .footer-basic .social > a:hover {
+        opacity:0.9;
+        }
+
+        .footer-basic .copyright {
+        margin-top:15px;
+        text-align:center;
+        font-size:13px;
+        color:#aaa;
+        margin-bottom:0;
+        }
+    </style>
+</head>
+
+<body>
+    <hr>
+    <div class="container">
+        <h1 align="center">Searcher</h1>
+        <hr style="color:black">
+
+        <br><br><br>
+        <h5>Search anything with Searcher! The capabilities range from social media platforms to encyclopedias, to Q&A sites, and to much more. Choose from our huge collection of search engines, including YouTube, Google, DuckDuckGo, eBay and various other platforms.</h5>
+        <br>
+        <h5>With our search engine, you can monitor all public social mentions across social networks and the web. This allows you to quickly measure and track what people are saying about your company, brand, product, or service in one easy-to-use dashboard. Our platform streamlines your overview of your online presence, which saves you time and boosts your tracking efforts.</h5>
+        <br><br>
+        <h4>To start: </h4> <h5>1. Simply select the engine you want to use. </h5><h5>2. Type the query you want to be searched.</h5><h5> 3. Finally, hit the "Search" button to submit the query. 
+            <br><br>If you want to get redirected automatically, you can tick the check box. Then you will be automatically redirected to the selected engine with the results of the query you searched for. Otherwise, you will get the URL of your search, which you can use however you wish.</h5>
+        <br>
+        <br>
+<div class="row justify-content-center align-items-center">
+  <div class="col-md-9">
+    <p style="color:red"></p>
+    <form action="/search" method="post">
+      <div class="form-group">
+        <label for="engine-select">Select your engine:</label>
+        <select class="form-control" id="engine-select" name="engine">
+          
+          <option value="Accuweather">Accuweather</option>
+          
+          <option value="AlternativeTo">AlternativeTo</option>
+          
+          <option value="Amazon">Amazon</option>
+          
+          <option value="AmazonWebServices">AmazonWebServices</option>
+          
+          <option value="AOL">AOL</option>
+          
+          <option value="Apple">Apple</option>
+          
+          <option value="Ask">Ask</option>
+          
+          <option value="Atlassian">Atlassian</option>
+          
+          <option value="AskUbuntu">AskUbuntu</option>
+          
+          <option value="AliExpress">AliExpress</option>
+          
+          <option value="Asus">Asus</option>
+          
+          <option value="Audible">Audible</option>
+          
+          <option value="BBC">BBC</option>
+          
+          <option value="Behance">Behance</option>
+          
+          <option value="Bing">Bing</option>
+          
+          <option value="BlogSpot">BlogSpot</option>
+          
+          <option value="Brave">Brave</option>
+          
+          <option value="Bugzilla">Bugzilla</option>
+          
+          <option value="Chegg">Chegg</option>
+          
+          <option value="ChromeWebStore">ChromeWebStore</option>
+          
+          <option value="CNN">CNN</option>
+          
+          <option value="CountryCode">CountryCode</option>
+          
+          <option value="Crunchyroll">Crunchyroll</option>
+          
+          <option value="CrunchyrollBeta">CrunchyrollBeta</option>
+          
+          <option value="CCMixter">CCMixter</option>
+          
+          <option value="Dell">Dell</option>
+          
+          <option value="Dictionary">Dictionary</option>
+          
+          <option value="DockerHub">DockerHub</option>
+          
+          <option value="Dribbble">Dribbble</option>
+          
+          <option value="DuckDuckGo">DuckDuckGo</option>
+          
+          <option value="eBay">eBay</option>
+          
+          <option value="Excite">Excite</option>
+          
+          <option value="Facebook">Facebook</option>
+          
+          <option value="Fandom">Fandom</option>
+          
+          <option value="FedEx">FedEx</option>
+          
+          <option value="Flipkart">Flipkart</option>
+          
+          <option value="Freepik">Freepik</option>
+          
+          <option value="G2">G2</option>
+          
+          <option value="GitHub">GitHub</option>
+          
+          <option value="GitLab">GitLab</option>
+          
+          <option value="Google">Google</option>
+          
+          <option value="GoogleFonts">GoogleFonts</option>
+          
+          <option value="GoogleImages">GoogleImages</option>
+          
+          <option value="GoogleMaps">GoogleMaps</option>
+          
+          <option value="GoogleNews">GoogleNews</option>
+          
+          <option value="GooglePlayStore">GooglePlayStore</option>
+          
+          <option value="Genius">Genius</option>
+          
+          <option value="HP">HP</option>
+          
+          <option value="Hoogle">Hoogle</option>
+          
+          <option value="IMDb">IMDb</option>
+          
+          <option value="Imgur">Imgur</option>
+          
+          <option value="Indeed">Indeed</option>
+          
+          <option value="Instagram">Instagram</option>
+          
+          <option value="InstantGaming">InstantGaming</option>
+          
+          <option value="iStock">iStock</option>
+          
+          <option value="JetBrains">JetBrains</option>
+          
+          <option value="LeetCode">LeetCode</option>
+          
+          <option value="Lenovo">Lenovo</option>
+          
+          <option value="LinkedIn">LinkedIn</option>
+          
+          <option value="Lycos">Lycos</option>
+          
+          <option value="MDN">MDN</option>
+          
+          <option value="Medium">Medium</option>
+          
+          <option value="Microsoft">Microsoft</option>
+          
+          <option value="Mmoga">Mmoga</option>
+          
+          <option value="NPM">NPM</option>
+          
+          <option value="Naver">Naver</option>
+          
+          <option value="OpenLibrary">OpenLibrary</option>
+          
+          <option value="OperaAddons">OperaAddons</option>
+          
+          <option value="Pexels">Pexels</option>
+          
+          <option value="PyPi">PyPi</option>
+          
+          <option value="Quora">Quora</option>
+          
+          <option value="Reddit">Reddit</option>
+          
+          <option value="Replit">Replit</option>
+          
+          <option value="Samsung">Samsung</option>
+          
+          <option value="Spotify">Spotify</option>
+          
+          <option value="StackOverflow">StackOverflow</option>
+          
+          <option value="Steam">Steam</option>
+          
+          <option value="Target">Target</option>
+          
+          <option value="Textures">Textures</option>
+          
+          <option value="Thesaurus">Thesaurus</option>
+          
+          <option value="TikTok">TikTok</option>
+          
+          <option value="Twitch">Twitch</option>
+          
+          <option value="Twitter">Twitter</option>
+          
+          <option value="TheVerge">TheVerge</option>
+          
+          <option value="Udemy">Udemy</option>
+          
+          <option value="Unsplash">Unsplash</option>
+          
+          <option value="UPS">UPS</option>
+          
+          <option value="UrbanDictionary">UrbanDictionary</option>
+          
+          <option value="USPS">USPS</option>
+          
+          <option value="Walmart">Walmart</option>
+          
+          <option value="Wikihow">Wikihow</option>
+          
+          <option value="Wikipedia">Wikipedia</option>
+          
+          <option value="Wired">Wired</option>
+          
+          <option value="Wolframalpha">Wolframalpha</option>
+          
+          <option value="Yahoo">Yahoo</option>
+          
+          <option value="Yandex">Yandex</option>
+          
+          <option value="Youtube">Youtube</option>
+          
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="query-input">What do you want to search for:</label>
+        <div class="input-group">
+          <input type="text" class="form-control" id="query-input" name="query" placeholder="Start searching...">
+          <div class="input-group-append">
+            <button class="btn btn-primary" type="submit">Search</button>
+          </div>
+        </div>
+      </div>
+	<div class="form-group form-check">
+        <input class="form-check-input" type="checkbox" value="" id="auto-redirect" name="auto_redirect">
+        <label class="form-check-label" for="auto-redirect">Auto redirect</label>
+      </div>
+    </form>
+  </div>
+</div>
+    </div>
+</body>
+
+
+<footer class="mt-auto">
+
+    <div class="footer-basic">
+            <hr>
+           100 13519  100 13519    0     0  14626      0 --:--:-- --:--:-- --:--:-- 14630
+* Connection #0 to host searcher.htb left intact
+ <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">searcher.htb © 2023</p>
+            <p class="copyright">Powered by <a style="color:black" target='_blank' href="https://flask.palletsprojects.com">Flask</a> and <a  style="color:black" target='_blank' href="https://github.com/ArjunSharda/Searchor">Searchor 2.4.0</a> </p><br>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+</footer>
+
+</html>

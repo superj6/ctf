@@ -1,0 +1,75 @@
+services:
+nmap_scan.txt
+
+http 80
+apache 2.4.41 
+
+programs:
+
+laravel - from dev-staging-01 subdomain
+app_key - base64:dBLUaMuZz7Iq06XtL/Xnz/90Ejq+DEEynggqubHWFj0=
+
+files:
+
+/var/www/html/academy/.env
+config db password - works on user cry0l1t3
+
+/var/log/audit/audit.log.3 - readable by adm group
+has user mrb3n pass 
+
+users:
+
+www-data - from rshell
+
+cry0l1t3
+pass - mySup3rP4s5w0rd!!, from academy/.env
+has user.txt
+groups - adm, can read some more log files in /var/log
+
+egre55
+groups - sudo, adm, lxc
+
+mrb3n
+pass - mrb3n_Ac@d3my!, from audit logs by hand or linpeas
+sudo perms - run /usr/bin/composer, privesc
+
+pages:
+ffuf_scan.txt
+
+//academy.htb
+
+/register.php - register user
+non-visible parameter roleid, set modifying request
+
+/admin.php - login page for admin
+only allow users with roleid=1 during /register.php
+
+/admin-home.php - admin dashboard
+comments on subdomain dev-staging-01
+
+//dev-staging-01.academy.htb
+
+/ - laravel php error page?
+contains laravel app_key - use with 
+
+sources:
+
+https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/laravel
+laravel exploit list
+
+https://github.com/aljavier/exploit_laravel_cve-2018-15133 - pwn_laravel.py
+exploit code for cve - use app_key and dev-staging-01 subdomain, get rshell
+
+https://book.hacktricks.xyz/linux-hardening/privilege-escalation/interesting-groups-linux-pe
+adm group capabilities, hint on direction
+
+https://gtfobins.github.io/gtfobins/composer/
+privesc composer
+
+comments:
+
+just enumerate better
+don't miss stuff on linpeas smh - mrb3n pass right there...
+search in both scans and files for general keywords, user info, group info, etc.
+just because hints towards one direction doesn't mean it's right - egre55 red herring!
+aureport can read and filter logs nicely

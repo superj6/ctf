@@ -1,0 +1,79 @@
+services:
+nmap_scan.txt
+
+ssh
+openssh 7.6p1
+
+http - from nmap
+apache 2.4.29
+
+users:
+
+jimmy
+pass - n1nj4W4rri0R!, same from database_settings.inc.php
+
+joanna
+privkey - joanna_id_rsa
+privkey pass - bloodninjas
+sudo capabilities- can run "/bin/nano /opt/priv" as root, escale
+
+programs:
+
+opennetadmin - from /ona/
+v18.1.1 - from /ona/
+CVE RCE exploits
+
+/bin/nano
+user joanna can call /opt/priv as root with sudo
+
+pages:
+wfuzz_scan.txt
+
+/music/ - from wfuzz
+title says not for production, sus
+login link
+
+/ona/ - from /music/
+opennetadmin dashboard - vulnerable
+
+127.0.0.1:52846/main.php
+internal page, runs as user joanna - use curl to leak joanna ssh keys, or just get reverse shell
+
+files:
+
+/opt/ona/www/local/config/database_settings.inc.php
+database config include passwd for ona
+
+/etc/apache2/sites-available/internal.conf
+apache virtual hosting config file for internal domain
+only served to localhost
+runs as user joanna
+
+/var/www/internal/main.php - accessible under user jimmy
+print joanna ssh tokens
+writeable by jimmy - delete authentication check lol, run commands as joanna with curl
+
+sources:
+
+https://github.com/amriunix/ona-rce
+ona rce exploit
+
+https://www.exploit-db.com/exploits/47691
+alternate ona rce exploit
+47691.sh
+
+https://gtfobins.github.io/gtfobins/nano/
+privesc from sudo nano
+
+comments:
+
+url encode commands that may be distorted, try wrapping in things like "bash -c" to fix env
+apache web server (and maybe any) always under /var/www/
+config database setup info likely under /local directory
+try to find user passwords in config setups of website and other programs/services reused
+look at config files for webserver architecture (or any running program)
+check if can bypass programs by editting them you clown
+ssh tunnel "-L" port forward external machine locally
+ssh keys can be encrypted, unencrypt with john
+try taking passwords lists like rockyou and lowering down with hint for brute
+apparently hack reverse shell can mess up sudo (or other capabilities) where ssh works

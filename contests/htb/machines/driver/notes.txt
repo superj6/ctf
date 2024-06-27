@@ -1,0 +1,62 @@
+OS:
+
+windows
+
+services:
+nmap_scan.txt
+
+http 80
+domain - driver.htb, from email in /
+
+users:
+
+admin - from / www-auth
+pass - admin
+
+tony
+pass - liltony
+
+processes:
+
+printspooler - suggests pringnightmare exploit
+
+files:
+
+\Users\tony\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt - from peas
+power shell history, suggests looking into ricoh pcl6 driver - look up find cve
+
+C:\ProgramData\RICOH_DRV\RICOH PCL6 UniversalDriver V4.23\ - from peas and powershell history
+directory for ricoh pcl6 driver
+
+pages:
+ffuf_scan.txt
+
+/
+uses www-authenticate to login
+has email w/ driver.htb domain
+
+/fw_up.php - from /
+file upload to "our file share" - guess smb share since windows, use scf attack 
+
+sources:
+
+https://pentestlab.blog/2017/12/13/smb-share-scf-file-attacks/
+scf exploit - upload_sploit.scf, get auth handshake with impacket smbserver.py
+
+https://www.pentagrid.ch/en/blog/local-privilege-escalation-in-ricoh-printer-drivers-for-windows-cve-2019-19363/
+ricoh pcl6 driver exploit - ricoh_exploit but not work so just msf
+
+github.com/calebstewart/CVE-2021-1675
+alternate privesc exploit
+
+comments:
+
+make guesses on what back end contains, are there keywords hints eg "using share"
+from backend function guess, make broad google searches to try to find exploit path
+look carefully through winpeas output, look at all sus files, do they give direction hints?!
+use "x86_64-w64-mingw32-gcc-win32" to compile exe on linux
+lookup errors quicker and get fix
+just use msfconsole when stuff not working
+msfconsole can automatic look up exploits with "post/multi/recon/local_exploit_suggester"
+look even more carefully at winpeas, maybe multiple exploit paths
+can look up exploits with searchsploit (exploitdb), add them to metasploit modules

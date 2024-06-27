@@ -1,0 +1,62 @@
+OS:
+
+CentOS - from nmap
+
+services:
+nmap_scan.txt
+
+ssh
+tls 1.0
+
+http 80 - from nmap
+apache 2.2.3
+elastix framework
+can view directory files
+
+http 10000 - from nmap
+miniserv 1.570
+
+programs:
+
+elastix - from /
+by freepbx
+many cve's - look at sources
+
+users:
+
+root - server
+pass - jEhdIekWmdjE, same from /etc/amportal.conf
+
+files:
+
+/etc/amportal.conf
+freepbx config file - contains database password setup
+
+pages:
+
+/
+has elastix login
+
+:10000/
+webmin login
+
+/vtigercrm/graph.php - from 37637
+dirtraverse exploit point
+
+sources:
+
+https://www.exploit-db.com/exploits/37637 - lookup elastix
+dirtraverse exploit, view files
+
+https://www.exploit-db.com/exploits/18650 - lookup elastix, 18650.py
+RCE exploit, similar on other sources, but not working
+
+https://www.exploit-db.com/exploits/41005 - from HTB guided
+apparently another rce
+
+comments:
+
+curl -v command can give extra info about connection, including tls version
+always find and check relevant config files for passwords, especially ones pointed at dummy!!
+then check passwords and see if resued in different contexts, especially admin passes
+may have to modify connections such as ssh due to old versions or weird handshakes

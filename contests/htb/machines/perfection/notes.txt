@@ -1,0 +1,31 @@
+services:
+
+http
+webrick 1.7.0
+
+users:
+
+susan
+pass - susan_nasus_413759210, from cracked hash
+
+files:
+
+/home/susan/Migration/pupilpath_credentials.db - password hash, careful raw-sha256
+
+/var/mail/susan - hint for password format
+
+urls:
+
+/weighted-grade-calc - erb injection in category name for rshell
+
+sources:
+
+https://github.com/ruby/webrick
+
+https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection
+
+https://countuponsecurity.com/wp-content/uploads/2016/09/jtr-cheat-sheet.pdf
+
+comments:
+
+with injections be rigorous trying all possible escapes, think how could not parse right

@@ -1,0 +1,29 @@
+services:
+
+ldap 389 636 3268
+hostname - htb.local  
+
+users:
+
+svc-alfresco - from enum4linux
+pass - s3rvice, from getnpusers svc-alfresco_kerb.john  
+groups - 
+
+comments:
+
+learn/use windows enumeration tools at beginning of windows boxes - enum4linux!
+ldapsearch works like grep to narrow down what it returns with -b
+make sure you aren't missing users defined different ways, if stuck look at all groups!
+look for windows kerberos password hashes with getnpusers script
+if evil-winrm not working edit /etc/ssl/openssl.cnf
+windows remote file transfer with wget -UseBasicParsing, and specify output file!
+if not work use inbuilt evil-winrm download (slower)
+add bin path to sudo with /etc/sudoers safe_path
+windows OS "(Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion").ReleaseId"
+use smbserver to move file from remote to local
+use powersploit module for more commands
+import module by "powershell.exe -ep bypass" then ". .\module.ps1"
+create new user to try to mitigate scripts that affect current users
+use bloodhound to look for acl exploit paths, maybe can use aclpwn to auto exploit
+
+

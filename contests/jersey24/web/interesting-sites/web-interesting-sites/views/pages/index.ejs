@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('../partials/head.ejs'); %>
+</head>
+
+<body>
+  <header>
+    <%- include('../partials/header.ejs'); %>
+  </header>
+  <main>
+    <h1>Send me your interesting websites!</h1>
+    <form id="submit-form">
+      <div>
+        <label for="form-url">Interesting Website:</label>
+        <input id="form-url" type="url" placeholder="example.com" required>
+      </div>
+      <button id="form-submit">Submit Interesting Site</button>
+    </form>
+    <p>There have been <%- numOfSites -%> sites submitted, <%- numOfInteresting -%> of them have been found interesting.
+    </p>
+  </main>
+  <script src="/scripts/axios.min.js"></script>
+  <script src="/scripts/index.js"></script>
+</body>
+
+</html>

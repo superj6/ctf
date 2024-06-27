@@ -1,0 +1,58 @@
+
+        /'___\  /'___\           /'___\       
+       /\ \__/ /\ \__/  __  __  /\ \__/       
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/      
+         \ \_\   \ \_\  \ \____/  \ \_\       
+          \/_/    \/_/   \/___/    \/_/       
+
+       v1.1.0
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://board.htb/FUZZ
+ :: Wordlist         : FUZZ: /snap/seclists/current/Discovery/Web-Content/dirsearch.txt
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: all
+ :: Filter           : Response status: 404
+________________________________________________
+
+[2K.                       [Status: 200, Size: 15949, Words: 6243, Lines: 518]
+[2K.htaccess               [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.htaccess-local         [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.htaccess.bak1          [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.htaccess-marco         [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.htaccess.txt           [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.htaccess.sample        [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.htaccess/              [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.htaccess.old           [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.htaccess.inc           [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.htaccessBAK            [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.html                   [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.htaccessOLD            [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.htpasswd/              [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.htaccess.save          [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.htaccess.orig          [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.htpasswd-old           [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.htm                    [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.htpasswd.bak           [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.httr-oauth             [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.htpasswd.inc           [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.htaccessOLD2           [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.htaccess-dev           [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.htaccess.bak           [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K.php                    [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2K                        [Status: 200, Size: 15949, Words: 6243, Lines: 518]
+[2Kabout.php               [Status: 200, Size: 9098, Words: 3084, Lines: 281]
+[2Kcontact.php             [Status: 200, Size: 9426, Words: 3295, Lines: 295]
+[2Kcss                     [Status: 301, Size: 304, Words: 20, Lines: 10]
+[2Kcss/                    [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2Kimages/                 [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2Kimages                  [Status: 301, Size: 307, Words: 20, Lines: 10]
+[2Kindex.php               [Status: 200, Size: 15949, Words: 6243, Lines: 518]
+[2Kicons/                  [Status: 403, Size: 274, Words: 20, Lines: 10]
+[2Kjs                      [Status: 301, Size: 303, Words: 20, Lines: 10]
+[2Kjs/                     [Status: 403, Size: 274, Words: 20, Lines: 10]

@@ -1,0 +1,54 @@
+users:
+
+admin.cronos.htb--
+
+admin
+pass - 
+
+sql--
+
+homestead
+pass - secret
+
+admin
+pass - kEjdbRigfBHUREiNSDs, from /var/www/admin/config.php
+
+OS--
+
+www-data - from rshell
+
+files:
+
+/var/www/admin/config.php - mysql config info
+
+/var/www/laravel/config/database.php - another mysql config
+
+/var/www/laravel/artisan - writeable php file, run as root cronjob from linpeas, privesc
+
+mysql:
+
+admin--
+
+users - username/password, only admin/4f5fffa7b2340178a716e3832451e058
+
+urls:
+
+cronos.htb-- from nslookup (also www.cronos.htb from dig)
+
+ns1.cronos.htb-- from nslookup
+
+admin.cronos.htb-- from dig axfr
+
+/ - login panel, bypass with username "' OR 1=1;-- -"
+
+/welcome.php - run ping or traceroute, bash command injection get rshell
+
+sources:
+
+https://book.hacktricks.xyz/network-services-pentesting/pentesting-dns
+
+comments:
+
+test *all* relevant commands on sites like hacktrick for corresponding thing
+docker run and docker cp to compile for corresponding OS
+could also use kernel exploit

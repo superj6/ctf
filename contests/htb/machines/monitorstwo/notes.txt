@@ -1,0 +1,50 @@
+cacti 1.2.22
+
+users:
+
+marcus
+pass - funkymonkey, cracked from sql hash
+
+files:
+
+docker--
+
+/entrypoint.sh
+
+/var/www/html/include/config.php
+
+/var/www/html/cacti.sql
+
+/sbin/capsh - suid bit set, get root on docker
+
+OS--
+
+/var/mail/marcus - tells about CVE-2021-41091, use to privesc
+
+mysql:
+
+cacti--
+
+user_auth - contains username, password hashes
+
+urls:
+
+/ - tells cacti version
+
+/remote_agent.php - cacti cve attack w/ x-forwarded-for
+
+sources:
+
+https://github.com/FredBrave/CVE-2022-46169-CACTI-1.2.22
+
+https://github.com/Cacti/cacti
+
+https://gtfobins.github.io/gtfobins/capsh/
+
+https://book.hacktricks.xyz/network-services-pentesting/pentesting-mysql
+
+https://exploit-notes.hdks.org/exploit/container/docker/moby-docker-engine-privesc/
+
+comments:
+
+always upgrade rshell when possible, otherwise can mess up interactivity where can't solve!

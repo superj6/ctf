@@ -1,0 +1,34 @@
+services:
+
+http 80
+iis 7.5
+
+files:
+
+/inetpub/drupal-7.54/sites/default/settings.php
+
+urls:
+
+/ - shows using drupal 7
+
+/robots.txt - from nmap, shows many locations
+
+/CHANGELOG.txt - info on drupal version
+
+/rest - use for 41564
+
+sources:
+
+https://github.com/pimps/CVE-2018-7600
+
+https://github.com/drupal/drupal
+
+https://drupal.stackexchange.com/questions/225477/where-are-the-database-username-and-password-stored
+
+https://www.exploit-db.com/exploits/44557 - for seeing how rshell
+
+https://www.ambionics.io/blog/drupal-services-module-rce - 41564.php
+
+comments:
+
+if one thing not work another might - ffuf but dirsearch, tho look into rate limitting

@@ -1,0 +1,17 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-02-07 17:00 CST
+Nmap scan report for 10.129.95.238
+Host is up (0.074s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Microsoft IIS httpd 10.0
+| http-auth: 
+| HTTP/1.1 401 Unauthorized\x0D
+|_  Basic realm=MFP Firmware Update Center. Please enter password for admin
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 180.14 seconds

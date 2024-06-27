@@ -1,0 +1,46 @@
+users:
+
+dev
+pass - dev080217_devAPI!@, from authors internal api
+
+prod
+pass - 080217_Producti0n_2023!@, from git diff
+sudo - clone_prod_change.py
+
+files:
+
+/home/dev/apps - git directory for api
+
+/opt/apps/app_editorial - http backend and sock file for api, from linpeas nginx
+
+/opt/internal_apps/app_api
+
+/opt/internal_apps/clone_changes/clone_prod_change.py - from prod sudo -l
+use pygit exploit to run command and cp bash and set suid bit
+
+urls:
+
+editorial.htb--
+
+/upload - page to upload book info, most notably cover from url or file
+
+/upload-cover - post req for upload cover url or file. can access internal urls, enum ports
+
+127.0.0.1:5000-- 
+
+/ - shows internal api list 5000-api.txt
+
+/api/latest/metadata/messages/authors - message showing account user/pass 
+
+sources:
+
+https://security.snyk.io/vuln/SNYK-PYTHON-GITPYTHON-3113858 - python gitrepo privesc
+
+https://git-scm.com/docs/git-remote-ext - git run ext commands
+
+comments:
+
+ffuf can parse request file from burp to aid complex request setup
+iterate all things you think reasonable when have internal access. with urls, ports duh
+enumerate all you think possible, even if first seem unresponsive don't stop early eg api
+when access to git use git diff to find important changes

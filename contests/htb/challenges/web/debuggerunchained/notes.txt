@@ -1,0 +1,31 @@
+postgressql:
+
+public--
+
+admin - id, apikey cols, apikey just says need to get rce for flag lol 
+
+sources:
+
+https://github.com/PaloAltoNetworks/tcpsession
+
+https://stackoverflow.com/questions/7646657/writing-response-body-with-basehttprequesthandler
+
+https://docs.python.org/3/library/http.server.html#http.server.BaseHTTPRequestHandler
+
+https://lucadidomenico.medium.com/how-to-write-custom-tamper-scripts-for-sqlmap-93927808809e
+
+https://dharma-adiputra.medium.com/playing-with-sqlmap-tamper-script-9c008798190f
+
+https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/PostgreSQL%20Injection.md
+
+https://github.com/squid22/PostgreSQL_RCE/blob/main/postgresql_rce.py
+
+comments:
+
+pay closer to error messages or any other info given, what can you find out about format!!
+always look for base64 values in pcaps ig lol
+tcpstream pcaps to read better, either in wireshark or use script
+test things out, especially if you have example requests try them yourself with exact copy!
+headers can affect request output, so don't be lazy and add ones you think relevant
+look closer again at what info you have on backend, especially debug messages!!
+from writeup, sqlmap would've worked if randomized id rip, massage request so best chance for sqlmap

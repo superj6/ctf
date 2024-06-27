@@ -1,0 +1,27 @@
+OS:
+
+name - Microsoft(R) Windows(R) Server 2003, Standard Edition
+verion - 5.2.3790 Service Pack 2 Build 3790, vulnerable ms14-070
+
+
+services:
+nmap_scan.txt
+
+http 80
+IIS 6.0 - cve-2017-7269
+
+sources:
+
+exploit/windows/iis/iis_webdav_scstoragepathfromurl - msf
+IIS cve get rshell
+
+exploit/windows/local/ms14_070_tcpip_ioctl - msf
+privesc
+
+comments:
+
+cmd to get sysinfo - systeminfo
+cmd to get processes - ps
+msf exploit suggester is orz
+just search stuff and ez
+box can get broken if clowning lol, check if not working

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('../partials/head.ejs'); %>
+    <meta content='15' http-equiv='refresh'>
+</head>
+
+<body>
+  <header>
+    <%- include('../partials/header.ejs'); %>
+  </header>
+  <main>
+    <% if (site !==undefined) { %>
+      <h1 id="site"><%- site -%></h1>
+      <p id="site-title"></p>
+      <div id="admin-form">
+        <div>
+          <button id="form-submit-i">Interesting! &#9786;</button>
+        </div>
+        <div>
+          <button id="form-submit-ni">Not Interesting &#9785;</button>
+        </div>
+      </div>
+      <% } else { %>
+        <h1>There are no sites to rate.</h1>
+        <% } %>
+  </main>
+  <script src="/scripts/axios.min.js"></script>
+  <script src="/scripts/admin.js"></script>
+</body>
+
+</html>

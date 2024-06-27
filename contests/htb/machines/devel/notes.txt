@@ -1,0 +1,57 @@
+services:
+
+ftp
+anonymous login - from nmap
+exposes files for hosting http site - from nmap + http:/
+file upload possible - test ftp put, use to get reverse shell uploading aspx file
+
+http
+run aspx
+
+server:
+
+os
+type windows_nt - from nmap
+name windows 7 enterprise - sysinfo on rshell
+build 6.1.7600 N/A Build 7600 - systinfo on rshell, can privesc
+
+aspnet_core - based on file exposed by ftp, means webserver can run aspx files
+
+pages:
+
+/
+iis7 picture shown in ftp server
+
+/*.aspx
+runs aspx program
+
+files:
+
+ftp://aspnet_client
+shows server types
+
+users:
+
+iis apppool\web - from rshell
+
+babis
+main registered user - from sysinfo on rshell
+
+sources:
+
+https://github.com/borjmz/aspx-reverse-shell
+get reverse shell
+
+https://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation
+systeminfo command find os info
+
+https://www.exploit-db.com/exploits/40564
+privesc
+
+comments:
+
+test what reasonable capabilities are possible with what you have, especially when stuck - ftp put!
+when find capability, further analyze what it can execute/interact with - run aspx files!
+search all versions of everything relevant to see if exploitable - windows 7 build!
+many ways to file upload to windows on rshell, but make sure it not distort - ftp binary!
+compile for windows with gcc-mingw!

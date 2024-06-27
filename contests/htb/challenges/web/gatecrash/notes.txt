@@ -1,0 +1,56 @@
+services:
+
+http 1337
+jester
+nim 1.2.4 - from dockerfile, newHTTPClient vulnerable CVE-2020-15693 CRLF inject
+
+internal http 9090
+golang
+
+files:
+
+challenge/control_api/src/main.nim - outward server file
+check username/password alphanumeric
+set up newHTTPClient w/ same User-Agent as incoming post
+send post w/ newHTTPClient to :9090/login - CRLF injection in User-Agent
+return result of login to user
+
+challenge/user_api/main.go - inner server w/ login logic
+sqlite set up database
+test if user-agent valid
+unpack json request from jester
+test username/password in db - sqli db.queryRow w/ username
+return result of login to jester
+
+urls:
+
+jester:1337--
+
+/user - post login, username&password, send response to client
+
+golang:9090--
+
+/login - post login from jester, send response to jester
+
+sources:
+
+https://github.com/dom96/jester
+
+https://nim-lang.org/docs/httpclient.html#newHttpClient%2Cint%2CProxy%2Cint
+
+https://www.openwall.com/lists/oss-security/2021/02/04/2
+
+https://book.hacktricks.xyz/pentesting-web/crlf-0d-0a
+
+https://go.dev/doc/database/querying
+
+https://pkg.go.dev/golang.org/x/crypto/bcrypt#CompareHashAndPassword
+
+https://bcrypt-generator.com
+
+comments:
+
+monitor requests - tcpflow -c -i lo port 9090
+run strace in docker - docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined
+can just use "select [output texts]" to directly define sql output rip
+only runs last command when multiple seperated by semicolons

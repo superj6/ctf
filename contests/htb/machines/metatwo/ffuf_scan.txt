@@ -1,0 +1,39 @@
+
+        /'___\  /'___\           /'___\       
+       /\ \__/ /\ \__/  __  __  /\ \__/       
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/      
+         \ \_\   \ \_\  \ \____/  \ \_\       
+          \/_/    \/_/   \/___/    \/_/       
+
+       v1.1.0
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://metapress.htb/FUZZ
+ :: Wordlist         : FUZZ: /snap/seclists/current/Discovery/Web-Content/dirsearch.txt
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200,204,301,302,307,401,403
+ :: Filter           : Response size: 0
+________________________________________________
+
+[2K.htaccess               [Status: 200, Size: 633, Words: 60, Lines: 21]
+[2K                        [Status: 200, Size: 10342, Words: 423, Lines: 156]
+[2K0/                      [Status: 200, Size: 10342, Words: 423, Lines: 156]
+[2KEvents/                 [Status: 200, Size: 74090, Words: 2378, Lines: 1034]
+[2Kabout-us/               [Status: 200, Size: 10326, Words: 408, Lines: 154]
+[2Kembed/                  [Status: 200, Size: 10342, Words: 423, Lines: 156]
+[2Kevents/                 [Status: 200, Size: 74090, Words: 2378, Lines: 1034]
+[2Kfeed/                   [Status: 200, Size: 1763, Words: 73, Lines: 51]
+[2Klicense.txt             [Status: 200, Size: 19915, Words: 3331, Lines: 385]
+[2Kreadme.html             [Status: 200, Size: 7278, Words: 740, Lines: 98]
+[2Krobots.txt              [Status: 200, Size: 113, Words: 5, Lines: 6]
+[2Kthank-you/              [Status: 200, Size: 13791, Words: 479, Lines: 193]
+[2Kwp-admin                [Status: 301, Size: 169, Words: 5, Lines: 8]
+[2Kwp-includes/            [Status: 403, Size: 153, Words: 3, Lines: 8]
+[2Kwp-links-opml.php       [Status: 200, Size: 224, Words: 12, Lines: 12]
+[2Kwp-login.php            [Status: 200, Size: 6931, Words: 342, Lines: 97]
+[2Kwp-mail.php             [Status: 403, Size: 2672, Words: 212, Lines: 121]

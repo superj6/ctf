@@ -1,0 +1,7 @@
+sources:
+
+https://jwt.io
+
+comments:
+
+look at jwt cookie :dead:

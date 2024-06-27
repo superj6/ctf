@@ -1,0 +1,8 @@
+services:
+
+openplc 8080 - from nmap_scan.txt
+webserver v3
+
+sources:
+
+https://github.com/thewhiteh4t/cve-2021-31630 - openplc exploit

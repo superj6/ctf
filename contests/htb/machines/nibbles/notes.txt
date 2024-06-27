@@ -1,0 +1,57 @@
+services:
+
+http
+website misconfigured with many directories exposed for traversal - or maybe cms "feature"?
+
+programs:
+
+nibbleblog - from page, many cve's
+version 4.0.3 - from admin settings
+
+pages:
+
+/nibbleblog/ - referenced in source code of /
+
+/nibbleblog/admin.php - from nibbleblog github
+blacklists too many login attempts - can't brute?
+
+/content/private - from wfuzz
+exposed webserver directory with private info
+
+/content/private/users.xml
+list of users
+
+users:
+
+admin
+pass: nibbles - apparently just guess htb box
+
+/content
+
+files:
+
+/home/nibbler/personal/stuff/monitor.sh - from sudo -l
+sudo root capabilities
+modifiable - overwrite containing "bash", run as root to get escalate
+
+sources:
+
+https://github.com/dignajar/nibbleblog
+cms source
+
+https://www.cvedetails.com/vulnerability-list/vendor_id-14941/Nibbleblog.html
+cve lits
+
+https://curesec.com/blog/article/blog/NibbleBlog-403-CSRF-46.html
+possible bypass admin dash creds
+
+https://curesec.com/blog/article/blog/NibbleBlog-403-Code-Execution-47.html
+remote execution via image plugin
+
+https://book.hacktricks.xyz/generic-methodologies-and-resources/shells/linux
+reverse shell php
+
+comments:
+
+don't get stuck down one approach, think of multiple things to explore - cve, dirs, login!
+remember HTB is gameified and some clown things in earlier boxes - guess box as pass!

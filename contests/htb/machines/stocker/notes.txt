@@ -1,0 +1,65 @@
+services:
+nmap_scan.txt
+
+http 80
+nginx 1.18.0 - from response
+Express - from dev login response
+
+users:
+
+mongoose--
+
+dev
+pass - IHeardPassphrasesArePrettySecure, from index.js
+
+OS--
+
+angoose - also user on website
+pass - IHeardPassphrasesArePrettySecure, same as mongoose dev
+sudo - run node scripts/[nodejs file]
+
+files:
+
+/var/www/dev/op/[pdf page] - leak webapp path w/ "document.write(window.location)" pdf inject
+
+/var/www/dev/index.js - main webapp script, guess and read w/ pdf inject
+mongoose init - shows password
+
+/usr/local/scripts/* - angoose run as sudo, just traverse backward and execute arbitrary lol
+
+/usr/local/scripts/node_modules/mongoose - symlink to /lib/node_modules/mongoose
+
+/lib/node_modules/mongoose - mongoose lib files
+
+urls:
+
+stocker.htb--
+
+dev.stocker.htb-- from ffuf vhost brute
+
+/login
+nosql injection bypass - test w/ mongomap, get user angoose
+
+/stock - order cart ui
+
+/api/order - submit order json request, get view orderid
+
+/api/po/[orderid] - view order as pdf
+order submission info title and price reflected, inject title server side xss  
+chromium pdf generator - from pdf raw data
+
+sources:
+
+https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting/server-side-xss-dynamic-pdf
+use window.location path leak and iframe file read
+
+https://gtfobins.github.io/gtfobins/node/
+
+comments:
+
+just restart ovpn connection if /etc/hosts not updating
+don't be clown and miss nosql injection - change to json most likely
+as always don't get stuck on path - if rce/rshell doesn't seem feasible, leak info or more routes!
+use tech stack known info to guess important files in structure to leak!
+don't forget to try relative file traversing back exploits smh
+express more likely to use mongodb and similar
